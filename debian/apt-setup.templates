@@ -15,9 +15,17 @@ Template: apt-setup/progress/setup
 Type: text
 _Description: Setting up...
 
+Template: apt-setup/progress/mirror
+Type: text
+_Description: Scanning the mirror...
+
+Template: apt-setup/progress/mirror
+Type: text
+_Description: Scanning the CD-ROM...
+
 Template: apt-setup/progress/security
 Type: text
-_Description: Finding security update repository...
+_Description: Scanning the security update repository...
 
 Template: apt-setup/security_host
 Type: string

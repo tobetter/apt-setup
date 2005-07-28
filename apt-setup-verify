@@ -11,6 +11,10 @@ else
 	chroot=
 fi
 
+saveline () {
+	echo "$*" > $saveto
+}
+
 valid () {
 	line="$1"
 
@@ -36,19 +40,13 @@ for line in $(cat $file); do
 	if [ "$(expr "$line" : "#")" != 1 ]; then
 		items=$(expr "$items" + 1)
 		if valid "$line"; then
-			gooditems=$(expr "$gooditems" + 1)
-			if [ -n "$saveto" ]; then
-				echo "$line" >> $saveto
-			fi
+			gooditems=$(expr "$gooditems" + 1)a
+			saveline "$line"
 		else
-			if [ -n "$saveto" ]; then
-				echo "#$line" >> $saveto
-			fi
+			saveline "#$line"
 		fi
 	else
-		if [ -n "$saveto" ]; then
-			echo "$line" >> $saveto
-		fi
+		saveline "$line"
 	fi
 done
 

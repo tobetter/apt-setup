@@ -25,4 +25,8 @@ fi
 
 tmp=$($chroot tempfile)
 printf > $tmp
-echo | apt-cdrom add -o Dir::Etc::SourceList=$tmp -o Acquire::gpgv::Options::=--ignore-time-conflict
+# apt-cdrom can be interactive, avoid that
+apt-cdrom add \
+	-o Dir::Etc::SourceList=$tmp \
+	-o Acquire::gpgv::Options::=--ignore-time-conflict \
+	</dev/null
