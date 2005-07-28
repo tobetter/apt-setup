@@ -1,0 +1,5 @@
+- move mirror generator to choose-mirror or something similar. Probably
+  move the non-free and contrib questions to there too.
+- http proxy asking for installs from only CD w/o choose-mirror
+- generator for CDs (needs to handle CD mounting stuff)
+- multi-cd support
