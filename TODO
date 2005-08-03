@@ -1,5 +1,2 @@
-- move mirror generator to choose-mirror or something similar. Probably
-  move the non-free and contrib questions to there too.
-- move cdrom generator to cdrom-detect
 - http proxy asking for installs from only CD w/o choose-mirror
 - multi-cd support
