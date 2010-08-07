@@ -3,31 +3,25 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of debian-installer_packages_po_sublevel1_da.po to
-# Danish messages for debian-installer.
-# This file is distributed under the same license as debian-installer.
-# Mads Bille Lundby <lundbymads@gmail.com, 2009.
-# Henrik Christian Grove <debian@3001.dk>, 2008.
-# Jesper Dahl Nyerup <debian@jespernyerup.dk>, 2008.
-# Jacob Sparre Andersen <jacob@jacob-sparre.dk>, 2008, 2010.
-# Claus Hindsgaul <claus.hindsgaul@gmail.com>, 2004-2007.
-# Reviewed 2007 by Niels Rasmussen
-#
-# Volume er oversat til diskenhed. Ret hvis Dansk-gruppen finder en anbefaling.
-#
+# translation of te.po to Telugu
+# Telugu translation for debian-installer
+# This file is distributed under the same license as the debian-installer package.
+# వీవెన్ (Veeven) <launchpad.net>, 2007.
+# Y Giridhar Appaji Nag <giridhar@appaji.net>, 2008.
+# Arjuna Rao Chavala <arjunaraoc@gmail.com>,2010
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer_packages_po_sublevel1_da\n"
+"Project-Id-Version: te\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2009-06-26 22:47+0000\n"
-"PO-Revision-Date: 2010-08-05 10:48+0200\n"
-"Last-Translator: Jacob Sparre Andersen <jacob@jacob-sparre.dk>\n"
-"Language-Team: Danish <debian-l10n-danish@lists.debian.org>\n"
+"PO-Revision-Date: 2010-07-27 14:46+0530\n"
+"Last-Translator: Arjuna Rao Chavala <arjunaraoc@gmail.com>\n"
+"Language-Team: Telugu <debian-in-workers@lists.alioth.debian.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: da\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: te\n"
 
 #. Type: text
 #. Description
@@ -36,7 +30,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr "Sætter pakkehåndteringen op"
+msgstr "పాకేజి మేనేజర్ ని అమరికచేయు"
 
 #. Type: text
 #. Description
@@ -45,42 +39,42 @@ msgstr "Sætter pakkehåndteringen op"
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "Sætter apt op"
+msgstr "apt ని అమరికచేయు"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr "Udfører ${SCRIPT}..."
+msgstr "${SCRIPT} నడుపుట..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "Skanner lokale programarkiver..."
+msgstr "స్థానిక సంగ్రహాలను పరిశీలించు..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "Skanner programarkivet, der indeholder sikkerhedsopdateringer..."
+msgstr "రక్షణ తాజాకరణల సంగ్రహాన్ని పరిశీలించు..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the volatile updates repository..."
-msgstr "Skanner programarkivet, der indeholder ustabile opdateringer..."
+msgstr "తాత్కాలిక  తాజాకరణల సంగ్రహాన్ని పరిశీలించు..."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:9001
 msgid "Cannot access repository"
-msgstr "Kan ikke tilgå programarkivet"
+msgstr "సంగ్రహం  చేరటం కుదరలేదు"
 
 #. Type: error
 #. Description
@@ -90,8 +84,8 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"Programarkivet på ${HOST} var utilgængeligt, så dens opdateringer er ikke "
-"til rådighed for dig lige nu. Du bør undersøge dette senere."
+"${HOST}  పై గల సంగ్రహం తో సంపర్కం కుదరలేదు, దాని తాజాకరణలు ఇప్పుడు మీకు అందుబాటులో "
+"వుండవు. తరువాత దీనిని   విచారణ చేయండి."
 
 #. Type: error
 #. Description
@@ -100,9 +94,7 @@ msgstr ""
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
-msgstr ""
-"Der er tilføjet udkommenterede linjer for ${HOST} til filen »/etc/apt/"
-"sources.list«."
+msgstr "${HOST} కొరకు  వ్యాఖ్యలుగా మారిన నమోదులు  /etc/apt/sources.list ఫైల్ లో చేర్చాము"
 
 #. Type: multiselect
 #. Choices
@@ -112,7 +104,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "sikkerhedsopdateringer (fra ${SEC_HOST})"
+msgstr "( ${SEC_HOST} నుండి) రక్షణ తాజాకరణలు"
 
 #. Type: multiselect
 #. Choices
@@ -122,14 +114,14 @@ msgstr "sikkerhedsopdateringer (fra ${SEC_HOST})"
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "volatile updates (from ${VOL_HOST})"
-msgstr "ustabile opdateringer (fra ${VOL_HOST})"
+msgstr "(${VOL_HOST}నుండి ) తాత్కాలిక తాజాకరణలు"
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10002
 msgid "Services to use:"
-msgstr "Tjenester:"
+msgstr "ఉపయుక్తమయిన సేవలు:"
 
 #. Type: multiselect
 #. Description
@@ -139,9 +131,8 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "volatile."
 msgstr ""
-"Debian har to tjenester der kommer med opdateringer til de officielle "
-"udgivelser: sikkerhedsopdateringer (security) og ustabile opdateringer "
-"(volatile)."
+"విడుదల కి తాజాకరణలు కోసం డెబియన్ కి  రెండు సేవలున్నాయి: రక్షణ (security) మరియు తాత్కాలిక "
+"(volatile). "
 
 #. Type: multiselect
 #. Description
@@ -150,9 +141,7 @@ msgstr ""
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
-msgstr ""
-"Sikkerhedsopdateringer er med til at sikre dit system mod angreb. Det "
-"anbefales kraftigt at aktivere denne tjeneste."
+msgstr "రక్షణ తాజాకరణలు, మీ సిస్టమ్ ని దాడినుండి రక్షణ కలిగిస్తాయి. ఈ సేవని చేతనంచేయమని గట్టిగా కోరడమైనది."
 
 #. Type: multiselect
 #. Description
@@ -165,25 +154,23 @@ msgid ""
 "virus scanner. This service is only available for stable and oldstable "
 "releases."
 msgstr ""
-"Ustabile opdateringer giver nyere udgaver af programmer der ændres relativt "
-"ofte og hvor det kan reducere nytten af programmet, hvis man ikke har den "
-"nyeste udgave. Et eksempel er virus-signaturer til en virus-scanner. Denne "
-"tjeneste er kun tilgængelig for de stabile udgivelser (»stable« og "
-"»oldstable«)."
+"తాత్కాలిక తాజాకరణలు ,త్వరగా మారే సాఫ్ట్వేర్  మరియు ఇటీవలి తాజా రూపము లేకపోతే, వాడుకదనం తగ్గిపోయే   "
+"సాఫ్ట్వేర్   కు  మరింత ప్రస్తుత రూపాలను  ఇస్తుంది.  ఉదాహరణకి  వైరస్ పరిశీలన సాఫ్ట్వేర్ కి కావలసిన వైరస్ "
+"సంతకాలు. స్థిర మరియు పాతస్థిర విడుదలలకు మాత్రమే ఈ సేవ అందుబాటులో వుంటుంది."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr "Skanner cd'en..."
+msgstr "CD-ROM పరిశీలించు..."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "apt-opsætningsproblem"
+msgstr "ఆప్ట్ అమరికెలో సమస్య"
 
 #. Type: error
 #. Description
@@ -192,9 +179,7 @@ msgstr "apt-opsætningsproblem"
 msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
-msgstr ""
-"Et forsøg på at sætte apt op til at installere yderligere pakker fra cd'en "
-"mislykkedes."
+msgstr "అమరిక చేసి, అదనపు  పాకేజీలను   CD నుండి  స్థాపన చేయు ప్రయత్నము విఫలమైంది."
 
 #. Type: boolean
 #. Description
@@ -211,14 +196,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr "Scan en anden cd eller dvd?"
+msgstr "ఇంకొక సిడి లేక డివిడి పరిశీలించాలా?"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "Din installations-cd eller -dvd er blevet scannet.  Dens etiket er:"
+msgstr "మీ స్థాపన సిడి లేక డివిడి  పరిశీలన పూర్తయినది. దాని లేబెల్:"
 
 #. Type: boolean
 #. Description
@@ -230,10 +215,9 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"Nu har du mulighed for at scanne yderligere cd'er eller dvd'er til brug for "
-"pakkehåndteringen (apt).  Normalt bør de være fra det samme sæt som "
-"installations-cd'en/dvd'en.  Hvis du ikke har nogle yderligere cd'er eller "
-"dvd'er, kan dette trin springes over."
+"పాకేజి మేనేజర్  (apt) కోసం  అదనపు  CDలు లేక  DVDలు   పరిశీలించే  అవకాశం కలదు.  సాధారణంగా  ఇవి "
+"స్థాపన CD/DVD సమూహములోనివి అయువుంటాయి.  అదనపు  CDలు లేక  DVDలు లేకపోతే, ఈ అంకం  "
+"దాటవేయవచ్చు."
 
 #. Type: boolean
 #. Description
@@ -243,30 +227,28 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr ""
-"Hvis du ønsker at scanne en anden cd eller dvd, så sæt den venligst i drevet "
-"nu."
+msgstr "ఇంకొక CD లేక  DVD  పరిశీలించదలచినచో  దానిని ప్రవేశపెట్టండి."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "Cd'en/dvd'en med den følgende etiket er blevet scannet:"
+msgstr "తరువాత ఇవ్వబడిన లేబెల్ గల CD లేక  DVD  పరిశీలించబడింది:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "Cd'en/dvd'en med den følgende etiket er allerede blevet scannet:"
+msgstr "తరువాత ఇవ్వబడిన లేబెల్ గల CD లేక  DVD  ఇప్పటికే  పరిశీలించబడింది:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr "Udskift den nu, hvis du ønsker at scanne en anden cd eller dvd."
+msgstr "ఇంకొక CD లేక  DVD  పరిశీలించదలచినచో  ఇప్పడున్న దానిని తీసి కొత్తదానిని  ప్రవేశపెట్టండి."
 
 #. Type: boolean
 #. Description
@@ -275,16 +257,14 @@ msgstr "Udskift den nu, hvis du ønsker at scanne en anden cd eller dvd."
 msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
-msgstr ""
-"Et forsøg på at indstille \"apt\" til at installere yderligere pakker fra "
-"cd'en/dvd'en mislykkedes."
+msgstr "CD/DVD నుండి  అదనపు పాకేజీలు స్థాపన కొరకు వీలుగా  apt అమరికచేయు ప్రయత్నం లో విఫలమైంది."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr "Undersøg venligst om du har sat cd'en/dvd'en rigtigt i drevet."
+msgstr "CD/DVD  ప్రవేశపెట్టటం  సరిగా వున్నదీ లేనిది పరిశీలించండి."
 
 #. Type: text
 #. Description
@@ -293,7 +273,7 @@ msgstr "Undersøg venligst om du har sat cd'en/dvd'en rigtigt i drevet."
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "Skift medie"
+msgstr "మాధ్యమం మార్పు"
 
 #. Type: text
 #. Description
@@ -305,8 +285,8 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:Indsæt venligst disken med etiketten \"${LABEL}\" i drevet \"/cdrom/"
-"\" og tryk enter."
+"/cdrom/: '${LABEL}'  '/cdrom/' డ్రైవ్ లో   లేబెల్: '${LABEL}' గల  డిస్క్  పెట్టి  enter "
+"నొక్కండి."
 
 #. Type: text
 #. Description
@@ -314,7 +294,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "Deaktiverer netværksinstallations-cd i \"sources.list\"..."
+msgstr "sources.list లో netinst CD అచేతనంచేయు ..."
 
 #. Type: text
 #. Description
@@ -327,8 +307,7 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"Hvis du installerer fra en netværksinstallations-cd, og vælger ikke at "
-"benytte et filspejl, vil du opnå et meget minimalt grundsystem."
+"మిర్రర్ వాడక netinst CD నుండి స్థాపన చేస్తున్నట్లయితే, మీరు కనిష్ట బేస్ సిస్టమ్  మాత్రమే వుంటుంది."
 
 #. Type: text
 #. Description
@@ -339,9 +318,8 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"Du installerer fra en netværksinstallations-cd, der alene kun tillader "
-"installationen af et yderst minimalt grundsystem.  Brug et filspejl til at "
-"installere et mere komplet system."
+"netinst CD నుండి స్థాపన చేస్తున్నారు కావున, మీకు కనిష్ట బేస్ సిస్టమ్  మాత్రమే  స్థాపన చేయబడుతుంది.  "
+"సమగ్ర సిస్టమ్  స్థాపన కొరకు మిర్రర్ వాడండి."
 
 #. Type: text
 #. Description
@@ -349,8 +327,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:11001
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
-msgstr ""
-"Du installerer fra en cd, der indeholder et begrænset udvalg af pakker."
+msgstr "తక్కువ  ఎంపికైన పాకేజీలు గల CD నుండి మీరు స్థాపన చేయుచున్నారు."
 
 #. Type: text
 #. Description
@@ -363,9 +340,8 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"Du har scannet %i cd'er.  Selvom de indeholder et pænt udvalg af pakker, kan "
-"der godt mangle nogle (specielt pakker med oversættelser til andre sprog end "
-"engelsk)."
+"%i CDలు పరిశీలించారు. వీటిలో చాలావరకు ఎంపికైన పాకేజీలు వున్నా కూడా. కొన్ని  లేకపోవచ్చు ( ఆంగ్ల భాష కాక "
+"ఇతర భాషల కొరకు అవసరమైన   పాకేజీలు)."
 
 #. Type: text
 #. Description
@@ -377,8 +353,7 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"Du har scannet %i cd'er.  Selvom de indeholder et pænt udvalg af pakker, kan "
-"der godt mangle nogle."
+"%i CDలు పరిశీలించారు. వీటిలో   ఎంపికైన పాకేజీలు వున్నా అత్యధికంగా వున్నా  కొన్ని  వుండకపోవచ్చు ."
 
 #. Type: text
 #. Description
@@ -387,9 +362,7 @@ msgstr ""
 msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
-msgstr ""
-"Bemærk at brugen af et filspejl kan betyde at der skal hentes store "
-"datamængder fra nettet i det næste trin i installationen."
+msgstr "స్థాపన తరువాతి అంకంలో మిర్రర్ వాడటంవలన, చాలా డాటా  డౌన్ లోడ్ చేయబడే అవకాశం వుంది. "
 
 #. Type: text
 #. Description
@@ -399,8 +372,7 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Du installerer fra en dvd.  Selvom dvd'en indeholder et stort udvalg af "
-"pakker, kan nogle mangle."
+"DVD నుండి  స్థాపన  చేయుచున్నారు. DVD లో చాలావరకు ఎంపికైన పాకేజీలు వున్నా కూడా, కొన్ని  లేకపోవచ్చు "
 
 #. Type: text
 #. Description
@@ -411,9 +383,8 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"Medmindre du ikke har en god internetforbindelse, anbefales det at du bruger "
-"et filspejl. - Specielt hvis du planlægger at installere et grafisk "
-"skrivebordsmiljø."
+"మీకు సరైన ఇంటర్నెట్ కనెక్షన్ లేకపోతే తప్ప, మిర్రర్ వాడటం మంచిది. గ్రాఫికల్ డెస్క్ టాప్ ఎన్విరోన్మెంట్ స్థాపన "
+"చేయదలచితే, మిర్రర్ వాడటం ఇంకా మంచిది ."
 
 #. Type: text
 #. Description
@@ -423,22 +394,22 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
-"Hvis du har en rimeligt god internetforbindelse og planlægger at installere "
-"et grafisk skrivebordsmiljø, bør du bruge et filspejl."
+"మీకు ఒకమాదిరి గా సరైన  ఇంటర్నెట్ కనెక్షన్  వుంటే, గ్రాఫికల్ డెస్క్ టాప్ ఎన్విరోన్మెంట్ స్థాపన చేయదలచితే, మిర్రర్ "
+"వాడటమని సలహా ."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "Gennemsøger filspejlet..."
+msgstr "మిర్రర్ ని పరిశీలించు..."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "Anvend ikke-frie programmer?"
+msgstr "స్వేచ్ఛ మూలములు కాని సాఫ్ట్వేర్  వాడదలచారా?"
 
 #. Type: boolean
 #. Description
@@ -450,11 +421,9 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"En del ikke-frie programmer er tilpasset, så  det fungerer på Debian. På "
-"trods af, at dette program på ingen måde er en del af Debian, kan Debians "
-"standardværktøjer bruges til at installere det. Programmerne er udgivet "
-"under forskellige licenser, der måske ikke tillader dig at bruge, ændre "
-"eller dele dem med andre."
+"స్వేచ్ఛ మూలములు కాని సాఫ్ట్వేర్   డెబియన్ తో   పనిచేయునట్లుగా చేయబడినది. ఇవి  డెబియన్లో భాగం కాదు అయినా, "
+"ప్రామాణిక డెబియన్ పనిముట్లు స్థాపనకు వాడవచ్చు. ఈ సాఫ్ట్వేర్ లైసెన్సు షరతులు వివిధ రకాలుగా వుండటం వలన, "
+"మీరు వాడటానికి, మార్చటానికి, పంచుకోటానికి వీలు లేకపోవచ్చు."
 
 #. Type: boolean
 #. Description
@@ -466,14 +435,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr "Vælg om du ønsker at have dem tilgængelige alligevel."
+msgstr "ఎలాగైనా, మీకు అవి కావాలేమోఎంచుకో."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "Anvend \"contrib\"-programmer?"
+msgstr "contrib సాఫ్ట్వేర్ వాడదలచారా?"
 
 #. Type: boolean
 #. Description
@@ -485,10 +454,8 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"En del yderligere programmer er tilpasset, så det fungerer på Debian. Selvom "
-"programmerne er frie, er det afhængigt af ikke-frie programmer for at virke. "
-"På trods af, at dette program på ingen måde er en del af Debian, kan Debians "
-"standardværktøjer bruges til at installere det."
+"కొన్ని  అదనపు సాఫ్ట్వేర్   డెబియన్ తో   పనిచేయునట్లుగా చేయబడినది. ఇవి  స్వేచ్ఛామూలములు అయినా, స్వేచ్ఛకాని "
+"సాఫ్ట్వేర్ పై ఆధారపడినవి. ఇవి  డెబియన్లో భాగం కాదు అయినా, ప్రామాణిక డెబియన్ పనిముట్లు స్థాపనకు వాడవచ్చు. "
 
 #. Type: boolean
 #. Description
@@ -516,7 +483,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "Angiv om du ønsker at dette program gøres tilgængeligt for dig."
+msgstr " మీకు ఈ సాఫ్ట్వేర్  కావాలేమోఎంచుకో."
 
 #. Type: select
 #. Choices
@@ -525,7 +492,7 @@ msgstr "Angiv om du ønsker at dette program gøres tilgængeligt for dig."
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr "Prøv igen"
+msgstr "మళ్ళీ ప్రయత్నించు"
 
 #. Type: select
 #. Choices
@@ -534,7 +501,7 @@ msgstr "Prøv igen"
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr "Skift filspejl"
+msgstr "మిర్రర్ ని మార్చు"
 
 #. Type: select
 #. Choices
@@ -543,13 +510,13 @@ msgstr "Skift filspejl"
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr "Ignorér"
+msgstr "వదిలివేయి"
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr "Det lykkedes ikke at hente en fil:"
+msgstr "దస్త్రము దిగుమతి విఫలమయింది:"
 
 #. Type: select
 #. Description
@@ -560,17 +527,16 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"Det lykkedes ikke for installationsprogrammet at nå filspejlet. Det kan "
-"skyldes et problem med dit netværk eller med filspejlet. Du kan prøve at "
-"hente filen igen, vælge et andet filspejl eller ignorere problemet og "
-"fortsætte uden pakkerne fra filspejlet."
+"స్థాపక వ్యవస్థ మిర్రర్ ని కలవలేక పోయింది.  మీ నెట్వర్క్ లేక  మిర్రర్ లో సమస్య వుండవచ్చు. మీరు, డౌన్లోడ్ కి "
+"మరల ప్రయత్నించవచ్చు, వేరొక మిర్రర్ ని ఎంచుకోవచ్చు, లేక  సమస్యని  పట్టించుకోక, ఈ మిర్రర్ నుండి "
+"పాకేజీలు లేకుండా కొనసాగవచ్చు. "
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr "Benyt et netværks-filspejl?"
+msgstr "నెట్వర్క్ మిర్రర్ వాడవలెనా?"
 
 #. Type: boolean
 #. Description
@@ -580,22 +546,22 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
-"Netværks-filspejle kan supplere de programmer, der følger med på cd. De kan "
-"også tilbyde nyere versioner af programmerne."
+"CD-ROM లో వున్న సాఫ్ట్వేర్ కు అదనంగా కావలసివాటికోసం నెట్వర్క్ మిర్రర్ వాడవచ్చు. కొత్త విడుదలలు దీని ద్వారా "
+"అందవచ్చు."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr "Fortsæt uden et filspejl?"
+msgstr "నెట్వర్క మిర్రర్ లేకుండా కొనసాగించాలా?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr "Der blev ikke fundet noget filspejl."
+msgstr "ఏ నెట్వర్క మిర్రరు  ఎంచుకొనబడలేదు"
 
 #. Type: boolean
 #. Description
@@ -603,7 +569,7 @@ msgstr "Der blev ikke fundet noget filspejl."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "Benyt begrænsede programmer?"
+msgstr "నిర్బంధమయిన మృదులాంత్రాలని (software) ఉపయోగించు?"
 
 #. Type: boolean
 #. Description
@@ -616,11 +582,9 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"Nogle ikke-frie programmer er tilgængelige på pakkeform. Selvom disse ikke "
-"er en del af hoveddistributionen, kan de almindelige "
-"pakkehåndteringsværktøjer bruges til at installere dem. Disse programmer har "
-"forskellige licenser, som kan begrænse din ret til at bruge, ændre eller "
-"dele dem."
+"పాకేజి రూపంలో, స్వేచ్ఛా మూలములు కాని  సాఫ్ట్వేర్  అందుబాటులో వుంది. ప్రధాన  వితరణలో భాగం కాదు కాని, "
+"ప్రామాణిక పాకేజి నిర్వహణ పరికరములతో స్థాపన చేయవచ్చు. వీటి లైసెన్సులు రకరకాలుగా వుండి, మిమ్ములను "
+"వాడకుండా, మార్చకుండా, పంచుకొకుండా చేయవచ్చు."
 
 #. Type: boolean
 #. Description
@@ -628,7 +592,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "Benyt programmer fra »universe«-delen?"
+msgstr "\"universe\"  అంశం నుండి  సాఫ్ట్వేర్  వాడాలా ?"
 
 #. Type: boolean
 #. Description
@@ -640,9 +604,8 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"Der findes yderligere programmer i pakkeform. Disse programmer er fri "
-"software, og selvom de ikke er en del af hoveddistributionen, kan de "
-"almindelige pakkehåndteringsværktøjer bruges til at installere dem."
+"పాకేజి రూపంలో, కొన్ని అదనపు సాఫ్ట్వేర్  అందుబాటులో వుంది. ఈ సాఫ్ట్వేర్ స్వేచ్ఛామూలములు. ప్రధాన  వితరణలో "
+"భాగం కాదు కాని, ప్రామాణిక పాకేజి నిర్వహణ పరికరములతో స్థాపన చేయవచ్చు."
 
 #. Type: boolean
 #. Description
@@ -650,7 +613,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "Benyt programmer fra »multiverse«-delen?"
+msgstr " \"multiverse\" అంశం నుండి  సాఫ్ట్వేర్  వాడాలా ?"
 
 #. Type: boolean
 #. Description
@@ -664,10 +627,9 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"Visse ikke-frie programmer er tilgængelige på pakkeform. Selvom de ikke er "
-"en del af hoveddistributionen, kan de installeres med de almindelige "
-"pakkehåndteringsværktøjer. Disse programmer har forskellige licenser, som "
-"kan begrænse din ret til at bruge, ændre eller dele dem."
+"పాకేజి రూపంలో, స్వేచ్ఛా మూలములు కాని  సాఫ్ట్వేర్  అందుబాటులో వుంది. ప్రధాన  వితరణలో భాగం కాదు కాని, "
+"ప్రామాణిక పాకేజి నిర్వహణ పరికరములతో స్థాపన చేయవచ్చు. వీటి లైసెన్సులు రకరకాలుగా (కొన్ని టిలో పేటెంట్ "
+"పరిమితులు)  వుండి, మిమ్ములను వాడకుండా, మార్చకుండా, పంచుకొకుండా చేయవచ్చు."
 
 #. Type: boolean
 #. Description
@@ -675,7 +637,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "Brug programmer fra »partner«-programarkivet?"
+msgstr "\"partner\" సంగ్రహం నుండి  సాఫ్ట్వేర్  వాడాలా ?"
 
 #. Type: boolean
 #. Description
@@ -687,9 +649,8 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"En mængde supplerende programmer er tilgængelige fra Canonicals »partner«-"
-"programarkiv. Denne software er ikke en del af Ubuntu, men bliver tilbudt af "
-"Canonical og de forskellige leverandører som en service til Ubuntu-brugere."
+"కొన్ని అదనపు సాఫ్ట్వేర్ కెనానికల్   \"partner\" సంగ్రహంలో అందుబాటులో వుంది. ఇది ఉబుంటు లో   భాగం "
+"కాదు కాని, ఉబుంటు మరియు వాటిని అందచేసేవారు ఉబుంటు వాడుకరలకు సేవకొరకు అందచేస్తున్నారు."
 
 #. Type: boolean
 #. Description
@@ -697,7 +658,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "Benyt bagud-porterede programmer?"
+msgstr "బాక్ పోర్టెడ్   సాఫ్ట్వేర్   వాడాలా?"
 
 #. Type: boolean
 #. Description
@@ -710,7 +671,6 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"Visse programmer er blevet bagud-porteret fra udviklernes område, så de kan "
-"benyttes under denne udgivelse. Selvom de ikke har gennemgået den samme "
-"grundige afprøvning, som dem, der er en del af udgivelsen, omfatter de nyere "
-"versioner af visse programmer, nogle nyttige funktioner."
+"కొన్ని  సాఫ్ట్వేర్ అభివృద్ది వృక్షం నుండి ఈ విడుదలతో పనిచేయటానికి వీలుగా బాక్ పోర్టెడ్   చేశారు. విడుదలలో "
+"సాఫ్ట్వేర్ లాగా పూర్తి పరీక్ష జరగలేదు కాని, దీనిలో కొన్ని అనువర్తనాల తాజారూపాలు, ఉపయోగకరమైన  లక్షణాలు కలిగి "
+"వుండవచ్చు."
