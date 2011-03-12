@@ -1,3 +1,14 @@
+apt-setup (1:0.53+squeeze1) stable; urgency=low
+
+  * If no network mirror was selected during install, add a (commented-out)
+    entry pointing at ftp.debian.org, together with a comment explaining why
+    the entry is commented out and that it should be updated to use a relevant
+    mirror.  The comment is not translated, but this is still preferable to
+    the previous behaviour of creating clearly broken entries under such
+    circumstances which users then re-enabled.  (Closes: #613910)
+
+ -- Adam D. Barratt <adam@adam-barratt.org.uk>  Fri, 25 Feb 2011 16:04:21 +0000
+
 apt-setup (1:0.53) unstable; urgency=low
 
   * Support cd_type "bluray". In particular, don't prompt at high priority
