@@ -1,3 +1,9 @@
+apt-setup (1:0.53+squeeze2) squeeze; urgency=low
+
+  * Upload to drop .git from source tarball
+
+ -- Otavio Salvador <otavio@debian.org>  Sat, 12 Mar 2011 15:24:42 -0300
+
 apt-setup (1:0.53+squeeze1) stable; urgency=low
 
   * If no network mirror was selected during install, add a (commented-out)
