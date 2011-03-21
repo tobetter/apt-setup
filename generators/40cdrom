@@ -54,8 +54,17 @@ remount_cd() {
 		if db_get cdrom-detect/cdrom_fs && [ "$RET" ]; then
 			fs="$RET"
 		fi
+		OS=$(udpkg --print-os)
+		case "$OS" in
+			hurd)
+				OPTIONS=ro
+				;;
+			*)
+				OPTIONS=ro,exec
+				;;
+		esac
 		db_get cdrom-detect/cdrom_device
-		$logoutput mount -t "$fs" -o ro,exec $RET /cdrom || true
+		$logoutput mount -t "$fs" -o $OPTIONS $RET /cdrom || true
 	fi
 }
 

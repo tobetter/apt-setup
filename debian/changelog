@@ -1,3 +1,10 @@
+apt-setup (1:0.54) UNRELEASED; urgency=low
+
+  [ Samuel Thibault@
+  * Remove exec mount option on hurd-i386.
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 21 Mar 2011 23:27:33 +0100
+
 apt-setup (1:0.53) unstable; urgency=low
 
   * Support cd_type "bluray". In particular, don't prompt at high priority
