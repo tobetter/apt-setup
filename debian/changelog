@@ -1,9 +1,27 @@
-apt-setup (1:0.54) UNRELEASED; urgency=low
+apt-setup (1:0.54) unstable; urgency=low
 
-  [ Samuel Thibault@
+  [ Christian Perrier ]
+  * Add myself to Uploaders to have at least one human maintainer
+
+  [ Samuel Thibault ]
   * Remove exec mount option on hurd-i386.
 
- -- Samuel Thibault <sthibault@debian.org>  Mon, 21 Mar 2011 23:27:33 +0100
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Czech (cs.po) by Miroslav Kure
+  * Esperanto (eo.po) by Felipe Castro
+  * Spanish (es.po) by Javier Fernández-Sanguino
+  * Estonian (et.po) by Mattias Põldaru
+  * Korean (ko.po) by Changwoo Ryu
+  * Romanian (ro.po) by Eddy Petrișor
+  * Slovak (sk.po) by Ivan Masár
+  * Swedish (sv.po) by Daniel Nylander
+  * Telugu (te.po) by Arjuna Rao Chavala
+  * Thai (th.po) by Theppitak Karoonboonyanan
+  * Uyghur (ug.po) by Sahran
+
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 24 Apr 2011 08:47:37 +0200
 
 apt-setup (1:0.53) unstable; urgency=low
 
