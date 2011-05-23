@@ -1,3 +1,10 @@
+apt-setup (1:0.55) UNRELEASED; urgency=low
+
+  [ Samuel Thibault ]
+  * Explicitly unmount bind mounts, do not rely on the OS to do it itself.
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 23 May 2011 21:09:01 +0200
+
 apt-setup (1:0.54) unstable; urgency=low
 
   [ Christian Perrier ]
