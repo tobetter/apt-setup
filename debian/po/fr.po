@@ -21,10 +21,10 @@ msgstr ""
 "PO-Revision-Date: 2010-03-18 12:08+0200\n"
 "Last-Translator: Christian Perrier <bubulle@debian.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Type: text
@@ -343,9 +343,9 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"Vous effectuez une installation depuis un CD « netinst » qui, seul, ne permet "
-"que l'installation d'un système très minimal. Vous devriez utiliser un "
-"miroir réseau de la distribution pour installer un système complet."
+"Vous effectuez une installation depuis un CD « netinst » qui, seul, ne "
+"permet que l'installation d'un système très minimal. Vous devriez utiliser "
+"un miroir réseau de la distribution pour installer un système complet."
 
 #. Type: text
 #. Description
@@ -699,8 +699,8 @@ msgid ""
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
 "Certains logiciels supplémentaires sont disponibles depuis le dépôt "
-"« partner » de Canonical. Ces logiciels ne font pas partie d'Ubuntu mais sont "
-"mis à disposition par Canonical et les distributeurs concernés pour les "
+"« partner » de Canonical. Ces logiciels ne font pas partie d'Ubuntu mais "
+"sont mis à disposition par Canonical et les distributeurs concernés pour les "
 "utilisateurs d'Ubuntu."
 
 #. Type: boolean
