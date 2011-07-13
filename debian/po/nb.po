@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2010-11-15 22:47+0000\n"
+"POT-Creation-Date: 2011-07-13 22:48+0000\n"
 "PO-Revision-Date: 2009-11-27 01:25+0100\n"
 "Last-Translator: Hans Fredrik Nordhaug <hans@nordhaug.priv.no>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
@@ -71,17 +71,76 @@ msgstr "Søker gjennom arkivet over sikkerhetsoppdateringer ..."
 msgid "Scanning the volatile updates repository..."
 msgstr "Søker gjennom arkivet over flyktige oppdateringer ..."
 
+#. Type: select
+#. Choices
+#. :sl2:
+#. These are choices of actions so this is, at least in English,
+#. an infinitive form
+#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+msgid "Retry"
+msgstr "Prøv igjen"
+
+#. Type: select
+#. Choices
+#. :sl2:
+#. These are choices of actions so this is, at least in English,
+#. an infinitive form
+#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+msgid "Ignore"
+msgstr "Ignorer"
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+#, fuzzy
+#| msgid "Downloading a file failed:"
+msgid "Downloading local repository key failed:"
+msgstr "Klarte ikke å laste ned fila:"
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+msgid ""
+"The installer failed to download the public key used to sign the local "
+"repository at ${MIRROR}:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+msgid "${URL}"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+#, fuzzy
+#| msgid ""
+#| "The installer failed to access the mirror. This may be a problem with "
+#| "your network, or with the mirror. You can choose to retry the download, "
+#| "select a different mirror, or ignore the problem and continue without all "
+#| "the packages from this mirror."
+msgid ""
+"This may be a problem with your network, or with the server hosting this "
+"key. You can choose to retry the download, or ignore the problem and "
+"continue without all the packages from this repository."
+msgstr ""
+"Installeringsprogrammet klarte ikke å få kontakt med speilet. Feilen kan "
+"skyldes nettverket ditt eller speilet. Du kan prøve å laste ned fila på "
+"nytt, velge et annet speil, eller ikke bry deg om problemet og fortsette "
+"uten alle pakkene fra dette speilet."
+
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
 msgstr "Fikk ikke tilgang til arkiv"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -92,7 +151,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -106,7 +165,7 @@ msgstr ""
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl3:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "sikkerhetsoppdateringer (fra ${SEC_HOST})"
 
@@ -116,21 +175,21 @@ msgstr "sikkerhetsoppdateringer (fra ${SEC_HOST})"
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl3:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "volatile updates (from ${VOL_HOST})"
 msgstr "flyktige oppdateringer (fra ${VOL_HOST})"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
 msgstr "Tjenester:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "volatile."
@@ -141,7 +200,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -152,7 +211,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Volatile updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
@@ -515,26 +574,8 @@ msgstr "Velg om du vil ha muligheten til å installere slike programmer."
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
-msgid "Retry"
-msgstr "Prøv igjen"
-
-#. Type: select
-#. Choices
-#. :sl2:
-#. These are choices of actions so this is, at least in English,
-#. an infinitive form
-#: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
 msgstr "Bytt speil"
-
-#. Type: select
-#. Choices
-#. :sl2:
-#. These are choices of actions so this is, at least in English,
-#. an infinitive form
-#: ../apt-mirror-setup.templates:4001
-msgid "Ignore"
-msgstr "Ignorer"
 
 #. Type: select
 #. Description

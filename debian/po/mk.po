@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_mk\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2010-11-15 22:47+0000\n"
+"POT-Creation-Date: 2011-07-13 22:48+0000\n"
 "PO-Revision-Date: 2010-07-07 09:44+0100\n"
 "Last-Translator: Arangel Angov <arangel@linux.net.mk>\n"
 "Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
@@ -69,17 +69,76 @@ msgstr "Го скенирам серверот со безбедносни за�
 msgid "Scanning the volatile updates repository..."
 msgstr "Скенирам складиште за непостојани надградби..."
 
+#. Type: select
+#. Choices
+#. :sl2:
+#. These are choices of actions so this is, at least in English,
+#. an infinitive form
+#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+msgid "Retry"
+msgstr "Повторно"
+
+#. Type: select
+#. Choices
+#. :sl2:
+#. These are choices of actions so this is, at least in English,
+#. an infinitive form
+#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+msgid "Ignore"
+msgstr "Игнорирај"
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+#, fuzzy
+#| msgid "Downloading a file failed:"
+msgid "Downloading local repository key failed:"
+msgstr "Преземање на датотека не успеа:"
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+msgid ""
+"The installer failed to download the public key used to sign the local "
+"repository at ${MIRROR}:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+msgid "${URL}"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+#, fuzzy
+#| msgid ""
+#| "The installer failed to access the mirror. This may be a problem with "
+#| "your network, or with the mirror. You can choose to retry the download, "
+#| "select a different mirror, or ignore the problem and continue without all "
+#| "the packages from this mirror."
+msgid ""
+"This may be a problem with your network, or with the server hosting this "
+"key. You can choose to retry the download, or ignore the problem and "
+"continue without all the packages from this repository."
+msgstr ""
+"Инсталерот не успеа да се поврзе со алтернативниот сервер. Ова можеби е "
+"поради проблем со твојата мрежа или со алтернативниот сервер. Може да пробаш "
+"повторно, да одбереш друга локација или да го игнорираш проблемот и да "
+"продолжиш без сите пакети од оваа локација. "
+
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
 msgstr "Не можам да му пристапам на складиштето"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -90,7 +149,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -104,7 +163,7 @@ msgstr ""
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl3:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "безбедносни надградби (од ${SEC_HOST})"
 
@@ -114,21 +173,21 @@ msgstr "безбедносни надградби (од ${SEC_HOST})"
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl3:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "volatile updates (from ${VOL_HOST})"
 msgstr "непостојани надградби (од ${VOL_HOST})"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
 msgstr "Сервиси кои што ќе се користат:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "volatile."
@@ -139,7 +198,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -150,7 +209,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Volatile updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
@@ -512,26 +571,8 @@ msgstr "Те молам одбери дали сакаш овој софтвер
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
-msgid "Retry"
-msgstr "Повторно"
-
-#. Type: select
-#. Choices
-#. :sl2:
-#. These are choices of actions so this is, at least in English,
-#. an infinitive form
-#: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
 msgstr "Смени алтернативен сервер"
-
-#. Type: select
-#. Choices
-#. :sl2:
-#. These are choices of actions so this is, at least in English,
-#. an infinitive form
-#: ../apt-mirror-setup.templates:4001
-msgid "Ignore"
-msgstr "Игнорирај"
 
 #. Type: select
 #. Description

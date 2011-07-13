@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lo\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2010-11-15 22:47+0000\n"
+"POT-Creation-Date: 2011-07-13 22:48+0000\n"
 "PO-Revision-Date: 2010-11-26 09:11+0700\n"
 "Last-Translator: Anousak Souphavanh <anousak@gmail.com>\n"
 "Language-Team: Lao <lo@li.org>\n"
@@ -68,17 +68,75 @@ msgstr "ກຳລັງສຳຫລວດຄັງແພກເກັດໃໝ່
 msgid "Scanning the volatile updates repository..."
 msgstr "ກຳລັງສຳຫລວດຄັງແພກເກັດໃໝ່ສຳຫລັບແພກເກັດທີ່ຕ້ອງປ່ຽນແປງຫລາຍເທື່ອ..."
 
+#. Type: select
+#. Choices
+#. :sl2:
+#. These are choices of actions so this is, at least in English,
+#. an infinitive form
+#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+msgid "Retry"
+msgstr "ລອງໄໝ່"
+
+#. Type: select
+#. Choices
+#. :sl2:
+#. These are choices of actions so this is, at least in English,
+#. an infinitive form
+#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+msgid "Ignore"
+msgstr "ປ່ອຍປະ"
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+#, fuzzy
+#| msgid "Downloading a file failed:"
+msgid "Downloading local repository key failed:"
+msgstr "ດາວໂຫຼດແຟ້ມບໍ່ສຳເລັດ:"
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+msgid ""
+"The installer failed to download the public key used to sign the local "
+"repository at ${MIRROR}:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+msgid "${URL}"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+#, fuzzy
+#| msgid ""
+#| "The installer failed to access the mirror. This may be a problem with "
+#| "your network, or with the mirror. You can choose to retry the download, "
+#| "select a different mirror, or ignore the problem and continue without all "
+#| "the packages from this mirror."
+msgid ""
+"This may be a problem with your network, or with the server hosting this "
+"key. You can choose to retry the download, or ignore the problem and "
+"continue without all the packages from this repository."
+msgstr ""
+"ໂປຣແກມຕິດຕັ້ງບໍ່ສາມາດເຂົ້າຮອກແຫລ່ງສຳເນົາໄດ້ ອາດເກີດຈາກປັນຫາໃນເຄືອຂ່າຍຂອງທ່ານ "
+"ຫລືເປັນປັນຫາໃນໂຕແຫລ່ງຂໍ້ມູນເອງ ທ່ານສາມາດເລືອກທີ່ຈະລອງດາວໂຫລດໃໝ່ ຫລືເລືອກແຫລ່ງຂໍ້ມູນອື່ນ "
+"ຫລືຜ່ານປັນຫານີ້ແລ້ວຕິດຕັ້ງຕໍ່ໄປໂດຍບໍ່ໃຊ້ແພກເກັດຈາກແຫລ່ງຂໍ້ມູນນີ້."
+
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
 msgstr "ບໍ່ສາມາດເຂົ້າເຖີງຄັງແພັກເກັດສຳລັບແກ້ປັນຫາລະບົບຄວາມປອດໄພ"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -89,7 +147,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -102,7 +160,7 @@ msgstr ""
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl3:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "ປັບລຸ້ນແກ່ບັນຫາຄວາມປອດໄພ (ຈາກ ${SEC_HOST})"
 
@@ -112,21 +170,21 @@ msgstr "ປັບລຸ້ນແກ່ບັນຫາຄວາມປອດໄພ
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl3:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "volatile updates (from ${VOL_HOST})"
 msgstr "ປັບລຸ້ນແພັກເກັດປຽນແປ່ງຕະຫຼອດ (ຈາກ ${VOL_HOST})"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
 msgstr "ການບໍ່ລິການທີຈະໃຊ້:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "volatile."
@@ -137,7 +195,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -148,7 +206,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Volatile updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
@@ -496,26 +554,8 @@ msgstr "ກະລຸນາວ່າທ່ານຕ້ອງການຈະໃຫ
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
-msgid "Retry"
-msgstr "ລອງໄໝ່"
-
-#. Type: select
-#. Choices
-#. :sl2:
-#. These are choices of actions so this is, at least in English,
-#. an infinitive form
-#: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
 msgstr "ປຽນແຫ່ງສຳເນົາ"
-
-#. Type: select
-#. Choices
-#. :sl2:
-#. These are choices of actions so this is, at least in English,
-#. an infinitive form
-#: ../apt-mirror-setup.templates:4001
-msgid "Ignore"
-msgstr "ປ່ອຍປະ"
 
 #. Type: select
 #. Description

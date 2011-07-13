@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: se\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2010-11-15 22:47+0000\n"
+"POT-Creation-Date: 2011-07-13 22:48+0000\n"
 "PO-Revision-Date: 2010-12-31 02:09+0100\n"
 "Last-Translator: Børre Gaup <boerre@skolelinux.no>\n"
 "Language-Team: Northern Sami <i18n-sme@lister.ping.uio.no>\n"
@@ -71,10 +71,68 @@ msgstr "Ohcamin sihkarvuođaođasmahttimiid arkiivva čađa …"
 msgid "Scanning the volatile updates repository..."
 msgstr "Ohcamin «volatile»-ođasmahttimiid arkiivva čađa ..."
 
+#. Type: select
+#. Choices
+#. :sl2:
+#. These are choices of actions so this is, at least in English,
+#. an infinitive form
+#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+msgid "Retry"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. :sl2:
+#. These are choices of actions so this is, at least in English,
+#. an infinitive form
+#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+msgid "Ignore"
+msgstr "Badjelgeahča"
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+#, fuzzy
+msgid "Downloading local repository key failed:"
+msgstr "Viežžamin Release-fiilla …"
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+msgid ""
+"The installer failed to download the public key used to sign the local "
+"repository at ${MIRROR}:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+msgid "${URL}"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+#, fuzzy
+#| msgid ""
+#| "The installer failed to access the mirror. This may be a problem with "
+#| "your network, or with the mirror. You can choose to retry the download, "
+#| "select a different mirror, or ignore the problem and continue without all "
+#| "the packages from this mirror."
+msgid ""
+"This may be a problem with your network, or with the server hosting this "
+"key. You can choose to retry the download, or ignore the problem and "
+"continue without all the packages from this repository."
+msgstr ""
+"Sajáiduhtti ii beassan arkiivamáŋgosii. Sáhttá lea váttisvuohtta du "
+"fierpmádagain, ja arkiivamáŋgosiin. Sáhtát geahččalit viežžat páhkaid "
+"ođđasit, válljet eará arkiivamáŋgosa dahje badjelgeahččat váttisvuođa ja "
+"joatkit dán arkiivamáŋgosa páhkaid haga."
+
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 #, fuzzy
 msgid "Cannot access repository"
 msgstr "Ii sáhte vurket «logs»"
@@ -82,7 +140,7 @@ msgstr "Ii sáhte vurket «logs»"
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -91,7 +149,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -103,7 +161,7 @@ msgstr ""
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl3:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
 msgstr ""
 
@@ -113,14 +171,14 @@ msgstr ""
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl3:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "volatile updates (from ${VOL_HOST})"
 msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 #, fuzzy
 msgid "Services to use:"
 msgstr "Nammabálvváid čujuhusat:"
@@ -128,7 +186,7 @@ msgstr "Nammabálvváid čujuhusat:"
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "volatile."
@@ -137,7 +195,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -146,7 +204,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Volatile updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
@@ -505,26 +563,8 @@ msgstr "Válljes jus háliidat ahte dát prográmmat galget leat olámuttus."
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
-msgid "Retry"
-msgstr ""
-
-#. Type: select
-#. Choices
-#. :sl2:
-#. These are choices of actions so this is, at least in English,
-#. an infinitive form
-#: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
 msgstr ""
-
-#. Type: select
-#. Choices
-#. :sl2:
-#. These are choices of actions so this is, at least in English,
-#. an infinitive form
-#: ../apt-mirror-setup.templates:4001
-msgid "Ignore"
-msgstr "Badjelgeahča"
 
 #. Type: select
 #. Description

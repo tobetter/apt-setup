@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2010-11-15 22:47+0000\n"
+"POT-Creation-Date: 2011-07-13 22:48+0000\n"
 "PO-Revision-Date: 2010-10-27 07:25-0400\n"
 "Last-Translator: Milo Casagrande <milo@ubuntu.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
@@ -80,17 +80,76 @@ msgstr "Analisi del repository degli aggiornamenti di sicurezza..."
 msgid "Scanning the volatile updates repository..."
 msgstr "Analisi degli aggiornamenti da «volatile»..."
 
+#. Type: select
+#. Choices
+#. :sl2:
+#. These are choices of actions so this is, at least in English,
+#. an infinitive form
+#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+msgid "Retry"
+msgstr "Riprova"
+
+#. Type: select
+#. Choices
+#. :sl2:
+#. These are choices of actions so this is, at least in English,
+#. an infinitive form
+#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+msgid "Ignore"
+msgstr "Ignora"
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+#, fuzzy
+#| msgid "Downloading a file failed:"
+msgid "Downloading local repository key failed:"
+msgstr "Scaricamento di un file non riuscito:"
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+msgid ""
+"The installer failed to download the public key used to sign the local "
+"repository at ${MIRROR}:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+msgid "${URL}"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+#, fuzzy
+#| msgid ""
+#| "The installer failed to access the mirror. This may be a problem with "
+#| "your network, or with the mirror. You can choose to retry the download, "
+#| "select a different mirror, or ignore the problem and continue without all "
+#| "the packages from this mirror."
+msgid ""
+"This may be a problem with your network, or with the server hosting this "
+"key. You can choose to retry the download, or ignore the problem and "
+"continue without all the packages from this repository."
+msgstr ""
+"Il programma d'installazione non è riuscito ad accedere al mirror a causa di "
+"un problema della rete locale o del mirror. È possibile riprovare "
+"l'operazione di scaricamento, scegliere un mirror diverso o ignorare il "
+"problema e continuare a scaricare i pacchetti da questo mirror."
+
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
 msgstr "Impossibile accedere al repository"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -102,7 +161,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -114,7 +173,7 @@ msgstr "Le righe di ${HOST} in /etc/apt/sources.list sono state commentate."
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl3:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "aggiornamenti di sicurezza (da ${SEC_HOST})"
 
@@ -124,21 +183,21 @@ msgstr "aggiornamenti di sicurezza (da ${SEC_HOST})"
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl3:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "volatile updates (from ${VOL_HOST})"
 msgstr "aggiornamenti da «volatile» (da ${VOL_HOST})"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
 msgstr "Servizi da usare:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "volatile."
@@ -149,7 +208,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -160,7 +219,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Volatile updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
@@ -525,26 +584,8 @@ msgstr "Scegliere se si vuole che questo software sia reso disponibile."
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
-msgid "Retry"
-msgstr "Riprova"
-
-#. Type: select
-#. Choices
-#. :sl2:
-#. These are choices of actions so this is, at least in English,
-#. an infinitive form
-#: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
 msgstr "Cambia mirror"
-
-#. Type: select
-#. Choices
-#. :sl2:
-#. These are choices of actions so this is, at least in English,
-#. an infinitive form
-#: ../apt-mirror-setup.templates:4001
-msgid "Ignore"
-msgstr "Ignora"
 
 #. Type: select
 #. Description

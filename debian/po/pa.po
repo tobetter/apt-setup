@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2010-11-15 22:47+0000\n"
+"POT-Creation-Date: 2011-07-13 22:48+0000\n"
 "PO-Revision-Date: 2010-07-18 19:41+0530\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
@@ -77,17 +77,75 @@ msgstr "ਸੁਰੱਖਿਆ ਨਵੀਨੀਕਰਨ ਭੰਡਾਰ ਦੀ �
 msgid "Scanning the volatile updates repository..."
 msgstr "ਬਦਲਣਯੋਗ ਅੱਪਡੇਟ ਰਿਪੋਜ਼ਟਰੀ ਦੀ ਸਕੈਨ ਕੀਤੀ ਰਹੀ ਹੈ..."
 
+#. Type: select
+#. Choices
+#. :sl2:
+#. These are choices of actions so this is, at least in English,
+#. an infinitive form
+#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+msgid "Retry"
+msgstr "ਮੁੜ ਟਰਾਈ"
+
+#. Type: select
+#. Choices
+#. :sl2:
+#. These are choices of actions so this is, at least in English,
+#. an infinitive form
+#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+msgid "Ignore"
+msgstr "ਅਣਡਿੱਠਾ"
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+#, fuzzy
+#| msgid "Downloading a file failed:"
+msgid "Downloading local repository key failed:"
+msgstr "ਇੱਕ ਫਾਇਲ ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਫੇਲ੍ਹ:"
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+msgid ""
+"The installer failed to download the public key used to sign the local "
+"repository at ${MIRROR}:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+msgid "${URL}"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-setup-udeb.templates:7002
+#, fuzzy
+#| msgid ""
+#| "The installer failed to access the mirror. This may be a problem with "
+#| "your network, or with the mirror. You can choose to retry the download, "
+#| "select a different mirror, or ignore the problem and continue without all "
+#| "the packages from this mirror."
+msgid ""
+"This may be a problem with your network, or with the server hosting this "
+"key. You can choose to retry the download, or ignore the problem and "
+"continue without all the packages from this repository."
+msgstr ""
+"ਇੰਸਟਾਲਰ ਮਿੱਰਰ ਵਰਤਣ ਕਰਨ ਵਿੱਚ ਅਸਫਲ ਹੈ। ਇਹ ਤੁਹਾਡੇ ਨੈੱਟਵਰਕ ਜਾਂ ਮਿੱਰਰ ਦੀ ਮੁਸ਼ਕਿਲ ਹੋ ਸਕਦੀ ਹੈ। "
+"ਤੁਸੀਂ ਮੁੜ ਡਾਊਨਲੋਡ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਲਈ, ਵੱਖਰਾ ਮਿੱਰਰ ਚੁਣਨ ਲਈ, ਮੁਸ਼ਕਿਲ ਜਾਂ ਰੱਦ ਕਰਨ ਇਸ ਮਿੱਰਰ ਤੋਂ ਸਭ "
+"ਪੈਕੇਜਾਂ ਬਿਨਾਂ ਜਾਰੀ ਕਰਨ ਦਾ ਢੰਗ ਚੁਣਨ ਲਈ ਚੁਣ ਸਕਦੇ ਹੋ।"
+
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
 msgstr "ਰਿਪੋਜ਼ਟਰੀ ਅਸੈੱਸ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -98,7 +156,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -111,7 +169,7 @@ msgstr ""
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl3:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "ਸੁਰੱਖਿਆ ਅੱਪਡੇਟ (${SEC_HOST} ਵਲੋਂ)"
 
@@ -121,21 +179,21 @@ msgstr "ਸੁਰੱਖਿਆ ਅੱਪਡੇਟ (${SEC_HOST} ਵਲੋਂ)"
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl3:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "volatile updates (from ${VOL_HOST})"
 msgstr "ਵੋਲਾਟਿਲੀ ਅੱਪਡੇਟ (${VOL_HOST} ਵਲੋਂ)"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
 msgstr "ਵਰਤਣ ਲਈ ਸਰਵਿਸਾਂ:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "volatile."
@@ -144,7 +202,7 @@ msgstr "ਡੇਬੀਅਨ ਦੋ ਸਰਵਿਸਾਂ ਦਿੰਦਾ ਹੈ, 
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -155,7 +213,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl3:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Volatile updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
@@ -505,26 +563,8 @@ msgstr "ਚੁਣੋ ਕਿ ਤੁਸੀਂ ਇਹ ਸਾਫਟਵੇਅਰ ਆ�
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
-msgid "Retry"
-msgstr "ਮੁੜ ਟਰਾਈ"
-
-#. Type: select
-#. Choices
-#. :sl2:
-#. These are choices of actions so this is, at least in English,
-#. an infinitive form
-#: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
 msgstr "ਮਿੱਰਰ ਬਦਲੋ"
-
-#. Type: select
-#. Choices
-#. :sl2:
-#. These are choices of actions so this is, at least in English,
-#. an infinitive form
-#: ../apt-mirror-setup.templates:4001
-msgid "Ignore"
-msgstr "ਅਣਡਿੱਠਾ"
 
 #. Type: select
 #. Description
