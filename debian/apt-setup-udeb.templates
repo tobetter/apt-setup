@@ -36,9 +36,13 @@ Template: apt-setup/local/key-error
 Type: select
 Default: Retry
 # :sl2:
-# These are choices of actions so this is, at least in English,
-# an infinitive form
+#These are choices of actions so this is, at least in English,
+#an infinitive form
 __Choices: Retry, Ignore
+#flag:translate!:3
+#flag:comment:2
+# You should end this with a colon. A non-translatable variable
+# follows with the mirror URL
 _Description: Downloading local repository key failed:
  The installer failed to download the public key used to sign the local
  repository at ${MIRROR}:
