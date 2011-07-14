@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Debian Installer Level 1\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2011-07-13 22:48+0000\n"
+"POT-Creation-Date: 2011-07-14 22:48+0000\n"
 "PO-Revision-Date: 2010-06-27 13:04+0530\n"
 "Last-Translator: Praveen Arimbrathodiyil <pravi.a@gmail.com>\n"
 "Language-Team: Debian Malayalam <debian-l10n-malayalam@lists.debian.org>\n"
@@ -103,16 +103,12 @@ msgstr "ഒരു ഫയല്‍ ഡൌന്‍ലോഡ്‌ ചെയ്യ
 
 #. Type: select
 #. Description
+#. You should end this with a colon. A non-translatable variable
+#. follows with the mirror URL
 #: ../apt-setup-udeb.templates:7002
 msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
-msgstr ""
-
-#. Type: select
-#. Description
-#: ../apt-setup-udeb.templates:7002
-msgid "${URL}"
 msgstr ""
 
 #. Type: select
