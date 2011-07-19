@@ -5,14 +5,26 @@
 #
 # Portuguese messages for debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
+# Console-setup strings translations:
+# (identified by "./console-setup.templates")
+# Copyright (C) 2003-2011 Miguel Figueiredo <elmig@debianpt.org>
 # This file is distributed under the same license as debian-installer.
+#
+#
+# Translations from iso-codes:
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#     Translations taken from ICU SVN on 2007-09-09
+#   Miguel Figueiredo <elmig@debianpt.org>, 2005, 2006, 2008, 2009, 2010
+#   Free Software Foundation, Inc., 2001,2004
+#   Filipe Maia <fmaia@gmx.net>, 2001.
+#   Alastair McKinstry <mckinstry@computer.org>, 2001.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2009-06-28 18:55+0100\n"
+"PO-Revision-Date: 2011-07-19 21:43+0100\n"
 "Last-Translator:  Miguel Figueiredo <elmig@debianpt.org>\n"
 "Language-Team:  Portuguese <traduz@debianpt.org>\n"
 "Language: pt\n"
@@ -87,10 +99,8 @@ msgstr "Ignorar"
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid "Downloading a file failed:"
 msgid "Downloading local repository key failed:"
-msgstr "Falhou o download de um ficheiro:"
+msgstr "Falhou o download da chave do repositório local:"
 
 #. Type: select
 #. Description
@@ -101,25 +111,20 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
+"O instalador falhou o download da chave pública utilizada para assinar o "
+"repositório local em ${MIRROR}:"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid ""
-#| "The installer failed to access the mirror. This may be a problem with "
-#| "your network, or with the mirror. You can choose to retry the download, "
-#| "select a different mirror, or ignore the problem and continue without all "
-#| "the packages from this mirror."
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"O instalador falhou o acesso ao mirror. Isto pode ser um problema com a sua "
-"rede, ou com o mirror. Pode escolher tentar novamente o download, escolher "
-"um mirror diferente, ou ignorar o problema e continuar sem os pacotes deste "
-"mirror."
+"O problema pode estar na sua rede, ou com o servidor que aloja esta chave. "
+"Pode escolher tentar novamente o download ou ignorar o problema e continuar "
+"sem os pacotes deste repositório."
 
 #. Type: error
 #. Description
