@@ -10,6 +10,7 @@
 # Copyright (C) 2006, the console-setup package'c copyright holder
 # Copyright (C) 2006, Matthias Julius
 # Copyright (C) 2007-2009 Helge Kreutzmann
+# Copyright (C) 2008-2011 Holger Wansing
 # This file is distributed under the same license as debian-installer.
 # Holger Wansing <linux@wansing-online.de>, 2008, 2009, 2010, 2011.
 # Jens Seidel <jensseidel@users.sf.net>, 2005, 2006, 2007, 2008.
@@ -20,12 +21,25 @@
 # Thorsten Sauter <tsauter@gmx.net>, 2003.
 #
 #
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2001.
+#   Björn Ganslandt <bganslan@gmx.net>, 2000, 2001.
+#   Bruno Haible <bruno@clisp.org>, 2004, 2007.
+#   Christian Stimming <stimming@tuhh.de>, 2006.
+#   Dennis Stampfer <seppy@debian.org>, 2004.
+#   Karl Eichwalder <ke@suse.de>, 2001.
+#   Simon Hürlimann <simon.huerlimann@access.unizh.ch>, 2004.
+#   Stefan Siegel <siegel@mandrakesoft.com>, 2001.
+#   Tobias Quathamer <toddy@debian.org>, 2006, 2007, 2008, 2009, 2010.
+#     Translations taken from ICU SVN on 2007-09-09
+#   Wolfgang Rohdewald <wolfgang@rohdewald.de>, 2005.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2011-05-03 20:44+0100\n"
+"PO-Revision-Date: 2011-07-22 22:36+0200\n"
 "Last-Translator: Holger Wansing <linux@wansing-online.de>\n"
 "Language-Team: Debian German <debian-l10n-german@lists.debian.org>\n"
 "Language: \n"
@@ -100,10 +114,8 @@ msgstr "Ignorieren"
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid "Downloading a file failed:"
 msgid "Downloading local repository key failed:"
-msgstr "Datei-Download fehlgeschlagen:"
+msgstr "Herunterladen des Schlüssels für lokales Depot fehlgeschlagen:"
 
 #. Type: select
 #. Description
@@ -114,25 +126,20 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
+"Der Installer konnte den öffentlichen Schlüssel, der zur Signierung des "
+"lokalen Depots auf ${MIRROR} verwendet wurde, nicht herunterladen:"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid ""
-#| "The installer failed to access the mirror. This may be a problem with "
-#| "your network, or with the mirror. You can choose to retry the download, "
-#| "select a different mirror, or ignore the problem and continue without all "
-#| "the packages from this mirror."
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Der Installer konnte nicht auf den Spiegelserver zugreifen. Dies könnte ein "
-"Problem in Ihrem Netzwerk oder auch ein Problem des Spiegels sein. Sie "
-"können den Download wiederholen, einen anderen Spiegelserver wählen oder das "
-"Problem ignorieren und ohne die Pakete von diesem Server fortfahren."
+"Dies könnte ein Problem mit Ihrem Netzwerk sein oder mit dem Server, der "
+"diesen Schlüssel beherbergt. Sie können das Herunterladen wiederholen oder "
+"das Problem ignorieren und ohne all die Pakete von diesem Server fortfahren."
 
 #. Type: error
 #. Description
