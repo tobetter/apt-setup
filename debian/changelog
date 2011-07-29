@@ -1,3 +1,11 @@
+apt-setup (1:0.56) UNRELEASED; urgency=low
+
+  * Allow preseeding apt-setup/multiarch to configure the target system for
+    multiarch.  Not enabled by default for any architectures yet since
+    multiarch dpkg is not yet in unstable.
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 29 Jul 2011 09:13:52 +0100
+
 apt-setup (1:0.55) unstable; urgency=low
 
   [ Samuel Thibault ]
