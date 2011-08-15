@@ -1,8 +1,12 @@
 apt-setup (1:0.56) UNRELEASED; urgency=low
 
+  [ Colin Watson ]
   * Allow preseeding apt-setup/multiarch to configure the target system for
     multiarch.  Not enabled by default for any architectures yet since
     multiarch dpkg is not yet in unstable.
+
+  [ Joey Hess ]
+  * Improve prompting for mirror when no network is configured.
 
  -- Colin Watson <cjwatson@debian.org>  Fri, 29 Jul 2011 09:13:52 +0100
 
