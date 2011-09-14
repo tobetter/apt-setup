@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2011-09-13 02:35+0200\n"
+"PO-Revision-Date: 2011-09-14 18:02+0200\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
 "Language: \n"
@@ -121,20 +121,20 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
+"Kur programı ${MIRROR} adresindeki yerel depoyu imzalamada kullanılan genel "
+"anahtarı indirmede başarısız oldu. "
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Kurulum programı yansıya erişemedi. Bu sorun ağınızdan veya kullandığınız "
-"yansıdan kaynaklanıyor olabilir. Dosya indirme işlemini tekrar edebilir, "
-"farklı bir yansı deneyebilir veya bu sorunu gözardı ederek bu yansıdaki "
-"paketler olmadan kuruluma devam edebilirsiniz."
+"Bu sorun ağınızdan veya kullandığınız yansıdan kaynaklanıyor olabilir. Dosya "
+"indirme işlemini tekrar edebilir veya bu sorunu gözardı ederek bu yansıdaki "
+"tüm paketler olmadan kuruluma devam edebilirsiniz."
 
 #. Type: error
 #. Description
@@ -590,7 +590,7 @@ msgstr "Yansıyı değiştir"
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr "Bir dosya başarıyla indirilemedi:"
+msgstr "Bir dosya indirilemedi:"
 
 #. Type: select
 #. Description
