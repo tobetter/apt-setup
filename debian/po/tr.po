@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2011-09-14 18:02+0200\n"
+"PO-Revision-Date: 2011-09-23 17:16+0200\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
 "Language: \n"
@@ -278,7 +278,7 @@ msgstr "Başka bir CD veya DVD taransın mı?"
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "Kurulum CD veya DVD'nizin tarandı; etiketi:"
+msgstr "Kurulum CD veya DVD'niz tarandı; etiketi:"
 
 #. Type: boolean
 #. Description
@@ -291,8 +291,8 @@ msgid ""
 "available, this step can just be skipped."
 msgstr ""
 "Paket yöneticisi (apt) tarafından kullanılmak üzere ilave CD veya DVD'leri "
-"şimdi taratmanız mümkün. Normalde bunlar kurulum CD/DVD'leriyle aynı grupta "
-"olmalıdır. Böyle ilave CD veya DVD'niz yoksa bu adımı atlayabilirsiniz."
+"şimdi taratmanız mümkündür. Normalde bu diskler kurulum CD/DVD'leriyle aynı "
+"grupta olmalıdır. İlave CD veya DVD'niz yoksa bu adımı atlayabilirsiniz."
 
 #. Type: boolean
 #. Description
@@ -302,7 +302,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr "Taratmak istediğiniz CD veya DVD'yi lütfen şimdi yerleştirin."
+msgstr "Taratmak istediğiniz CD veya DVD varsa lütfen şimdi yerleştirin."
 
 #. Type: boolean
 #. Description
@@ -316,14 +316,14 @@ msgstr "Aşağıdaki etikete sahip CD veya DVD tarandı:"
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "Aşağıdaki etikete sahip CD veya DVD zaten taranmış:"
+msgstr "Aşağıdaki etikete sahip CD veya DVD daha önceden taranmış:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr "Başka bir CD veya DVD taratmak istiyorsanız lütfen şimdi yerleştirin."
+msgstr "Başka bir CD veya DVD taratmak istiyorsanız lütfen şimdi değiştirin."
 
 #. Type: boolean
 #. Description
@@ -362,8 +362,8 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:Lütfen '${LABEL}' etiketli diski '/cdrom/' sürücüsüne yerleştirin ve "
-"enter tuşuna basın."
+"/cdrom/:  Lütfen '${LABEL}' etiketli diski '/cdrom/' sürücüsüne yerleştirin "
+"ve enter tuşuna basın."
 
 #. Type: text
 #. Description
@@ -445,8 +445,8 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"Bir yansı kullanmanız halinde müteakip kurulum adımında ağ üzerinden büyük "
-"miktarda veri aktarılacağını lütfen unutmayın."
+"Bir yansı kullanmanız halinde bir sonraki kurulum adımında ağ üzerinden "
+"büyük miktarda veri aktarılacağını lütfen unutmayın."
 
 #. Type: text
 #. Description
