@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2011-09-18 21:28+0100\n"
+"PO-Revision-Date: 2011-09-26 10:46+0100\n"
 "Last-Translator: Marcin Owsiany <porridge@debian.org>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -46,7 +46,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr ""
+msgstr "Konfiguracja menedżera pakietów"
 
 #. Type: text
 #. Description
@@ -55,35 +55,35 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr ""
+msgstr "Konfigurowanie apta"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr ""
+msgstr "Uruchamianie ${SCRIPT}..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr ""
+msgstr "Przeszukiwanie lokalnych repozytoriów..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr ""
+msgstr "Przeszukiwanie repozytorium poprawek bezpieczeństwa..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the volatile updates repository..."
-msgstr ""
+msgstr "Przeszukiwanie zmiennego repozytorium..."
 
 #. Type: select
 #. Choices
@@ -92,7 +92,7 @@ msgstr ""
 #. an infinitive form
 #: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr ""
+msgstr "Ponów"
 
 #. Type: select
 #. Choices
@@ -101,13 +101,13 @@ msgstr ""
 #. an infinitive form
 #: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr ""
+msgstr "Ignoruj"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
 msgid "Downloading local repository key failed:"
-msgstr ""
+msgstr "Pobieranie klucza lokalnego repozytorium nie powiodło się:"
 
 #. Type: select
 #. Description
@@ -118,6 +118,8 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
+"Instalatorowi nie udało się pobrać klucza publicznego używanego do "
+"podpisania lokalnego repozytorium w ${MIRROR}:"
 
 #. Type: select
 #. Description
@@ -127,13 +129,16 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
+"Może to oznaczać problemy z siecią lub serwerem zawierającym ten klucz. "
+"Możesz wybrać ponowienie pobierania lub zignorowanie problemu i "
+"kontynuowanie bez pakietów z tego repozytorium."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr ""
+msgstr "Nie da się uzyskać dostępu do repozytorium"
 
 #. Type: error
 #. Description
@@ -143,6 +148,8 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
+"Repozytorium ${HOST} nie jest dostępne, więc w tym momencie aktualizacje nie "
+"będą pobrane. Sprawdź później co było przyczyną."
 
 #. Type: error
 #. Description
@@ -152,6 +159,7 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
+"Zakomentowane wpisy dla ${HOST} zostały dodane do pliku /etc/apt/sources.list"
 
 #. Type: multiselect
 #. Choices
@@ -161,7 +169,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr ""
+msgstr "uaktualnienia bezpieczeństwa (z ${SEC_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -171,14 +179,14 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:11001
 msgid "volatile updates (from ${VOL_HOST})"
-msgstr ""
+msgstr "zmienne aktualizacje (z ${VOL_HOST})"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr ""
+msgstr "Wykorzystywane serwisy:"
 
 #. Type: multiselect
 #. Description
@@ -188,6 +196,8 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "volatile."
 msgstr ""
+"Debian posiada dwa serwisy, które umożliwiają aktualizacje wydań: poprawki "
+"bezpieczeństwa oraz repozytorium zmienne."
 
 #. Type: multiselect
 #. Description
@@ -197,6 +207,8 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
+"Poprawki bezpieczeństwa sprawiają, że system jest zabezpieczony przed "
+"atakami.Uaktywnienie tego serwisu jest bardzo zalecane."
 
 #. Type: multiselect
 #. Description
@@ -209,20 +221,25 @@ msgid ""
 "virus scanner. This service is only available for stable and oldstable "
 "releases."
 msgstr ""
+"Zmienne aktualizacje dostarczają bardziej aktualnych wersji oprogramowania,"
+"które systematycznie się zmienia, a brak posiadania najnowszej wersji "
+"ogranicza jego użyteczność. Przykładem mogą być sygnatury wirusów dla "
+"skanera antywirusowego. Ten serwis jest dostępny tylko dla dystrybucji "
+"stabilnej oraz poprzedzającej ją."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr ""
+msgstr "Przeszukiwanie CD-ROMu..."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr ""
+msgstr "Problem konfiguracji apta"
 
 #. Type: error
 #. Description
@@ -232,6 +249,8 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
+"Próba skonfigurowania apta do instalacji dodatkowych pakietów z płyty CD nie "
+"powiodła się."
 
 #. Type: boolean
 #. Description
@@ -248,14 +267,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr ""
+msgstr "Przeskanować inną płytę CD lub DVD?"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr ""
+msgstr "Płyta instalacyjna CD lub DVD została przeskanowana: jej etykieta to:"
 
 #. Type: boolean
 #. Description
@@ -267,6 +286,10 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
+"Masz teraz możliwość przeskanowania dodatkowych płyt CD lub DVD, które będą "
+"użyte przez menedżera pakietów (apt). Zazwyczaj są to kolejne płyty, które "
+"rozprowadzane były w zestawie. Jeśli nie masz żadnych dodatkowych płyt, "
+"pomiń ten krok."
 
 #. Type: boolean
 #. Description
@@ -276,28 +299,28 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr ""
+msgstr "Jeśli chcesz przeskanować inną płytę CD lub DVD, włóż ją teraz."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr ""
+msgstr "Płyta CD lub DVD o następującej etykiecie została przeskanowana:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr ""
+msgstr "Płyta CD lub DVD z następującą etykietą została już przeskanowana:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr ""
+msgstr "Proszę ją wymienić jeśli chcesz przeskanować kolejną."
 
 #. Type: boolean
 #. Description
@@ -307,13 +330,15 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
 msgstr ""
+"Próba skonfigurowania apta do instalacji dodatkowych pakietów z płyty CD lub "
+"DVD nie powiodła się."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr ""
+msgstr "Upewnij się, że płyta CD/DVD jest w napędzie."
 
 #. Type: text
 #. Description
@@ -322,7 +347,7 @@ msgstr ""
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr ""
+msgstr "Zmiana nośnika"
 
 #. Type: text
 #. Description
@@ -334,6 +359,8 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
+"/cdrom/:Włóż płytę z etykietą: '${LABEL}' do napędu '/cdrom/' i naciśnij "
+"enter."
 
 #. Type: text
 #. Description
@@ -341,7 +368,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr ""
+msgstr "Wyłączanie płyty netinst z sources.list..."
 
 #. Type: text
 #. Description
@@ -354,6 +381,8 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
+"Instalując system z wykorzystaniem płyty netinst i nie wybierając serwera "
+"lustrzanego zakończysz instalację z bardzo okrojonym systemem."
 
 #. Type: text
 #. Description
@@ -364,6 +393,9 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
+"Instalujesz z płyty netinst, która pozwala na instalację jedynie minimalnego "
+"systemu podstawowego. Użyj serwera lustrzanego by zainstalować bardziej "
+"kompletny system."
 
 #. Type: text
 #. Description
@@ -371,7 +403,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:11001
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
-msgstr ""
+msgstr "Instalujesz z płyty CD zawierającej ograniczoną liczbę pakietów."
 
 #. Type: text
 #. Description
@@ -384,6 +416,9 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
+"Przeskanowano %1 CD. Mimo, że zawierają one sporą ilość pakietów, to nadal "
+"niektóre mogą być niedostępne (zapewne pakiety wymagane do obsługi języków "
+"innych niż angielski)."
 
 #. Type: text
 #. Description
@@ -395,6 +430,8 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
+"Przeskanowano %1 CD. Mimo, że zawierają one dużą ilość pakietów, to nadal "
+"część może być niedostępna."
 
 #. Type: text
 #. Description
@@ -404,6 +441,8 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
+"Zauważ, że korzystanie z serwera lustrzanego może spowodować konieczność "
+"ściągnięcia dużej ilości danych podczas następnego kroku instalacji."
 
 #. Type: text
 #. Description
@@ -413,6 +452,8 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
+"Instalujesz z płyty DVD. Mimo, że zawiera ona dużą ilość pakietów, to nadal "
+"część może być niedostępna."
 
 #. Type: text
 #. Description
@@ -423,6 +464,9 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
+"Jeśli nie posiadasz dobrego połączenia z internetem użycie serwera "
+"lustrzanego jest zalecane zwłaszcza jeżeli planujesz instalację graficznego "
+"środowiska."
 
 #. Type: text
 #. Description
@@ -432,20 +476,22 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
+"Jeśli posiadasz dobre połączenie z internetem użycie serwera lustrzanego "
+"jest zalecane zwłaszcza jeżeli planujesz instalację graficznego środowiska."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr ""
+msgstr "Przeszukiwanie serwera lustrzanego..."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr ""
+msgstr "Czy używać oprogramowania nie wolnodostępnego?"
 
 #. Type: boolean
 #. Description
@@ -457,6 +503,11 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
+"Do działania w systemie Debian przystosowano różne programy, które nie są "
+"wolnodostępne. Choć nie są one w żadnym przypadku częścią Debiana, "
+"standardowe narzędzia Debiana umożliwiają ich instalację. Programy te mają "
+"różne licencje, które mogą uniemożliwić Ci ich używanie, modyfikację lub "
+"rozprowadzanie."
 
 #. Type: boolean
 #. Description
@@ -468,14 +519,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr ""
+msgstr "Proszę wybrać czy chcesz mieć je mimo wszystko dostępne."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr ""
+msgstr "Czy używać oprogramowania zależnego od oprogramowania niewolnego?"
 
 #. Type: boolean
 #. Description
@@ -487,6 +538,10 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
+"Do działania w systemie Debian przystosowano różne dodatkowe programy. Choć "
+"są one wolnodostępne, wymagają do działania oprogramowania "
+"niewolnodostępnego. Choć nie są one w żadnym przypadku częścią Debiana, "
+"standardowe narzędzia Debiana umożliwiają ich instalację."
 
 #. Type: boolean
 #. Description
@@ -515,6 +570,7 @@ msgstr ""
 msgid ""
 "Please choose whether you want this software to be made available to you."
 msgstr ""
+"Proszę wybrać czy chcesz by to oprogramowanie było dla Ciebie dostępne."
 
 #. Type: select
 #. Choices
@@ -523,13 +579,13 @@ msgstr ""
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr ""
+msgstr "Zmień serwer lustrzany"
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr ""
+msgstr "Pobieranie pliku nie powiodło się:"
 
 #. Type: select
 #. Description
@@ -540,13 +596,17 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
+"Instalatorowi nie udało się połączyć z serwerem lustrzanym. Może to oznaczać "
+"problemy z siecią lub tym serwerem. Możesz wybrać ponowienie pobierania, "
+"skorzystanie z innego serwera lustrzanego lub zignorować problem i "
+"kontynuować bez pakietów z tej lokalizacji."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr ""
+msgstr "Użyć sieciowego serwera lustrzanego?"
 
 #. Type: boolean
 #. Description
@@ -556,20 +616,22 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
+"Sieciowy serwer lustrzany może uzupełnić oprogramowanie, które dostępne jest "
+"na płycie CD-ROM. Może też dostarczyć nowszych wersji oprogramowania."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr ""
+msgstr "Kontynuować bez serwera lustrzanego?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr ""
+msgstr "Nie wybrano żadnego serwera lustrzanego."
 
 #. Type: boolean
 #. Description
@@ -577,7 +639,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr ""
+msgstr "Użyć restrykcyjnego oprogramowania?"
 
 #. Type: boolean
 #. Description
@@ -590,6 +652,11 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
+"Część niewolnego oprogramowania jest dostępna w postaci pakietów. Pomimo, że "
+"te programy nie są częścią głównej dystrybucji, standardowe narzędzia do "
+"zarządzania pakietami mogą je zainstalować. Oprogramowanie takie posiada "
+"różne licencje, które mogą ograniczać prawo do jego używania, modyfikowania "
+"lub rozpowszechniania."
 
 #. Type: boolean
 #. Description
@@ -597,7 +664,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr ""
+msgstr "Użyć oprogramowania z części \"universe\"?"
 
 #. Type: boolean
 #. Description
@@ -609,6 +676,9 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
+"Część dodatkowego oprogramowania jest dostępna w postaci pakietów. Mimo, że "
+"jest to wolne oprogramowanie, nie jest ono dostępne jako część głównej "
+"dystrybucji. Programy do zarządzania pakietami mogą je instalować."
 
 #. Type: boolean
 #. Description
@@ -616,7 +686,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr ""
+msgstr "Użyć oprogramowania z części \"multiverse\"?"
 
 #. Type: boolean
 #. Description
@@ -630,6 +700,11 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
+"Część niewolnego oprogramowania jest dostępna w postaci pakietów. Pomimo, że "
+"te programy nie są częścią głównej dystrybucji, standardowe narzędzia do "
+"zarządzania pakietami mogą je zainstalować. Oprogramowanie takie posiada "
+"różne licencje, a czasem również jest opatentowane i prawo do jego używania, "
+"modyfikowania lub rozpowszechniania. może być ograniczone."
 
 #. Type: boolean
 #. Description
@@ -637,7 +712,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr ""
+msgstr "Użyć oprogramowania z części \"partner\"?"
 
 #. Type: boolean
 #. Description
@@ -649,6 +724,9 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
+"Dodatkowe oprogramowanie dostępne jest z repozytorium \"partner\". Nie jest "
+"to część Ubuntu, ale jest oferowane przez Canonical i odpowiednich dostawców "
+"jako usługa dla użytkowników Ubuntu."
 
 #. Type: boolean
 #. Description
@@ -656,7 +734,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr ""
+msgstr "Użyć nowszych wersji oprogramowania dostosowanych do tego wydania?"
 
 #. Type: boolean
 #. Description
@@ -669,3 +747,7 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
+"Część oprogramowania pobrana z rozwojowej wersji została dostosowana do "
+"pracy z tym wydaniem. Mimo, iż pakiety te nie przeszły przez całą procedurę "
+"testową, zawierają nowsze wersje aplikacji, a przez to mogą zawierać "
+"użyteczne, nowe możliwości."
