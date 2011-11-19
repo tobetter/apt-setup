@@ -1,4 +1,4 @@
-apt-setup (1:0.56) UNRELEASED; urgency=low
+apt-setup (1:0.56) unstable; urgency=low
 
   [ Colin Watson ]
   * Allow preseeding apt-setup/multiarch to configure the target system for
@@ -8,7 +8,43 @@ apt-setup (1:0.56) UNRELEASED; urgency=low
   [ Joey Hess ]
   * Improve prompting for mirror when no network is configured.
 
- -- Colin Watson <cjwatson@debian.org>  Fri, 29 Jul 2011 09:13:52 +0100
+  [ Updated translations ]
+  * Arabic (ar.po) by Ossama Khayat
+  * Belarusian (be.po) by Viktar Siarheichyk
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Bengali (bn.po) by Zenat Rahnuma
+  * Bosnian (bs.po) by Armin Besirovic
+  * Czech (cs.po) by Miroslav Kure
+  * German (de.po) by Holger Wansing
+  * Greek (el.po) by galaxico
+  * Esperanto (eo.po) by Felipe Castro
+  * Spanish (es.po) by Javier Fernández-Sanguino
+  * Basque (eu.po)
+  * Persian (fa.po) by Behrad Eslamifar
+  * Hebrew (he.po) by Lior Kaplan
+  * Hindi (hi.po) by Kumar Appaiah
+  * Hungarian (hu.po) by SZERVÁC Attila
+  * Italian (it.po) by Milo Casagrande
+  * Japanese (ja.po) by Kenshi Muto
+  * Kazakh (kk.po) by Baurzhan Muftakhidinov
+  * Kannada (kn.po) by vignesh prabhu
+  * Korean (ko.po) by Changwoo Ryu
+  * Lao (lo.po) by Anousak Souphavanh
+  * Macedonian (mk.po) by Arangel Angov
+  * Marathi (mr.po) by sampada
+  * Dutch (nl.po) by Jeroen Schot
+  * Polish (pl.po) by Marcin Owsiany
+  * Romanian (ro.po) by Ioan Eugen Stan
+  * Sinhala (si.po) by Danishka Navin
+  * Swedish (sv.po) by Martin Bagge / brother
+  * Tamil (ta.po) by Dr.T.Vasudevan
+  * Telugu (te.po) by Arjuna Rao Chavala
+  * Thai (th.po) by Theppitak Karoonboonyanan
+  * Turkish (tr.po) by Mert Dirik
+  * Ukrainian (uk.po) by Borys Yanovych
+  * Simplified Chinese (zh_CN.po) by YunQiang Su
+
+ -- Otavio Salvador <otavio@debian.org>  Sat, 19 Nov 2011 16:10:11 -0200
 
 apt-setup (1:0.55) unstable; urgency=low
 
