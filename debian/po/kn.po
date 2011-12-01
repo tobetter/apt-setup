@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2011-11-18 19:11+0530\n"
+"PO-Revision-Date: 2011-11-27 23:24+0530\n"
 "Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
@@ -126,7 +126,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr ""
+msgstr "ಭಂಡಾರವನ್ನು ಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
 
 #. Type: error
 #. Description
@@ -215,7 +215,7 @@ msgstr "ಅಡಕ ತಟ್ಟೆಯನ್ನು ಶೋಧಿಸಲಾಗುತ�
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr ""
+msgstr "apt ಸಂರಚನಾ ದೋಷ"
 
 #. Type: error
 #. Description
@@ -631,7 +631,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr ""
+msgstr "\"universe\" ಘಟಕದಲ್ಲಿನ ತಂತ್ರಾಂಶವನ್ನು ಬಳಸುವುದೆ?"
 
 #. Type: boolean
 #. Description
@@ -650,7 +650,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr ""
+msgstr "\"multiverse\" ಘಟಕದಲ್ಲಿನ ತಂತ್ರಾಂಶವನ್ನು ಬಳಸುವುದೆ?"
 
 #. Type: boolean
 #. Description
@@ -671,7 +671,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr ""
+msgstr "\"partner\" ಭಂಡಾರದಲ್ಲಿನ ತಂತ್ರಾಂಶವನ್ನು ಬಳಸುವುದೆ?"
 
 #. Type: boolean
 #. Description
