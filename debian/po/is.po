@@ -8,21 +8,30 @@
 # This file is distributed under the same license as debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 #
+# Copyright (C) 2010 Free Software Foundation
+#
 # zorglubb <debian-user-icelandic@lists.debian.org>, 2008.
 # Sveinn í Felli <sveinki@nett.is>, 2010.
-# Copyright (C) 2010 Free Software Foundation
+# Alastair McKinstry, <mckinstry@computer.org>, 2002.
+# Sveinn í Felli <sveinki@nett.is>, 2010, 2011.
+# Alastair McKinstry <mckinstry@computer.org>, 2002.
+# Translations from iso-codes:
+# Copyright (C) 2002,2003, 2010, 2011 Free Software Foundation, Inc.
+# Translations from KDE:
+# Þórarinn Rúnar Einarsson <thori@mindspring.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_is\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2010-10-12 13:30+0000\n"
+"PO-Revision-Date: 2011-12-27 21:05+0000\n"
 "Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
-"Language-Team: Icelandic <rglug@rglug.org>\n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+">\n"
 
 #. Type: text
 #. Description
@@ -40,7 +49,7 @@ msgstr "Stilla pakkastjórann"
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "Stilli apt..."
+msgstr "Stilli apt"
 
 #. Type: text
 #. Description
@@ -91,10 +100,8 @@ msgstr "Hunsa"
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid "Downloading a file failed:"
 msgid "Downloading local repository key failed:"
-msgstr "Ekki tókst að ná í skrá:"
+msgstr "Ekki tókst að ná í dulkóðunarlykil fyrir staðvært hugbúnaðarsafn:"
 
 #. Type: select
 #. Description
@@ -105,25 +112,20 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
+"Uppsetningarforritinu tókst ekki að ná í dreifilykilinn sem notaður var til "
+"að votta staðværa hugbúnaðarsafnið á ${MIRROR}:"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid ""
-#| "The installer failed to access the mirror. This may be a problem with "
-#| "your network, or with the mirror. You can choose to retry the download, "
-#| "select a different mirror, or ignore the problem and continue without all "
-#| "the packages from this mirror."
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Uppsetningarforritinu mistókst að tengjast spegli.  Vandamálið gæti verið "
-"netkerfið hjá þér eða spegillinn.  Hægt er að velja um að prófa að ná í "
-"pakka aftur, velja annan spegil eða hunsa vandamálið og halda áfram án gagna "
-"frá þessum spegli."
+"Það gæti verið vandamál varðandi netkerfið hjá þér, eða varðandi miðlarann "
+"sem geymir þennan dulkóðunarlykil. Þú getur prófað aftur að ná í lykilinn, "
+"eða hunsa vandamálið og halda áfram án pakka frá þessu hugbúnaðarsafni."
 
 #. Type: error
 #. Description
@@ -658,7 +660,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "Nota hugbúnað úr „universe‟ hlutanum?"
+msgstr "Nota hugbúnað úr \"universe\" hlutanum?"
 
 #. Type: boolean
 #. Description
@@ -680,7 +682,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "Nota hugbúnað úr „multiverse‟ hlutanum?"
+msgstr "Nota hugbúnað úr \"multiverse\" hlutanum?"
 
 #. Type: boolean
 #. Description
@@ -706,7 +708,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "Nota hugbúnað úr „universe‟ hugbúnaðarsafninu?"
+msgstr "Nota hugbúnað úr \"partner\" hugbúnaðarsafninu?"
 
 #. Type: boolean
 #. Description
@@ -728,7 +730,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "Nota „backport‟ hugbúnað?"
+msgstr "Nota \"backport\" hugbúnað?"
 
 #. Type: boolean
 #. Description
@@ -741,7 +743,7 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"Einhver hugbúnaður hefur verið tekinn úr þróunartrénu til að virka í þessari "
-"útgáfu. Þó að þessi hugbúnaður hafi ekki gengið í gegn um sömu prófanir og "
-"sá sem er í þessari útgáfu, inniheldur hann nýrri útgáfur af sumum forritum "
-"sem gætu innihaldið gagnlegar aðgerðir."
+"Einhver hugbúnaður hefur verið tekinn út úr þróunartrénu til þess að virka í "
+"þessari útgáfu. Þó að þessi hugbúnaður hafi ekki gengið í gegn um sömu "
+"prófanir og sá sem er í endanlegri útgáfu, inniheldur hann samt nýrri "
+"útgáfur af sumum forritum sem gætu innihaldið gagnlegar aðgerðir."
