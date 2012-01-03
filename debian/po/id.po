@@ -16,13 +16,23 @@
 # * I Gede Wijaya S (gwijayas@yahoo.com), 2004.
 # * Arief S F (arief@gurame.fisika.ui.ac.id), 2004-2007.
 # * Setyo Nugroho (setyo@gmx.net), 2004.
-# Arief S Fitrianto <arief@gurame.fisika.ui.ac.id>, 2008.
+# Arief S Fitrianto <arief@gurame.fisika.ui.ac.id>, 2008-2011.
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2002.
+#   Andhika Padmawan <andhika.padmawan@gmail.com>, 2010,2011.
+#   Arief S Fitrianto <arief@gurame.fisika.ui.ac.id>, 2004-2006.
+#   Erwid M Jadied <jadied@gmail.com>, 2008.
+#   Free Software Foundation, Inc., 2002,2004
+#   Translations from KDE:
+#   Ahmad Sofyan <fade@2bl.ac>, 2001.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2010-10-21 02:05+0700\n"
+"PO-Revision-Date: 2012-01-03 12:04+0700\n"
 "Last-Translator: Arief S Fitrianto <arief@gurame.fisika.ui.ac.id>\n"
 "Language-Team: Bahasa Indonesia <debian-l10n-id@gurame.fisika.ui.ac.id>\n"
 "Language: \n"
@@ -98,10 +108,8 @@ msgstr "Acuhkan"
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid "Downloading a file failed:"
 msgid "Downloading local repository key failed:"
-msgstr "Pengunduhan berkas telah gagal:"
+msgstr "Gagal mengunduh kunci repositori lokal:"
 
 #. Type: select
 #. Description
@@ -112,25 +120,20 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
+"Penginstal Debian gagal mengunduh kunci publik untuk menandatangani "
+"repositori loka di ${MIRROR}:"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid ""
-#| "The installer failed to access the mirror. This may be a problem with "
-#| "your network, or with the mirror. You can choose to retry the download, "
-#| "select a different mirror, or ignore the problem and continue without all "
-#| "the packages from this mirror."
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Program instalasi gagal mengakses jaringan cermin. Ini mungkin karena "
-"masalah pada jaringan Anda, atau pada jaringan cermin. Anda dapat mencoba "
-"lagi, memilih jaringan cermin yang berbeda, atau mengabaikan masalah ini dan "
-"meneruskan tanpa paket-paket dari jaringan cermin ini."
+"Tampaknya ada masalah dengan jaringan Anda, atau pada server yang menyimpan "
+"kunci ini. Anda dapat mengunduh kembali atau mengabaikan masalah ini dan "
+"melanjutkan instalasi semua paket dari repositori ini."
 
 #. Type: error
 #. Description
@@ -328,7 +331,7 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
 msgstr ""
-"Usahamengonfigurasi apt untuk menambah paket-paket dari CD telah gagal."
+"Usaha mengonfigurasi apt untuk menambah paket-paket dari CD telah gagal."
 
 #. Type: boolean
 #. Description
