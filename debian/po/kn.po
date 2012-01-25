@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2011-12-17 11:35+0530\n"
+"PO-Revision-Date: 2012-01-24 19:34+0530\n"
 "Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
@@ -157,7 +157,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr ""
+msgstr "ಭದ್ರತಾ ನವೀಕರಣಗಳು (${SEC_HOST}ನಿಂದ)"
 
 #. Type: multiselect
 #. Choices
@@ -167,14 +167,14 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:11001
 msgid "volatile updates (from ${VOL_HOST})"
-msgstr ""
+msgstr "ಅಸ್ಥಿರ ನವೀಕರಣಗಳು (${SEC_HOST}ನಿಂದ)"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr ""
+msgstr "ಬಳಸಲು ಬೇಕಾದ ಸೇವೆಗಳು:"
 
 #. Type: multiselect
 #. Description
@@ -184,6 +184,8 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "volatile."
 msgstr ""
+"ಹೊಸ ಬಿಡುಗಡೆಗಳಿಗೆ ನವೀಕರಣಗಳನ್ನು ಒದಗಿಸಲು ಡೆಬಿಯನ್ನಲ್ಲಿ ಎರಡು ಸೇವೆಗಳಿವೆ: ಸುರಕ್ಷೆ ಮತ್ತು "
+"ಅಸ್ಥಿರ."
 
 #. Type: multiselect
 #. Description
@@ -193,6 +195,8 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
+"ಭದ್ರತಾ ನವೀಕರಣಗಳು ವ್ಯವಸ್ಥೆಯನ್ನು ಯಾವುದೇ ಆಕ್ರಮಣಗಳ ವಿರುದ್ಧ ಭದ್ರಪಡಿಸುತ್ತದೆ. ಈ ಸೇವೆಯ "
+"ಬಳಕೆಯನ್ನು ಬಲವಾಗಿ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ."
 
 #. Type: multiselect
 #. Description
@@ -205,6 +209,10 @@ msgid ""
 "virus scanner. This service is only available for stable and oldstable "
 "releases."
 msgstr ""
+"ಅಸ್ಥಿರ ನವೀಕರಣಗಳು ಪದೇ ಪದೇ ಬದಲಾಗುತ್ತಿದ್ದು ತಂತ್ರಾಂಶಗಳ ಹೆಚ್ಚು ಪ್ರಸ್ತುತ ಆವೃತ್ತಿಗಳನ್ನು "
+"ನೀಡುತ್ತವೆ ಮತ್ತು ಎಲ್ಲಿ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯ ಇಲ್ಲದಿರುವಿಕೆ ತಂತ್ರಾಂಶದ ಉಪಯುಕ್ತತೆಯನ್ನು ಕಡಿಮೆ "
+"ಮಾಡುವುದೊ ಅಲ್ಲಿ ಬಳಸಲಾಗುತ್ತದೆ. ಉದಾಹರಣೆಗೆ ವೈರಸ್ ಶೋಧಕಕ್ಕೆ ಬೇಕಾದ ವೈರಸ್ ಸಿಗ್ನೇಚರ್ಗಳು. ಈ "
+"ಸೇವೆಯು ಕೇವಲ ಸ್ಥಿರ ಹಾಗು ಹಳೆಸ್ಥಿರ ಬಿಡುಗಡೆಗಳಿಗೆ ಮಾತ್ರ ಲಭ್ಯವಿದೆ."
 
 #. Type: text
 #. Description
