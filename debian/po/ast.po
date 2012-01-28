@@ -9,19 +9,24 @@
 # in doc/i18n/i18n.txt
 # astur <malditoastur@gmail.com>, 2010
 # Marquinos <maacub@gmail.com>, 2010.
+# Translations from iso-codes:
+# Marcos Alvarez Costales <marcoscostales@gmail.com>, 2009, 2010.
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# Marquinos <maacub@gmail.com>, 2008.
+# Mikel González <mikelglez@softastur.org>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2010-08-10 18:47+0200\n"
-"Last-Translator: maacub <maacub@gmail.com>\n"
-"Language-Team: laptop\n"
-"Language: en\n"
+"PO-Revision-Date: 2012-01-28 13:25+0100\n"
+"Last-Translator: Mikel González <mikelglez@softastur.org>\n"
+"Language-Team: Softastur\n"
+"Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: text
 #. Description
@@ -90,10 +95,8 @@ msgstr "Inorar"
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid "Downloading a file failed:"
 msgid "Downloading local repository key failed:"
-msgstr "Fallu al descargar un ficheru:"
+msgstr "Fallu al baxar la clave llocal del sirvidor:"
 
 #. Type: select
 #. Description
@@ -104,25 +107,20 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
+"L'instalador falló al baxar la clave pública usada na firma del sirvidor  "
+"llocal en ${MIRROR}:"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid ""
-#| "The installer failed to access the mirror. This may be a problem with "
-#| "your network, or with the mirror. You can choose to retry the download, "
-#| "select a different mirror, or ignore the problem and continue without all "
-#| "the packages from this mirror."
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Falló l'instalador accediendo al espeyu. Esto puede ser un problema cola to "
-"rede, o col espeyu. Puedes escoyer reintentar la baxada, seleicionar un "
-"espeyu distintu, o inorar el problema y siguir ensin tolos paquetes d'esti "
-"espeyu."
+"Esto puede ser un problema cola to rede, o col sirvidor qu'agospia la clave. "
+"Puedes intentar baxala otra vuelta, o ignorar el problema y siguir ensin los "
+"paquetes d'esti sirvidor."
 
 #. Type: error
 #. Description
