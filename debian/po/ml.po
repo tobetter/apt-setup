@@ -15,12 +15,19 @@
 # Debian Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt#
 #
+#
+# Translations from iso-codes:
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#     Translations taken from ICU SVN on 2007-09-09
+#   Praveen A <pravi.a@gmail.com>, 2006, 2008.
+#   Ani Peter <peter.ani@gmail.com>, 2009
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian Installer Level 1\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2010-06-27 13:04+0530\n"
+"PO-Revision-Date: 2012-03-07 16:18+0530\n"
 "Last-Translator: Praveen Arimbrathodiyil <pravi.a@gmail.com>\n"
 "Language-Team: Debian Malayalam <debian-l10n-malayalam@lists.debian.org>\n"
 "Language: \n"
@@ -96,10 +103,8 @@ msgstr "ശ്രദ്ധിക്കേണ്ട"
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid "Downloading a file failed:"
 msgid "Downloading local repository key failed:"
-msgstr "ഒരു ഫയല്‍ ഡൌന്‍ലോഡ്‌ ചെയ്യുന്നതില്‍ പരാജയപ്പെട്ടു:"
+msgstr "പ്രാദേശിക സംഭരണിയുടെ കീ ഡൌണ്‍ലോഡ്‌ ചെയ്യുന്നതില്‍ പരാജയപ്പെട്ടു:"
 
 #. Type: select
 #. Description
@@ -110,25 +115,20 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
+"${MIRROR} ലെ പ്രാദേശിക സംഭരണിയില്‍ ഒപ്പുവയ്ക്കാനുപയോഗിച്ച പബ്ലിക് കീ ഡൌണ്‍ലോഡ് ചെയ്യാന്‍ "
+"ഇന്‍സ്റ്റോളര്‍ പരാജയപ്പെട്ടിരിയ്ക്കുന്നു:"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid ""
-#| "The installer failed to access the mirror. This may be a problem with "
-#| "your network, or with the mirror. You can choose to retry the download, "
-#| "select a different mirror, or ignore the problem and continue without all "
-#| "the packages from this mirror."
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"മിററിനെ സമീപിക്കാന്‍ ഇന്‍സ്റ്റാളര്‍ പരാജയപ്പെട്ടു. ഇതു് നിങ്ങളുടെ ശൃഖലയുടേയോ അല്ലെങ്കില്‍ "
-"മിററിന്റേയോ പ്രശ്നമാകാം. നിങ്ങള്‍ക്കു് വീണ്ടും ഡൌണ്‍ലോഡ് ചെയ്യാനോ, വ്യത്യസ്തമായ ഒരു മിറര്‍ "
-"തെരഞ്ഞെടുക്കാനോ അല്ലെങ്കില്‍ ഈ പ്രശ്നം കാര്യമാക്കാതെ ഈ മിററിലെ എല്ലാ പാക്കേജുകളും ഇല്ലാതെ "
-"തന്നെ തുടരാനോ തെരഞ്ഞെടുക്കാം."
+"ഇതു് നിങ്ങളുടെ ശൃഖലയുടേയോ അല്ലെങ്കില്‍ ഈ കീ വച്ചിട്ടുള്ള സെര്‍വറിന്റേയോ പ്രശ്നമാകാം. നിങ്ങള്‍ക്കു് "
+"വീണ്ടും ഡൌണ്‍ലോഡ് ചെയ്യാനോ അല്ലെങ്കില്‍ ഈ പ്രശ്നം കാര്യമാക്കാതെ ഈ സംഭരണിയിലെ എല്ലാ "
+"പാക്കേജുകളും ഇല്ലാതെ തന്നെ തുടരാനോ തെരഞ്ഞെടുക്കാം."
 
 #. Type: error
 #. Description
