@@ -1,3 +1,25 @@
+apt-setup (1:0.57) unstable; urgency=low
+
+  [ Updated translations ]
+  * Asturian (ast.po) by Mikel González
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Catalan (ca.po) by Jordi Mallach
+  * Danish (da.po) by Joe Hansen
+  * Estonian (et.po) by Mattias Põldaru
+  * Indonesian (id.po) by Mahyuddin Susanto
+  * Icelandic (is.po) by Sveinn í Felli
+  * Italian (it.po) by Milo Casagrande
+  * Khmer (km.po) by Khoem Sokhem
+  * Kannada (kn.po) by Prabodh C P
+  * Malayalam (ml.po) by Praveen Arimbrathodiyil
+  * Norwegian Bokmal (nb.po) by Hans Fredrik Nordhaug
+  * Dutch (nl.po) by Jeroen Schot
+  * Polish (pl.po) by Marcin Owsiany
+  * Serbian (sr.po) by Karolina Kalic
+  * Uyghur (ug.po) by Sahran
+
+ -- Otavio Salvador <otavio@debian.org>  Thu, 15 Mar 2012 14:29:39 -0300
+
 apt-setup (1:0.56) unstable; urgency=low
 
   [ Colin Watson ]
