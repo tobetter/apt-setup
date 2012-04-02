@@ -3,26 +3,26 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of Debian Installer templates to Brazilian Portuguese.
+# Translation of Debian Installer templates to Brazilian Portuguese.
 # This file is distributed under the same license as debian-installer.
 #
-# Felipe Augusto van de Wiel (faw) <faw@debian.org>, 2008-2010.
+# Felipe Augusto van de Wiel (faw) <faw@debian.org>, 2008-2012.
 #
 # Translations from iso-codes:
-# Alastair McKinstry <mckinstry@computer.org>, 2001, 2002.
-# Free Software Foundation, Inc., 2000
-# Juan Carlos Castro y Castro <jcastro@vialink.com.br>, 2000,2005.
-# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2006-9.
-# Lisiane Sztoltz <lisiane@conectiva.com.br>
-# Tobias Quathamer <toddy@debian.org>, 2007.
-#   Translations taken from ICU SVN on 2007-09-09
+#   Alastair McKinstry <mckinstry@computer.org>, 2001-2002.
+#   Free Software Foundation, Inc., 2000
+#   Juan Carlos Castro y Castro <jcastro@vialink.com.br>, 2000-2005.
+#   Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2006-2009.
+#   Lisiane Sztoltz <lisiane@conectiva.com.br>
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#     Translations taken from ICU SVN on 2007-09-09
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2012-03-31 20:46-0300\n"
+"PO-Revision-Date: 2012-04-02 01:35-0300\n"
 "Last-Translator: Felipe Augusto van de Wiel (faw) <faw@debian.org>\n"
 "Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
 "org>\n"
@@ -98,9 +98,8 @@ msgstr "Ignorar"
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
 msgid "Downloading local repository key failed:"
-msgstr "Ocorreu uma falha enquanto um arquivo era baixado:"
+msgstr "Falha enquanto baixava a chave do repositório local:"
 
 #. Type: select
 #. Description
@@ -111,20 +110,21 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
+"O instalador falhou ao baixar a chave pública usada para assinar o "
+"repositório local em ${MIRROR}:"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"O instalador falhou ao acessar o espelho de rede. Pode ter ocorrido um "
-"problema em sua rede ou com o espelho. Você pode escolher entre tentar "
-"baixar novamente, selecionar um espelho  diferente ou ignorar o problema e "
-"continuar sem todos os pacotes deste espelho."
+"Isto pode ser um problema com a sua rede ou com o servidor que hospeda esta "
+"chave. Você pode escolher entre tentar baixar novamente, selecionar um "
+"espelho diferente ou ignorar o problema e continuar sem todos os pacotes "
+"deste espelho."
 
 #. Type: error
 #. Description
