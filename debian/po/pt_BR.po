@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2012-04-02 01:35-0300\n"
+"PO-Revision-Date: 2012-04-07 19:57-0300\n"
 "Last-Translator: Felipe Augusto van de Wiel (faw) <faw@debian.org>\n"
 "Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
 "org>\n"
@@ -121,10 +121,9 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Isto pode ser um problema com a sua rede ou com o servidor que hospeda esta "
-"chave. Você pode escolher entre tentar baixar novamente, selecionar um "
-"espelho diferente ou ignorar o problema e continuar sem todos os pacotes "
-"deste espelho."
+"Pode ter ocorrido um problema em sua rede ou com o servidor que hospeda essa "
+"chave. Você pode escolher entre tentar baixar novamente ou ignorar o "
+"problema e continuar sem todos os pacotes desse repositório."
 
 #. Type: error
 #. Description
@@ -284,7 +283,7 @@ msgstr ""
 "Agora, você tem a opção de ler CDs ou DVDs adicionais para serem usados pelo "
 "gerenciador de pacotes (apt). Normalmente, eles deveriam ser do mesmo "
 "conjunto do CD/DVD de instalação. Se você não possui CDs ou DVDs adicionais, "
-"esta etapa pode ser ignorada."
+"este passo pode ser ignorado."
 
 #. Type: boolean
 #. Description
@@ -439,7 +438,7 @@ msgid ""
 "downloaded during the next step of the installation."
 msgstr ""
 "Note que usar um espelho de rede pode resultar em uma grande quantidade de "
-"dados sendo baixada durante a próxima etapa da instalação."
+"dados sendo baixados durante o próxima passo da instalação."
 
 #. Type: text
 #. Description
@@ -540,7 +539,7 @@ msgstr ""
 "Alguns programas adicionais foram ajustados para funcionar com o Debian. "
 "Apesar desses programas serem livres, eles dependem de programas não-livres "
 "para funcionar. Tais programas não são parte do Debian, mas as ferramentas "
-"do Debian podem ser usadas para instalá-los."
+"padrões do Debian podem ser usadas para instalá-los."
 
 #. Type: boolean
 #. Description
@@ -597,7 +596,7 @@ msgid ""
 msgstr ""
 "O instalador falhou ao acessar o espelho de rede. Pode ter ocorrido um "
 "problema em sua rede ou com o espelho. Você pode escolher entre tentar "
-"baixar novamente, selecionar um espelho  diferente ou ignorar o problema e "
+"baixar novamente, selecionar um espelho diferente ou ignorar o problema e "
 "continuar sem todos os pacotes deste espelho."
 
 #. Type: boolean
@@ -704,8 +703,8 @@ msgstr ""
 "Alguns softwares não-livres estão disponíveis em formato empacotado. Apesar "
 "desses softwares não fazerem parte da distribuição principal, as ferramentas "
 "de gerenciamento de pacotes padrão podem ser usadas para instalá-los. Esses "
-"softwares possuem licenças diversas que podem impedi-lo de usá-los, modificá-"
-"los ou compartilhá-los."
+"softwares possuem licenças diversas e (em alguns casos) restrições de "
+"patentes que podem impedi-lo de usá-los, modificá-los ou compartilhá-los."
 
 #. Type: boolean
 #. Description
@@ -725,7 +724,7 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"Alguns softwares adicionas estão disponíveis a partir do repositório "
+"Alguns softwares adicionais estão disponíveis a partir do repositório "
 "\"partner\" da Canonical. Estes softwares não fazem parte do Ubuntu, mas são "
 "oferecidos pela Canonical e respectivos fornecedores como um serviço aos "
 "usuários Ubuntu."
@@ -752,4 +751,5 @@ msgstr ""
 "Alguns softwares foram portados da árvore de desenvolvimento para funcionar "
 "com esta versão. Apesar desses softwares não terem passado por testes "
 "completos como os softwares presentes na versão oficial passaram, os mesmos "
-"incluem versões de algumas aplicações que podem fornecer recursos úteis."
+"incluem versões mais novas de algumas aplicações que podem fornecer recursos "
+"úteis."
