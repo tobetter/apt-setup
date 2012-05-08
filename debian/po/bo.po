@@ -166,7 +166,7 @@ msgstr ""
 #: ../apt-setup-udeb.templates:11002
 #, fuzzy
 msgid "Services to use:"
-msgstr "ཕན་ཚུན་འབྲེལ་ཡོད་ཀྱི་འཇུག་ངོགས"
+msgstr "སྤྱོད་དགོས་པའི་NTP ཞབས་ཞུ་ཆས："
 
 #. Type: multiselect
 #. Description
