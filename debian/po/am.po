@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2012-05-20 22:15+0100\n"
+"PO-Revision-Date: 2012-05-21 13:17+0100\n"
 "Last-Translator: Tegegne Tefera <tefera.tegegne@gmail.com>\n"
 "Language-Team: Amharic\n"
 "Language: \n"
@@ -105,7 +105,7 @@ msgstr "የቅርብ አስቀማጭ ቁልፍ ማምጣት አልተሳካም"
 msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
-msgstr ""
+msgstr "ተካዩ የቅርብ ማስቀመጪያ  ${MIRROR} ቁልፍን ማምጣት አልቻለም:"
 
 #. Type: select
 #. Description
