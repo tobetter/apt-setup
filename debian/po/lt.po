@@ -9,19 +9,31 @@
 # Marius Gedminas <mgedmin@b4net.lt>, 2004.
 # Darius Skilinskas <darius10@takas.lt>, 2005.
 # Kęstutis Biliūnas <kebil@kaunas.init.lt>, 2004...2010.
-#
+# Translations from iso-codes:
+# Gintautas Miliauskas <gintas@akl.lt>, 2008.
+# Tobias Quathamer <toddy@debian.org>, 2007.
+# Translations taken from ICU SVN on 2007-09-09
+# Translations from KDE:
+# - Ričardas Čepas <rch@richard.eu.org>
+# Free Software Foundation, Inc., 2000-2001, 2004
+# Gediminas Paulauskas <menesis@delfi.lt>, 2000-2001.
+# Alastair McKinstry <mckinstry@computer.org>, 2001,2002.
+# Kęstutis Biliūnas <kebil@kaunas.init.lt>, 2004, 2006, 2008, 2009, 2010.
+# Rimas Kudelis <rq@akl.lt>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2010-09-07 09:04+0300\n"
-"Last-Translator: Kęstutis Biliūnas <kebil@kaunas.init.lt>\n"
+"PO-Revision-Date: 2012-05-27 19:07+0300\n"
+"Last-Translator: Rimas Kudelis <rq@akl.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. Type: text
 #. Description
@@ -90,10 +102,8 @@ msgstr "Ignoruoti"
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid "Downloading a file failed:"
 msgid "Downloading local repository key failed:"
-msgstr "Veiksmas įvykus failo atsisiuntimo klaidai:"
+msgstr "Vietinės saugyklos rakto parsiųsti nepavyko:"
 
 #. Type: select
 #. Description
@@ -104,25 +114,20 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
+"Įdiegikliui nepavyko parsiųsti viešojo rakto, naudojamo vietinei saugyklai, "
+"esančiai ${MIRROR}, pasirašyti:"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid ""
-#| "The installer failed to access the mirror. This may be a problem with "
-#| "your network, or with the mirror. You can choose to retry the download, "
-#| "select a different mirror, or ignore the problem and continue without all "
-#| "the packages from this mirror."
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Įdiegikliui nepavyko atsisiųsti failo iš archyvo \"veidrodžio\". Tai gali "
-"būti tinklo ar \"veidrodžio\" problema. Galite pasirinkti atsisiuntimo "
-"pakartojimą, pasirinkti kitą \"veidrodį\", arba ignoruoti problemą ir tęsti "
-"be paketų iš šio archyvo veidrodžio."
+"Tai gali būti Jūsų tinklo arba serverio, kuriame yra raktas, problema. "
+"Galima pakartoti bandymą parsiųsti raktą, arba nepaisyti problemos ir tęsti "
+"be paketų iš šios saugyklos."
 
 #. Type: error
 #. Description
@@ -581,10 +586,10 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"Įdiegikliui nepavyko atsisiųsti failo iš archyvo \"veidrodžio\". Tai gali "
-"būti tinklo ar \"veidrodžio\" problema. Galite pasirinkti atsisiuntimo "
-"pakartojimą, pasirinkti kitą \"veidrodį\", arba ignoruoti problemą ir tęsti "
-"be paketų iš šio archyvo veidrodžio."
+"Įdiegikliui nepavyko susisiekti su saugyklos serveriu. Tai gali būti Jūsų "
+"tinklo arba paties serverio problema. Galima pakartoti bandymą parsiųsti "
+"failus, parinkti kitą serverį, arba nepaisyti problemos ir tęsti be paketų "
+"iš šio serverio."
 
 #. Type: boolean
 #. Description
