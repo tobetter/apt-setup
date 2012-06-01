@@ -3,7 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of gl.po to galician
+# THIS FILE IS GENERATED AUTOMATICALLY FROM THE D-I PO MASTER FILES
+# The master files can be found under packages/po/
+#
+# DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
+#
+# translation of gl.po to Galician
 # Galician messages for debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
@@ -11,13 +16,14 @@
 # Marce Villarino <mvillarino@users.sourceforge.net>, 2009.
 # marce villarino <mvillarino@users.sourceforge.net>, 2009.
 # Marce Villarino <mvillarino@gmail.com>, 2009.
+# Jorge Barreiro <yortx.barry@gmail.com>, 2010, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2009-11-22 22:28+0100\n"
-"Last-Translator: Marce Villarino <mvillarino@gmail.com>\n"
+"PO-Revision-Date: 2012-06-01 00:57+0200\n"
+"Last-Translator: Jorge Barreiro <yortx.barry@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -92,10 +98,8 @@ msgstr "Ignorar"
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid "Downloading a file failed:"
 msgid "Downloading local repository key failed:"
-msgstr "Non se puido obter un ficheiro:"
+msgstr "Produciuse un erro obtendo a clave do repositorio local:"
 
 #. Type: select
 #. Description
@@ -106,24 +110,20 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
+"Produciuse un erro ao obter a clave pública usada para asinar o repositorio "
+"local en ${MIRROR}:"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:7002
-#, fuzzy
-#| msgid ""
-#| "The installer failed to access the mirror. This may be a problem with "
-#| "your network, or with the mirror. You can choose to retry the download, "
-#| "select a different mirror, or ignore the problem and continue without all "
-#| "the packages from this mirror."
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"O instalador non puido acceder á réplica. Isto pode ser por un problema coa "
-"rede ou coa réplica. Pode volver tentar a descarga, escoller unha réplica "
-"diferente, ou ignorar o problema e continuar sen os paquetes da réplica."
+"Pode ser un problema ca súa rede ou co servidor que almacena esta clave. "
+"Pode escoller entre tentar obtela de novo ou ignorar o problema e continuar "
+"sen os paquetes de este repositorio."
 
 #. Type: error
 #. Description
@@ -589,7 +589,7 @@ msgid ""
 "packages from this mirror."
 msgstr ""
 "O instalador non puido acceder á réplica. Isto pode ser por un problema coa "
-"rede ou coa réplica. Pode volver tentar a descarga, escoller unha réplica "
+"rede ou coa réplica. Pode tentar a descarga de novo, escoller unha réplica "
 "diferente, ou ignorar o problema e continuar sen os paquetes da réplica."
 
 #. Type: boolean
