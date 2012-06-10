@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2012-06-01 00:57+0200\n"
+"PO-Revision-Date: 2012-06-10 01:37+0200\n"
 "Last-Translator: Jorge Barreiro <yortx.barry@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -84,7 +84,7 @@ msgstr "Estase a examinar o repositorio de actualizacións volátiles..."
 #. an infinitive form
 #: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr "Volver tentalo"
+msgstr "Tentalo de novo"
 
 #. Type: select
 #. Choices
@@ -99,7 +99,7 @@ msgstr "Ignorar"
 #. Description
 #: ../apt-setup-udeb.templates:7002
 msgid "Downloading local repository key failed:"
-msgstr "Produciuse un erro obtendo a clave do repositorio local:"
+msgstr "Produciuse un erro descargando a clave do repositorio local:"
 
 #. Type: select
 #. Description
@@ -110,8 +110,8 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"Produciuse un erro ao obter a clave pública usada para asinar o repositorio "
-"local en ${MIRROR}:"
+"Produciuse un erro ao descargar a clave pública usada para asinar o "
+"repositorio local en ${MIRROR}:"
 
 #. Type: select
 #. Description
@@ -121,9 +121,9 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Pode ser un problema ca súa rede ou co servidor que almacena esta clave. "
-"Pode escoller entre tentar obtela de novo ou ignorar o problema e continuar "
-"sen os paquetes de este repositorio."
+"Pode ser un problema coa súa rede ou co servidor que almacena esta clave. "
+"Pode escoller entre tentar descargala de novo ou ignorar o problema e "
+"continuar sen os paquetes de este repositorio."
 
 #. Type: error
 #. Description
@@ -332,7 +332,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr "Verifique que o CD/DVD estea ben introducido."
+msgstr "Comprobe que o CD/DVD estea ben introducido."
 
 #. Type: text
 #. Description
@@ -410,9 +410,9 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"Examinou %i DVD. Aínda que conteñen unha boa selección de paquetes, aínda "
-"poden fallar algúns (sobre todo, algúns paquetes necesarios para soportar "
-"idiomas distintos do inglés)."
+"Examinou %i CDs. Aínda que conteñen unha boa selección de paquetes, aínda "
+"poden fallar algúns (sobre todo, algúns paquetes necesarios para permitir "
+"utilizar idiomas distintos do inglés)."
 
 #. Type: text
 #. Description
@@ -577,7 +577,7 @@ msgstr "Mudar a réplica"
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr "Non se puido obter un ficheiro:"
+msgstr "Non foi posíbel descargar un ficheiro:"
 
 #. Type: select
 #. Description
@@ -740,4 +740,4 @@ msgstr ""
 "Algún software tróuxose da árbore de desenvolvemento para que funcione con "
 "esta versión. Aínda que este software non pasou por unhas probas tan "
 "completas como o incluído na distribución, inclúe versións máis recentes "
-"dalgúns programas que poden fornecer características útiles."
+"dalgúns aplicativos que poden fornecer características útiles."
