@@ -1,4 +1,6 @@
-apt-setup (1:0.58) UNRELEASED; urgency=low
+apt-setup (1:0.58) unstable; urgency=low
+
+  * Team upload
 
   [ Adam D. Barratt ]
   * If no network mirror was selected during install, add a (commented-out)
@@ -8,7 +10,23 @@ apt-setup (1:0.58) UNRELEASED; urgency=low
     the previous behaviour of creating clearly broken entries under such
     circumstances which users then re-enabled.  (Closes: #613910)
 
- -- Philipp Kern <pkern@debian.org>  Sun, 15 Apr 2012 14:45:51 +0200
+  [ Updated translations ]
+  * Amharic (am.po) by Tegegne Tefera
+  * Tibetan (bo.po) by Tennom
+  * Finnish (fi.po) by Timo Jyrinki
+  * Galician (gl.po) by Jorge Barreiro
+  * Lao (lo.po) by Anousak Souphavanh
+  * Lithuanian (lt.po) by Rimas Kudelis
+  * Latvian (lv.po) by Rūdolfs Mazurs
+  * Macedonian (mk.po) by Arangel Angov
+  * Panjabi (pa.po) by A S Alam
+  * Portuguese (Brazil) (pt_BR.po) by Felipe Augusto van de Wiel (faw)
+  * Slovenian (sl.po) by Vanja Cvelbar
+  * Vietnamese (vi.po) by Hai-Nam Nguyen
+  * Simplified Chinese (zh_CN.po) by YunQiang Su
+  * Traditional Chinese (zh_TW.po) by Yao Wei (魏銘廷)
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 14 Jun 2012 20:25:38 +0200
 
 apt-setup (1:0.57) unstable; urgency=low
 
