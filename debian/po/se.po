@@ -69,9 +69,8 @@ msgstr "Ohcamin sihkarvuođaođasmahttimiid arkiivva čađa …"
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
 #, fuzzy
-#| msgid "Scanning the volatile updates repository..."
 msgid "Scanning the release updates repository..."
-msgstr "Ohcamin «volatile»-ođasmahttimiid arkiivva čađa ..."
+msgstr "Ohcamin sihkarvuođaođasmahttimiid arkiivva čađa …"
 
 #. Type: select
 #. Choices
@@ -112,11 +111,6 @@ msgstr ""
 #. Description
 #: ../apt-setup-udeb.templates:7002
 #, fuzzy
-#| msgid ""
-#| "The installer failed to access the mirror. This may be a problem with "
-#| "your network, or with the mirror. You can choose to retry the download, "
-#| "select a different mirror, or ignore the problem and continue without all "
-#| "the packages from this mirror."
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "

@@ -79,7 +79,7 @@ msgstr "დაცვის განახლებების საცავ�
 #: ../apt-setup-udeb.templates:6001
 #, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "ცვალებადი განახლებების საცავის სკანირება..."
+msgstr "დაცვის განახლებების საცავის სკანირება..."
 
 #. Type: select
 #. Choices
@@ -163,8 +163,9 @@ msgstr "/etc/apt/sources.list ფაილში დაემატა ${HOST}-�
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
+#, fuzzy
 msgid "security updates (from ${SEC_HOST})"
-msgstr "უსაფრთხოების განახლებები (${SEC_HOST}-იდან)"
+msgstr "მერყევი განახლებები (from ${VOL_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -181,19 +182,18 @@ msgstr "მონაცემთა წაშლა:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid "Services to use:"
-msgstr "სასურველი სერვერისები:"
+msgstr "სასურველი NTP სერვერი:"
 
 #. Type: multiselect
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Debian-ს პაკეტების განახლებების ორი სერვისი გააჩნია უსაფრთხოება და მერყევი."
 
 #. Type: multiselect
 #. Description
@@ -203,25 +203,17 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"უსაფრთხოების განახლებები თქვენი სისტემის გარე შემოტევებისგან დაცვას "
-"უზრუნველყოფს. ამ სერვისის გააქტიურება მტკიცედ რეკომენდრიებულია."
 
 #. Type: multiselect
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"მერყევი განახლებები იმ პროგრამათა განახლებულ ვერსიებს გთავაზობთ, რომლებიც "
-"შედარებით სწრაფად იცვლება, და როდესაც უახლესი ვერსიის არქონა პროგრამის "
-"ფუნქციონირებას ამცირებს. ამის მაგალითია ანტივირუს-პროგრამის ვირუსებისგან "
-"დაცვის ბაზა. ეს სერვისი მხოლოდ stable და oldstable გამოშვებებისათვის არის "
-"ხელმისაწვდომ."
 
 #. Type: text
 #. Description

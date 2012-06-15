@@ -62,9 +62,8 @@ msgstr "ཉེན་སྲུང་གི་གསར་སྒྱུར་གས
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
 #, fuzzy
-#| msgid "Scanning the volatile updates repository..."
 msgid "Scanning the release updates repository..."
-msgstr "Scanning the volatile updates repository..."
+msgstr "ཉེན་སྲུང་གི་གསར་སྒྱུར་གསོག་མཛོད་དེ་འཚོལ་བཤེར་བཞིན་པ་་་"
 
 #. Type: select
 #. Choices

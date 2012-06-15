@@ -72,7 +72,7 @@ msgstr "የደህንነት ማሻሻያ ማኅደሮችን በመፈተሽ ላ�
 #: ../apt-setup-udeb.templates:6001
 #, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "የጊዜያዊ ማሻሻያ ማህደሮችን በመፈተሽ ላይ..."
+msgstr "የደህንነት ማሻሻያ ማኅደሮችን በመፈተሽ ላይ..."
 
 #. Type: select
 #. Choices
@@ -153,8 +153,9 @@ msgstr "የተደበቁ የ${HOST} ገቢዎች /etc/apt/sources.list ፋይል 
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
+#, fuzzy
 msgid "security updates (from ${SEC_HOST})"
-msgstr "የደህንነት ማሻሻያዎች (ከ ${SEC_HOST})"
+msgstr "ጊዜያዊ ማሻሻያዎች  (ከ ${VOL_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -171,19 +172,18 @@ msgstr "ዴታውን አጥፋ፦"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid "Services to use:"
-msgstr "የምጠቀመው መገልገያዎች፦"
+msgstr "የNTP አገልጋይ አድራሻ፦"
 
 #. Type: multiselect
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"ደቢያን ለአቅርቦቶች ሁለት የማሻሻያ መስጫ አገልግሎቶች አሉት፤  ደህንነት(security)ና ጊዜያዊ( volatile)።"
 
 #. Type: multiselect
 #. Description
@@ -192,21 +192,18 @@ msgstr ""
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
-msgstr "የደህንነት ማሻሻያዎች ስርዓትዎን ከመደፈር ይከላከላል። ይህንን አገልግሎት እንዲያስችሉት በጥብቅ እንመክራለን።"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"ተናኝ ማሻሻያዎች ወቅታዊ የሆኑ ማሻሻያዎች ናቸው። እንዚህ ማሻሻያዎች ከሌሉ የስርዓቱን ፍጥነት ሊቀንስ ይችላል። ለምሳሌ "
-"የተውሳክ ማሻሻያዎች። ይህ አገልግሎት ለሰከነና ከአሮጌ ስርዓቶች ብቻ ነው ያለው። "
 
 #. Type: text
 #. Description
