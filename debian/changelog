@@ -1,3 +1,13 @@
+apt-setup (1:0.59) unstable; urgency=low
+
+  * Team upload
+  * Turn XC-Package-Type into Package-Type
+
+  [ Updated translations ]
+  * Welsh (cy.po) by Daffyd Tomos
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 15 Jun 2012 18:03:57 +0200
+
 apt-setup (1:0.58) unstable; urgency=low
 
   * Team upload
