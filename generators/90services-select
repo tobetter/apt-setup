@@ -40,32 +40,30 @@ if [ "$suite" = unstable ]; then
 	exit
 fi
 
-volatile=y
+updates=y
 if [ "$suite" != stable ] && [ "$suite" != oldstable ]; then
-	disable_service volatile || true
-	volatile=n
+	disable_service updates || true
+	updates=n
 fi
 
 db_get apt-setup/security_host
 db_subst apt-setup/services-select SEC_HOST "$RET"
-db_get apt-setup/volatile_host
-db_subst apt-setup/services-select VOL_HOST "$RET"
 
 db_input medium apt-setup/services-select || true
 if ! db_go; then
 	exit 10 # back up
 fi
 
-# Selecting volatile for testing is invalid
-if [ "$volatile" = n ] && disable_service volatile; then
-	logger -t apt-setup "info: invalid selection of volatile for testing disabled"
+# Selecting release updates for testing is invalid
+if [ "$updates" = n ] && disable_service updates; then
+	logger -t apt-setup "info: invalid selection of release updates disabled for testing"
 fi
 
 # No need to set up proxy here if no services were selected
 db_get apt-setup/services-select
 [ "$RET" ] || exit 0
 
-# Proxy configuration is common to both security and volatile
+# Proxy configuration is common to all services
 if db_get mirror/http/proxy && [ -n "$RET" ]; then
 	proxy="$RET"
 	if ! grep -iq "Acquire::http::Proxy" $ROOT/etc/apt/apt.conf.new; then

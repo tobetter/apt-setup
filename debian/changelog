@@ -1,3 +1,11 @@
+apt-setup (1:0.60) UNRELEASED; urgency=low
+
+  * Team upload.
+  * Replace the volatile name with release updates. (Closes: #665852)
+  * Re-run debconf-updatepo and include the result.
+
+ -- Philipp Kern <pkern@debian.org>  Fri, 15 Jun 2012 22:05:12 +0200
+
 apt-setup (1:0.59) unstable; urgency=low
 
   * Team upload
