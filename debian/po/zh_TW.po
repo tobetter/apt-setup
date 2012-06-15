@@ -30,9 +30,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2012-04-03 03:11+0800\n"
-"Last-Translator: Yao Wei (魏銘廷) <mwei@lxde.org>\n"
+"POT-Creation-Date: 2012-06-15 21:06+0000\n"
+"PO-Revision-Date: 2012-04-28 14:33+0800\n"
+"Last-Translator: Yao Wei <mwei@lxde.org>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
 "debian.org>\n"
 "Language: \n"
@@ -81,9 +81,10 @@ msgstr "正在掃瞄安全更新檔案庫……"
 
 #. Type: text
 #. Description
-#. :sl1:
+#. :sl6:
 #: ../apt-setup-udeb.templates:6001
-msgid "Scanning the volatile updates repository..."
+#, fuzzy
+msgid "Scanning the release updates repository..."
 msgstr "正在掃瞄高異動更新檔案庫……"
 
 #. Type: select
@@ -134,14 +135,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid "Cannot access repository"
 msgstr "無法存取檔案庫"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -152,7 +153,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -163,8 +164,8 @@ msgstr "${HOST} 的項目已被加上註解並附加到 /etc/apt/sources.list �
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "安全更新（來自 ${SEC_HOST}）"
 
@@ -173,31 +174,33 @@ msgstr "安全更新（來自 ${SEC_HOST}）"
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
-msgid "volatile updates (from ${VOL_HOST})"
-msgstr "高異動更新（來自 ${VOL_HOST}）"
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
+#, fuzzy
+msgid "release updates"
+msgstr "消除資料："
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid "Services to use:"
 msgstr "要使用的服務："
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
-"volatile."
+"release updates."
 msgstr "Debian 替發行版提供了兩個更新服務：『安全』和『高異動』。"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -205,14 +208,14 @@ msgstr "安全更新可以用來幫助您的系統抵禦外來的攻擊。強烈
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid ""
-"Volatile updates provide more current versions for software that changes "
+"Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
-"the usability of the software. An example is the virus signatures for a "
-"virus scanner. This service is only available for stable and oldstable "
-"releases."
+"the usability of the software. It also provides regression fixes. This "
+"service is only available for stable and oldstable releases."
 msgstr ""
 "高異動更新替一些時常更新、且若不使用最新版本可能會降低可用性的軟體提供更及時"
 "的版本。比如說，像是防毒程式的病毒碼就是一例。這項服務僅提供給 stable 及 "

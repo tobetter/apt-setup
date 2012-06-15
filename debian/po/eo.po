@@ -9,7 +9,7 @@
 #
 # Samuel Gimeno <sgimeno@gmail.com>, 2005.
 # Serge Leblanc <serge.leblanc@wanadoo.fr>, 2005, 2006, 2007.
-# Felipe Castro <fefcas@gmail.com>, 2008, 2009, 2010, 2011.
+# Felipe Castro <fefcas@gmail.com>, 2008, 2009, 2010, 2011, 2012.
 #
 # Translations from iso-codes:
 # Alastair McKInstry <mckinstry@computer.org>, 2001,2002.
@@ -21,8 +21,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2011-09-12 21:53-0300\n"
+"POT-Creation-Date: 2012-06-15 21:06+0000\n"
+"PO-Revision-Date: 2012-05-01 09:08-0300\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Esperanto <debian-l10n-esperanto@lists.debian.org>\n"
 "Language: eo\n"
@@ -71,9 +71,10 @@ msgstr "Skanado de la deponejo de sekurecaj ĝisdatigoj..."
 
 #. Type: text
 #. Description
-#. :sl1:
+#. :sl6:
 #: ../apt-setup-udeb.templates:6001
-msgid "Scanning the volatile updates repository..."
+#, fuzzy
+msgid "Scanning the release updates repository..."
 msgstr "Skanado de la deponejo de volatilaj ĝisdatigoj..."
 
 #. Type: select
@@ -127,14 +128,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid "Cannot access repository"
 msgstr "Ne eblas atingi la pak-deponejon"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -145,7 +146,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -158,8 +159,8 @@ msgstr ""
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "sekurigaj ĝisdatigoj (el ${SEC_HOST})"
 
@@ -168,33 +169,35 @@ msgstr "sekurigaj ĝisdatigoj (el ${SEC_HOST})"
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
-msgid "volatile updates (from ${VOL_HOST})"
-msgstr "nepermanentaj ĝisdatigoj (el ${VOL_HOST})"
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
+#, fuzzy
+msgid "release updates"
+msgstr "Forviŝi datumaron:"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid "Services to use:"
 msgstr "Uzotaj servoj:"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
-"volatile."
+"release updates."
 msgstr ""
 "Debiano posedas du servojn provizantajn freŝdatajn eldonojn: sekuriga kaj "
 "nepermanenta."
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -204,14 +207,14 @@ msgstr ""
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid ""
-"Volatile updates provide more current versions for software that changes "
+"Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
-"the usability of the software. An example is the virus signatures for a "
-"virus scanner. This service is only available for stable and oldstable "
-"releases."
+"the usability of the software. It also provides regression fixes. This "
+"service is only available for stable and oldstable releases."
 msgstr ""
 "Nepermanentaj ĝisdatigoj provizas freŝdatajn eldonojn de ofte ŝanĝitaj "
 "programoj, kaj en situacioj kiam oni devas havi la lastajn versiojn por ne "

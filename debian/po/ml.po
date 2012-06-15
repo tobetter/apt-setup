@@ -26,8 +26,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Debian Installer Level 1\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2012-03-07 16:18+0530\n"
+"POT-Creation-Date: 2012-06-15 21:06+0000\n"
+"PO-Revision-Date: 2012-03-16 19:33+0530\n"
 "Last-Translator: Praveen Arimbrathodiyil <pravi.a@gmail.com>\n"
 "Language-Team: Debian Malayalam <debian-l10n-malayalam@lists.debian.org>\n"
 "Language: \n"
@@ -77,9 +77,10 @@ msgstr "സുരക്ഷാപരമായ മാറ്റങ്ങളുള�
 
 #. Type: text
 #. Description
-#. :sl1:
+#. :sl6:
 #: ../apt-setup-udeb.templates:6001
-msgid "Scanning the volatile updates repository..."
+#, fuzzy
+msgid "Scanning the release updates repository..."
 msgstr "പെട്ടെന്നു് മാറുന്ന മാറ്റങ്ങളുടെ സംഭരണിയില്‍ തെരഞ്ഞു കൊണ്ടിരിയ്ക്കുന്നു..."
 
 #. Type: select
@@ -133,14 +134,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid "Cannot access repository"
 msgstr "സംഭരണിയെ സമീപിക്കാന്‍ സാധ്യമല്ല"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -151,7 +152,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -163,8 +164,8 @@ msgstr ""
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "(${SEC_HOST} ല്‍ നിന്നുമുള്ള) സുരക്ഷാപരമായ മാറ്റങ്ങള്‍"
 
@@ -173,33 +174,35 @@ msgstr "(${SEC_HOST} ല്‍ നിന്നുമുള്ള) സുരക�
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
-msgid "volatile updates (from ${VOL_HOST})"
-msgstr "(${VOL_HOST}) ല്‍ നിന്നുമുള്ള പെട്ടെന്നു് മാറുന്ന മാറ്റങ്ങള്‍"
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
+#, fuzzy
+msgid "release updates"
+msgstr "ഡാറ്റ മായ്ചുകളയുക:"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid "Services to use:"
 msgstr "ഉപയോഗിയ്ക്കേണ്ട സേവനങ്ങള്‍:"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
-"volatile."
+"release updates."
 msgstr ""
 "പുറത്തിറങ്ങിയവയ്ക്ക് മാറ്റങ്ങള്‍ എത്തിയ്ക്കാന്‍ ഡെബിയനു് സുരക്ഷാപരമായ, പെട്ടെന്നു് മാറുന്ന എന്നീ രണ്ടു് "
 "സേവനങ്ങള്‍ ഉണ്ടു്."
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -209,14 +212,14 @@ msgstr ""
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid ""
-"Volatile updates provide more current versions for software that changes "
+"Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
-"the usability of the software. An example is the virus signatures for a "
-"virus scanner. This service is only available for stable and oldstable "
-"releases."
+"the usability of the software. It also provides regression fixes. This "
+"service is only available for stable and oldstable releases."
 msgstr ""
 "പെട്ടെന്നു് മാറുന്ന മാറ്റങ്ങള്‍ താരതമ്യേന വളരെ അടുത്തടുത്തു് മാറുന്നതും ഏറ്റവും പുതിയ പതിപ്പു് "
 "ലഭ്യമല്ലാതിരിയ്ക്കുന്നതു് സോഫ്റ്റുവെയറിന്റെ ഉപയോഗസോഗ്യത കുറയ്ക്കുകയും ചെയ്യുന്ന സോഫ്റ്റുവെയറുകളുടെ "

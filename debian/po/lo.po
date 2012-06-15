@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lo\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2012-04-23 11:59+0700\n"
+"POT-Creation-Date: 2012-06-15 21:06+0000\n"
+"PO-Revision-Date: 2012-04-25 09:05+0700\n"
 "Last-Translator: Anousak Souphavanh <anousak@gmail.com>\n"
 "Language-Team: Lao <lo@li.org>\n"
 "Language: \n"
@@ -63,9 +63,10 @@ msgstr "ກຳລັງສຳຫລວດຄັງແພກເກັດໃໝ່
 
 #. Type: text
 #. Description
-#. :sl1:
+#. :sl6:
 #: ../apt-setup-udeb.templates:6001
-msgid "Scanning the volatile updates repository..."
+#, fuzzy
+msgid "Scanning the release updates repository..."
 msgstr "ກຳລັງສຳຫລວດຄັງແພກເກັດໃໝ່ສຳຫລັບແພກເກັດທີ່ຕ້ອງປ່ຽນແປງຫລາຍເທື່ອ..."
 
 #. Type: select
@@ -117,14 +118,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid "Cannot access repository"
 msgstr "ບໍ່ສາມາດເຂົ້າເຖີງຄັງແພັກເກັດສຳລັບແກ້ປັນຫາລະບົບຄວາມປອດໄພ"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -135,7 +136,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -147,8 +148,8 @@ msgstr ""
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "ປັບລຸ້ນແກ່ບັນຫາຄວາມປອດໄພ (ຈາກ ${SEC_HOST})"
 
@@ -157,33 +158,35 @@ msgstr "ປັບລຸ້ນແກ່ບັນຫາຄວາມປອດໄພ
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
-msgid "volatile updates (from ${VOL_HOST})"
-msgstr "ປັບລຸ້ນແພັກເກັດປຽນແປ່ງຕະຫຼອດ (ຈາກ ${VOL_HOST})"
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
+#, fuzzy
+msgid "release updates"
+msgstr "ລົບຂໍ້ມູນ:"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid "Services to use:"
 msgstr "ການບໍ່ລິການທີຈະໃຊ້:"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
-"volatile."
+"release updates."
 msgstr ""
 "ເດບຽນມີບໍລິການຢູ່ສອງແຫຼ່ງສຳລັບປັບລຸ້ນແພັກເກັດເພີ່ມເຕີມຈາກລຸ້ນຕ່າງໆ "
 "ທີ່ອອກຄືການປັບປຸງລຸ້ນເພື່ອແກ້ໄຂບັນຫາລະບົບຮັກສາຄວາມປອດໄພ ແລະ ສຳລັບແພັກເກັດທີ່ມີການປຽນແປງຕະຫຼອດ"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -193,14 +196,14 @@ msgstr ""
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid ""
-"Volatile updates provide more current versions for software that changes "
+"Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
-"the usability of the software. An example is the virus signatures for a "
-"virus scanner. This service is only available for stable and oldstable "
-"releases."
+"the usability of the software. It also provides regression fixes. This "
+"service is only available for stable and oldstable releases."
 msgstr ""
 "ບໍລິການປັບລຸ້ນແພັກເກັດທີ່ປ່ຽນແປງຕະຫຼອດ ຈະປັບຊອບແວຣທີ່ມີການປ່ຽນແປງຕະຫຼອດໃຫ້ເປັນລຸ້ນໃໝ່ "
 "ຊື່ງການບໍ່ປັບເປັນລຸ້ນລ່າສຸດອາດຈະເຮັດໃຫ້ຕົວຊອບແວຣດັ່ງກວ່າທຳງານບໍ່ໄດ້ເຕັມທີ່ຕົວຢ່າງເຊັ່ນ: "

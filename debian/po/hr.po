@@ -8,13 +8,21 @@
 # This file is distributed under the same license as debian-installer.
 #
 #
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2001, 2004.
+#   Free Software Foundation, Inc., 2000,2004
+#   Josip Rodin, 2008
+#   Krunoslav Gernhard, 2004
+#   Vladimir Vuksan <vuksan@veus.hr>, 2000.
+#   Vlatko Kosturjak, 2001
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2010-07-06 22:40+0200\n"
-"Last-Translator: Josip Rodin <joy+ditrans@linux.hr>\n"
+"POT-Creation-Date: 2012-06-15 21:06+0000\n"
+"PO-Revision-Date: 2012-05-07 17:37+0200\n"
+"Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -62,9 +70,10 @@ msgstr "Pretražujem repozitorij sigurnosnih osvježenja..."
 
 #. Type: text
 #. Description
-#. :sl1:
+#. :sl6:
 #: ../apt-setup-udeb.templates:6001
-msgid "Scanning the volatile updates repository..."
+#, fuzzy
+msgid "Scanning the release updates repository..."
 msgstr "Pretražujem repozitorij nestalnih osvježenja (volatile)..."
 
 #. Type: select
@@ -89,7 +98,6 @@ msgstr "Ignoriraj"
 #. Description
 #: ../apt-setup-udeb.templates:7002
 #, fuzzy
-#| msgid "Downloading a file failed:"
 msgid "Downloading local repository key failed:"
 msgstr "Skidanje datoteke nije uspjelo:"
 
@@ -107,11 +115,6 @@ msgstr ""
 #. Description
 #: ../apt-setup-udeb.templates:7002
 #, fuzzy
-#| msgid ""
-#| "The installer failed to access the mirror. This may be a problem with "
-#| "your network, or with the mirror. You can choose to retry the download, "
-#| "select a different mirror, or ignore the problem and continue without all "
-#| "the packages from this mirror."
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
@@ -124,14 +127,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid "Cannot access repository"
 msgstr "Ne mogu pristupiti repozitoriju"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -142,7 +145,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -155,8 +158,8 @@ msgstr ""
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "sigurnosne nadogradnje (sa ${SEC_HOST})"
 
@@ -165,33 +168,35 @@ msgstr "sigurnosne nadogradnje (sa ${SEC_HOST})"
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
-msgid "volatile updates (from ${VOL_HOST})"
-msgstr "volatile nadogradnje (sa ${VOL_HOST})"
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
+#, fuzzy
+msgid "release updates"
+msgstr "Obriši podatke:"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid "Services to use:"
 msgstr "Usluge za koristiti:"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
-"volatile."
+"release updates."
 msgstr ""
 "Debian ima dvije usluge koje pružaju nadogradnje za izdanja: security "
 "(sigurnosne) i volatile (nestalne)."
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -201,14 +206,14 @@ msgstr ""
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid ""
-"Volatile updates provide more current versions for software that changes "
+"Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
-"the usability of the software. An example is the virus signatures for a "
-"virus scanner. This service is only available for stable and oldstable "
-"releases."
+"the usability of the software. It also provides regression fixes. This "
+"service is only available for stable and oldstable releases."
 msgstr ""
 "Nestalne (volatile) nadogradnje pružaju ažurnije inačice programa koji se "
 "mijenjaju relativno često, i gdje nemanje najnovije inačice može smanjiti "

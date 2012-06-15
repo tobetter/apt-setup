@@ -9,12 +9,17 @@
 # Copyright @ 2006 Free Software Foundation, Inc.
 # Sonam Rinchen <somchen@druknet.bt>, 2006.
 #
+#
+# Translations from iso-codes:
+#   Free Software Foundation, Inc., 2006
+#   Kinley Tshering <gaseokuenden2k3@hotmail.com>, 2006
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: dDz.po\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2010-06-25 14:36-0500\n"
+"POT-Creation-Date: 2012-06-15 21:06+0000\n"
+"PO-Revision-Date: 2012-02-29 04:41-0500\n"
 "Last-Translator: Jurmey Rabgay <jrabgay@dit.gov.bt>\n"
 "Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
 "Language: dz\n"
@@ -64,9 +69,10 @@ msgstr "མཛོད་གནས་སྲུང་སྐྱོབ་དུས་
 
 #. Type: text
 #. Description
-#. :sl1:
+#. :sl6:
 #: ../apt-setup-udeb.templates:6001
-msgid "Scanning the volatile updates repository..."
+#, fuzzy
+msgid "Scanning the release updates repository..."
 msgstr "བོ་ལེ་ཊཡིལ་དུས་མཐུན་མཛོད་གནས་ཚུ་ ཞིབ་ལྟ་འབད་དོ་་་"
 
 #. Type: select
@@ -91,7 +97,6 @@ msgstr "སྣང་མེད་བཞག་"
 #. Description
 #: ../apt-setup-udeb.templates:7002
 #, fuzzy
-#| msgid "Downloading a file failed:"
 msgid "Downloading local repository key failed:"
 msgstr "ཕབ་ལེན་འབད་དོ་ ཡིག་སྣོད་འཐུས་ཤོར་བྱུང་ཡོད:"
 
@@ -109,11 +114,6 @@ msgstr ""
 #. Description
 #: ../apt-setup-udeb.templates:7002
 #, fuzzy
-#| msgid ""
-#| "The installer failed to access the mirror. This may be a problem with "
-#| "your network, or with the mirror. You can choose to retry the download, "
-#| "select a different mirror, or ignore the problem and continue without all "
-#| "the packages from this mirror."
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
@@ -127,14 +127,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid "Cannot access repository"
 msgstr "མཛོད་གནས་འཛུལ་སྤྱོད་འབད་མི་བཏུབ་"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -145,7 +145,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -158,8 +158,8 @@ msgstr ""
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "(${SEC_HOST}ནང་ལས་) སྲུང་སྐྱོབ་དུས་མཐུན་"
 
@@ -168,33 +168,35 @@ msgstr "(${SEC_HOST}ནང་ལས་) སྲུང་སྐྱོབ་དུ�
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
-msgid "volatile updates (from ${VOL_HOST})"
-msgstr "(${VOL_HOST}ནང་ལས་)བོ་ལ་ཊ་ཡིལ་དུས་མཐུན་"
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
+#, fuzzy
+msgid "release updates"
+msgstr "གནད་སྡུད་ཀྲེག་གཏང་:"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid "Services to use:"
 msgstr "ལག་ལེན་འཐབ་ནིའི་ཞབས་ཏོག་ཚུ་:"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
-"volatile."
+"release updates."
 msgstr ""
 "ཌི་བི་ཡཱན་ལུ་ ཞབས་ཏོག་ལྷམ་པ་གཉིས་ཡོད་ དེ་ཡང་ སྲུང་སྐྱོབ་དང་བོ་ལ་ཊཱལ་གསར་བཏོན་འབད་ནིའི་དུས་མཐུན་"
 "བྱིནམ་ཨིན།"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -204,14 +206,14 @@ msgstr ""
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid ""
-"Volatile updates provide more current versions for software that changes "
+"Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
-"the usability of the software. An example is the virus signatures for a "
-"virus scanner. This service is only available for stable and oldstable "
-"releases."
+"the usability of the software. It also provides regression fixes. This "
+"service is only available for stable and oldstable releases."
 msgstr ""
 "བོ་ལ་ཊ་ཡེལ་དུས་མཐུན་གྱིས་ འཕྲལ་འཕྲལ་འགྱུར་འགྱོ་མི་མཉེན་ཆས་ཚུ་གི་དོན་ལས་ ད་ལྟོའི་ཐོན་རིམ་ལེ་ཤ་ར་བྱིནམ་"
 "ཨིནམ་དང་ མཐའ་མཇུག་གི་ཐོན་རིམ་མེད་"
