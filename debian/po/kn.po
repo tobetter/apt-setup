@@ -157,9 +157,8 @@ msgstr ""
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "security updates (from ${SEC_HOST})"
-msgstr "ಅಸ್ಥಿರ ನವೀಕರಣಗಳು (${SEC_HOST}ನಿಂದ)"
+msgstr ""
 
 #. Type: multiselect
 #. Choices

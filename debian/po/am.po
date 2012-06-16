@@ -153,9 +153,8 @@ msgstr "የተደበቁ የ${HOST} ገቢዎች /etc/apt/sources.list ፋይል 
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "security updates (from ${SEC_HOST})"
-msgstr "ጊዜያዊ ማሻሻያዎች  (ከ ${VOL_HOST})"
+msgstr ""
 
 #. Type: multiselect
 #. Choices

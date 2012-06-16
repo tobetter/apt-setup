@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-02-27 10:12+0200\n"
+"PO-Revision-Date: 2012-06-16 14:01+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
@@ -83,9 +83,8 @@ msgstr "Turvauuenduste varamu skannimine..."
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Muutuv-uuenduste varamu skannimine..."
+msgstr "Väljalaskeuuenduste varamu skannimine..."
 
 #. Type: select
 #. Choices
@@ -172,7 +171,7 @@ msgstr ""
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "Turvauuendused (serverist ${SEC_HOST})"
+msgstr "turvauuendused (serverist ${SEC_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -181,9 +180,8 @@ msgstr "Turvauuendused (serverist ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Kustutada andmed:"
+msgstr "väljalaskeuuendused"
 
 #. Type: multiselect
 #. Description
@@ -196,13 +194,12 @@ msgstr "Kasutatavad teenused:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Debianil on kaks väljalaske uuendamise teenust: turvauuendused ja sagedased "
-"uuendused"
+"Debianil on kaks väljalaske uuendamise teenust: turvauuendused ja "
+"väljalaskeuuendused."
 
 #. Type: multiselect
 #. Description
@@ -219,17 +216,17 @@ msgstr ""
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Sagedased uuendused sisaldavad uusi versioone suhteliselt tihti muutuvast "
+"Väljalaskeuuendused sisaldavad uusi versioone suhteliselt tihti muutuvast "
 "tarkvarast, mille puhul vanemate versioonide kasutamine vähendaks tarkvara "
-"kasutatavust. Näiteks viiruste tunnuste andmebaas. See teenus on saadaval "
-"ainult stabiilsetele ning aegunud stabiilsetele versioonidele."
+"kasutatavust. See sisaldab parandusi ka vähenenud võimaluste vigadele. See "
+"teenus on saadaval ainult stabiilsetele ning aegunud stabiilsetele "
+"versioonidele."
 
 #. Type: text
 #. Description

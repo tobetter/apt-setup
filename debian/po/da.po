@@ -39,7 +39,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_da\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-03-03 05:44+0100\n"
+"PO-Revision-Date: 2012-06-16 23:51+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -91,9 +91,8 @@ msgstr "Skanner programarkivet, der indeholder sikkerhedsopdateringer..."
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Skanner programarkivet, der indeholder ustabile opdateringer..."
+msgstr "Skanner programarkivet, der indeholder udgivelsesopdateringer ..."
 
 #. Type: select
 #. Choices
@@ -191,9 +190,8 @@ msgstr "sikkerhedsopdateringer (fra ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Slet data:"
+msgstr "udgivelsesopdateringer"
 
 #. Type: multiselect
 #. Description
@@ -206,14 +204,13 @@ msgstr "Tjenester:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
 "Debian har to tjenester der kommer med opdateringer til de officielle "
-"udgivelser: sikkerhedsopdateringer (security) og ustabile opdateringer "
-"(volatile)."
+"udgivelser: sikkerhedsopdateringer (security) og udgivelsesopdateringer "
+"(release)."
 
 #. Type: multiselect
 #. Description
@@ -230,18 +227,17 @@ msgstr ""
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Ustabile opdateringer giver nyere udgaver af programmer der ændres relativt "
+"Udgivelsesopdateringer giver nyere udgaver af programmer der ændres relativt "
 "ofte og hvor det kan reducere nytten af programmet, hvis man ikke har den "
-"nyeste udgave. Et eksempel er virus-signaturer til en virus-scanner. Denne "
-"tjeneste er kun tilgængelig for de stabile udgivelser (\"stable\" og "
-"\"oldstable\")."
+"nyeste udgave. Et eksempel er virussignaturer til en virusskanner. Denne "
+"tjeneste er kun tilgængelig for de stabile udgivelser (»stable« og "
+"»oldstable«)."
 
 #. Type: text
 #. Description

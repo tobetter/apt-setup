@@ -163,9 +163,8 @@ msgstr "/etc/apt/sources.list ფაილში დაემატა ${HOST}-�
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "security updates (from ${SEC_HOST})"
-msgstr "მერყევი განახლებები (from ${VOL_HOST})"
+msgstr ""
 
 #. Type: multiselect
 #. Choices

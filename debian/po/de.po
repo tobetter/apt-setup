@@ -39,7 +39,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-05-16 20:05+0200\n"
+"PO-Revision-Date: 2012-06-16 09:25+0200\n"
 "Last-Translator: Holger Wansing <linux@wansing-online.de>\n"
 "Language-Team: Debian German <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
@@ -91,9 +91,8 @@ msgstr "Durchsuchen des Security-Archivs (für Sicherheitsaktualisierungen) ..."
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Durchsuchen des Volatile-Archivs ..."
+msgstr "Durchsuchen des Archivs für Release-Updates ..."
 
 #. Type: select
 #. Choices
@@ -191,9 +190,8 @@ msgstr "Sicherheitsaktualisierungen (von ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Daten löschen:"
+msgstr "Release-Updates"
 
 #. Type: multiselect
 #. Description
@@ -206,13 +204,12 @@ msgstr "Zu verwendende Dienste:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Debian hat zwei Dienste, die Aktualisierungen zu Veröffentlichungen "
-"bereitstellen: Security und Volatile."
+"Debian hat zwei Dienste, die Aktualisierungen für Veröffentlichungen "
+"bereitstellen: Security und Release-Updates."
 
 #. Type: multiselect
 #. Description
@@ -229,18 +226,17 @@ msgstr ""
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Aktualisierungen von Volatile bieten neuere Versionen für Software an, die "
-"sich relativ häufig ändert und deren Nutzbarkeit beeinträchtigt werden "
-"könnte, falls man nicht die neueste Version hat. Ein Beispiel sind die Viren-"
-"Signaturen für einen Viren-Scanner. Dieser Dienst ist nur für die "
-"Veröffentlichungen Stable und Oldstable verfügbar."
+"Release-Updates bietet neuere Versionen für Software, die sich relativ oft "
+"ändert und bei der es zu Einbußen in der Nutzbarkeit führen kann, wenn man "
+"nicht die neueste Version hat. Außerdem werden dort Versionen "
+"bereitgestellt, die Rückentwicklungen beheben. Dieser Dienst ist nur für "
+"Stable- und Oldstable-Veröffentlichungen verfügbar."
 
 #. Type: text
 #. Description

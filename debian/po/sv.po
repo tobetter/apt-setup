@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-04-09 14:50+0100\n"
+"PO-Revision-Date: 2012-06-16 11:15+0100\n"
 "Last-Translator: Martin Bagge / brother <brother@bsnet.se>\n"
 "Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
 "Language: sv\n"
@@ -77,9 +77,8 @@ msgstr "Söker igenom förrådet för säkerhetsuppdateringar..."
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Söker igenom det flyktiga uppdateringsförrådet..."
+msgstr "Söker igenom det förrådet för utgåveuppdateringar..."
 
 #. Type: select
 #. Choices
@@ -176,9 +175,8 @@ msgstr "säkerhetsuppdateringar (från ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Radera data:"
+msgstr "utgåveuppdateringar"
 
 #. Type: multiselect
 #. Description
@@ -191,13 +189,12 @@ msgstr "Tjänster att använda:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
 "Debian har två tjänster som tillhandahåller uppdateringar till utgåvor: "
-"security (säkerhet) och volatile (flyktiga)."
+"security (säkerhet) och release updates (utgåveuppdateringar)."
 
 #. Type: multiselect
 #. Description
@@ -214,18 +211,17 @@ msgstr ""
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Flyktiga uppdateringar tillhandahåller mer aktuella versioner för "
-"programvara som ändras relativt frekvent och innebörden att inte ha den "
-"senaste versionen kan minska användbarheten för programvaran. Ett exempel är "
-"virussignaturer för ett antivirusprogram. Den här tjänsten är endast "
-"tillgänglig för stabila och \"oldstable\" utgåvor."
+"Utgåveuppdateringar tillhandahåller mer aktuella versioner för programvara "
+"som ändras relativt frekvent och innebörden att inte ha den senaste "
+"versionen kan minska användbarheten för programvaran. Förrådet "
+"tillhandahåller också regressionskorrigeringar. Den här tjänsten är endast "
+"tillgänglig för stabila utgåvor (\"stable\" och \"oldstable\")."
 
 #. Type: text
 #. Description

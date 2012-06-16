@@ -68,9 +68,8 @@ msgstr "Stór slándála á scanadh..."
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Stór luaineach á scanadh..."
+msgstr "Stórlann na nuashonruithe luaineacha á scanadh..."
 
 #. Type: select
 #. Choices
@@ -167,9 +166,8 @@ msgstr "nuashonruithe slándála (ó ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Léirscrios sonraí:"
+msgstr "nuashonruithe luaineacha"
 
 #. Type: multiselect
 #. Description
@@ -182,13 +180,12 @@ msgstr "Seirbhísí le húsáid:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Tá dhá sheirbhís ag Debian a sholáthraíonn nuashonruithe ar phacáistí: "
-"slándáil agus luaineach."
+"Tá dhá sheirbhís ag Debian a sholáthraíonn leaganacha nua de phacáistí: "
+"nuashonruithe slándála agus nuashonruithe luaineacha."
 
 #. Type: multiselect
 #. Description
@@ -205,7 +202,6 @@ msgstr ""
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
@@ -214,9 +210,9 @@ msgid ""
 msgstr ""
 "Soláthraíonn nuashonruithe luaineacha na leaganacha is déanaí de bhogearraí "
 "a athraíonn go minic, agus i gcásanna nach mbeadh seanleaganacha de na "
-"bogearraí chomh háisiúil.   Mar shampla, gheofá tú sínithe nua víris i "
-"mbogearra a dhéanann cosaint ar víris. Tá an tseirbhís seo ar fáil le dáiltí "
-"'stable' agus 'oldstable' amháin."
+"bogearraí chomh húsáideach.  Déanann siad ceartúcháin ar earráidí "
+"cúlchéimnithe freisin. Tá an tseirbhís seo ar fáil le dáiltí 'stable' agus "
+"'oldstable' amháin."
 
 #. Type: text
 #. Description

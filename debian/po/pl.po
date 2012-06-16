@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-04-28 12:18+0200\n"
+"PO-Revision-Date: 2012-06-16 11:38+0200\n"
 "Last-Translator: Michał Kułach <michal.kulach@gmail.com>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -82,9 +82,8 @@ msgstr "Przeszukiwanie repozytorium poprawek bezpieczeństwa..."
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Przeszukiwanie zmiennego repozytorium..."
+msgstr "Przeszukiwanie repozytorium z aktualizacjami wydania..."
 
 #. Type: select
 #. Choices
@@ -170,7 +169,7 @@ msgstr ""
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "uaktualnienia bezpieczeństwa (z ${SEC_HOST})"
+msgstr "poprawki bezpieczeństwa (z ${SEC_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -179,9 +178,8 @@ msgstr "uaktualnienia bezpieczeństwa (z ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Usuwanie danych:"
+msgstr "aktualizacje wydania"
 
 #. Type: multiselect
 #. Description
@@ -194,13 +192,12 @@ msgstr "Wykorzystywane serwisy:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Debian posiada dwa serwisy, które umożliwiają aktualizacje wydań: poprawki "
-"bezpieczeństwa oraz repozytorium zmienne."
+"Debian posiada dwa serwisy, które umożliwiają aktualizacje dystrybucji: "
+"poprawki bezpieczeństwa oraz aktualizacje wydania."
 
 #. Type: multiselect
 #. Description
@@ -211,24 +208,22 @@ msgid ""
 "this service is strongly recommended."
 msgstr ""
 "Poprawki bezpieczeństwa sprawiają, że system jest zabezpieczony przed "
-"atakami.Uaktywnienie tego serwisu jest bardzo zalecane."
+"atakami. Uaktywnienie tego serwisu jest bardzo zalecane."
 
 #. Type: multiselect
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Zmienne aktualizacje dostarczają bardziej aktualnych wersji oprogramowania,"
+"Aktualizacje wydania dostarczają bardziej aktualnych wersji oprogramowania,"
 "które systematycznie się zmienia, a brak posiadania najnowszej wersji "
-"ogranicza jego użyteczność. Przykładem mogą być sygnatury wirusów dla "
-"skanera antywirusowego. Ten serwis jest dostępny tylko dla dystrybucji "
-"stabilnej oraz poprzedzającej ją."
+"ogranicza jego użyteczność. Zawierają również poprawki regresji. Ten serwis "
+"jest dostępny tylko dla dystrybucji stabilnej oraz poprzedzającej ją."
 
 #. Type: text
 #. Description

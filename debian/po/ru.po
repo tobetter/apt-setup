@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-04-29 08:29+0400\n"
+"PO-Revision-Date: 2012-06-16 11:06+0400\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
 "Language: ru\n"
@@ -79,9 +79,8 @@ msgstr "Просмотр репозитория обновлений безоп�
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Просмотр репозитория частых (volatile) обновлений..."
+msgstr "Просмотр репозитория выпущенных обновлений…"
 
 #. Type: select
 #. Choices
@@ -177,9 +176,8 @@ msgstr "обновления безопасности (с ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Стереть данные:"
+msgstr "выпущенные обновления"
 
 #. Type: multiselect
 #. Description
@@ -192,13 +190,12 @@ msgstr "Активируемые сервисы:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
 "Для обновления выпусков Debian предоставляет два сервиса: обновления "
-"безопасности и обновления часто изменяющихся данных (volatile)."
+"безопасности и выпущенные обновления."
 
 #. Type: multiselect
 #. Description
@@ -215,18 +212,17 @@ msgstr ""
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Частые (volatile) обновления предоставляют самые свежие версии программного "
-"обеспечения, новые версии которого появляются относительно часто, и без "
-"которых это программное обеспечение теряет свою полезность. В качестве "
-"примера можно привести сигнатуры вирусов для вирусных сканеров. Данный "
-"сервис доступен только для стабильного и старого стабильного выпусков."
+"Репозиторий выпущенных обновлений содержит самые новые версии часто "
+"изменяющегося программного обеспечения, без своевременного обновления "
+"которого данное программное обеспечение теряет свою полезность. Также, сюда "
+"входят исправления повторно возникших ошибок. Данный сервис доступен только "
+"для стабильного и старого стабильного выпусков."
 
 #. Type: text
 #. Description
