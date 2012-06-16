@@ -4,7 +4,6 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # translation of km.po to Khmer
-#
 # Khoem Sokhem <khoemsokhem@khmeros.info>, 2006, 2007, 2008, 2010.
 #   eng vannak <evannak@khmeros.info>, 2006.
 #   auk piseth <piseth_dv@khmeros.info>, 2006.
@@ -14,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: km\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2012-01-17 11:49+0700\n"
+"POT-Creation-Date: 2012-06-15 21:06+0000\n"
+"PO-Revision-Date: 2012-01-18 15:40+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
 "Language: \n"
@@ -65,9 +64,10 @@ msgstr "កំពុង​វិភាគ​ឃ្លាំង​របស់​
 
 #. Type: text
 #. Description
-#. :sl1:
+#. :sl6:
 #: ../apt-setup-udeb.templates:6001
-msgid "Scanning the volatile updates repository..."
+#, fuzzy
+msgid "Scanning the release updates repository..."
 msgstr "កំពុង​វិភាគ​រក​ឃ្លាំង​បច្ចុប្បន្នភាព​​ដែល​មិន​ស្ថិតស្ថេរ..."
 
 #. Type: select
@@ -120,14 +120,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid "Cannot access repository"
 msgstr "មិន​អាច​ចូល​ដំណើរការ​ឃ្លាំង"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -138,7 +138,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -149,8 +149,8 @@ msgstr "បាន​បន្ថែម​សេចក្ដី​អធិប្
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "បច្ចុប្បន្នភាព​​សុវត្ថិភាព (from ${SEC_HOST})"
 
@@ -159,31 +159,33 @@ msgstr "បច្ចុប្បន្នភាព​​សុវត្ថិភ
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
-msgid "volatile updates (from ${VOL_HOST})"
-msgstr "បច្ចុប្បន្នភាព​​ស្ថិតស្ថេរ (from ${VOL_HOST})"
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
+#, fuzzy
+msgid "release updates"
+msgstr "លុប​ទិន្នន័យ ៖"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid "Services to use:"
 msgstr "សេវា​ត្រូវ​ប្រើ ៖"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
-"volatile."
+"release updates."
 msgstr "ដេបៀន​មាន​សេវា​ពីរ ដែល​ផ្ដល់​នូវ​បច្ចុប្បន្នភាព​​ទៅ​កា​រចេញ​ផ្សាយ ៖ សុវត្ថិភាព និង​ភាព​ស្ថិតស្ថេរ ។"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -193,14 +195,14 @@ msgstr ""
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid ""
-"Volatile updates provide more current versions for software that changes "
+"Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
-"the usability of the software. An example is the virus signatures for a "
-"virus scanner. This service is only available for stable and oldstable "
-"releases."
+"the usability of the software. It also provides regression fixes. This "
+"service is only available for stable and oldstable releases."
 msgstr ""
 "បច្ចុប្បន្នភាព​​ដែល​ស្ថិតស្ថេរ​ផ្ដល់​នូវ​កំណែក​បច្ចុប្បន្ន​បន្ថែម​ទៀត​សម្រាប់​កម្មវិធី​ដែល​ផ្លាស់ប្ដូរ​ទំនាក់ទំនង​ជា​"
 "ញឹកញាប់ និង​មិន​មាន​កំណែ​ថ្មី​បំផុត​អាច​កាត់បន្ថយ​សមត្ថភាព​ប្រើ​របស់​កម្មវិធី ។ ឧទាហរណ៍ គឺ​ហត្ថលេខា​មេរោគ​សម្រាប់​"

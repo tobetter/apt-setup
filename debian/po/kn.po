@@ -20,8 +20,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2011-07-14 22:48+0000\n"
-"PO-Revision-Date: 2012-01-24 19:34+0530\n"
+"POT-Creation-Date: 2012-06-15 21:06+0000\n"
+"PO-Revision-Date: 2012-03-05 22:29+0530\n"
 "Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
@@ -70,10 +70,11 @@ msgstr "ಭದ್ರತಾ ಆಧುನೀಕರಣ ಭಂಡಾರವನ್ನ�
 
 #. Type: text
 #. Description
-#. :sl1:
+#. :sl6:
 #: ../apt-setup-udeb.templates:6001
-msgid "Scanning the volatile updates repository..."
-msgstr "ಅಸ್ಥಿರ ಆಧುನೀಕರಣ ಭಂಡಾರವನ್ನು ಶೋಧಿಸಲಾಗುತ್ತಿದೆ..."
+#, fuzzy
+msgid "Scanning the release updates repository..."
+msgstr "ಭದ್ರತಾ ಆಧುನೀಕರಣ ಭಂಡಾರವನ್ನು ಶೋಧಿಸಲಾಗುತ್ತಿದೆ..."
 
 #. Type: select
 #. Choices
@@ -124,14 +125,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid "Cannot access repository"
 msgstr "ಭಂಡಾರವನ್ನು ಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -142,7 +143,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:9001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -154,65 +155,59 @@ msgstr ""
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
+#, fuzzy
 msgid "security updates (from ${SEC_HOST})"
-msgstr "ಭದ್ರತಾ ನವೀಕರಣಗಳು (${SEC_HOST}ನಿಂದ)"
+msgstr "ಅಸ್ಥಿರ ನವೀಕರಣಗಳು (${SEC_HOST}ನಿಂದ)"
 
 #. Type: multiselect
 #. Choices
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl3:
-#: ../apt-setup-udeb.templates:11001
-msgid "volatile updates (from ${VOL_HOST})"
-msgstr "ಅಸ್ಥಿರ ನವೀಕರಣಗಳು (${SEC_HOST}ನಿಂದ)"
+#. :sl6:
+#: ../apt-setup-udeb.templates:10001
+#, fuzzy
+msgid "release updates"
+msgstr "ದತ್ತಾಂಶವನ್ನು ಅಳಿಸು:"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
+#, fuzzy
 msgid "Services to use:"
-msgstr "ಬಳಸಲು ಬೇಕಾದ ಸೇವೆಗಳು:"
+msgstr "ಬಳಸಬೇಕಾದ NTP ಪರಿಚಾರಕ:"
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid ""
 "Debian has two services that provide updates to releases: security and "
-"volatile."
+"release updates."
 msgstr ""
-"ಹೊಸ ಬಿಡುಗಡೆಗಳಿಗೆ ನವೀಕರಣಗಳನ್ನು ಒದಗಿಸಲು ಡೆಬಿಯನ್ನಲ್ಲಿ ಎರಡು ಸೇವೆಗಳಿವೆ: ಸುರಕ್ಷೆ ಮತ್ತು "
-"ಅಸ್ಥಿರ."
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"ಭದ್ರತಾ ನವೀಕರಣಗಳು ವ್ಯವಸ್ಥೆಯನ್ನು ಯಾವುದೇ ಆಕ್ರಮಣಗಳ ವಿರುದ್ಧ ಭದ್ರಪಡಿಸುತ್ತದೆ. ಈ ಸೇವೆಯ "
-"ಬಳಕೆಯನ್ನು ಬಲವಾಗಿ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ."
 
 #. Type: multiselect
 #. Description
-#. :sl3:
-#: ../apt-setup-udeb.templates:11002
+#. :sl6:
+#: ../apt-setup-udeb.templates:10002
 msgid ""
-"Volatile updates provide more current versions for software that changes "
+"Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
-"the usability of the software. An example is the virus signatures for a "
-"virus scanner. This service is only available for stable and oldstable "
-"releases."
+"the usability of the software. It also provides regression fixes. This "
+"service is only available for stable and oldstable releases."
 msgstr ""
-"ಅಸ್ಥಿರ ನವೀಕರಣಗಳು ಪದೇ ಪದೇ ಬದಲಾಗುತ್ತಿದ್ದು ತಂತ್ರಾಂಶಗಳ ಹೆಚ್ಚು ಪ್ರಸ್ತುತ ಆವೃತ್ತಿಗಳನ್ನು "
-"ನೀಡುತ್ತವೆ ಮತ್ತು ಎಲ್ಲಿ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯ ಇಲ್ಲದಿರುವಿಕೆ ತಂತ್ರಾಂಶದ ಉಪಯುಕ್ತತೆಯನ್ನು ಕಡಿಮೆ "
-"ಮಾಡುವುದೊ ಅಲ್ಲಿ ಬಳಸಲಾಗುತ್ತದೆ. ಉದಾಹರಣೆಗೆ ವೈರಸ್ ಶೋಧಕಕ್ಕೆ ಬೇಕಾದ ವೈರಸ್ ಸಿಗ್ನೇಚರ್ಗಳು. ಈ "
-"ಸೇವೆಯು ಕೇವಲ ಸ್ಥಿರ ಹಾಗು ಹಳೆಸ್ಥಿರ ಬಿಡುಗಡೆಗಳಿಗೆ ಮಾತ್ರ ಲಭ್ಯವಿದೆ."
 
 #. Type: text
 #. Description
