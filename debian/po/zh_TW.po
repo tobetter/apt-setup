@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-06-16 23:16+0800\n"
+"PO-Revision-Date: 2012-06-17 00:58+0800\n"
 "Last-Translator: 林博仁 <pika1021@gmail.com>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
 "debian.org>\n"
@@ -84,7 +84,7 @@ msgstr "正在掃瞄安全更新檔案庫……"
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "正在掃瞄釋出版本更新(release updates)的軟體倉庫……"
+msgstr "正在掃瞄釋出版本軟體更新(release updates)的軟體倉庫……"
 
 #. Type: select
 #. Choices
@@ -176,7 +176,7 @@ msgstr "資訊安全更新（從 ${SEC_HOST}）"
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
 msgid "release updates"
-msgstr "釋出版本更新(release updates)"
+msgstr "釋出版本軟體更新(release updates)"
 
 #. Type: multiselect
 #. Description
@@ -193,7 +193,7 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Debian 有兩個提供更新給釋出版本的服務：「資訊安全更新」和「釋出版本更新"
+"Debian 有兩個提供更新給釋出版本的服務：「資訊安全更新」和「釋出版本軟體更新"
 "(release updates)」。"
 
 #. Type: multiselect
@@ -216,9 +216,10 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"「釋出軟體更新(release updates)」提供一些時常更動且若不擁有最新版本可能會降低"
-"使用性的軟體之更近期的版本。它另外也提供了針對 regression （新版本軟體所帶來"
-"的程式缺陷）的修正。這項更新服務僅提供給 stable 以及 oldstable 的釋出版本。"
+"「釋出版本軟體更新(release updates)」提供一些時常更動且若不擁有最新版本可能會"
+"降低使用性的軟體之更近期的版本。它另外也提供了針對 regression （新版本軟體所"
+"帶來的程式缺陷）的修正。這項更新服務僅提供給 stable 以及 oldstable 的釋出版"
+"本。"
 
 #. Type: text
 #. Description
