@@ -1,3 +1,23 @@
+apt-setup (1:0.61) unstable; urgency=low
+
+  * Team upload
+  * Replace XC-Package-Type by Package-Type
+
+  [ Updated translations ]
+  * French (fr.po) by Christian Perrier
+  * Czech (cs.po) by Miroslav Kure
+  * Danish (da.po) by Joe Hansen
+  * Estonian (et.po) by Mattias Põldaru
+  * Japanese (ja.po) by Kenshi Muto
+  * Marathi (mr.po) by sampada
+  * Slovak (sk.po) by Ivan Masár
+  * Telugu (te.po) by Arjuna Rao Chavala
+  * Thai (th.po) by Theppitak Karoonboonyanan
+  * Turkish (tr.po) by Mert Dirik
+  * Traditional Chinese (zh_TW.po) by 林博仁
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 17 Jun 2012 19:26:38 +0200
+
 apt-setup (1:0.60) unstable; urgency=low
 
   [ Philipp Kern ]
