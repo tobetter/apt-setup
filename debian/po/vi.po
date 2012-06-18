@@ -22,9 +22,9 @@ msgstr ""
 "Project-Id-Version: debian-installer Level 1\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-04-11 00:58+0100\n"
-"Last-Translator: Hai-Nam Nguyen <hainam@jcisio.com>\n"
-"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"PO-Revision-Date: 2012-06-18 03:18+0900\n"
+"Last-Translator: Nguyen Vu Hung <vuhung16plus@gmail.com>\n"
+"Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,9 +74,8 @@ msgstr "Đang quét kho cập nhật bảo mật..."
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Đang quét kho cập nhật hay thay đổi..."
+msgstr "Quét kho cập nhật..."
 
 #. Type: select
 #. Choices
@@ -164,7 +163,7 @@ msgstr ""
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "bản cập nhật bảo mật (từ ${SEC_HOST})"
+msgstr "cập nhật bảo mật (từ ${SEC_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -173,28 +172,24 @@ msgstr "bản cập nhật bảo mật (từ ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Xoá dữ liệu :"
+msgstr "cập nhật"
 
 #. Type: multiselect
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
 msgid "Services to use:"
-msgstr "Dịch vụ cần dùng:"
+msgstr "Dịch vụ sẽ dùng:"
 
 #. Type: multiselect
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
-msgstr ""
-"Debian cung cấp hai dịch vụ cập nhật bản phát hành: kiểu bảo mật (security) "
-"và kiểu hay thay đổi (volatile)."
+msgstr "Debian cung cấp hai dịch vụ cập nhật phát hành: bảo mật và phát hành"
 
 #. Type: multiselect
 #. Description
@@ -204,24 +199,23 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"Bản cập nhật bảo mật thì giúp bạn bảo vệ hệ thống chống tấn công. Rất khuyên "
-"bạn hiệu lực dịch vụ này."
+"Cập nhật bảo mật thì giúp bạn bảo vệ hệ thống bởi tấn công. Khuyến nghị sử "
+"dụng."
 
 #. Type: multiselect
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Bản cập nhật hay thay đổi thì cung cấp bản cập nhật cho phần mềm thay đổi "
-"nhiều, trong trường hợp mà phiên bản mới nhất là quan trọng. Chẳng hạn, các "
-"chữ ký vi rút cho bộ quét vi rút. Dịch vụ này chỉ sẵn sàng cho bản phát hành "
-"ổn định (stable) và ổn định cũ (oldstable)."
+"Bản cập nhật phát hành cung cấp bản cập nhật cho phần mềm thay đổi tương đối "
+"nhiều và nếu không có bản mới nhất sẽ ảnh hưởng tới chức năng của phần mềm. "
+"Bản này cũng cung cấp bản vá lỗi lũy tích. Dịch vụ này chỉ có với phiên bản "
+"ổn định và ổn định cũ (oldstable)."
 
 #. Type: text
 #. Description
