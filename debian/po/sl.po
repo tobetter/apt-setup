@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: sl\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-05-07 14:22+0100\n"
+"PO-Revision-Date: 2012-06-18 09:14+0100\n"
 "Last-Translator: Vanja Cvelbar <cvelbar@gmail.com>\n"
 "Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
 "Language: sl\n"
@@ -87,9 +87,8 @@ msgstr "Pregled skladišča z varnostnimi posodobitvami ..."
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Pregled skladišča z neobstojnimi posodobitvami ..."
+msgstr "Pregled skladišča z posodobitvami izdaje ..."
 
 #. Type: select
 #. Choices
@@ -185,9 +184,8 @@ msgstr "varnostne posodobitve (iz ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Izbriši podatke:"
+msgstr "posodobitve izdaje"
 
 #. Type: multiselect
 #. Description
@@ -200,13 +198,12 @@ msgstr "Vključene storitve:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
 "Debian omogoča dvoje storitev, ki prinašajo posodobitve k izdajam: varnostne "
-"in spremenljive."
+"in posodobitve izdaje."
 
 #. Type: multiselect
 #. Description
@@ -223,18 +220,17 @@ msgstr ""
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Spremenljive posodobitve prinašajo novejše različice programja, ki se "
-"spreminja relativno pogosto in kjer starejše različice programa lahko "
-"pomenijo manjšo uporabnost za končnega uporabnika. Primer za to so virusni "
-"podpisi za protivirusni program. Ta storitev je na voljo le za stabilne "
-"(stable) in prejšnje stabilne (oldstable) izdaje."
+"Posodobitve izdaje prinašajo novejše različice programja, ki se spreminja "
+"relativno pogosto in kjer starejše različice programa lahko pomenijo manjšo "
+"uporabnost za končnega uporabnika. Poleg tega nudijo tudi popravke za "
+"regresije. Ta storitev je na voljo le za stabilne (stable) in prejšnje "
+"stabilne (oldstable) izdaje."
 
 #. Type: text
 #. Description
