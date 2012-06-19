@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-05-27 12:29+0300\n"
+"PO-Revision-Date: 2012-06-20 01:26+0300\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latviešu <locale-l10n@googlegroups.com>\n"
 "Language: lv\n"
@@ -81,9 +81,8 @@ msgstr "Skenē drošības atjauninājumu krātuvi..."
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Skenē nepastāvīgo atjauninājumu krātuvi..."
+msgstr "Skenē laidiena atjauninājumu krātuvi..."
 
 #. Type: select
 #. Choices
@@ -178,9 +177,8 @@ msgstr "drošības atjauninājumi (no ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Dzēst datus:"
+msgstr "laidiena atjauninājumi"
 
 #. Type: multiselect
 #. Description
@@ -193,13 +191,12 @@ msgstr "Izmantojamie servisi:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
 "Debian ir divi servisi, kuri nodrošina atjauninājumus laidieniem: drošības "
-"un nepastāvīgo atjauninājumu servisi."
+"un laidiena atjauninājumu."
 
 #. Type: multiselect
 #. Description
@@ -216,16 +213,15 @@ msgstr ""
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Nepastāvīgie atjauninājumi piegādā jaunākās versijas programmatūrai, kura "
-"mainās diezgan bieži un kuras jaunākās versijas neesamība varētu samazināt "
-"lietojamību. Piemēram, vīrusu ķērāju datubāzes. Šis serviss ir pieejams "
+"Laidiena atjauninājumi piegādā jaunākās versijas programmatūrai, kura mainās "
+"diezgan bieži un kuras jaunākās versijas neesamība varētu samazināt "
+"lietojamību. Tas nodrošina arī labojumus regresijām. Šis serviss ir pieejams "
 "tikai stabilajam un vecajam stabilajam laidienam."
 
 #. Type: text
