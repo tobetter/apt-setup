@@ -25,9 +25,9 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-02-28 12:41+0100\n"
+"PO-Revision-Date: 2012-06-20 17:49+0100\n"
 "Last-Translator: Karolina Kalic <karolina@resenje.org>\n"
-"Language-Team: Serbian/Cyrillic\n"
+"Language-Team: Serbian <debian-l10n-serbian@lists.debian.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,9 +76,8 @@ msgstr "Скенирање репозиторијума са безбеднос�
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Скенирање репозиторијума са ажурираним непостојаним пакетима..."
+msgstr "Скенирање репозиторијума са ажурираним пакетима..."
 
 #. Type: select
 #. Choices
@@ -174,9 +173,8 @@ msgstr "безбедносне закрпе (са ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Брисање података:"
+msgstr "ажурирани пакети"
 
 #. Type: multiselect
 #. Description
@@ -189,13 +187,12 @@ msgstr "Сервиси који ће се користити:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
 "Debian има два сервиса који обезбеђују ажуриране пакете: безбедносне закрпе "
-"и непостојане пакете."
+"и нове верзије пакета."
 
 #. Type: multiselect
 #. Description
@@ -212,17 +209,16 @@ msgstr ""
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Ажурирани непостојани пакети су новије верзије софтвера који се релативно "
-"често мења и код којих непоседовање последње верзије може умањити "
-"употребљивост софтвера. Пример су потписи вируса за анти-вирус програм. Овај "
-"сервис је доступан само за „stable “ и „oldstable“ издања."
+"Ажурирани пакети су новије верзије софтвера који се релативно често мења и "
+"код којих непоседовање последње верзије може умањити употребљивост софтвера. "
+"Такође пружа поправке за раније верзије. Овај сервис је доступан само за "
+"„stable “ и „oldstable“ издања."
 
 #. Type: text
 #. Description
