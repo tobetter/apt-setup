@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-05-02 08:47+0600\n"
+"PO-Revision-Date: 2012-06-19 10:26+0600\n"
 "Last-Translator: Sahran <sahran.ug@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: \n"
@@ -70,9 +70,8 @@ msgstr "بىخەتەرلىك يېڭىلاش خەزىنىسىنى تەكشۈرۈ�
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "volatile يېڭىلاش خەزىنىسىنى تەكشۈرۈۋاتىدۇ…"
+msgstr "نەشر يېڭىلاش خەزىنىسىنى تەكشۈرۈۋاتىدۇ…"
 
 #. Type: select
 #. Choices
@@ -167,9 +166,8 @@ msgstr "بىخەتەرلىك يېڭىلىنىشى( ${SEC_HOST}دىن)"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "سانلىق-مەلۇماتلارنى ئۆچۈرۈش:"
+msgstr "نەشر يېڭىلاش"
 
 #. Type: multiselect
 #. Description
@@ -182,13 +180,12 @@ msgstr "ئىشلىتىدىغان مۇلازىمەت:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Debian تارقىتىلغان ئىككى خىل نەشرىگە يېڭىلاش مۇلازىمىتى تەمىنلىگەن: security "
-"ۋە volatile"
+"Debian  نەشر يېڭىلايدىغان ئىككى خىل مۇلازىمەت تەمىنلىگەن: بىخەتەرلىك ۋە نەشر "
+"يېڭىلاش"
 
 #. Type: multiselect
 #. Description
@@ -205,17 +202,16 @@ msgstr ""
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Volatile يېڭىلاش ئۆزگىرىش نىسبەتەن كۆپ ھەمدە ئەڭ يېڭى نەشرى بولمىسا "
-"ئىشلىتىلىشچانلىقى تۆۋەنلەپ كېتىدىغان يۇمشاق دېتاللارغا  يېڭى نەشرىنى "
-"تەمىنلەيدۇ، مەسىلەن ۋىرۇسخورنىڭ ۋىرۇس ئالاھىدىلىك ساندىنى. بۇ مۇلازىمەت "
-"مۇقىم نەشرى(stable) ۋە كونا مۇقىم نەشرى (oldstable)گىلا تەمىنلىنىدۇ."
+"ئۆزگىرىشى نىسبەتەن كۆپ، ئەڭ يېڭى نەشرى بولمىسا قوللىنىشچانلىقى تۆۋەنلەپ "
+"كېتىدىغان يۇمشاق دېتاللارغا  نەشر يېڭىلاش تەمىنلەيدۇ، ئۇ پەقەت ئەسلىگە "
+"قايتۇرۇپ ئوڭشاشنىلا تەمىنلەيدۇ. بۇ مۇلازىمەت مۇقىم نەشرى ۋە كونا مۇقىم "
+"نەشرىگىلا تەمىنلىنىدۇ."
 
 #. Type: text
 #. Description
