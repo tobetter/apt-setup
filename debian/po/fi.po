@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-05-22 13:33+0300\n"
+"PO-Revision-Date: 2012-06-20 10:39+0100\n"
 "Last-Translator: Timo Jyrinki <timo.jyrinki@iki.fi>\n"
 "Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
 "Language: fi\n"
@@ -77,9 +77,8 @@ msgstr "Tutkitaan tietoturvapäivitysten varastoa..."
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Tutkitaan nopeiden päivitysten varastoa..."
+msgstr "Tutkitaan julkaisupäivitysten varastoa..."
 
 #. Type: select
 #. Choices
@@ -176,9 +175,8 @@ msgstr "tietoturvapäivitykset (${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Tiedot pyyhitään:"
+msgstr "julkaisupäivitykset"
 
 #. Type: multiselect
 #. Description
@@ -191,13 +189,12 @@ msgstr "Käytettävät palvelut:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
 "Debianilla on kaksi palvelua, jotka tarjoavat päivityksiä julkaisuihin: "
-"tietoturva- ja nopeat päivitykset."
+"tietoturva- ja julkaisupäivitykset."
 
 #. Type: multiselect
 #. Description
@@ -214,18 +211,17 @@ msgstr ""
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Nopeat päivitykset tarjoavat uudempia versioita ohjelmista, jotka muuttuvat "
+"Julkaisupäivitykset tarjoavat uudempia versioita ohjelmista, jotka muuttuvat "
 "suhteellisen usein, ja joissa muun kuin uusimman version käyttö vähentäisi "
-"ohjelman käyttökelpoisuutta. Esimerkki tällaisesta on virustutkan "
-"virustuntomerkit. Tämä palvelu on saatavilla vain vakaaseen ja vanhaan "
-"vakaaseen julkaisuun."
+"ohjelman käyttökelpoisuutta. Sen kautta voidaan tarjota myös korjauksia "
+"ohjelmavirheisiin, joita ei ollut aiemmassa Debian-julkaisussa. Tämä palvelu "
+"on saatavilla vain vakaaseen ja vanhaan vakaaseen julkaisuun."
 
 #. Type: text
 #. Description
