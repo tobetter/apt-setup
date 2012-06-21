@@ -85,9 +85,8 @@ msgstr "Memindai repositori update keamanan..."
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Memindai repositori update..."
+msgstr "Memindai repositori pembaruan..."
 
 #. Type: select
 #. Choices
@@ -174,7 +173,7 @@ msgstr ""
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "Perbarui keamanan (dari ${SEC_HOST})"
+msgstr "perbarui keamanan (dari ${SEC_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -183,9 +182,8 @@ msgstr "Perbarui keamanan (dari ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Hapus update"
+msgstr "pembaruan rilis"
 
 #. Type: multiselect
 #. Description
@@ -198,7 +196,6 @@ msgstr "Layanan yang digunakan:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
@@ -221,7 +218,6 @@ msgstr ""
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
