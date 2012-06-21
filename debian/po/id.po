@@ -87,7 +87,7 @@ msgstr "Memindai repositori update keamanan..."
 #: ../apt-setup-udeb.templates:6001
 #, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Memindai repositori update volatile..."
+msgstr "Memindai repositori update..."
 
 #. Type: select
 #. Choices
@@ -185,7 +185,7 @@ msgstr "Perbarui keamanan (dari ${SEC_HOST})"
 #: ../apt-setup-udeb.templates:10001
 #, fuzzy
 msgid "release updates"
-msgstr "Hapus data:"
+msgstr "Hapus update"
 
 #. Type: multiselect
 #. Description
@@ -228,10 +228,9 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Pembaruan volatile memberikan piranti lunak terbaru yang cukup sering "
-"berubah yang tanpa penggunaannnya dapat mengurangi kehandalan dari piranti "
-"lunak tersebut. Contohnya adalah data virus untuk program anti virus. "
-"Layanan ini hanya tersedia untuk rilis stabil dan stabil-lama."
+"Pembaruan Rilis menyediakan piranti lunak terbaru yang cukup sering berubah "
+"yang tanpa penggunaannnya dapat mengurangi kehandalan dari piranti lunak "
+"tersebut.Layanan ini hanya tersedia untuk rilis stabil dan stabil-lama."
 
 #. Type: text
 #. Description

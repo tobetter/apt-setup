@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_mk\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-04-11 15:54+0200\n"
+"PO-Revision-Date: 2012-06-21 08:59+0200\n"
 "Last-Translator: Arangel Angov <arangel@linux.net.mk>\n"
 "Language-Team: Macedonian <>\n"
 "Language: mk\n"
@@ -76,9 +76,8 @@ msgstr "Го скенирам серверот со безбедносни за�
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Скенирам складиште за непостојани надградби..."
+msgstr "Скенирам складиште за надградби..."
 
 #. Type: select
 #. Choices
@@ -174,9 +173,8 @@ msgstr "безбедносни надградби (од ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Бришење на податоци:"
+msgstr "Надградби за изданието"
 
 #. Type: multiselect
 #. Description
@@ -189,13 +187,12 @@ msgstr "Сервиси кои што ќе се користат:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
 "Debian има два сервиса кои што нудат надградби за изданија: security и "
-"volatile."
+"release."
 
 #. Type: multiselect
 #. Description
@@ -205,24 +202,23 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"Безбедносните надградби помагаат да го чувате Вашиот систем безбеден од "
+"Безбедносните надградби помагаат да го чуваш твојот систем безбеден од "
 "напади. Вклучувањето на овој сервис е строго препорачливо."
 
 #. Type: multiselect
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Непостојатните надградби нудат понови верзии на софтвер кој што се менува "
-"релативно фрекфентно и доколку ја немате најновата верзија може да дојде до "
-"намалена користливост на софтверот. Еден пример е потпис за вирус за вирус "
-"скенер. Овој сервис е достапен само за stable и oldstable изданија."
+"Надградби за изданието нудат понови верзии на софтвер кој што се менува "
+"релативно фрекфентно и доколку ја немаш најновата верзија може да дојде до "
+"намалена употребливост на софтверот. Овој сервис е достапен само за stable и "
+"oldstable изданија."
 
 #. Type: text
 #. Description
