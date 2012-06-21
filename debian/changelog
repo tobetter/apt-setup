@@ -1,3 +1,21 @@
+apt-setup (1:0.64) unstable; urgency=low
+
+  * Team upload
+
+  [ Updated translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk
+  * Persian (fa.po) by Hamid
+  * Finnish (fi.po) by Timo Jyrinki
+  * Lithuanian (lt.po) by Rimas Kudelis
+  * Macedonian (mk.po) by Arangel Angov
+  * Bokmål, Norwegian (nb.po) by Hans Fredrik Nordhaug
+  * Dutch (nl.po) by Jeroen Schot
+  * Slovenian (sl.po) by Vanja Cvelbar
+  * Serbian (sr.po) by Karolina Kalic
+  * Telugu (te.po) by Arjuna Rao Chavala
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 21 Jun 2012 22:48:27 +0200
+
 apt-setup (1:0.63) unstable; urgency=low
 
   * Team upload
