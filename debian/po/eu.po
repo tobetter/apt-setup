@@ -78,9 +78,8 @@ msgstr "Segurtasuneko eguneraketen biltegia eskaneatzen..."
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Eguneraketa hegazkorren biltegia eskaneatzen..."
+msgstr "Argitalpen eguneraketa biltegiak eskaneatzen..."
 
 #. Type: select
 #. Choices
@@ -177,9 +176,8 @@ msgstr "Segurtasun eguneraketak (${SEC_HOST}(e)tik)"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Ezabatu datuak:"
+msgstr "argitalpen eguneraketak:"
 
 #. Type: multiselect
 #. Description
@@ -192,13 +190,12 @@ msgstr "Erabiliko diren zerbitzuak:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
 "Debian-ek bi zerbitzu ditu argitalpenak eguneratzeko: segurtasuna eta "
-"hegazkorra."
+"argitalpen eguneraketak."
 
 #. Type: multiselect
 #. Description
@@ -215,18 +212,16 @@ msgstr ""
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Eguneraketa hegazkorrak maiztasun handiz aldatu eta azken bertsioa ez "
-"izateak erabiltasuna murrizten duen software eguneraketak eskaintzen "
-"dituzte. Adibidez birusen sinadurak birus-arakatzaile batentzat. Zerbitzu "
-"hau stable (egonkor) eta oldstable (egonkor-zaharra) banaketan soilik "
-"erabilgarri dago."
+"Argitalpen eguneraketa maiztasun handiz aldatu eta azken bertsioa ez izateak "
+"erabiltasuna murrizten duen software eguneraketak eskaintzen dituzte. "
+"Adibidez birusen sinadurak birus-arakatzaile batentzat. Zerbitzu hau stable "
+"(egonkor) eta oldstable (egonkor-zaharra) banaketan soilik erabilgarri dago."
 
 #. Type: text
 #. Description
