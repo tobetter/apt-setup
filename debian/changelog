@@ -1,3 +1,13 @@
+apt-setup (1:0.66) unstable; urgency=low
+
+  * Team upload
+
+  [ Updated translations ]
+  * Panjabi (pa.po) by A S Alam
+  * Romanian (ro.po) by Eddy Petrișor
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 23 Jun 2012 13:52:22 +0200
+
 apt-setup (1:0.65) unstable; urgency=low
 
   * Team upload
