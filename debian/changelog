@@ -1,3 +1,12 @@
+apt-setup (1:0.68) unstable; urgency=low
+
+  * Team upload
+  
+  [ Updated translations ]
+  * Malayalam (ml.po) by Praveen
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 24 Jun 2012 11:45:07 +0200
+
 apt-setup (1:0.67) unstable; urgency=low
 
   * Team upload
