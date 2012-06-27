@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-06-23 22:23-0300\n"
+"PO-Revision-Date: 2012-06-27 01:39-0300\n"
 "Last-Translator: Felipe Augusto van de Wiel (faw) <faw@debian.org>\n"
 "Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
 "org>\n"
@@ -191,7 +191,8 @@ msgid ""
 "release updates."
 msgstr ""
 "O Debian possui dois serviços que fornecem atualizações para os lançamentos: "
-"segurança (\"security\") e atualizações da distribuição (\"release\")."
+"atualizaçẽs de segurança (\"security\") e atualizações da distribuição "
+"(\"release\")."
 
 #. Type: multiselect
 #. Description
@@ -216,9 +217,9 @@ msgid ""
 msgstr ""
 "Atualizações da distribuição (\"release\") fornecem versões mais atuais para "
 "softwares que mudam com relativa frequência e onde não ter a última versão "
-"poderia reduzir a usabilidade do software. Um exemplo são as assinaturas de "
-"vírus para um antivírus. Este serviço só está disponível para as versões "
-"estável (\"stable\") e estável-antiga (\"oldstable\")."
+"poderia reduzir a usabilidade do software. Também fornecem correções para "
+"regressões. Este serviço só está disponível para as versões estável (\"stable"
+"\") e estável-antiga (\"oldstable\")."
 
 #. Type: text
 #. Description
