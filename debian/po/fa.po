@@ -76,7 +76,7 @@ msgstr "بررسی مخزن به روز رسانی‌های امنیتی ..."
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "در حال پویش بروزرسانی‌های نهایی مخزن..."
+msgstr "در حال پویش مخزن بروز رسانی‌های انتشار..."
 
 #. Type: select
 #. Choices
@@ -163,7 +163,7 @@ msgstr ""
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "به‌روزهای امنیتی (از ${SEC_HOST})"
+msgstr "بروز رسانی‌های امنیتی (از ${SEC_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -173,14 +173,14 @@ msgstr "به‌روزهای امنیتی (از ${SEC_HOST})"
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
 msgid "release updates"
-msgstr "بروزسرانی‌های نهایی"
+msgstr "بروز رسانی‌های انتشار"
 
 #. Type: multiselect
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
 msgid "Services to use:"
-msgstr "خدمات برای استفاده:"
+msgstr "خدمت‌ها برای استفاده:"
 
 #. Type: multiselect
 #. Description
@@ -190,7 +190,8 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"دبیان دو سرویس برای ارائه بروزرسانی نهایی دارد: امنیتی و بروزرسانی‌های نهایی"
+"دبیان دو خدمت دارد که بروز رسانی‌ها را برای انتشارها فراهم میکند: بروز "
+"رسانی‌های امنیتی و بروز رسانی‌های انتشار."
 
 #. Type: multiselect
 #. Description
@@ -200,8 +201,8 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"به‌روزهای امنیتی به شما کمک می‌کند تا سیستم خود را در برابر حملات امن نگه "
-"دارید. فعال کردن این خدمت بسیار توصیه شده است."
+"بروز رسانی‌های امنیتی،کمک می‌کند تا سامانه خود را در برابر حملات امن نگه "
+"دارید. فعال کردن این خدمت به شدت توصیه میشود."
 
 #. Type: multiselect
 #. Description
@@ -213,9 +214,10 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"بروزرسانی‌های نهایی شامل ورژن جدیدتری از نرم‌افزارهاست، اما این به معنای آخرین "
-"ورژن نرم‌افزار که باعث کاهش پایداری نرم‌افزارها خواهد شد نیست. این سرویس فقط "
-"برای بروزرسانی‌های stable و oldstable در دسترس است."
+"بروز رسانی‌های انتظار نسخه‌های جاری بیشتری برای نرم‌افزارهایی که بصورت نسبتا "
+"مکرر تغییر میکنند فراهم میکند و نداشتن آخرین نسخه میتواند قابلیت استفاده "
+"نرم‌افزار  را کاهش دهد.بروز رسانی‌های انتشار همچنین رفع بازگشت را فراهم میکنند."
+"این سرویس،تنها برای انتشارهای پایدار و پایدار قدیمی موجود است."
 
 #. Type: text
 #. Description
