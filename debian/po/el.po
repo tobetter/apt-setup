@@ -33,8 +33,8 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-04-07 19:51+0300\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2012-08-15 18:43+0300\n"
+"Last-Translator: galaxico <galaxico@quad-nrg.net>\n"
 "Language-Team: Greek <debian-l10n-greek@lists.debian.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -85,9 +85,8 @@ msgstr "Ανίχνευση της αρχειοθήκης των αναβαθμί
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Σάρωση του αποθετηρίου των αναβαθμίσεων ευελιξίας..."
+msgstr "Σάρωση του αποθετηρίου των αναβαθμίσεων της έκδοσης..."
 
 #. Type: select
 #. Choices
@@ -185,9 +184,8 @@ msgstr "αναβαθμίσεις ασφαλείας (από ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Διαγραφή δεδομένων:"
+msgstr "αναβαθμίσεις έκδοσης"
 
 #. Type: multiselect
 #. Description
@@ -200,13 +198,12 @@ msgstr "Υπηρεσίες που θα χρησιμοποιηθούν:"
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Το Debian έχει δύο υπηρεσίες που προσφέρουν αναβαθμίσεις στις σταθερές "
-"εκδόσεις: ασφαλείας και ευελιξίας."
+"Το Debian έχει δύο υπηρεσίες που προσφέρουν αναβαθμίσεις στις εκδόσεις του: "
+"ασφαλείας και έκδοσης."
 
 #. Type: multiselect
 #. Description
@@ -223,18 +220,17 @@ msgstr ""
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Οι αναβαθμίσεις ευελιξίας προσφέρουν πιο ενημερωμένες εκδόσεις για λογισμικό "
+"Οι αναβαθμίσεις έκδοσης προσφέρουν πιο ενημερωμένες εκδόσεις για λογισμικό "
 "που αλλάζει σχετικά συχνά και σε περιπτώσεις που η μη διάθεση της πιο "
-"πρόσφατης έκδοσης μειώνει την χρησιμότητα αυτού του λογισμικού. Ένα "
-"παράδειγμα είναι οι υπογραφές ιών για έναν ανιχνευτή ιών. Η υπηρεσία αυτή "
-"είναι διαθέσιμη μόνο για τις εκδόσεις stable και oldstable."
+"πρόσφατης έκδοσης μειώνει την χρησιμότητα αυτού του λογισμικού. Περιλαμβάνει "
+"επίσης αναδρομικές διορθώσεις προβλημάτων. Η υπηρεσία αυτή είναι διαθέσιμη "
+"μόνο για τις εκδόσεις stable και oldstable."
 
 #. Type: text
 #. Description
