@@ -1,3 +1,10 @@
+apt-setup (1:0.71) unstable; urgency=low
+
+  [ Updated translations ]
+  * Greek (el.po) by galaxico
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 25 Aug 2012 08:07:52 +0200
+
 apt-setup (1:0.70) unstable; urgency=low
 
   * Team upload
