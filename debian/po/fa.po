@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: fa\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-06-21 00:58+0330\n"
+"PO-Revision-Date: 2012-09-18 10:30+0330\n"
 "Last-Translator: Hamid <hamid.r1988@gmail.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
 "Language: \n"
@@ -76,7 +76,7 @@ msgstr "بررسی مخزن به روز رسانی‌های امنیتی ..."
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "در حال پویش مخزن بروز رسانی‌های انتشار..."
+msgstr "در حال پویش مخزن به‌روزرسانی‌های انتشار..."
 
 #. Type: select
 #. Choices
@@ -163,7 +163,7 @@ msgstr ""
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "بروز رسانی‌های امنیتی (از ${SEC_HOST})"
+msgstr "به‌روزرسانی‌های امنیتی (از ${SEC_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -173,7 +173,7 @@ msgstr "بروز رسانی‌های امنیتی (از ${SEC_HOST})"
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
 msgid "release updates"
-msgstr "بروز رسانی‌های انتشار"
+msgstr "به‌روزرسانی‌های انتشار"
 
 #. Type: multiselect
 #. Description
@@ -190,7 +190,7 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"دبیان دو خدمت دارد که بروز رسانی‌ها را برای انتشارها فراهم میکند: بروز "
+"دبیان دو خدمت دارد که به‌روزرسانی‌ها را برای انتشارها فراهم میکند: به‌روز "
 "رسانی‌های امنیتی و بروز رسانی‌های انتشار."
 
 #. Type: multiselect
@@ -201,8 +201,8 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"بروز رسانی‌های امنیتی،کمک می‌کند تا سامانه خود را در برابر حملات امن نگه "
-"دارید. فعال کردن این خدمت به شدت توصیه میشود."
+"به‌روزرسانی‌های امنیتی،کمک می‌کند تا سامانه خود را در برابر حملات، ایمن نگاه "
+"دارید.فعال کردن این خدمت به شدت توصیه میشود."
 
 #. Type: multiselect
 #. Description
@@ -214,10 +214,10 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"بروز رسانی‌های انتظار نسخه‌های جاری بیشتری برای نرم‌افزارهایی که بصورت نسبتا "
-"مکرر تغییر میکنند فراهم میکند و نداشتن آخرین نسخه میتواند قابلیت استفاده "
-"نرم‌افزار  را کاهش دهد.بروز رسانی‌های انتشار همچنین رفع بازگشت را فراهم میکنند."
-"این سرویس،تنها برای انتشارهای پایدار و پایدار قدیمی موجود است."
+"به‌روزرسانی‌های انتشار، نسخه‌های جاری بیشتری برای نرم‌افزارهایی که بصورت نسبتا "
+"مکرر تغییر میکنند فراهم میکند و نداشتن آخرین نسخه،میتواند قابلیت استفاده "
+"نرم‌افزار  را کاهش دهد.آن‌ها همچنین ترمیم‌های رگرسیون را نیز فراهم میکنند.این "
+"سرویس،تنها برای انتشارهای پایدار و پایدار قدیمی، موجود است."
 
 #. Type: text
 #. Description

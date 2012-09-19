@@ -31,8 +31,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-06-15 21:06+0000\n"
-"PO-Revision-Date: 2012-06-22 10:16+0800\n"
-"Last-Translator: Yao Wei (魏銘廷) <mwei@lxde.org>\n"
+"PO-Revision-Date: 2012-09-18 17:16+0800\n"
+"Last-Translator: Ｖ字龍 | Vdragon <pika1021@gmail.com>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
 "debian.org>\n"
 "Language: \n"
@@ -84,7 +84,7 @@ msgstr "正在掃瞄安全更新檔案庫……"
 #. :sl6:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "正在掃瞄發行版更新套件庫……"
+msgstr "正在掃瞄釋出版本更新軟體倉庫……"
 
 #. Type: select
 #. Choices
@@ -166,7 +166,7 @@ msgstr "${HOST} 的項目已被加上註解並附加到 /etc/apt/sources.list �
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "安全更新（來自 ${SEC_HOST}）"
+msgstr "安全性更新（來自 ${SEC_HOST}）"
 
 #. Type: multiselect
 #. Choices
@@ -176,14 +176,14 @@ msgstr "安全更新（來自 ${SEC_HOST}）"
 #. :sl6:
 #: ../apt-setup-udeb.templates:10001
 msgid "release updates"
-msgstr "發行版更新"
+msgstr "釋出版本更新"
 
 #. Type: multiselect
 #. Description
 #. :sl6:
 #: ../apt-setup-udeb.templates:10002
 msgid "Services to use:"
-msgstr "要使用的服務："
+msgstr "要使用的軟體更新服務："
 
 #. Type: multiselect
 #. Description
@@ -192,7 +192,8 @@ msgstr "要使用的服務："
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
-msgstr "Debian 替發行版提供了兩個更新服務：「安全更新」和「發行版更新」。"
+msgstr ""
+"Debian 替釋出版本提供了兩個更新服務：「安全性更新」和「釋出版本更新」。"
 
 #. Type: multiselect
 #. Description
@@ -201,7 +202,8 @@ msgstr "Debian 替發行版提供了兩個更新服務：「安全更新」和�
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
-msgstr "安全更新可以用來幫助您的系統抵禦外來的攻擊。強烈建議您能啟用這項服務。"
+msgstr ""
+"安全性更新可以用來幫助您的系統抵禦外來的攻擊。強烈建議您能啟用這項服務。"
 
 #. Type: multiselect
 #. Description
@@ -213,9 +215,9 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"發行版更新替一些時常更新，且若不使用最新版本可能會降低可用性的軟體提供更及時"
-"的版本，也提供新版本所引入的問題 (regression) 的修復。這項服務僅提供給 "
-"stable 及 oldstable 發行版。"
+"釋出版本更新替一些時常更新，且若不使用最新版本可能會降低可用性的軟體提供更及"
+"時的版本，也提供新軟體版本所引入的問題 (regression) 的修復。這項服務僅提供給 "
+"stable 以及 oldstable釋出版本。 "
 
 #. Type: text
 #. Description
