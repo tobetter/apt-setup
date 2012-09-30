@@ -1,3 +1,10 @@
+apt-setup (1:0.73) unstable; urgency=low
+
+  [ Updated translations ]
+  * Czech (cs.po) by Miroslav Kure
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 30 Sep 2012 11:27:16 +0200
+
 apt-setup (1:0.72) unstable; urgency=low
 
   [ Updated translations ]
