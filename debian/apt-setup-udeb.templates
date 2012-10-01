@@ -14,22 +14,22 @@ _Description: Configuring apt
 
 Template: apt-setup/progress/fallback
 Type: text
-# :sl1:
+# :sl2:
 _Description: Running ${SCRIPT}...
 
 Template: apt-setup/progress/local
 Type: text
-# :sl1:
+# :sl2:
 _Description: Scanning local repositories...
 
 Template: apt-setup/progress/security
 Type: text
-# :sl1:
+# :sl2:
 _Description: Scanning the security updates repository...
 
 Template: apt-setup/progress/updates
 Type: text
-# :sl6:
+# :sl2:
 _Description: Scanning the release updates repository...
 
 Template: apt-setup/local/key-error
@@ -77,10 +77,10 @@ Choices-C: security, updates
 # SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 # Translators: the *entire* string should be under 55 columns
 # including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-# :sl6:
+# :sl1:
 __Choices: security updates (from ${SEC_HOST}), release updates
 Default: security, updates
-# :sl6:
+# :sl1:
 _Description: Services to use:
  Debian has two services that provide updates to releases: security and
  release updates.

@@ -1,3 +1,10 @@
+apt-setup (1:0.74) UNRELEASED; urgency=low
+
+  * [l10n] Drop use of sublevel 6 and move "recently" added
+    strings to the sublevel they pertain to.
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 01 Oct 2012 07:27:41 +0200
+
 apt-setup (1:0.73) unstable; urgency=low
 
   [ Updated translations ]
