@@ -30,7 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2012-06-15 21:06+0000\n"
+"POT-Creation-Date: 2012-10-01 22:03+0000\n"
 "PO-Revision-Date: 2012-06-16 11:38+0200\n"
 "Last-Translator: Michał Kułach <michal.kulach@gmail.com>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
@@ -59,28 +59,28 @@ msgstr "Konfigurowanie apta"
 
 #. Type: text
 #. Description
-#. :sl1:
+#. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
 msgstr "Uruchamianie ${SCRIPT}..."
 
 #. Type: text
 #. Description
-#. :sl1:
+#. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
 msgstr "Przeszukiwanie lokalnych repozytoriów..."
 
 #. Type: text
 #. Description
-#. :sl1:
+#. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
 msgstr "Przeszukiwanie repozytorium poprawek bezpieczeństwa..."
 
 #. Type: text
 #. Description
-#. :sl6:
+#. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
 msgstr "Przeszukiwanie repozytorium z aktualizacjami wydania..."
@@ -166,7 +166,7 @@ msgstr ""
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl6:
+#. :sl1:
 #: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "poprawki bezpieczeństwa (z ${SEC_HOST})"
@@ -176,21 +176,21 @@ msgstr "poprawki bezpieczeństwa (z ${SEC_HOST})"
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl6:
+#. :sl1:
 #: ../apt-setup-udeb.templates:10001
 msgid "release updates"
 msgstr "aktualizacje wydania"
 
 #. Type: multiselect
 #. Description
-#. :sl6:
+#. :sl1:
 #: ../apt-setup-udeb.templates:10002
 msgid "Services to use:"
 msgstr "Wykorzystywane serwisy:"
 
 #. Type: multiselect
 #. Description
-#. :sl6:
+#. :sl1:
 #: ../apt-setup-udeb.templates:10002
 msgid ""
 "Debian has two services that provide updates to releases: security and "
@@ -201,7 +201,7 @@ msgstr ""
 
 #. Type: multiselect
 #. Description
-#. :sl6:
+#. :sl1:
 #: ../apt-setup-udeb.templates:10002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
@@ -212,7 +212,7 @@ msgstr ""
 
 #. Type: multiselect
 #. Description
-#. :sl6:
+#. :sl1:
 #: ../apt-setup-udeb.templates:10002
 msgid ""
 "Release updates provide more current versions for software that changes "

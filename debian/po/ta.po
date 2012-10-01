@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ta\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2012-06-15 21:06+0000\n"
+"POT-Creation-Date: 2012-10-01 22:03+0000\n"
 "PO-Revision-Date: 2012-06-07 19:44-0500\n"
 "Last-Translator: Kumar Appaiah\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -51,28 +51,28 @@ msgstr "ஆப்ட் ஐ வடிவமைக்கவும்"
 
 #. Type: text
 #. Description
-#. :sl1:
+#. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
 msgstr "${SCRIPT} இயக்கப்படுகிறது..."
 
 #. Type: text
 #. Description
-#. :sl1:
+#. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
 msgstr "உள் தகவல் தளங்களை வருடுகிறது...."
 
 #. Type: text
 #. Description
-#. :sl1:
+#. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
 msgstr "பாதுகாப்பு இற்றைப் படுத்தல் தகவல் தளங்களை வருடுகிறது...."
 
 #. Type: text
 #. Description
-#. :sl6:
+#. :sl2:
 #: ../apt-setup-udeb.templates:6001
 #, fuzzy
 msgid "Scanning the release updates repository..."
@@ -159,7 +159,7 @@ msgstr ""
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl6:
+#. :sl1:
 #: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "(${SEC_HOST}இலிருந்து) பாதுகாப்பு இற்றைப்படுத்தல்"
@@ -169,7 +169,7 @@ msgstr "(${SEC_HOST}இலிருந்து) பாதுகாப்பு 
 #. SEC_HOST and VOL_HOST are host names (e.g. security.debian.org)
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
-#. :sl6:
+#. :sl1:
 #: ../apt-setup-udeb.templates:10001
 #, fuzzy
 msgid "release updates"
@@ -177,14 +177,14 @@ msgstr "தகவலை அழி:"
 
 #. Type: multiselect
 #. Description
-#. :sl6:
+#. :sl1:
 #: ../apt-setup-udeb.templates:10002
 msgid "Services to use:"
 msgstr "பயன்படுத்த வேண்டிய சேவைகள்:"
 
 #. Type: multiselect
 #. Description
-#. :sl6:
+#. :sl1:
 #: ../apt-setup-udeb.templates:10002
 #, fuzzy
 msgid ""
@@ -194,7 +194,7 @@ msgstr "டெபியன் இரண்டு இற்றைப்படு�
 
 #. Type: multiselect
 #. Description
-#. :sl6:
+#. :sl1:
 #: ../apt-setup-udeb.templates:10002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
@@ -205,7 +205,7 @@ msgstr ""
 
 #. Type: multiselect
 #. Description
-#. :sl6:
+#. :sl1:
 #: ../apt-setup-udeb.templates:10002
 #, fuzzy
 msgid ""
