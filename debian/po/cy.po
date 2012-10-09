@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-10-01 22:03+0000\n"
-"PO-Revision-Date: 2012-06-14 09:46-0000\n"
+"PO-Revision-Date: 2012-10-08 21:16-0000\n"
 "Last-Translator: Dafydd Tomos <l10n@da.fydd.org>\n"
 "Language-Team: Welsh <>\n"
 "Language: cy\n"
@@ -72,9 +72,8 @@ msgstr "Sganio ystorfeydd diweddariadau diogelwch..."
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Sganio ystorfeydd diweddariadau hedegog..."
+msgstr "Yn sganio'r ystorfeydd diweddariadau ryddhau..."
 
 #. Type: select
 #. Choices
@@ -162,7 +161,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:10001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "uwchraddiadau diogelwch (o ${SEC_HOST})"
+msgstr "diweddariadau diogelwch (o ${SEC_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -171,9 +170,8 @@ msgstr "uwchraddiadau diogelwch (o ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Dileu data:"
+msgstr "diweddariadau ryddhau"
 
 #. Type: multiselect
 #. Description
@@ -186,12 +184,12 @@ msgstr "Gwasanaethau i'w defnyddio:"
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Mae gan Debian ddau wasanaeth sy'n rhoi uwchraddiadau: diogelwch a hedegog"
+"Mae gan Debian ddau wasanaeth sy'n rhoi diweddariadau i fersiwn wedi "
+"ryddhau: diogelwch a diweddariadau ryddhau."
 
 #. Type: multiselect
 #. Description
@@ -201,25 +199,23 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"Mae uwchraddiadau diogelwch yn helpu cynnal eich system yn erbyn "
-"bygythiadau. Mae gweithredu'r gwasanaeth yma yn cael ei hargymell yn gryf."
+"Mae uwchraddiadau diogelwch yn helpu diogelu eich system yn erbyn "
+"bygythiadau. Rydym yn argymell yn gryf i alluogi'r gwasanaeth hwn."
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Mae uwchraddiadau hedegog yn rhoi fersiynau cymwys o feddalwedd sy'n newid "
-"yn weddol aml a lle byddai cael hen fersiwn o'r feddalwedd yn lleihau "
-"defnyddioldeb y meddalwedd. Esiampl yw'r feirws arwyddo ar gyfer sganiwr "
-"feirws. Mae'r gwasanaeth hyn ond ar gael ar fyer fersiynau sefydlog a "
-"hensefydlog."
+"Mae diweddariadau ryddhau yn rhoi fersiynau mwy cyfredol o feddalwedd sy'n "
+"newid yn weddol aml a lle byddai cael hen fersiwn o'r feddalwedd yn lleihau "
+"defnyddioldeb y meddalwedd. Mae e hefyd yn darparu trwsiadau adlithro. Mae'r "
+"gwasanaeth ar gael ar gyfer y fersiynau sefydlog a hensefydlog yn unig."
 
 #. Type: text
 #. Description

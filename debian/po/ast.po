@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-10-01 22:03+0000\n"
-"PO-Revision-Date: 2012-04-02 18:31+0100\n"
+"PO-Revision-Date: 2012-10-09 13:08+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: Softastur\n"
 "Language: ast\n"
@@ -71,9 +71,8 @@ msgstr "Escaneando'l depósitu d'anovamientos de seguridá..."
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Escaneando'l depósitu d'anovamientos volátiles..."
+msgstr "Analizando'l repositoriu d'anovamientos de la distribución..."
 
 #. Type: select
 #. Choices
@@ -119,8 +118,8 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Esto puede ser un problema cola to rede, o col sirvidor qu'agospia la clave. "
-"Puedes intentar baxala otra vuelta, o ignorar el problema y siguir ensin los "
+"Esto pue ser un problema cola to rede, o col sirvidor qu'agospia la clave. "
+"Pues intentar baxala otra vuelta, o inorar el problema y siguir ensin los "
 "paquetes d'esti sirvidor."
 
 #. Type: error
@@ -169,9 +168,8 @@ msgstr "Anovamientos de seguridá (dende ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Desaniciar datos:"
+msgstr "anovamientos de la distribución:"
 
 #. Type: multiselect
 #. Description
@@ -184,13 +182,12 @@ msgstr "Servicios a usar:"
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Debian tien dos servicios que dan anovamientos a releases: seguridá y "
-"volátil."
+"Debian tien dos servicios qu'ufre anovamientos a una versión espublizada: "
+"seguridá y anovamientos de la distribución."
 
 #. Type: multiselect
 #. Description
@@ -200,24 +197,24 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"Anovamientos de Seguridá caltién el to equipu seguru énte ataques. Activar "
-"esti serviciu encamiéntase enforma."
+"Anovamientos de Seguridá caltienen el to equipu seguru énte ataques. "
+"Encamiéntase enforma activar esti serviciu."
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Anovamientos Volátiles dan más versiones actuales del software que camuden "
-"frecuentemente y au nun tener la cabera versión puede amenorgar la usabilidá "
-"del software. Un exemplu son les robles de virus pa un escaner de virus. "
-"Esti serviciu ta namái disponible pa releases estables y anteriores."
+"Los anovamientos de la distribución ufren versiones más recientes de "
+"programes que tienen munchos cambeos con relativa frecuencia y que si nun "
+"s'anovaran amenorgaríen la so utilidá. Un exemplu d'estos anovamientos son "
+"les robles de virus d'un analizador de virus. Esti serviciu namái ta "
+"disponible pa les distribuciones estable y «oldstable»."
 
 #. Type: text
 #. Description
@@ -278,7 +275,7 @@ msgid ""
 msgstr ""
 "Tienes la opción d'escanear por CDs o DVDs adicionales pa usar pol xestor de "
 "paquetes (apt). Normalmente ye lo mesmo qu'afitar la instalación de CD/DVD. "
-"Si nun tienes CDs o DVDs adicionales disponibles, esti pasu puedes saltalu."
+"Si nun tienes CDs o DVDs adicionales disponibles, esti pasu pues saltalu."
 
 #. Type: boolean
 #. Description
@@ -295,7 +292,7 @@ msgstr "Si quies escanear otru CD o DVD, por favor, inxértalu agora."
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "El CD o DVD cola siguiente etiqueta escaneóse:"
+msgstr "Escaneóse'l CD o DVD cola siguiente etiqueta:"
 
 #. Type: boolean
 #. Description
@@ -392,8 +389,7 @@ msgstr ""
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
 msgstr ""
-"Tas instalando dende un CD, el cual contién una seleición llimitada de "
-"paquetes."
+"Tas instalando dende un CD, que contién una seleición llimitada de paquetes."
 
 #. Type: text
 #. Description
@@ -431,8 +427,8 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"Decátese de que si usa una réplica descargaránse una gran cantidá de datos "
-"nel siguiente pasu de la instalación."
+"Decátate de que si uses una réplica, van descargase una gran cantidá de "
+"datos nel siguiente pasu de la instalación."
 
 #. Type: text
 #. Description
@@ -492,7 +488,7 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Dalgún software non llibre puede tar fechu pa trabayar con Debian. Camienta "
+"Dalgún software non llibre pue tar fechu pa trabayar con Debian. Camienta "
 "qu'esti software nun ye completamente una parte de Debian, ferramientes "
 "standards de Debian puede usase pa instalalu. Esti software tien variaciones "
 "de llicencies que pueden prevenir el so usu, modificación o compartición."
@@ -566,7 +562,7 @@ msgstr "Por favor, escueyi si quies que'l software tea disponible pa ti."
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr "Cambear d'espeyu"
+msgstr "Cambiar d'espeyu"
 
 #. Type: select
 #. Description
@@ -584,9 +580,8 @@ msgid ""
 "packages from this mirror."
 msgstr ""
 "Falló l'instalador accediendo al espeyu. Esto puede ser un problema cola to "
-"rede, o col espeyu. Puedes escoyer reintentar la baxada, seleicionar un "
-"espeyu distintu, o inorar el problema y siguir ensin tolos paquetes d'esti "
-"espeyu."
+"rede, o col espeyu. Pues escoyer reintentar la baxada, seleicionar un espeyu "
+"distintu, o inorar el problema y siguir ensin tolos paquetes d'esti espeyu."
 
 #. Type: boolean
 #. Description
@@ -603,7 +598,7 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
-"Un espeyu de rede puede usase pa suplir el software qu'incluyíu nel CD-ROM. "
+"Un espeyu de rede pue usase pa suplir el software qu'incluyíu nel CD-ROM. "
 "Esto puede remanar versiones más nueves del software disponible."
 
 #. Type: boolean

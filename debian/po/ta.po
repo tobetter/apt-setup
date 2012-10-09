@@ -12,9 +12,9 @@
 # Translations from iso-codes:
 # drtvasudevan <agnihot3@gmail.com>, 2006.
 # Damodharan Rajalingam <rdamodharan@gmail.com>, 2006.
-# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2008, 2010.
+# Dr.T.Vasudevan <drtvasudevan@gmail.com>, 2007, 2008, 2010.
 # Dr,T,Vasudevan <agnihot3@gmail.com>, 2010.
-#   Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2008, 2011.
+#   Dr.T.Vasudevan <drtvasudevan@gmail.com>, 2007, 2008, 2011, 2012.
 #   Dwayne Bailey <dwayne@translate.org.za>, 2009.
 # I. Felix <ifelix25@gmail.com>, 2009, 2012.
 msgid ""
@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: ta\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-10-01 22:03+0000\n"
-"PO-Revision-Date: 2012-06-07 19:44-0500\n"
-"Last-Translator: Kumar Appaiah\n"
+"PO-Revision-Date: 2012-10-09 13:03+0530\n"
+"Last-Translator: Dr.T.Vasudevan <drtvasudevan@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
@@ -171,9 +171,8 @@ msgstr "(${SEC_HOST}இலிருந்து) பாதுகாப்பு 
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "தகவலை அழி:"
+msgstr "வெளியீட்டு மேம்பாடுகள்"
 
 #. Type: multiselect
 #. Description
@@ -186,11 +185,12 @@ msgstr "பயன்படுத்த வேண்டிய சேவைகள�
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
-msgstr "டெபியன் இரண்டு இற்றைப்படுத்தல் சேவைகளை கொண்டுள்ளது.: பாதுகாப்பு மற்றும் தற்காலிக."
+msgstr ""
+"டெபியன் இரண்டு இற்றைப்படுத்தல் சேவைகளை கொண்டுள்ளது.: பாதுகாப்பு மற்றும் வெளியீட்டு "
+"மேம்பாடுகள்"
 
 #. Type: multiselect
 #. Description
@@ -207,16 +207,16 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"தற்காலிக இற்றைப்படுத்தல் அடிக்கடி மாறும் மென்பொருள் பதிப்புகளை அவை சரியாக பயன்படும் "
-"பொருட்டு இப்போதைய பதிப்புகளை தருகிறது. உதாரணமாக ஒரு வைரஸ் வருடிக்கு வைரஸ் "
-"கையெழுத்துக்கள். இந்த சேவை பழைய /புதிய நிலையான வெளீயீடுகளுக்கு மட்டுமே பொருந்தும்."
+"வெளியீட்டு மேம்பாடுகள் அடிக்கடி மாறும் மென்பொருள் பதிப்புகளை மேம்பாடு இல்லாவிட்டால் "
+"மென்பொருள் சரியாக பயன்படாது என்னும் நிலையில்  தருகிறது. இவை பழையனவற்றில் இருக்கக்கூடிய "
+"தவறுகளுக்கும் தீர்வை தருகின்றன. இந்த சேவை நிலையான /புதிய நிலையான வெளீயீடுகளுக்கு "
+"மட்டுமே பொருந்தும்."
 
 #. Type: text
 #. Description

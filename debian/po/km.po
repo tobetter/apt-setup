@@ -66,9 +66,8 @@ msgstr "កំពុង​វិភាគ​ឃ្លាំង​របស់​
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "កំពុង​វិភាគ​រក​ឃ្លាំង​បច្ចុប្បន្នភាព​​ដែល​មិន​ស្ថិតស្ថេរ..."
+msgstr "កំពុង​វិភាគ​រក​ឃ្លាំង​បច្ចុប្បន្នភាព​​ចេញ​ផ្សាយ..."
 
 #. Type: select
 #. Choices
@@ -161,9 +160,8 @@ msgstr "បច្ចុប្បន្នភាព​​សុវត្ថិភ
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "លុប​ទិន្នន័យ ៖"
+msgstr "ចេញ​ផ្សាយ​បច្ចុប្បន្នភាព"
 
 #. Type: multiselect
 #. Description
@@ -176,11 +174,12 @@ msgstr "សេវា​ត្រូវ​ប្រើ ៖"
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
-msgstr "ដេបៀន​មាន​សេវា​ពីរ ដែល​ផ្ដល់​នូវ​បច្ចុប្បន្នភាព​​ទៅ​កា​រចេញ​ផ្សាយ ៖ សុវត្ថិភាព និង​ភាព​ស្ថិតស្ថេរ ។"
+msgstr ""
+"ដេបៀន​មាន​សេវា​កម្ម​ពីរ ដែល​ផ្ដល់​នូវ​បច្ចុប្បន្នភាព​​ចំពោះ​កា​រចេញ​ផ្សាយ ៖ សុវត្ថិភាព និង​ការ​ចេញ​ផ្សាយ​"
+"បច្ចុប្បន្នភាព។"
 
 #. Type: multiselect
 #. Description
@@ -197,16 +196,15 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"បច្ចុប្បន្នភាព​​ដែល​ស្ថិតស្ថេរ​ផ្ដល់​នូវ​កំណែក​បច្ចុប្បន្ន​បន្ថែម​ទៀត​សម្រាប់​កម្មវិធី​ដែល​ផ្លាស់ប្ដូរ​ទំនាក់ទំនង​ជា​"
-"ញឹកញាប់ និង​មិន​មាន​កំណែ​ថ្មី​បំផុត​អាច​កាត់បន្ថយ​សមត្ថភាព​ប្រើ​របស់​កម្មវិធី ។ ឧទាហរណ៍ គឺ​ហត្ថលេខា​មេរោគ​សម្រាប់​"
-"កម្មវិធី​ស្កេន​មេរោគ ។ សេវា​នេះ​អាច​ប្រើ​បាន​តែ​សម្រាប់​ការ​ចេញផ្សាយ​ដែល​ស្ថិតស្ថេរ និង​ចាស់ៗ ។"
+"បច្ចុប្បន្នភាព​​​ចេញ​ផ្សាយ​ផ្ដល់​​​នូវ​កំណែក​បច្ចុប្បន្ន​បន្ថែម​ទៀត​សម្រាប់​កម្មវិធី​ដែល​ផ្លាស់ប្ដូរ​ទំនាក់ទំនង​ជា​ញឹកញាប់ "
+"និង​មិន​មាន​កំណែ​ថ្មី​បំផុត​អាច​កាត់បន្ថយ​សមត្ថភាព​ប្រើ​របស់​កម្មវិធី ។ វា​ក៏​ផ្ដល់​ផងដែរ​នូវ​ការ​កែ​កំហុស។ សេវាកម្ម​"
+"នេះ​អាច​ប្រើ​បាន​សម្រាប់​ការ​ចេញ​ផ្សាយ​ស្ថិតស្ថេរ​ និង​ស្ថិតស្ថេរ​ចាស់។"
 
 #. Type: text
 #. Description
