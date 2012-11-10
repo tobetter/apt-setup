@@ -1,3 +1,10 @@
+apt-setup (1:0.76) unstable; urgency=low
+
+  [ Updated translations ]
+  * Malayalam (ml.po) by Hrishikesh K B
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 10 Nov 2012 11:34:58 +0100
+
 apt-setup (1:0.75) unstable; urgency=low
 
   [ Updated translations ]
