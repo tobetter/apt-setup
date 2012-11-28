@@ -20,12 +20,14 @@
 #   Gabor Kelemen <kelemeng@gnome.hu>, 2006, 2007.
 #   Kalman Kemenczy <kkemenczy@gmail.com>, 2010.
 #   Andras TIMAR <timar@gnome.hu>, 2000-2001.
+# SZERVÁC Attila <sas@321.hu>, 2012.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-10-01 22:03+0000\n"
-"PO-Revision-Date: 2012-04-21 09:42+0100\n"
+"PO-Revision-Date: 2012-11-28 18:33+0100\n"
 "Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
 "Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
 "org>\n"
@@ -176,9 +178,8 @@ msgstr "biztonsági frissítések (innen: ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:10001
-#, fuzzy
 msgid "release updates"
-msgstr "Adatok törlése:"
+msgstr "kiadás frissítések"
 
 #. Type: multiselect
 #. Description
@@ -191,13 +192,12 @@ msgstr "Felhasznált szolgáltatások:"
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"A Debian 2 szolgáltatást nyújt a kiadott verziók frissítéséhez: ezek a "
-"biztonsági és változékony frissítések."
+"A Debian két frissítési szolgáltatást nyújt: ezek a biztonsági (security) és "
+"a kiadás (release) frissítések."
 
 #. Type: multiselect
 #. Description
@@ -214,17 +214,16 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:10002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"A változékony frissítések az olyan sűrűn változó szoftverek frissítéseit "
-"adják, melyeknél az elavulás csökkenti a használhatóságot. Ilyenek például a "
-"vírusleírások. E szolgáltatás csak a \"stable\" és \"oldstable\" kiadásokhoz "
-"érhető el."
+"A iadás frissítések az olyan sűrűn változó szoftverek frissítéseit adják, "
+"melyeknél az elavulás csökkenti a használhatóságot. A javítás közben "
+"bekerült hibák javítását is tartalmazza. E szolgáltatás csak a \"stable\" és "
+"\"oldstable\" kiadásokhoz érhető el."
 
 #. Type: text
 #. Description
