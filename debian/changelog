@@ -1,3 +1,10 @@
+apt-setup (1:0.77) unstable; urgency=low
+
+  [ Updated translations ]
+  * Hungarian (hu.po) by Dr. Nagy Elemér Károly
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 09 Dec 2012 12:27:15 +0100
+
 apt-setup (1:0.76) unstable; urgency=low
 
   [ Updated translations ]
