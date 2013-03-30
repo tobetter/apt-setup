@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: ta\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-10-01 22:03+0000\n"
-"PO-Revision-Date: 2012-10-09 13:03+0530\n"
+"PO-Revision-Date: 2013-03-29 15:30+0530\n"
 "Last-Translator: Dr.T.Vasudevan <drtvasudevan@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -74,9 +74,8 @@ msgstr "பாதுகாப்பு இற்றைப் படுத்த�
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "தற்காலிக இற்றைப் படுத்தல் தகவல் தளங்களை வருடுகிறது...."
+msgstr "வினியோக இற்றைப் படுத்தல் தகவல் தளங்களை வருடுகிறது...."
 
 #. Type: select
 #. Choices
