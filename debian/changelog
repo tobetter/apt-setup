@@ -1,3 +1,10 @@
+apt-setup (1:0.78) unstable; urgency=low
+
+  [ Updated translations ]
+  * Amharic (am.po) by Tegegne Tefera
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 30 Mar 2013 07:53:14 +0100
+
 apt-setup (1:0.77) unstable; urgency=low
 
   [ Updated translations ]
