@@ -1,11 +1,11 @@
-apt-setup (1:0.79) UNRELEASED; urgency=low
+apt-setup (1:0.79) unstable; urgency=low
 
   * Fix support for apt-setup/multiarch preseed option: call “dpkg
     --add-architecture $arch" for each architecture, instead of
     generating dpkg.cfg (used by early multiarch implementations);
     thanks, Raphaël Hertzog! (Closes: #703995)
 
- -- Cyril Brulebois <kibi@debian.org>  Sat, 06 Apr 2013 20:08:22 +0200
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 06 Apr 2013 20:11:42 +0200
 
 apt-setup (1:0.78) unstable; urgency=low
 
