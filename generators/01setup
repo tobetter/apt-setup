@@ -17,8 +17,7 @@ fi
 
 db_get apt-setup/multiarch
 if [ "$RET" ]; then
-	mkdir -p $ROOT/etc/dpkg/dpkg.cfg.d
 	for arch in $RET; do
-		echo "foreign-architecture $arch"
-	done >$ROOT/etc/dpkg/dpkg.cfg.d/multiarch
+		chroot $ROOT dpkg --add-architecture $arch
+	done
 fi
