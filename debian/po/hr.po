@@ -15,14 +15,14 @@
 #   Krunoslav Gernhard, 2004
 #   Vladimir Vuksan <vuksan@veus.hr>, 2000.
 #   Vlatko Kosturjak, 2001
-# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
+# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-10-01 22:03+0000\n"
-"PO-Revision-Date: 2012-06-18 16:28+0200\n"
+"PO-Revision-Date: 2013-04-16 05:30+0200\n"
 "Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. Type: text
 #. Description
@@ -111,8 +111,8 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"Instaler nije uspio preuzeti javni ključ korišten za potpisivanje lokalnog "
-"repozitorija na ${MIRROR}:"
+"Instalacijski program nije uspio preuzeti javni ključ korišten za "
+"potpisivanje lokalnog repozitorija na ${MIRROR}:"
 
 #. Type: select
 #. Description
@@ -122,9 +122,8 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Možda je problem u vašoj mreži ili sa tim poslužiteljem. Možete pokušati "
-"iznova, izabrati neki drugi, ili ignorirati problem te nastaviti bez tih "
-"paketa."
+"Možda je problem u vašoj mreži ili tom poslužitelju. Možete pokušati iznova, "
+"izabrati neki drugi ili zanemariti problem te nastaviti bez tih paketa."
 
 #. Type: error
 #. Description
@@ -202,7 +201,7 @@ msgid ""
 "this service is strongly recommended."
 msgstr ""
 "Sigurnosne nadogradnje vam pomažu očuvati vaš sustav sigurnim od napada. "
-"Uključivanje ove usluge se najtoplije preporuča."
+"Uključivanje ove usluge se najtoplije preporučuje."
 
 #. Type: multiselect
 #. Description
@@ -215,9 +214,9 @@ msgid ""
 "service is only available for stable and oldstable releases."
 msgstr ""
 "Nadogradnje izdanja (release) pružaju ažurnije inačice programa koji se "
-"mijenjaju relativno često, i gdje nemanje najnovije inačice može smanjiti "
-"iskoristivost programa. Primjer su podaci o virusima za antivirusni program. "
-"Ova usluga je dostupna samo za izdanja 'stable' i 'oldstable'."
+"mijenjaju relativno često i gdje neposjedovanje najnovije inačice može "
+"smanjiti iskoristivost programa. Primjer su podaci o virusima za antivirusni "
+"program. Ova usluga je dostupna samo za izdanja 'stable' i 'oldstable'."
 
 #. Type: text
 #. Description
@@ -265,7 +264,7 @@ msgstr "Pregledati još jedan CD ili DVD?"
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "Vaš instalacijski CD ili DVD je pregledan; njegov naziv je:"
+msgstr "Vaš instalacijski CD ili DVD je pregledan, njegova oznaka je:"
 
 #. Type: boolean
 #. Description
@@ -277,7 +276,7 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"Sada imate opciju pregledavanja dodatnih CD-ova ili DVD-ova za upotrebu s "
+"Sada imate opciju pregledavanja dodatnih CD-a ili DVD-a za upotrebu s "
 "paketnim sustavom (apt). Obično su oni iz istog seta kao i instalacijski CD/"
 "DVD. Ako nemate nikakvih dodatnih CD-a ili DVD-a, samo preskočite ovaj korak."
 
@@ -296,7 +295,7 @@ msgstr "Ako želite pregledati neki drugi CD ili DVD, sada ga ubacite."
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "Pregledan je CD ili DVD sa sljedećim nazivom:"
+msgstr "Pregledan je CD ili DVD sa sljedećom oznakom:"
 
 #. Type: boolean
 #. Description
@@ -320,8 +319,8 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
 msgstr ""
-"Pokušaj podešavanja apta kako bi instalirao dodatne pakete s CD-a/DVD-a nije "
-"uspio."
+"Pokušaj podešavanja apt-a kako bi instalirao dodatne pakete s CD-a/DVD-a "
+"nije uspio."
 
 #. Type: boolean
 #. Description
@@ -349,7 +348,7 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:Molim ubacite disk s oznakom: '${LABEL}' u uređaj '/cdrom/' i "
+"/cdrom/:Molim ubacite disk s oznakom '${LABEL}' u uređaj '/cdrom/' i "
 "pritisnite enter."
 
 #. Type: text
@@ -371,7 +370,7 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"Ako instalirate s netinst CD-a i ne odaberete korištenje zrcalnog "
+"Ako instalirate s netinst CD-a i ne izaberete korištenje zrcalnog "
 "poslužitelja, završit ćete samo sa minimalnim osnovnim sustavom."
 
 #. Type: text
@@ -406,8 +405,8 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"Pregledali ste %i CD-a. Iako oni sadrže značajnu količinu paketa za odabir, "
-"neki još mogu nedostajati (napose neki pakete koji su potrebni za podršku "
+"Pregledali ste %i CD-a. Iako oni sadrže značajnu količinu paketa za izbor, "
+"neki još mogu nedostajati (posebno neki paketi koji su potrebni za podršku "
 "jezika osim engleskog)."
 
 #. Type: text
@@ -420,7 +419,7 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"Pregledali ste %i CD-a. Iako oni sadrže veću količinu paketa za odabir, neki "
+"Pregledali ste %i CD-a. Iako oni sadrže veću količinu paketa za izbor, neki "
 "još mogu nedostajati."
 
 #. Type: text
@@ -431,8 +430,8 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"Imajte na umu da korištenje mirror može uzrokovati prijenos velike količine "
-"podataka preko mreže za vrijeme sljedećeg koraka instalacije."
+"Imajte na umu da korištenje zrcalnog poslužitelja može uzrokovati prijenos "
+"velike količine podataka preko mreže za vrijeme sljedećeg koraka instalacije."
 
 #. Type: text
 #. Description
@@ -442,7 +441,7 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Instalirate s DVD-a. Iako DVD sadrži veliku količinu paketa za odabir, neki "
+"Instalirate s DVD-a. Iako DVD sadrži veliku količinu paketa za izbor, neki "
 "još mogu nedostajati."
 
 #. Type: text
@@ -480,7 +479,7 @@ msgstr "Pretražujem zrcalni poslužitelj..."
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "Rabi ne-slobodne programe?"
+msgstr "Koristi ne-slobodne programe?"
 
 #. Type: boolean
 #. Description
@@ -494,7 +493,7 @@ msgid ""
 msgstr ""
 "Neki ne-slobodni programi mogu raditi s Debianom. Iako nisu ni na koji način "
 "dio Debiana, možete ih instalirati uobičajenim Debianovim alatima. Ti "
-"programi imaju različite licence koje će vas spriječiti da ih koristite, "
+"programi imaju različite licence koje vas mogu spriječiti da ih koristite, "
 "prilagođavate ili dijelite."
 
 #. Type: boolean
@@ -514,7 +513,7 @@ msgstr "Molim odlučite hoćete li to ipak omogućiti."
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "Rabi doprinesene programe?"
+msgstr "Koristi doprinesene programe?"
 
 #. Type: boolean
 #. Description
@@ -583,8 +582,8 @@ msgid ""
 "packages from this mirror."
 msgstr ""
 "Instalacijski program nije uspio pristupiti zrcalnom poslužitelju. Možda je "
-"problem u vašoj mreži ili sa tim poslužiteljem. Možete pokušati iznova, "
-"izabrati neki drugi, ili ignorirati problem te nastaviti bez tih paketa."
+"problem u vašoj mreži ili tom poslužitelju. Možete pokušati iznova, izabrati "
+"neki drugi ili zanemariti problem te nastaviti bez tih paketa."
 
 #. Type: boolean
 #. Description
