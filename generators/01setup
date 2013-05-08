@@ -25,4 +25,8 @@ if [ "$RET" ]; then
 	for arch in $RET; do
 		$chroot $ROOT dpkg --add-architecture "$arch"
 	done
+else
+	for arch in $($chroot $ROOT dpkg --print-foreign-architectures); do
+		$chroot $ROOT dpkg --remove-architecture "$arch"
+	done
 fi

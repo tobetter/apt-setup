@@ -2,6 +2,9 @@ apt-setup (1:0.80) UNRELEASED; urgency=low
 
   * Update comment on apt-setup/services-select Choices field.
   * generators/01setup: Cope with the case where ROOT is unset.
+  * generators/01setup: If apt-setup/multiarch is empty, remove any existing
+    foreign architectures (as might have been set up by e.g. a live
+    filesystem build).
 
  -- Colin Watson <cjwatson@debian.org>  Wed, 08 May 2013 13:51:07 +0100
 
