@@ -5,6 +5,8 @@ apt-setup (1:0.80) UNRELEASED; urgency=low
   * generators/01setup: If apt-setup/multiarch is empty, remove any existing
     foreign architectures (as might have been set up by e.g. a live
     filesystem build).
+  * Bail out cleanly from cdrom generator if /cdrom/.disk/info doesn't exist
+    or has zero size, to guard against image creation errors (LP: #245519).
 
  -- Colin Watson <cjwatson@debian.org>  Wed, 08 May 2013 13:51:07 +0100
 

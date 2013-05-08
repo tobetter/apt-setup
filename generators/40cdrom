@@ -36,6 +36,9 @@ file="$1"
 if [ ! -e /cdrom/.disk/base_installable ]; then
 	exit 0
 fi
+if [ ! -s /cdrom/.disk/info ]; then
+	exit 0
+fi
 
 cd_mountable=1
 db_get cdrom-detect/hybrid || true
