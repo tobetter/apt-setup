@@ -1,5 +1,6 @@
-apt-setup (1:0.80) UNRELEASED; urgency=low
+apt-setup (1:0.80) unstable; urgency=low
 
+  [ Colin Watson ]
   * Update comment on apt-setup/services-select Choices field.
   * generators/01setup: Cope with the case where ROOT is unset.
   * generators/01setup: If apt-setup/multiarch is empty, remove any existing
@@ -8,7 +9,10 @@ apt-setup (1:0.80) UNRELEASED; urgency=low
   * Bail out cleanly from cdrom generator if /cdrom/.disk/info doesn't exist
     or has zero size, to guard against image creation errors (LP: #245519).
 
- -- Colin Watson <cjwatson@debian.org>  Wed, 08 May 2013 13:51:07 +0100
+  [ Updated translations ]
+  * Croatian (hr.po) by Tomislav Krznar
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 12 May 2013 12:49:46 +0200
 
 apt-setup (1:0.79) unstable; urgency=low
 
