@@ -1,10 +1,11 @@
-apt-setup (1:0.81) UNRELEASED; urgency=low
+apt-setup (1:0.81) unstable; urgency=low
 
+  [ Dmitrijs Ledkovs ]
   * Set debian source format to '3.0 (native)'.
   * Bump debhelper compat level to 9.
   * Set Vcs-* to canonical format.
 
- -- Dmitrijs Ledkovs <xnox@debian.org>  Fri, 07 Jun 2013 00:25:34 +0100
+ -- Christian Perrier <bubulle@debian.org>  Sat, 13 Jul 2013 13:08:02 +0200
 
 apt-setup (1:0.80) unstable; urgency=low
 
