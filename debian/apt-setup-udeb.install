@@ -5,3 +5,4 @@ generators/60local usr/lib/apt-setup/generators
 generators/90services-select usr/lib/apt-setup/generators
 generators/91security usr/lib/apt-setup/generators
 generators/92updates usr/lib/apt-setup/generators
+generators/93backports usr/lib/apt-setup/generators

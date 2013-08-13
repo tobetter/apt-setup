@@ -1,3 +1,10 @@
+apt-setup (1:0.82) UNRELEASED; urgency=low
+
+  [ Jérémy Bobbio ]
+  * Add support for backports. Closes: #691651
+
+ -- Joey Hess <joeyh@debian.org>  Tue, 13 Aug 2013 10:36:32 +0200
+
 apt-setup (1:0.81) unstable; urgency=low
 
   [ Dmitrijs Ledkovs ]
