@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-05-08 22:03+0000\n"
+"POT-Creation-Date: 2013-08-13 22:03+0000\n"
 "PO-Revision-Date: 2012-06-22 14:45+0800\n"
 "Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
 "Language-Team: Chinese (simplified) <debian-l10n-chinese@lists.debian.org>\n"
@@ -88,12 +88,21 @@ msgstr "正在扫描安全更新软件源..."
 msgid "Scanning the release updates repository..."
 msgstr "正在扫描发布版本的 updates 软件源..."
 
+#. Type: text
+#. Description
+#. :sl2:
+#: ../apt-setup-udeb.templates:7001
+#, fuzzy
+#| msgid "Scanning the release updates repository..."
+msgid "Scanning the backports repository..."
+msgstr "正在扫描发布版本的 updates 软件源..."
+
 #. Type: select
 #. Choices
 #. :sl2:
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
-#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+#: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
 msgstr "重试"
 
@@ -102,13 +111,13 @@ msgstr "重试"
 #. :sl2:
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
-#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+#: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
 msgstr "忽略"
 
 #. Type: select
 #. Description
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
 msgstr "下载本地仓库密钥失败："
 
@@ -116,7 +125,7 @@ msgstr "下载本地仓库密钥失败："
 #. Description
 #. You should end this with a colon. A non-translatable variable
 #. follows with the mirror URL
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
@@ -124,7 +133,7 @@ msgstr "安装程序从 ${MIRROR} 下载用于签署本地仓库的公钥失败�
 
 #. Type: select
 #. Description
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
@@ -136,14 +145,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
 msgstr "无法访问软件源"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -154,7 +163,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -166,7 +175,7 @@ msgstr "被注释掉的有关 ${HOST} 的条目已被加入到 /etc/apt/sources.
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "安全更新 (来自 ${SEC_HOST})"
 
@@ -176,21 +185,33 @@ msgstr "安全更新 (来自 ${SEC_HOST})"
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "release updates"
 msgstr "发布版本的更新(updates)："
 
 #. Type: multiselect
+#. Choices
+#. SEC_HOST is a host name (e.g. security.debian.org)
+#. Translators: the *entire* string should be under 55 columns
+#. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
+#. :sl1:
+#: ../apt-setup-udeb.templates:11001
+#, fuzzy
+#| msgid "Use backported software?"
+msgid "backported software"
+msgstr "使用移植回来的 (backported) 软件吗？"
+
+#. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
 msgstr "要使用的服务："
 
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
@@ -200,7 +221,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -209,7 +230,7 @@ msgstr "安全更新能够帮助您的系统抵御外来的攻击。强烈建议
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
@@ -219,6 +240,28 @@ msgstr ""
 "发布版本更新(updates)为那些变动相对频繁，而且使用非最新版本会降低可用性的软件"
 "提供新的版本，也提供回归修复(regression fixes)。这一服务只针对稳定版 "
 "(stable) 和旧稳定版 (oldstable)。"
+
+#. Type: multiselect
+#. Description
+#. :sl1:
+#: ../apt-setup-udeb.templates:11002
+#, fuzzy
+#| msgid ""
+#| "Some software has been backported from the development tree to work with "
+#| "this release. Although this software has not gone through such complete "
+#| "testing as that contained in the release, it includes newer versions of "
+#| "some applications which may provide useful features."
+msgid ""
+"Backported software are adapted from the development version to work with "
+"this release. Although this software has not gone through such complete "
+"testing as that contained in the release, it includes newer versions of some "
+"applications which may provide useful features. Enabling backports here does "
+"not cause any of them to be installed by default; it only allows you to "
+"manually select backports to use."
+msgstr ""
+"某些软件已被从正在开发的代码中移植回到这一发布中使用。虽然这些软件不象正式发"
+"布中包含的软件一样经过了详尽的测试，但是它们包括一些应用程序的新版本，因而可"
+"能会提供一些有用的功能。"
 
 #. Type: text
 #. Description

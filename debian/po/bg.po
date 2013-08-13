@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bg\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-05-08 22:03+0000\n"
+"POT-Creation-Date: 2013-08-13 22:03+0000\n"
 "PO-Revision-Date: 2012-06-17 08:59+0300\n"
 "Last-Translator: Damyan Ivanov <dmn@debian.org>\n"
 "Language-Team: Български <dict@fsa-bg.org>\n"
@@ -90,12 +90,21 @@ msgstr "Сканиране за хранилище с обновявания п�
 msgid "Scanning the release updates repository..."
 msgstr "Сканиране за хранилището с бързи обновявания..."
 
+#. Type: text
+#. Description
+#. :sl2:
+#: ../apt-setup-udeb.templates:7001
+#, fuzzy
+#| msgid "Scanning the release updates repository..."
+msgid "Scanning the backports repository..."
+msgstr "Сканиране за хранилището с бързи обновявания..."
+
 #. Type: select
 #. Choices
 #. :sl2:
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
-#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+#: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
 msgstr "Опит отново"
 
@@ -104,13 +113,13 @@ msgstr "Опит отново"
 #. :sl2:
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
-#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+#: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
 msgstr "Игнориране"
 
 #. Type: select
 #. Description
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
 msgstr "Грешка при изтегляне на ключа на местното хранилище:"
 
@@ -118,7 +127,7 @@ msgstr "Грешка при изтегляне на ключа на местно
 #. Description
 #. You should end this with a colon. A non-translatable variable
 #. follows with the mirror URL
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
@@ -128,7 +137,7 @@ msgstr ""
 
 #. Type: select
 #. Description
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
@@ -140,14 +149,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
 msgstr "Грешка при достъп до хранилището"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -159,7 +168,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -172,7 +181,7 @@ msgstr ""
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "обновявания по сигурността (от ${SEC_HOST})"
 
@@ -182,21 +191,33 @@ msgstr "обновявания по сигурността (от ${SEC_HOST})"
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "release updates"
 msgstr "бързи обновявания"
 
 #. Type: multiselect
+#. Choices
+#. SEC_HOST is a host name (e.g. security.debian.org)
+#. Translators: the *entire* string should be under 55 columns
+#. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
+#. :sl1:
+#: ../apt-setup-udeb.templates:11001
+#, fuzzy
+#| msgid "Use backported software?"
+msgid "backported software"
+msgstr "Използване на софтуер backport?"
+
+#. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
 msgstr "Източници на обновявания:"
 
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
@@ -207,7 +228,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -218,7 +239,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
@@ -230,6 +251,29 @@ msgstr ""
 "най-новата версия за да не се губи функционалност. Хранилището предоставя и "
 "поправки грешки, допуснати в предишни обновявания на пакети. Това хранилище "
 "е на разположение само за дистрибуциите stable и oldstable."
+
+#. Type: multiselect
+#. Description
+#. :sl1:
+#: ../apt-setup-udeb.templates:11002
+#, fuzzy
+#| msgid ""
+#| "Some software has been backported from the development tree to work with "
+#| "this release. Although this software has not gone through such complete "
+#| "testing as that contained in the release, it includes newer versions of "
+#| "some applications which may provide useful features."
+msgid ""
+"Backported software are adapted from the development version to work with "
+"this release. Although this software has not gone through such complete "
+"testing as that contained in the release, it includes newer versions of some "
+"applications which may provide useful features. Enabling backports here does "
+"not cause any of them to be installed by default; it only allows you to "
+"manually select backports to use."
+msgstr ""
+"Има софтуер, които е прехвърлен обратно (backported) от разработваното "
+"течение, така че да работи с това издание. Въпреки че този софтуер не е "
+"преминал през толкова пълно тестване, колкото това издание, той включва по-"
+"нови версии на някои приложения, които могат да предоставят полезни свойства."
 
 #. Type: text
 #. Description

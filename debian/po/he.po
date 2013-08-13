@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_he\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-05-08 22:03+0000\n"
+"POT-Creation-Date: 2013-08-13 22:03+0000\n"
 "PO-Revision-Date: 2012-06-16 09:49+0300\n"
 "Last-Translator: Lior Kaplan <kaplan@debian.org>\n"
 "Language-Team: Hebrew <debian-hebrew-common@lists.alioth.debian.org>\n"
@@ -90,12 +90,21 @@ msgstr "סורק את מאגר עדכוני האבטחה..."
 msgid "Scanning the release updates repository..."
 msgstr "סורק את מאגר העדכונים לגרסה..."
 
+#. Type: text
+#. Description
+#. :sl2:
+#: ../apt-setup-udeb.templates:7001
+#, fuzzy
+#| msgid "Scanning the release updates repository..."
+msgid "Scanning the backports repository..."
+msgstr "סורק את מאגר העדכונים לגרסה..."
+
 #. Type: select
 #. Choices
 #. :sl2:
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
-#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+#: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
 msgstr "נסה שנית"
 
@@ -104,13 +113,13 @@ msgstr "נסה שנית"
 #. :sl2:
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
-#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+#: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
 msgstr "התעלם"
 
 #. Type: select
 #. Description
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
 msgstr "הורדת מפתח של מאגר מקומי נכשלה:"
 
@@ -118,7 +127,7 @@ msgstr "הורדת מפתח של מאגר מקומי נכשלה:"
 #. Description
 #. You should end this with a colon. A non-translatable variable
 #. follows with the mirror URL
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
@@ -128,7 +137,7 @@ msgstr ""
 
 #. Type: select
 #. Description
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
@@ -144,14 +153,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
 msgstr "לא מצליח לגשת למאגר"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -162,7 +171,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -174,7 +183,7 @@ msgstr "כניסות עבור ${HOST} נוספו כהערות לקובץ /etc/ap
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "עדכוני אבטחה (מהשרת ${SEC_HOST})"
 
@@ -184,21 +193,33 @@ msgstr "עדכוני אבטחה (מהשרת ${SEC_HOST})"
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "release updates"
 msgstr "עדכוני גרסה"
 
 #. Type: multiselect
+#. Choices
+#. SEC_HOST is a host name (e.g. security.debian.org)
+#. Translators: the *entire* string should be under 55 columns
+#. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
+#. :sl1:
+#: ../apt-setup-udeb.templates:11001
+#, fuzzy
+#| msgid "Use backported software?"
+msgid "backported software"
+msgstr "להשתמש בתוכנות שהותאמו אחורה?"
+
+#. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
 msgstr "שירותים לשימוש:"
 
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
@@ -207,7 +228,7 @@ msgstr "לדביאן ישנם שני שירותי עדכון: עדכוני אב�
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -218,7 +239,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
@@ -229,6 +250,28 @@ msgstr ""
 "שבו הגרסה האחרונה אינה מותקנת יכול להוריד את השימושיות של התוכנה. כמו כן "
 "ישנם תיקונים עבור נסיגות ביכולות התוכנה. שירות זה זמין רק עבור הגרסה היציבה "
 "והיציבה הקודמת של הפרוייקט."
+
+#. Type: multiselect
+#. Description
+#. :sl1:
+#: ../apt-setup-udeb.templates:11002
+#, fuzzy
+#| msgid ""
+#| "Some software has been backported from the development tree to work with "
+#| "this release. Although this software has not gone through such complete "
+#| "testing as that contained in the release, it includes newer versions of "
+#| "some applications which may provide useful features."
+msgid ""
+"Backported software are adapted from the development version to work with "
+"this release. Although this software has not gone through such complete "
+"testing as that contained in the release, it includes newer versions of some "
+"applications which may provide useful features. Enabling backports here does "
+"not cause any of them to be installed by default; it only allows you to "
+"manually select backports to use."
+msgstr ""
+"מספר תוכנות נוספות הוסבו לאחור מעץ הפיתוח כדי לעבור עם הגרסה הנוכחית. למרות "
+"שתוכנות אלה לא עברו בדיקות מקיפות כמו התוכנות בגרסה הנוכחית, הן מכילות "
+"גרסאות חדשות של חלק מהתוכנות ואולי מציגות יכולות חדשות."
 
 #. Type: text
 #. Description

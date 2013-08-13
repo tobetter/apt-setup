@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-05-08 22:03+0000\n"
+"POT-Creation-Date: 2013-08-13 22:03+0000\n"
 "PO-Revision-Date: 2012-06-20 10:39+0100\n"
 "Last-Translator: Timo Jyrinki <timo.jyrinki@iki.fi>\n"
 "Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
@@ -80,12 +80,21 @@ msgstr "Tutkitaan tietoturvapäivitysten varastoa..."
 msgid "Scanning the release updates repository..."
 msgstr "Tutkitaan julkaisupäivitysten varastoa..."
 
+#. Type: text
+#. Description
+#. :sl2:
+#: ../apt-setup-udeb.templates:7001
+#, fuzzy
+#| msgid "Scanning the release updates repository..."
+msgid "Scanning the backports repository..."
+msgstr "Tutkitaan julkaisupäivitysten varastoa..."
+
 #. Type: select
 #. Choices
 #. :sl2:
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
-#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+#: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
 msgstr "Yritä uudelleen"
 
@@ -94,13 +103,13 @@ msgstr "Yritä uudelleen"
 #. :sl2:
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
-#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+#: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
 msgstr "Ohita"
 
 #. Type: select
 #. Description
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
 msgstr "Paikallisen ohjelmalähdeavaimen nouto epäonnistui:"
 
@@ -108,7 +117,7 @@ msgstr "Paikallisen ohjelmalähdeavaimen nouto epäonnistui:"
 #. Description
 #. You should end this with a colon. A non-translatable variable
 #. follows with the mirror URL
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
@@ -118,7 +127,7 @@ msgstr ""
 
 #. Type: select
 #. Description
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
@@ -131,14 +140,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
 msgstr "Varastoa ei voitu käyttää"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -150,7 +159,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -164,7 +173,7 @@ msgstr ""
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "tietoturvapäivitykset (${SEC_HOST})"
 
@@ -174,21 +183,34 @@ msgstr "tietoturvapäivitykset (${SEC_HOST})"
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "release updates"
 msgstr "julkaisupäivitykset"
 
 #. Type: multiselect
+#. Choices
+#. SEC_HOST is a host name (e.g. security.debian.org)
+#. Translators: the *entire* string should be under 55 columns
+#. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
+#. :sl1:
+#: ../apt-setup-udeb.templates:11001
+#, fuzzy
+#| msgid "Use backported software?"
+msgid "backported software"
+msgstr ""
+"Käytetäänkö vanhaan järjestelmäversioon sovitettuja ohjelmia (backported)?"
+
+#. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
 msgstr "Käytettävät palvelut:"
 
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
@@ -199,7 +221,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -210,7 +232,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
@@ -222,6 +244,29 @@ msgstr ""
 "ohjelman käyttökelpoisuutta. Sen kautta voidaan tarjota myös korjauksia "
 "ohjelmavirheisiin, joita ei ollut aiemmassa Debian-julkaisussa. Tämä palvelu "
 "on saatavilla vain vakaaseen ja vanhaan vakaaseen julkaisuun."
+
+#. Type: multiselect
+#. Description
+#. :sl1:
+#: ../apt-setup-udeb.templates:11002
+#, fuzzy
+#| msgid ""
+#| "Some software has been backported from the development tree to work with "
+#| "this release. Although this software has not gone through such complete "
+#| "testing as that contained in the release, it includes newer versions of "
+#| "some applications which may provide useful features."
+msgid ""
+"Backported software are adapted from the development version to work with "
+"this release. Although this software has not gone through such complete "
+"testing as that contained in the release, it includes newer versions of some "
+"applications which may provide useful features. Enabling backports here does "
+"not cause any of them to be installed by default; it only allows you to "
+"manually select backports to use."
+msgstr ""
+"Joitakin ohjelmia on sovitettu kehitysversiosta toimimaan tässä julkaisussa. "
+"Vaikkakaan näitä ohjelmia ei ole testattu yhtä perusteellisesti kuin "
+"julkaisun ohjelmia, niissä on joistakin sovelluksista uudemmat versiot, "
+"jotka saattavat tarjota hyödyllisiä ominaisuuksia."
 
 #. Type: text
 #. Description

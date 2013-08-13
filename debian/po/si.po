@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-05-08 22:03+0000\n"
+"POT-Creation-Date: 2013-08-13 22:03+0000\n"
 "PO-Revision-Date: 2012-09-24 17:59+0530\n"
 "Last-Translator: Danishka Navin <danishka@gmail.com>\n"
 "Language-Team: Sinhala <info@hanthana.org>\n"
@@ -73,12 +73,21 @@ msgstr "ආරක්‍ෂිත යාවත්කිරීම් මූල ප
 msgid "Scanning the release updates repository..."
 msgstr "නිකුතු යාවත් කෝශ්ථාගාරය පරිලෝකනය කරමින්..."
 
+#. Type: text
+#. Description
+#. :sl2:
+#: ../apt-setup-udeb.templates:7001
+#, fuzzy
+#| msgid "Scanning the release updates repository..."
+msgid "Scanning the backports repository..."
+msgstr "නිකුතු යාවත් කෝශ්ථාගාරය පරිලෝකනය කරමින්..."
+
 #. Type: select
 #. Choices
 #. :sl2:
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
-#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+#: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
 msgstr "නැවත උත්සාහ කරන්න"
 
@@ -87,13 +96,13 @@ msgstr "නැවත උත්සාහ කරන්න"
 #. :sl2:
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
-#: ../apt-setup-udeb.templates:7001 ../apt-mirror-setup.templates:4001
+#: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
 msgstr "මඟහරින්න"
 
 #. Type: select
 #. Description
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
 msgstr "ප්‍රාදේශික කෝශ්ඨාගාර යතුර බාගැනීම අසාර්ථකයි:"
 
@@ -101,7 +110,7 @@ msgstr "ප්‍රාදේශික කෝශ්ඨාගාර යතුර 
 #. Description
 #. You should end this with a colon. A non-translatable variable
 #. follows with the mirror URL
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
@@ -111,7 +120,7 @@ msgstr ""
 
 #. Type: select
 #. Description
-#: ../apt-setup-udeb.templates:7002
+#: ../apt-setup-udeb.templates:8002
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
@@ -123,14 +132,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
 msgstr "කෝෂ්ථාගාරයට පිවිසිය නොහැක"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
@@ -141,7 +150,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../apt-setup-udeb.templates:9001
+#: ../apt-setup-udeb.templates:10001
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
@@ -153,7 +162,7 @@ msgstr "${HOST} සඳහා සටහන් කල වෙන්කිරීම�
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
 msgstr "ආරක්‍ෂක යාවත් කිරීම් (${SEC_HOST} වෙතින්)"
 
@@ -163,21 +172,33 @@ msgstr "ආරක්‍ෂක යාවත් කිරීම් (${SEC_HOST} �
 #. Translators: the *entire* string should be under 55 columns
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
-#: ../apt-setup-udeb.templates:10001
+#: ../apt-setup-udeb.templates:11001
 msgid "release updates"
 msgstr "නිකුතු යාවත්"
 
 #. Type: multiselect
+#. Choices
+#. SEC_HOST is a host name (e.g. security.debian.org)
+#. Translators: the *entire* string should be under 55 columns
+#. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
+#. :sl1:
+#: ../apt-setup-udeb.templates:11001
+#, fuzzy
+#| msgid "Use backported software?"
+msgid "backported software"
+msgstr "බැක්පෝර්ට් කළ මෘදුකාංග භාවිත කරන්නද?"
+
+#. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
 msgstr "භාවිතකිරීමට සේවාවන්:"
 
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
@@ -186,7 +207,7 @@ msgstr "Debian සතුව එහි නිකුතු සඳහා යාව�
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
@@ -196,7 +217,7 @@ msgstr ""
 #. Type: multiselect
 #. Description
 #. :sl1:
-#: ../apt-setup-udeb.templates:10002
+#: ../apt-setup-udeb.templates:11002
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
@@ -206,6 +227,28 @@ msgstr ""
 "නවීනතම අනුවාදනය නොතිබීම මෘදුකාංගයේ භාවිත කිරීමේ හැකියාව අඩු කරන බැවින් නිකුතු යාවත් නිරන්තරයෙන් "
 "වෙනස් වෙමින් නවතම අනුවාදන ලබාදෙයි. තවද එය ප්‍රතිගමන නිවැරදිකිරීම්ද ලබාදෙයි. මෙම සේවාව "
 "පවතිනුයේ ස්ථාවර හා පැරණි ස්ථාවර නිකුතු සඳහායි."
+
+#. Type: multiselect
+#. Description
+#. :sl1:
+#: ../apt-setup-udeb.templates:11002
+#, fuzzy
+#| msgid ""
+#| "Some software has been backported from the development tree to work with "
+#| "this release. Although this software has not gone through such complete "
+#| "testing as that contained in the release, it includes newer versions of "
+#| "some applications which may provide useful features."
+msgid ""
+"Backported software are adapted from the development version to work with "
+"this release. Although this software has not gone through such complete "
+"testing as that contained in the release, it includes newer versions of some "
+"applications which may provide useful features. Enabling backports here does "
+"not cause any of them to be installed by default; it only allows you to "
+"manually select backports to use."
+msgstr ""
+"මෙම නිකුතුව සමඟ කටයුතු කිරීම සඳහා ඇතැම් මෘදුකාංග සංවර්ධන මූලයෙන් බැක්පෝට් කර ඇත. එම නිසා "
+"මෙම මෘදුකාංගය එහි නිකුතුවේ මෙන් සම්පූර්ණ පිරික්සුමකට ලක්නොවී ඇති අතර. එහි ඇතැම් යෙදුම් වල නව "
+"සංස්කරණ වලින් සැපයිය හැකි ප්‍රයෝජනවත් විශේෂාංග ලබාදෙයි."
 
 #. Type: text
 #. Description
