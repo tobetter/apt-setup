@@ -4,7 +4,7 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # Thai translation of debian-installer.
-# Copyright (C) 2006-2012 Software in the Public Interest, Inc.
+# Copyright (C) 2006-2013 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 # Theppitak Karoonboonyanan <thep@linux.thai.net>, 2006-2011.
 #
@@ -17,15 +17,15 @@
 #   Translations from KDE:
 #   - Thanomsub Noppaburana <donga@midaassets.com>
 #   Thanomsub Noppaburana <donga@midaassets.com> (Translations from KDE)
-#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2012
+#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2013
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2012-06-16 23:21+0700\n"
-"Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
+"PO-Revision-Date: 2013-08-14 13:26+0700\n"
+"Last-Translator: Kiatkachorn Ratanatharathorn <kratanat@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -82,10 +82,8 @@ msgstr "กำลังสำรวจคลังแพกเกจปรับ
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
-msgstr "กำลังสำรวจคลังแพกเกจปรับรุ่นทั่วไปสำหรับรุ่นที่ออกไปแล้ว..."
+msgstr "กำลังสำรวจคลังแพกเกจย้ายกลับ..."
 
 #. Type: select
 #. Choices
@@ -190,10 +188,8 @@ msgstr "รายการปรับรุ่นทั่วไปของร
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "จะใช้ซอฟต์แวร์ย้ายกลับหรือไม่?"
+msgstr "ซอฟต์แวร์ย้ายกลับ"
 
 #. Type: multiselect
 #. Description
@@ -242,12 +238,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -256,9 +246,11 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"ซอฟต์แวร์บางตัวถูกย้ายกลับมาจากสายงานพัฒนา เพื่อให้ทำงานกับรุ่นนี้ได้ "
+"ซอฟต์แวร์ย้ายกลับเป็นซอฟต์แวร์ที่ปรับมาจากรุ่นที่อยู่ระหว่างการพัฒนา เพื่อให้ทำงานกับรุ่นนี้ได้ "
 "แม้ซอฟต์แวร์เหล่านี้จะไม่ได้ผ่านกระบวนการทดสอบอย่างสมบูรณ์เหมือนที่อยู่ในรุ่นแจกจ่าย "
-"แต่ก็มีโปรแกรมรุ่นใหม่ๆ ที่อาจมีความสามารถที่เป็นประโยชน์"
+"แต่ก็มีโปรแกรมรุ่นใหม่ๆ ที่อาจมีความสามารถที่เป็นประโยชน์ การเปิดใช้ซอฟต์แวร์ย้ายกลับตรงนี้ "
+"ไม่ได้ทำให้ซอฟต์แวร์เหล่านั้นถูกติดตั้งโดยปริยาย "
+"แต่จะเพียงแค่ช่วยให้คุณสามารถเลือกติดตั้งซอฟต์แวร์ย้ายกลับตามที่ต้องการได้"
 
 #. Type: text
 #. Description
