@@ -4,28 +4,26 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 #
-#
-# Debian Installer master translation for Uyghur
+# Debian Installer master translation file template
 # Don't forget to properly fill-in the header of PO files
 #
 # Debian Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013
 #
-#
-# Translations from iso-codes:
-# Sahran <sahran.ug@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2013-08-15 09:24+0600\n"
-"Last-Translator: Abduqadir Abliz <sahran.ug@gmail.com>\n"
-"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
-"Language: ug\n"
+"PO-Revision-Date: 2013-08-15 16:26+0500\n"
+"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
+"Language: Tajik\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
 
 #. Type: text
 #. Description
@@ -34,7 +32,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr "بوغچا باشقۇرغۇچنى سەپلەيدۇ"
+msgstr "Танзим кардани мудири бастаҳо"
 
 #. Type: text
 #. Description
@@ -43,42 +41,42 @@ msgstr "بوغچا باشقۇرغۇچنى سەپلەيدۇ"
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "apt سەپلەش"
+msgstr "Танзимкунии Apt"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr "${SCRIPT} ئىجرا قىلىۋاتىدۇ…"
+msgstr "Иҷрокунии ${SCRIPT}..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "يەرلىك خەزىنىنى تەكشۈرۈۋاتىدۇ…"
+msgstr "Санҷиши репозиторияҳои маҳаллӣ..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "بىخەتەرلىك يېڭىلاش خەزىنىسىنى تەكشۈرۈۋاتىدۇ…"
+msgstr "Санҷиши репозиторияҳои навсозиҳои амният..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "نەشر يېڭىلاش خەزىنىسىنى تەكشۈرۈۋاتىدۇ…"
+msgstr "Санҷиши репозиторияҳои навсозиҳои релиз..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr "يۆتكەپ كەلگەن خەزىنىنى تەكشۈرۈۋاتىدۇ…"
+msgstr "Санҷиши репозиторияҳои нармафзори пешақӣ интиқолшуда..."
 
 #. Type: select
 #. Choices
@@ -87,7 +85,7 @@ msgstr "يۆتكەپ كەلگەن خەزىنىنى تەكشۈرۈۋاتىدۇ…
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr "قايتا سىنا"
+msgstr "Такрор кардан"
 
 #. Type: select
 #. Choices
@@ -96,13 +94,13 @@ msgstr "قايتا سىنا"
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr "پەرۋا قىلما"
+msgstr "Рад кардан"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr "يەرلىك غەزىنە ئاچقۇچىنى چۈشۈرۈش مەغلۇپ بولدى:"
+msgstr "Боргирии калиди бастаи анборҳои маҳаллӣ ба анҷом нарасид:"
 
 #. Type: select
 #. Description
@@ -113,8 +111,8 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"ئورناتقۇچ ${MIRROR} دىن يەرلىك غەزىنىگە كىرىشتە ئىشلىتىدىغان ئاممىۋى "
-"ئاچقۇچنى چۈشۈرۈشتە مەغلۇپ بولدى:"
+"Насбкунанда калиди оммавиро, ки барои имзо кардани анбори бастаҳои маҳаллӣ "
+"дар ${MIRROR} истифода шуда буд, боргирӣ накард:"
 
 #. Type: select
 #. Description
@@ -124,15 +122,17 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"بۇ توردىكى ياكى مۇلازىمېتىردىكى مەسىلە بولۇشى مۇمكىن. قايتا سىناڭ ياكى بۇ "
-"مەسىلىگە پىسەنت قىلماي داۋاملاشتۇرۇۋېرىڭ."
+"Ин метавонад мушкилӣ бо шабакаи шумо бошад, ё ки бо сервере, ки ин калид дар "
+"он ҷо ҷойгир аст. Шумо метавонед интихоб кунед, ки боргириро такрор кунед, ё "
+"ки мушкилиро нодида гирифта, бе ҳамаи бастаҳо аз ин анбори бастаҳо идома "
+"диҳед."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "خەزىنىنى زىيارەت قىلالمىدى"
+msgstr "Дастрасӣ ба анбори бастаҳо имконпазир нест"
 
 #. Type: error
 #. Description
@@ -142,8 +142,9 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"${HOST} دىكى خەزىنىنى زىيارەت قىلالمىدى، شۇڭا ئۇ جايدىكى يېڭىلىنىشنى سىزگە "
-"تەمىنلىيەلمەيدۇ. سىز بۇ مەسىلىنى تەكشۈرۈپ بېقىڭ."
+"Ба анбори бастаҳои ${HOST} дастрасӣ пайдо шуда наметавонад, барои ҳамин "
+"навсозиҳои он дар айни ҳол ба шумо дастнорас мешаванд. Шумо бояд инро "
+"баъдтар таҳқиқ кунед."
 
 #. Type: error
 #. Description
@@ -153,8 +154,7 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
-"${HOST} غا مۇناسىۋەتلىك ئىزاھات بەلگىسى قويۇلغان تۈرلەر /etc/apt/sources."
-"list ھۆججىتىگە قوشۇلدى."
+"Воридаҳои шарҳдор барои ${HOST} ба файли /etc/apt/sources.list илова шуданд."
 
 #. Type: multiselect
 #. Choices
@@ -164,7 +164,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "بىخەتەرلىك يېڭىلىنىشى( ${SEC_HOST}دىن)"
+msgstr "навсозиҳои амниятӣ (аз ${SEC_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -174,7 +174,7 @@ msgstr "بىخەتەرلىك يېڭىلىنىشى( ${SEC_HOST}دىن)"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr "نەشر يېڭىلاش"
+msgstr "навсозиҳои релиз"
 
 #. Type: multiselect
 #. Choices
@@ -184,14 +184,14 @@ msgstr "نەشر يېڭىلاش"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr "يۆتكەپ ئەكەلگەن يۇمشاق دېتال"
+msgstr "Нармафзори пешакӣ интиқолшуда"
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr "ئىشلىتىدىغان مۇلازىمەت:"
+msgstr "Хидматҳо барои истифода:"
 
 #. Type: multiselect
 #. Description
@@ -201,8 +201,8 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Debian  نەشر يېڭىلايدىغان ئىككى خىل مۇلازىمەت تەمىنلىگەن: بىخەتەرلىك ۋە نەشر "
-"يېڭىلاش"
+"Debian дорои ду хидмате, ки навсозиҳоро барои релизҳо таъмин менамояд, "
+"мебошад: навсозиҳои релиз ва амният."
 
 #. Type: multiselect
 #. Description
@@ -212,8 +212,8 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"بىخەتەرلىك يېڭىلاش سىرتتىن كەلگەن ھۇجۇمدىن ساقلايدۇ.  بۇ خىل يېڭىلاش "
-"مۇلازىمىتىنى قوزغىتىشىڭىزنى كۈچلۈك تەۋسىيە قىلىمىز."
+"Навсозиҳои амниятӣ кӯмак мекунанд, ки системаи шуморо аз ҳамлаҳо маҳофизат "
+"мекунад. Тавсия мешавад, ки шумо ин хидматро фаъол кунед."
 
 #. Type: multiselect
 #. Description
@@ -225,10 +225,10 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"ئۆزگىرىشى نىسبەتەن كۆپ، ئەڭ يېڭى نەشرى بولمىسا قوللىنىشچانلىقى تۆۋەنلەپ "
-"كېتىدىغان يۇمشاق دېتاللارغا  نەشر يېڭىلاش تەمىنلەيدۇ، ئۇ پەقەت ئەسلىگە "
-"قايتۇرۇپ ئوڭشاشنىلا تەمىنلەيدۇ. بۇ مۇلازىمەت مۇقىم نەشرى ۋە كونا مۇقىم "
-"نەشرىگىلا تەمىنلىنىدۇ."
+"Навсозиҳои релиз версияҳои нисбатан ҷориро барои нармафзоре, ки зуд зуд "
+"тағйир меёбад ва нармафзоре, ки дорои версияи охирин намебошад, таъмин "
+"менамоянд. Он ҳамчунин ҳалҳои бозгаштро таъмин менамояд. Ин хидмат танҳо "
+"барои релизҳои устувор ва устувори қаблӣ дастрас аст."
 
 #. Type: multiselect
 #. Description
@@ -242,27 +242,27 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"يۆتكەپ ئەكەلگەن يۇمشاق دېتاللار ئىجادىيەت كودىدىن تارقىتىلغان بۇ نەشرىگە "
-"يۆتكەپ ئىشلىتىلدى. گەرچە بۇ يۇمشاق دېتاللار رەسمىي تارقىتىلغان يۇمشاق دېتال "
-"ئۆز ئىچىگە ئالغانغا ئوخشاش تەپسىلىي تەكشۈرۈلمىگەن بولسىمۇ، ئەمما ئۇلار بىر "
-"قىسىم  پروگراممىلارنىڭ يېڭى نەشرىنى ئۆز ئىچىگە ئالغان، شۇڭلاشقا بىر قىسىم "
-"كېرەكلىك ئىقتىدار بىلەن تەمىنلەيدۇ. يۆتكەپ ئەكەلگەن يۇمشاق دېتاللار "
-"قوزغىتىلسا كۆڭۈلدىكى ئەھۋالدا ئۇلارنى ئورنىتىشنى كەلتۈرۈپ چىقارمايدۇ، سىزنىڭ "
-"قولدا تاللىشىڭىزغا يول قويىدۇ."
+"Нармафзори пешакӣ интиқолшуда барои кор кардан бо ин релиз аз версияи "
+"такомул мувофиқ карда шудааст. Бо вуҷуди он ки ин нармафзор аз санҷиши пурра "
+"гузашта нашудааст, чӣ хеле ки барои релиз лозим аст, он версияҳои навтари "
+"баъзе барномаҳоеро, ки дорои хусусиятҳои фоиданок мебошанд, дар ба мегирад. "
+"Агар нармафзори пешакӣ интиқолшударо фаъол кунед, он ба сурати пешфарз насб "
+"карда намешавад, вале шумо метавонед нармафзори пешақӣ интиқолшударо ба "
+"таври дастӣ барои истифода интихоб кунед."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr "CD-ROM نى تەكشۈرۈۋاتىدۇ…"
+msgstr "Сканкунии CD-ROM..."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "apt سەپلەش مەسىلىسى"
+msgstr "Мушкилии танзими apt"
 
 #. Type: error
 #. Description
@@ -272,7 +272,8 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
-"apt نى سەپلەپ، CD-ROM دىن قوشۇمچە يۇمشاق دېتال بوغچىسى ئورنىتىش مەغلۇپ بولدى."
+"Кӯшиши конфигуратсия кардани apt барои насбкунии бастаҳои иловагӣ аз CD ба "
+"анҷом нарасид."
 
 #. Type: boolean
 #. Description
@@ -289,14 +290,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr "باشقا CD ياكى DVD نى تەكشۈرەمسىز؟"
+msgstr "CD ё DVD-и дигарро скан мекунед?"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "ئورنىتىش CD ياكى DVD دىسكىڭىزنى تەكشۈردى؛ ئۇنىڭ ئەنى:"
+msgstr "CD ё DVD-и насбкунии шумо скан карда шуд; барчаспи он зерин аст:"
 
 #. Type: boolean
 #. Description
@@ -308,10 +309,10 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"سىز ھازىر نورمىدىن سىرت بولغان بوغچا باشقۇرغۇچ (apt) ئىشلىتەلەيدىغان CD ياكى "
-"DVD نى تەكشۈرۈشنى تاللىيالايسىز. ئادەتتە بۇلار سىزنىڭ ئورنىتىش CD/DVD "
-"ئوخشاش. ئەگەر سىزدە باشقا CD ياكى  DVD بولمىسا بۇ باسقۇچتىن ئاتلاپ كەتسىڭىز "
-"بولىدۇ."
+"Акнун шумо имкон доред, ки CD-ҳо ё DVD-ҳои иловагиро барои истифода бо "
+"мудири бастаҳо (apt) скан кунед. Одатан онҳо бояд аз маҷмӯи якхела ба CD/DVD "
+"бошанд. Агар шумо ягон CD ё DVD-и дастрас надошта бошед, шумо метавонед ин "
+"қадамро нодида гузаронед."
 
 #. Type: boolean
 #. Description
@@ -321,28 +322,31 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr "سىز باشقا CD ياكى DVD تەكشۈرمەكچى بولسىڭىز ئۇنى قىستۇرۇڭ."
+msgstr ""
+"Агар шумо хоҳед, ки CD ё DVD-и дигарро скан кунед, лутфан, онро ҳозир дарҷ "
+"кунед."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "ئەنى تۆۋەندىكىدەك بولغان CD ياكى DVD تەكشۈرۈش تاماملاندى:"
+msgstr "CD ё DVD бо барчаспи зерин скан карда шуд:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "ئەنى تۆۋەندىكىدەك بولغان CD ياكى DVD تەكشۈرۈلگەن:"
+msgstr "CD ё DVD бо барчаспи зерин аллакай скан карда шуд:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr "ئەگەر باشقا CD ياكى DVD نى تەكشۈرمەكچى بولسىڭىز ئۇنى ئالماشتۇرۇڭ."
+msgstr ""
+"Агар шумо хоҳед, ки CD ё DVD-и дигарро скан кунед, онро ҳозир ҷойгузин кунед."
 
 #. Type: boolean
 #. Description
@@ -351,14 +355,16 @@ msgstr "ئەگەر باشقا CD ياكى DVD نى تەكشۈرمەكچى بول
 msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
-msgstr "apt ئىشلىتىپ CD/DVD دىن قوشۇمچە يۇمشاق دېتال بوغچىسىنى ئورنىتالمىدى."
+msgstr ""
+"Кӯшиши конфигуратсия кардани apt барои насбкунии бастаҳои иловагӣ аз CD/DVD "
+"ба анҷом нарасид."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr "CD/DVD نى توغرا قىستۇرغانلىقىڭىزنى تەكشۈرۈڭ."
+msgstr "Лутфан, мутмаин шавед, ки CD/DVD ба таври дуруст дарҷ карда шудааст."
 
 #. Type: text
 #. Description
@@ -367,7 +373,7 @@ msgstr "CD/DVD نى توغرا قىستۇرغانلىقىڭىزنى تەكشۈر
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "ۋاسىتە ئالماشتۇر"
+msgstr "Тағйир додани медиа"
 
 #. Type: text
 #. Description
@@ -379,8 +385,8 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/: دىسكا ئېنى '${LABEL}' بولغان دىسكىنى '/cdrom/' قوزغاتقۇچقا سېلىپ، "
-"enter نى بېسىڭ."
+"/cdrom/:Лутфан, дискро бо барчаспи: \"${LABEL}\" дар драйви \"/cdrom/\" дарҷ "
+"кунед, ва тугмаи enter-ро зер кунед."
 
 #. Type: text
 #. Description
@@ -388,7 +394,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "sources.list دا netinst CD چەكلەنگەن…"
+msgstr "CD-и netinst дар sources.list ғайрифаъол шуда истодааст..."
 
 #. Type: text
 #. Description
@@ -401,9 +407,8 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"ئەگەر سىز توردىكى ئورنىتىش دىسكىسىدىن ئورنىتىۋاتقان بولۇپ، تەسۋىر "
-"ئىشلەتمەسلىكنى تاللىغان بولسىڭىز، ناھايىتى كىچىك بولغان ئاساسىي سىستېمىنىلا "
-"ئورنىتالايسىز."
+"Агар шумо аз CD-и насбкунии шабакавӣ насб карда бошед, шумо системаи "
+"хурдтарини асосиро ба даст меоред."
 
 #. Type: text
 #. Description
@@ -414,9 +419,9 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"سىز ھازىر تور دىسكىسىدىن ئورنىتىۋاتىسىز، تور ئورنىتىش دىسكىسى ناھايىتى كىچىك "
-"ئاساسىي سىستېمىنىلا ئورنىتىدۇ.  سىز تەسۋىرنى ئىشلىتىپ تولۇق سىستېمىنى "
-"ئورنىتالايسىز."
+"Шумо аз CD-и насбкунии шабакавӣ насб карда истодаед, ки он танҳо насбкунии "
+"системаи ақалли асосиро иҷозат медиҳад. Барои насб кардани системаи пурратар "
+"оинаро истифода баред."
 
 #. Type: text
 #. Description
@@ -425,8 +430,8 @@ msgstr ""
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
 msgstr ""
-"سىز چەكلىمىلىك يۇمشاق دېتال بوغچىسى بار CD-ROM دىن يۇمشاق دېتال "
-"ئورنىتىۋاتىسىز."
+"Шумо системаро аз диски CD насб карда истодаед, ки миқдори маҳдудшудаи "
+"бастаҳо дорад."
 
 #. Type: text
 #. Description
@@ -439,9 +444,9 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"سىز%i CD-ROM تەكشۈردىڭىز. گەرچە ئۇنىڭدا نۇرغۇن يۇمشاق دېتال بوغچىسى بولسىمۇ "
-"ئەمما بىر قىسمى (بولۇپمۇ ئىنگلىزچىدىن باشقا تىلنى قوللايدىغان يۇمشاق دېتال "
-"بوغچىسى) كەم ئىكەن."
+"Шумо  CD-ро скан кардед. Гарчанде ки онҳо маҷмӯи зиёди бастаҳоро дар бар "
+"мегиранд, баъзеи онҳо метавонанд мавҷуд набошанд (асосан, барои баъзе "
+"бастаҳо дастгирии забонҳои аз англисӣ фарқкунанда лозим аст)."
 
 #. Type: text
 #. Description
@@ -453,8 +458,8 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"سىز %i CD-ROM تەكشۈردىڭىز. بۇ CD-ROM دا نۇرغۇن يۇمشاق دېتال بوغچىسى بولسىمۇ، "
-"يەنىلا بەزى يۇمشاق دېتال بوغچىلىرى كەم ئىكەن."
+"Шумо  CD-ро скан кардед. Гарчанде ки баъзеи онҳо дорои маҷмӯи калон бастаҳо "
+"мебошад, баъзеи онҳо метавонанд дастнорас бошанд."
 
 #. Type: text
 #. Description
@@ -464,8 +469,8 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"دىققەت، تەسۋىر ئىشلەتكەندە كۆپ مىقداردىكى سانلىق مەلۇمات كېيىنكى قېتىملىق "
-"ئورنىتىش جەريانىدا توردىن چۈشۈرۈلىدۇ."
+"Ба қайд гиред, ки истифодабарии оина метавонад сабаби боргирии миқдори зиёди "
+"иттилоот ҳангоми қадами навбатии насбкунӣ гардад."
 
 #. Type: text
 #. Description
@@ -475,8 +480,8 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"سىز DVD دىن ئورنىتىۋاتىسىز. گەرچە DVD كۆپ مىقداردىكى يۇمشاق دېتال بوغچىسىنى "
-"ئۆز ئىچىگە ئالسىمۇ بەزى يۇمشاق دېتال بوغچىلىرى كەم بولۇشى مۇمكىن."
+"Шумо системаро аз диски DVD насб карда истодаед. Гарчанде, ки диски DVD "
+"дорои бастаҳои зиёд мебошад, баъзе бастаҳо дастнорасанд."
 
 #. Type: text
 #. Description
@@ -487,9 +492,9 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"ئەگەر تېز سۈرئەتلىك ئىنتېرنېت باغلىنىشىڭىز بولمىسا ئۇنداقتا تەسۋىر بېكەت "
-"ئىشلىتىشىڭىزنى تەۋسىيە قىلىمىز، بولۇپمۇ كۆزنەكلىك ئۈستەلئۈستى مۇھىتى "
-"ئورناتقاندا."
+"Агар шумо пайвасти хуби Интернет надошта бошед, истифодаи оина тавсия "
+"мешавад, хусусан агар шумо интихоб кунед, ки муҳити мизи кории графикиро "
+"насб кунед."
 
 #. Type: text
 #. Description
@@ -499,22 +504,22 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
-"ئەگەر سىزنىڭ ياخشى بولغان ئىنتېرنېت باغلىنىشىڭىز بولۇپ، كۆزنەكلىك ئۈستەك "
-"مۇھىتى ئورناتماقچى بولسىڭىز  تەسۋىردىن ئورنىتىشىڭىزنى تەۋسىيە قىلىمىز."
+"Агар шумо пайвасти Интернети хуб дошта бошед, тавсия мешавад, ки шумо оинаро "
+"истифода баред, агар шумо хоҳед, ки муҳити мизи кории графикиро насб кунед."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "تەسۋىر تەكشۈرۈۋاتىدۇ..."
+msgstr "Сканкунии оина..."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "ھەقلىق يۇمشاق دېتال ئىشلىتەمسىز؟"
+msgstr "Нармафзори пулакиро истифода мебаред?"
 
 #. Type: boolean
 #. Description
@@ -526,10 +531,11 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"بەزى ھەقلىق يۇمشاق دېتالنىمۇ  Debian دا ئىشلەتكىلى بولىدۇ. بۇ دېتاللار  "
-"Debian نىڭ بىر قىسمى بولمىسىمۇ ئەمما ئۆلچەملىك  Debian قوراللىرى ئۇلارنى "
-"ئورنىتالايدۇ. بۇ يۇمشاق دېتاللارنىڭ ئوخشاش بولمىغان ئىجازەتنامىسى بار، بۇ "
-"سىزنىڭ ئۇلارنى ئىشلىتىش، ئۆزگەرتىش ياكى ھەمبەھىرلەشنى چەكلىشى مۇمكىن."
+"Баъзе нармафзори ғайриозод барои кор бо Debian танзим карда шудааст. "
+"Гарчанде ки ин нармафзор қисми Debian намебошад, абзорҳои стандартии Debian "
+"метавонанд барои насб кардани он истифода шаванд. Ин нармафзор дорои "
+"иҷозатномаҳои тағйирёбанда мебошад, ки метавонанд ба шумо истифода, "
+"тағйирдиҳӣ ё мубодилакунии онро иҷозат надиҳанд."
 
 #. Type: boolean
 #. Description
@@ -541,14 +547,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr "ئۇلاردىن ئىشلىتىدىغانلىرىڭىزنى تاللاڭ."
+msgstr "Лутфан, интихоб кунед, ки оё мехоҳед, ки он ба ҳар ҳол дастрас бошад."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "يۇمشاق دېتال contrib  ئىشلىتەمسىز؟"
+msgstr "Нармафзори иловагиро истифода мебаред?"
 
 #. Type: boolean
 #. Description
@@ -560,10 +566,10 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"بەزى قوشۇمچە يۇمشاق دېتاللارنى Debian دا ئىشلەتكىلى بولىدۇ. ئۆزى ئەركىن "
-"بولسىمۇ ئەمما ئۇنىڭ ئىجرا بولۇشى باشقا ئەركىن بولمىغان يۇمشاق دېتاللارغا "
-"تايىنىدۇ. بۇ يۇمشاق دېتاللار Debian نىڭ بىر قىسمى ئەمەس، ئەمما ئۆلچەملىك "
-"Debian قورالى ئۇلارنى ئورنىتالايدۇ."
+"Баъзе нармафзори иловагӣ барои кор бо Debian сохта шудааст. Гарчанде ки ин "
+"нармафзор ройгон мебошад, барои кори худ он нармафзори ғайриройгонро талаб "
+"мекунад. Ин нармафзор қисми Debian намебошад, аммо барои насб кардани он "
+"абзорҳои стандартии Debian метавонанд истифода шаванд."
 
 #. Type: boolean
 #. Description
@@ -591,7 +597,8 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "بۇ يۇمشاق دېتاللارنى ئىشلىتىدىغان ئىشلەتمەيدىغانلىقىڭىزنى تاللاڭ."
+msgstr ""
+"Лутфан, интихоб кунед, ки ин нармафзор барои шумо бояд дастрас бошад ё не."
 
 #. Type: select
 #. Choices
@@ -600,13 +607,13 @@ msgstr "بۇ يۇمشاق دېتاللارنى ئىشلىتىدىغان ئىشل
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr "تەسۋىر ئالماشتۇر"
+msgstr "Тағйир додани оина"
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr "ھۆججەت چۈشۈرۈش مەغلۇپ بولدى:"
+msgstr "Боргирии файл қатъ шудааст:"
 
 #. Type: select
 #. Description
@@ -617,18 +624,17 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"ئورنىتىش پروگراممىسى تەسۋىر تور بېكىتىگە ئۇلىنالمىدى. بۇ تورىڭىزنىڭ مەسىلىسى "
-"ياكى تەسۋىر تور بېكىتىنىڭ خاتالىقى بولۇشى مۇمكىن. قايتا چۈشۈرۈشنى تاللىسىڭىز "
-"ياكى باشقا ئەينەك بېكەتنى تاللىسىڭىز بولىدۇ، ۋە ياكى بۇ مەسىلىنى ئېتىبارغا "
-"ئالماي بۇ ئەينەك بېكەتتىكى ھەر قانداق يۇمشاق دېتال بوغچىسىنى ئىشلەتمەي "
-"داۋاملاشتۇرۇڭ."
+"Насбкунанда ба оина дастрасӣ пайдо карда натавонист. Ин метавонад аз сабаби "
+"мушкилӣ бо шабакаи шумо, ё ки бо оина ба вуҷуд омада бошад. Шумо метавонед "
+"кӯшиш кунед, ки боргириро такрор кунед, оинаи дигарро интихоб кунед, ё ки "
+"мушкилиро нодида гирифта, бе ҳамаи бастаҳои ин оина идома диҳед."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr "تور تەسۋىر ئىشلىتەمسىز؟"
+msgstr "Оинаи шабакаро истифода мебаред?"
 
 #. Type: boolean
 #. Description
@@ -638,22 +644,23 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
-"تور تەسۋىرى CD-ROM دىكى يۇمشاق دېتالنى تولۇقلاشقا ئىشلىتىلىدۇ، تېخىمۇ يېڭى "
-"نەشرىدىكى يۇمشاق دېتال تەمىنلەشكىمۇ ئىشلىتىلىدۇ."
+"Оинаи шабакавӣ метавонад ҳамчун илова барои нармафзоре, ки дар CD-ROM мавҷуд "
+"аст, истифода шавад. Ин метавонанд версияҳои навтари нармафзорро низ дастрас "
+"кунад."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr "تور تەسۋىرىسىز داۋاملاشتۇرسۇنمۇ؟"
+msgstr "Бе оинаи шабака идома медиҳед?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr "تور تەسۋىرى تاللانمىدى."
+msgstr "Ягон оинаи шабака интихоб нашудааст."
 
 #. Type: boolean
 #. Description
@@ -661,7 +668,7 @@ msgstr "تور تەسۋىرى تاللانمىدى."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "چەكلىمىلىك يۇمشاق دېتال ئىشلىتەمسىز؟"
+msgstr "Нармафзори маҳдудшударо истифода мебаред?"
 
 #. Type: boolean
 #. Description
@@ -674,11 +681,11 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"بەزى ئەركىن بولمىغان يۇمشاق دېتالنىڭمۇ  ئىشلەتكىلى بولىدىغانلىرى بار. بۇ "
-"دېتاللار  ئاساسىي تارقىتىشنىڭ بىر قىسمى بولمىسىمۇ ئەمما ئۆلچەملىك  يۇمشاق "
-"دېتال قوراللىرى ئۇلارنى ئورنىتالايدۇ. بۇ يۇمشاق دېتاللارنىڭ ئوخشاش بولمىغان "
-"ئىجازەتنامىسى بار، بۇ سىزنىڭ ئۇلارنى ئىشلىتىش، ئۆزگەرتىش ياكى "
-"ھەمبەھىرلىشىڭىزنى چەكلىشى مۇمكىن."
+"Баъзе нармафзори ғайриозод дар шакли баста мавҷуд аст. Гарчанде ки ин "
+"нармафзор қисми нашри асосӣ намебошад, абзорҳои стандартии идоракунии "
+"бастаҳо метавонанд барои насб кардани он истифода шаванд. Ин нармафзор дорои "
+"иҷозатномаҳои тағйирёбанда мебошад, ки метавонанд ба шумо истифода, "
+"тағйирдиҳӣ ё мубодилакунии онро иҷозат надиҳанд."
 
 #. Type: boolean
 #. Description
@@ -686,7 +693,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "\"universe\" نىڭ تەركىبى قىسمى بولغان يۇمشاق دېتال ئىشلىتەمسىز؟"
+msgstr "Нармафзореро аз унсури \"universe\" истифода мебаред?"
 
 #. Type: boolean
 #. Description
@@ -698,9 +705,9 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"بەزى قوشۇمچە يۇمشاق دېتاللارنىڭمۇ  ئىشلەتكىلى بولىدىغانلىرى بار. بۇ يۇمشاق "
-"دېتاللار ئەركىن يۇمشاق دېتال بولۇپ،  ئاساسىي تارقىتىشنىڭ بىر قىسمى بولمىسىمۇ "
-"ئەمما ئۆلچەملىك  يۇمشاق دېتال قوراللىرى ئۇلارنى ئورنىتالايدۇ."
+"Баъзе нармафзори иловагӣ дар шакли баста дастрас аст. Ин нармафзор ройгон "
+"аст, ва абзорҳои стандартии идоракунии бастаҳо метавонанд барои насб кардани "
+"он истифода шаванд."
 
 #. Type: boolean
 #. Description
@@ -708,7 +715,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "\"multiverse\" نىڭ تەركىبى قىسمى بولغان يۇمشاق دېتال ئىشلىتەمسىز؟"
+msgstr "Нармафзореро аз унсури \"multiverse\" истифода мебаред?"
 
 #. Type: boolean
 #. Description
@@ -722,11 +729,12 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"بەزى ئەركىن بولمىغان يۇمشاق دېتالنىڭمۇ  ئىشلەتكىلى بولىدىغانلىرى بار. بۇ "
-"دېتاللار  ئاساسىي تارقىتىشنىڭ بىر قىسمى بولمىسىمۇ ئەمما ئۆلچەملىك  يۇمشاق "
-"دېتال قوراللىرى ئۇلارنى ئورنىتالايدۇ. بۇ يۇمشاق دېتاللارنىڭ ئوخشاش بولمىغان "
-"ئىجازەتنامىسى ۋە (مەلۇم ئەھۋالدا) خاسنەپ(patent) چەكلىمىسى بار، بۇ سىزنىڭ "
-"ئۇلارنى ئىشلىتىش، ئۆزگەرتىش ياكى ھەمبەھىرلىشىڭىزنى چەكلىشى مۇمكىن."
+"Баъзе нармафзори ғайриозод дар шакли баста мавҷуд аст. Гарчанде ки ин "
+"нармафзор қисми нашри асосӣ намебошад, абзорҳои стандартии идоракунии "
+"бастаҳо метавонанд барои насб кардани он истифода шаванд. Ин нармафзор дорои "
+"иҷозатномаҳои тағйирёбанда ва (дар баъзе ҳолатҳо) маҳдудиятҳои патентӣ "
+"мебошад, ки метавонанд ба шумо истифода, тағйирдиҳӣ ё мубодилакунии онро "
+"иҷозат надиҳанд."
 
 #. Type: boolean
 #. Description
@@ -734,7 +742,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "\"partner\" خەزىنىسىدىكى يۇمشاق دېتالىنى ئىشلىتەمسىز؟"
+msgstr "Нармафзореро аз репозиторияи \"partner\" истифода мебаред?"
 
 #. Type: boolean
 #. Description
@@ -746,9 +754,9 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"بەزى قوشۇمچە دېتاللار \"partner\" نىڭ خەزىنىسىدە بار. بۇ يۇمشاق دېتاللار "
-"Ubuntuنىڭ بىر قىسمى، ئەمما مۇنتىزىم ۋە قىسمەن تەمىنلىگۈچىلەر بىر خىل "
-"مۇلازىمەت سۈپىتىدە Ubuntu ئىشلەتكۈچىلىرىگە تەمىنلىگەن."
+"Баъзе нармафзори иловагӣ дар анбори бастаҳои \"partner\"-и Canonical дастрас "
+"аст. Ин нармафзор қисми Ubuntu намебошад, аммо бо Canonical ва фурӯшандагони "
+"муносиб ҳамчун хизмат ба корбарони Ubuntu пешниҳод мешавад."
 
 #. Type: boolean
 #. Description
@@ -756,7 +764,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "يۆتكەپ ئەكەلگەن يۇمشاق دېتال ئىشلىتەمسىز؟"
+msgstr "Нармафзори пешакӣ интиқолшударо истифода мебаред?"
 
 #. Type: boolean
 #. Description
@@ -769,8 +777,7 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"بەزى يۇمشاق دېتاللار ئىجادىيەت كودىدىن تارقىتىلغان بۇ نەشرىگە يۆتكەپ "
-"ئىشلىتىلدى. گەرچە بۇ يۇمشاق دېتاللار رەسمىي تارقىتىلغان يۇمشاق دېتال ئۆز "
-"ئىچىگە ئالغانغا ئوخشاش تەپسىلىي تەكشۈرۈلمىگەن بولسىمۇ، ئەمما ئۇلار بىر "
-"قىسىم  پروگراممىلارنىڭ يېڭى نەشرىنى ئۆز ئىچىگە ئالغان، شۇڭلاشقا بىر قىسىم "
-"كېرەكلىك ئىقتىدار بىلەن تەمىنلەيدۇ."
+"Баъзе нармафзор барои кор кардан бо ин релиз аз дарахти такомул пешакӣ "
+"интиқол дода шудаанд. Бо вуҷуди он ки ин нармафзор аз санҷиши пурра гузашта "
+"нашудааст, чӣ хеле ки барои релиз лозим аст, он версияҳои навтари баъзе "
+"барномаҳоеро, ки дорои хусусиятҳои фоиданок мебошанд, дар ба мегирад."
