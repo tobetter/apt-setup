@@ -1,9 +1,18 @@
-apt-setup (1:0.82) UNRELEASED; urgency=low
+apt-setup (1:0.82) unstable; urgency=low
 
   [ Jérémy Bobbio ]
   * Add support for backports. Closes: #691651
 
- -- Joey Hess <joeyh@debian.org>  Tue, 13 Aug 2013 10:36:32 +0200
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * French (fr.po) by Christian Perrier
+  * Japanese (ja.po) by Kenshi Muto
+  * Slovak (sk.po) by Ivan Masár
+  * Tajik (tg.po) by Victor Ibragimov
+  * Thai (th.po) by Kiatkachorn Ratanatharathorn
+  * Uyghur (ug.po) by Abduqadir Abliz
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 22 Aug 2013 15:28:33 +0200
 
 apt-setup (1:0.81) unstable; urgency=low
 
