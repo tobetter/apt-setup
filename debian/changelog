@@ -1,3 +1,14 @@
+apt-setup (1:0.83) unstable; urgency=low
+
+  [ Updated translations ]
+  * Arabic (ar.po) by Ossama Khayat
+  * Czech (cs.po) by Miroslav Kure
+  * German (de.po) by Holger Wansing
+  * Italian (it.po) by Milo Casagrande
+  * Russian (ru.po) by Yuri Kozlov
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 05 Sep 2013 07:00:00 +0200
+
 apt-setup (1:0.82) unstable; urgency=low
 
   [ Jérémy Bobbio ]
