@@ -15,13 +15,13 @@
 # Євгеній Мещеряков <eugen@debian.org>, 2008.
 # Borys Yanovych <borys@yanovy.ch>, 2010, 2011.
 # Maxim V. Dziumanenko <dziumanenko@gmail.com>, 2010.
-# Yuri Chornoivan <yurchor@ukr.net>, 2010, 2011, 2012.
+# Yuri Chornoivan <yurchor@ukr.net>, 2010, 2011, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2012-10-08 10:49+0300\n"
+"PO-Revision-Date: 2013-09-30 18:31+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
 "Language: uk\n"
@@ -82,7 +82,6 @@ msgstr "Пошук пакунків у сховищі оновлень випу�
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 #, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
 msgstr "Пошук пакунків у сховищі оновлень випусків..."
 
@@ -189,10 +188,8 @@ msgstr "оновлення випусків"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "Використовувати бекпорти?"
+msgstr "портовані програми"
 
 #. Type: multiselect
 #. Description
@@ -244,12 +241,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -258,10 +249,12 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Деяке програмне забезпечення портоване з дерева для розробників для цього "
+"Деяке програмне забезпечення портовано поточної тестової версії до цього "
 "випуску. Хоча ці програми не проходили через таке повне тестування, як "
-"програми у даному випуску, вони мають новіші версії, які можуть містити "
-"корисні можливості."
+"програми у даному випуску, вони є новішими, у них може бути реалізовано "
+"корисні можливості. Вмикання роботи з портованими пакунками не призведе до "
+"типового встановлення таких пакунків, воно лише надасть вам змогу вибирати "
+"такі пакунки вручну."
 
 #. Type: text
 #. Description
