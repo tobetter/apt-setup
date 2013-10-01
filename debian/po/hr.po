@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2013-04-17 18:08+0200\n"
+"PO-Revision-Date: 2013-10-01 16:53+0200\n"
 "Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -82,10 +82,8 @@ msgstr "Pretražujem repozitorij nadogradnji izdanja (release)..."
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
-msgstr "Pretražujem repozitorij nadogradnji izdanja (release)..."
+msgstr "Pretražujem repozitorij \"backported\" programa..."
 
 #. Type: select
 #. Choices
@@ -190,10 +188,8 @@ msgstr "nadogradnje izdanja (release)"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "Koristi programe koji su 'backported'?"
+msgstr "\"backported\" programi"
 
 #. Type: multiselect
 #. Description
@@ -243,12 +239,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -260,7 +250,9 @@ msgstr ""
 "Neki programi su 'backported' (\"vraćeni-prebačeni\") iz razvojnog stabla da "
 "bi radili s ovim izdanjem. Iako ovi programi nisu prošli kroz potpuno "
 "testiranje kao oni koji su dio izdanja, tu su novije verzije nekih programa "
-"koje mogu pružiti korisne mogućnosti."
+"koje mogu pružiti korisne mogućnosti. Njihovo omogućavanje ne uzrokuje "
+"njihovu automatsku instalaciju, nego vam daje mogućnost ručnog odabira "
+"programa koje želite koristiti."
 
 #. Type: text
 #. Description
