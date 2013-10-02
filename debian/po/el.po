@@ -20,7 +20,7 @@
 # quad-nrg.net <yodesy@quad-nrg.net>, 2006, 2008.
 # QUAD-nrg.net <yodesy@quad-nrg.net>, 2006.
 # galaxico@quad-nrg.net <galaxico@quad-nrg.net>, 2009, 2011.
-# Emmanuel Galatoulas <galaxico@quad-nrg.net>, 2009, 2010.
+# Emmanuel Galatoulas <galaxico@quad-nrg.net>, 2009, 2010, 2013.
 #   Tobias Quathamer <toddy@debian.org>, 2007.
 #   Free Software Foundation, Inc., 2004.
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2012-08-15 18:43+0300\n"
+"PO-Revision-Date: 2013-10-02 12:33+0300\n"
 "Last-Translator: galaxico <galaxico@quad-nrg.net>\n"
 "Language-Team: Greek <debian-l10n-greek@lists.debian.org>\n"
 "Language: el\n"
@@ -92,10 +92,8 @@ msgstr "Σάρωση του αποθετηρίου των αναβαθμίσεω
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
-msgstr "Σάρωση του αποθετηρίου των αναβαθμίσεων της έκδοσης..."
+msgstr "Σάρωση του αποθετηρίου των backported πακέτων..."
 
 #. Type: select
 #. Choices
@@ -203,10 +201,8 @@ msgstr "αναβαθμίσεις έκδοσης"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "Χρήση backported λογισμικού;"
+msgstr "Backported λογισμικό"
 
 #. Type: multiselect
 #. Description
@@ -257,12 +253,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -271,10 +261,13 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Κάποιο λογισμικό έχει γίνει backported από το δέντρο ανάπτυξης για να "
-"δουλεύει με αυτήν την έκδοση. Αν και το λογισμικό αυτό δεν έχει περάσει "
-"εξίσου πλήρη έλεγχο όπως αυτό της παρύσας έκδοσης, περιέχει ωστόσο νεώτερες "
-"εκδόσεις μερικών εφαρμογών που πιθανόν προσφέρουν κάποια χρήσιμα γνωρίσματα."
+"Backported λογισμικό έχει προσαρμοστεί από το δέντρο ανάπτυξης για να "
+"δουλεύει με αυτήν την έκδοση. Αν και το λογισμικό αυτό δεν έχει περάσει έναν "
+"πλήρη έλεγχο όπως αυτό της παρούσας έκδοσης, περιέχει νεώτερες εκδόσεις "
+"μερικών εφαρμογών που πιθανόν προσφέρουν μερικά χρήσιμα γνωρίσματα. Η "
+"ενεργοποίηση των backported εφαρμογών εδώ δεν συνεπάγεται την εξ ορισμού "
+"εγκατάστασή τους· απλά σας επιτρέπει να διαλέξετε με το χέρι τέτοιες "
+"εφαρμογές για πιθανή χρήση."
 
 #. Type: text
 #. Description
