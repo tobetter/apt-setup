@@ -23,9 +23,9 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2012-06-18 14:08+0600\n"
+"PO-Revision-Date: 2013-10-04 12:19+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
-"Language-Team: Kazakh \n"
+"Language-Team: Kazakh\n"
 "Language: kk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,10 +81,8 @@ msgstr "Шығарылым жаңартулар репозиторийі қар�
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
-msgstr "Шығарылым жаңартулар репозиторийі қаралуда..."
+msgstr "Бэкпорттар репозиторийі қаралуда..."
 
 #. Type: select
 #. Choices
@@ -190,10 +188,8 @@ msgstr "шығарылым жаңартулары"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "Алдын-ала сақталынған БҚ қолдану керек пе?"
+msgstr "бэкпортталған БҚ"
 
 #. Type: multiselect
 #. Description
@@ -243,12 +239,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -257,9 +247,12 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Кейбір БҚ өндірілетін нұсқасынан осы шығарылымға ауыстырылды. Бұл БҚ толық "
-"сынаудан өтпесе де, осы шығарылымның басқа БҚ-ы сияқты, оның ішінде керек "
-"қасиеттері бар болуы мүмкін кейбір бағдарламалардың жаңа нұсқалары бар."
+"Бэкпортталған БҚ өндірілетін нұсқасынан осы шығарылымға ауыстырылды. Бұл БҚ "
+"осы шығарылымның басқа БҚ-ы сияқты толық сынаудан өтпесе де, оның ішінде "
+"керек қасиеттері бар болуы мүмкін кейбір бағдарламалардың жаңа нұсқалары "
+"бар. Бэкпорттарды осында іске қосу олардың үнсіз келісім бойынша орнатылуына "
+"әкеп соқпайды, ол тек сізге қолдану үшін бэкпорттарды қолмен таңдауға "
+"мүмкіндік береді."
 
 #. Type: text
 #. Description
