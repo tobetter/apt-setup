@@ -10,21 +10,21 @@
 #
 # Copyright (C) 2010 Free Software Foundation
 #
-# zorglubb <debian-user-icelandic@lists.debian.org>, 2008.
-# Sveinn í Felli <sveinki@nett.is>, 2010.
-# Alastair McKinstry, <mckinstry@computer.org>, 2002.
-# Sveinn í Felli <sveinki@nett.is>, 2010, 2011, 2012.
-# Alastair McKinstry <mckinstry@computer.org>, 2002.
 # Translations from iso-codes:
 # Copyright (C) 2002,2003, 2010, 2011, 2012 Free Software Foundation, Inc.
 # Translations from KDE:
 # Þórarinn Rúnar Einarsson <thori@mindspring.com>
+# zorglubb <debian-user-icelandic@lists.debian.org>, 2008.
+# Sveinn í Felli <sveinki@nett.is>, 2010.
+# Alastair McKinstry, <mckinstry@computer.org>, 2002.
+# Sveinn í Felli <sveinki@nett.is>, 2010, 2011, 2012, 2013.
+# Alastair McKinstry <mckinstry@computer.org>, 2002.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_is\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2012-06-16 08:55+0000\n"
+"PO-Revision-Date: 2013-10-03 13:25+0000\n"
 "Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -84,10 +84,8 @@ msgstr "Kanna breytilega hugbúnaðarsafnið eftir uppfærslum..."
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
-msgstr "Kanna breytilega hugbúnaðarsafnið eftir uppfærslum..."
+msgstr "Kanna bakfærða hugbúnaðarsafnið (backports)..."
 
 #. Type: select
 #. Choices
@@ -194,10 +192,8 @@ msgstr "útgáfuuppfærslur"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "Nota \"backport\" hugbúnað?"
+msgstr "bakfærður hugbúnaður (backport)"
 
 #. Type: multiselect
 #. Description
@@ -248,12 +244,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -262,10 +252,13 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Einhver hugbúnaður hefur verið tekinn út úr þróunartrénu til þess að virka í "
-"þessari útgáfu. Þó að þessi hugbúnaður hafi ekki gengið í gegn um sömu "
-"prófanir og sá sem er í endanlegri útgáfu, inniheldur hann samt nýrri "
-"útgáfur af sumum forritum sem gætu innihaldið gagnlegar aðgerðir."
+"Bakfærður hugbúnaður (backported) hefur verið tekinn út úr þróunartrénu til "
+"þess að virka í þessari útgáfu. Þó að þessi hugbúnaður hafi ekki gengið í "
+"gegn um sömu prófanir og sá sem er í endanlegri útgáfu, inniheldur hann samt "
+"nýrri útgáfur af sumum forritum sem gætu innihaldið gagnlegar aðgerðir. Það "
+"að virkja bakfærðan hugbúnað veldur alls ekki því að slíkur hugbúnaður sé "
+"settur inn sjálfgefið; einungis er þá mögulegt að velja hann handvirkt til "
+"uppsetningar."
 
 #. Type: text
 #. Description

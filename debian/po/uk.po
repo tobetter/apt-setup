@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2013-09-30 18:31+0300\n"
+"PO-Revision-Date: 2013-10-02 18:46+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
 "Language: uk\n"
@@ -81,9 +81,8 @@ msgstr "Пошук пакунків у сховищі оновлень випу�
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
 msgid "Scanning the backports repository..."
-msgstr "Пошук пакунків у сховищі оновлень випусків..."
+msgstr "Пошук у сховищі портованих пакунків…"
 
 #. Type: select
 #. Choices
@@ -278,7 +277,7 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
-"Спроба налаштувати apt для встановлення додаткових пакунків з компакт-диску "
+"Спроба налаштувати apt для встановлення додаткових пакунків з компакт-диска "
 "завершилася невдачею."
 
 #. Type: boolean
