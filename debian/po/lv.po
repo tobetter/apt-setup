@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2012-06-20 01:26+0300\n"
+"PO-Revision-Date: 2013-10-05 20:58+0300\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latviešu <locale-l10n@googlegroups.com>\n"
 "Language: lv\n"
@@ -88,10 +88,8 @@ msgstr "Skenē laidiena atjauninājumu krātuvi..."
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
-msgstr "Skenē laidiena atjauninājumu krātuvi..."
+msgstr "Skenē atpakaļpielāgotu programmu krātuvi..."
 
 #. Type: select
 #. Choices
@@ -197,7 +195,6 @@ msgstr "laidiena atjauninājumi"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 #, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
 msgstr "Lietot atpakaļpielāgotu programmatūru?"
 
@@ -250,11 +247,6 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 #, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
