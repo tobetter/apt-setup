@@ -6,7 +6,7 @@
 # translation of debian-installer_packages_po_sublevel1_da.po to
 # Danish messages for debian-installer.
 # This file is distributed under the same license as debian-installer.
-# Joe Hansen <joedalton2@yahoo.dk>, 2011, 2012.
+# Joe Hansen <joedalton2@yahoo.dk>, 2011, 2012, 2013.
 # Ask Hjorth Larsen <asklarsen@gmail.com>, 2010.
 # Mads Bille Lundby <lundbymads@gmail.com, 2009.
 # Henrik Christian Grove <debian@3001.dk>, 2008.
@@ -39,7 +39,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_da\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2012-06-16 23:51+0200\n"
+"PO-Revision-Date: 2013-10-10 20:12+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -78,14 +78,14 @@ msgstr "Udfører ${SCRIPT}..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "Skanner lokale programarkiver..."
+msgstr "Skanner lokale programarkiver ..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "Skanner programarkivet, der indeholder sikkerhedsopdateringer..."
+msgstr "Skanner programarkivet, der indeholder sikkerhedsopdateringer ..."
 
 #. Type: text
 #. Description
@@ -98,10 +98,8 @@ msgstr "Skanner programarkivet, der indeholder udgivelsesopdateringer ..."
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
-msgstr "Skanner programarkivet, der indeholder udgivelsesopdateringer ..."
+msgstr "Skanner arkivet for bagud-porteringer ..."
 
 #. Type: select
 #. Choices
@@ -209,10 +207,8 @@ msgstr "udgivelsesopdateringer"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "Benyt bagud-porterede programmer?"
+msgstr "bagud-porterede programmer?"
 
 #. Type: multiselect
 #. Description
@@ -264,12 +260,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -278,10 +268,12 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Visse programmer er blevet bagud-porteret fra udviklernes område, så de kan "
+"Visse programmer er blevet bagud-porteret fra udviklingsversionen, så de kan "
 "benyttes under denne udgivelse. Selvom de ikke har gennemgået den samme "
 "grundige afprøvning, som dem, der er en del af udgivelsen, omfatter de nyere "
-"versioner af visse programmer, nogle nyttige funktioner."
+"versioner af visse programmer, som kan have nyttige funktioner. Aktivering "
+"af bagud-porteringer gør ikke at nogle af disse bliver installeret som "
+"standard; det gør kun, at du manuelt kan vælge hvilke du ønsker at benytte."
 
 #. Type: text
 #. Description
