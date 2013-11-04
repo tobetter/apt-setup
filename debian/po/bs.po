@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_bs\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2012-04-11 12:57+0100\n"
+"PO-Revision-Date: 2012-03-16 13:07+0100\n"
 "Last-Translator: Armin Besirovic <armin@linux.org.ba>\n"
 "Language-Team: Bosnian <lokal@linux.org.ba>\n"
 "Language: bs\n"
@@ -42,7 +42,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr "Podesi upravitelj paketa"
+msgstr "Podesite upravitelj paketa"
 
 #. Type: text
 #. Description
@@ -51,7 +51,7 @@ msgstr "Podesi upravitelj paketa"
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "Podešavam apt"
+msgstr "Podešavanje apt-a"
 
 #. Type: text
 #. Description
@@ -123,7 +123,7 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"Installer nije uspjeo preuzeti javni ključ korišten za potpis lokalnog "
+"Instaler nije uspjeo preuzeti javni ključ korišten za potpis lokalnog "
 "repozitorija sa ${MIRROR}:"
 
 #. Type: select
@@ -174,7 +174,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "sigurnosne zakrpe (sa ${SEC_HOST})"
+msgstr "Sigurnosne zakrpe (sa ${SEC_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -183,9 +183,8 @@ msgstr "sigurnosne zakrpe (sa ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
 msgid "release updates"
-msgstr "Obrisati podatke:"
+msgstr "obrisati podatke:"
 
 #. Type: multiselect
 #. Choices
@@ -194,23 +193,20 @@ msgstr "Obrisati podatke:"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "Koristiti backported softver?"
+msgstr "koristiti backported softver"
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr "Servisi za koristiti:"
+msgstr "Servisi za korištenej:"
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
@@ -233,14 +229,13 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Volatilne zakrpe omogućuju instalaciju novijih verzija softvera koji se "
+"Volatilne zakrpe omogućuju instaliranje novijih verzija softvera koji se "
 "relativno često mijenja i za koji bi nemati najnoviju verziju rezultiralo "
 "smanjenom upotrebljivošću softvera. Primjer ovoga su potpisi virusa za "
 "antivirus. Ovaj servis je dostupam samo za stabilna i stara stabilna izdanja."
@@ -249,12 +244,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -264,7 +253,7 @@ msgid ""
 "manually select backports to use."
 msgstr ""
 "Neki softver je dodan iz razvojnog stabla za korištenje sa ovim izdanjem. "
-"Iako ovaj software nije prošao kroz kompletno testiranje kao onaj koji je "
+"Iako ovaj softver nije prošao kroz kompletno testiranje kao onaj koji je "
 "sadržan u izdanju, on uključuje novije verzije nekih aplikacija koje mogu "
 "pružati korisne mogućnosti."
 
@@ -273,7 +262,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr "Pretražujem CD-ROM..."
+msgstr "Pretraživanje CD-ROM-a..."
 
 #. Type: error
 #. Description
@@ -327,10 +316,10 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"Sada imate opciju da učitate dodatne CDove ili DVDove za upotrebu paketnom "
-"softveru (apt). Obično ovi mediji su iz istog kompleta u kojem je "
-"instalacioni CD/DVD. Ako nemate nikakvih dodatnih CDova ili DVDova dostupno "
-"možete preskočiti ovaj korak."
+"Sada imate opciju da učitate dodatne CD-ove ili DVD-ove za upotrebu paketnom "
+"softveru (apt). Ovi mediji su obično iz istog kompleta u kojem je "
+"instalacioni CD/DVD. Ako nemate nikakvih dodatnih dostupnih CD-ova ili DVD-"
+"ova možete preskočiti ovaj korak."
 
 #. Type: boolean
 #. Description
@@ -409,7 +398,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "Isključujem netinst CD u sources.list..."
+msgstr "Isključivanje netinst CD u sources.list..."
 
 #. Type: text
 #. Description
@@ -422,7 +411,7 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"Ako instalirate s netinst CDa i odaberete da ne koristite mirror, završiti "
+"Ako instalirate s netinst CD-a i odaberete da ne koristite mirror, završiti "
 "ćete s veoma minimalnim osnovnim sistemom."
 
 #. Type: text
@@ -434,7 +423,7 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"Instalirate sa netinst CDa koji dozvoljava instalaciju samo minimalnog "
+"Instalirate sa netinst CD-a koji dozvoljava instaliranje samo minimalnog "
 "(baznog) sistema. Upotrijebite mirror da instalirate kompletniji sistem."
 
 #. Type: text
@@ -443,7 +432,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:11001
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
-msgstr "Instalirate sa CDa koji sadržava ograničenu količinu paketa."
+msgstr "Instalirate sa CD-a koji sadržava ograničenu količinu paketa."
 
 #. Type: text
 #. Description
@@ -456,8 +445,8 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"Učitali ste %i CDova. Iako oni sadrže pošten izbor paketa, moguće je da neki "
-"nedostaju (primjetno, paketi potrebni za podržavanje drugih jezika osim "
+"Učitali ste %i CD-ova. Iako oni sadrže pošten izbor paketa, moguće je da "
+"neki nedostaju (primjetno, paketi potrebni za podržavanje drugih jezika osim "
 "engleskog)."
 
 #. Type: text
@@ -470,7 +459,7 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"Učitali ste %i CDova. Iako oni sadrže velik izbor paketa, moguće je da neki "
+"Učitali ste %i CD-ova. Iako oni sadrže velik izbor paketa, moguće je da neki "
 "nedostaju."
 
 #. Type: text
@@ -481,8 +470,8 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"Budite upozoreni da je moguća posljedica korištenja mirrora skidanje velikih "
-"količina podataka sa interneta tokom sljedećeg koraka instalacije."
+"Imajte na umu da je moguća posljedica korištenja mirrora skidanje velikih "
+"količina podataka sa interneta tokom sljedećeg koraka instaliranje."
 
 #. Type: text
 #. Description
@@ -492,7 +481,7 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Instalirate sa DVDa. Iako DVD sadrži velik odabir paketa, moguće je da neki "
+"Instalirate sa DVD-a. Iako DVD sadrži velik odabir paketa, moguće je da neki "
 "nedostaju."
 
 #. Type: text
@@ -523,14 +512,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "Pretražujem mirror..."
+msgstr "Pretraživanje mirror-a..."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "Da li želite koristiti non-free software?"
+msgstr "Da li želite koristiti non-free softvere?"
 
 #. Type: boolean
 #. Description
@@ -542,10 +531,10 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Neki non-free software je prilagođen za Debian. Iako ovaj software uopšte "
-"nije dio Debiana, standardni Debian alati se koriste za instalaciju ovog "
-"softwarea. Ovaj software je izdat pod različitim licencama koje vam mogu "
-"sprječavati njegovo korištenje, modifikovanje ili dijeljenje."
+"Neki non-free softver je prilagođen za Debian. Iako ovaj softver uopće nije "
+"dio Debiana, standardni Debian alati se koriste za instaliranje ovog "
+"softvera. Ovaj softver je izdat pod različitim licencama koje vam mogu "
+"sprječavati njegovo korištenje, modificiranje ili dijeljenje."
 
 #. Type: boolean
 #. Description
@@ -557,14 +546,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr "Molim odlučite da li želite da vam u svakom slučaju bude dostupan."
+msgstr "Molim odlučite da li želite da Vam u svakom slučaju bude dostupan."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "Da li želite koristiti contrib software?"
+msgstr "Da li želite koristiti contrib softver?"
 
 #. Type: boolean
 #. Description
@@ -576,10 +565,10 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"Određeni dodatni software je prilagođen za Debian. Iako je ovaj software "
-"free (slobodan), on ovisi o non-free softwareu kako bi mogao funkcionisati. "
-"Ovaj software uopšte nije dio Debiana, standardni Debian alati se koriste za "
-"instalaciju ovog softwarea"
+"Određeni dodatni software je prilagođen za Debian. Iako je ovaj softver "
+"slobodan, on ovisi o non-free softveru kako bi mogao funkcionisati. Ovaj "
+"software uopće nije dio Debiana, standardni Debian alati se koriste za "
+"instaliranje ovog softwarea"
 
 #. Type: boolean
 #. Description
@@ -607,7 +596,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "Molim odlučite da li želite da vam ovaj software bude dostupan."
+msgstr "Molim odlučite da li želite da Vam ovaj sofver bude dostupan."
 
 #. Type: select
 #. Choices
@@ -633,7 +622,7 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"Instalater nije uspio pristupiti mirroru. Ovo može biti problem sa vašom "
+"Instaler nije uspio pristupiti mirroru. Ovo može biti problem sa vašom "
 "mrežom ili sa mirrorom. Možete ponovo pokušati preuzimanje, odabrati drugi "
 "mirror ili ignorisati problem i nastaviti bez svih paketa sa ovog mirrora."
 
@@ -652,8 +641,8 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
-"Mrežni mirror se može koristiti kao dodatak software-u koji je uključen na "
-"CD-ROM-u. Ovo može učiniti dostupnim nove verzije software-a."
+"Mrežni mirror se može koristiti kao dodatak softveru koji je uključen na CD-"
+"ROM-u. Ovo može učiniti dostupnim nove verzije softvera."
 
 #. Type: boolean
 #. Description
