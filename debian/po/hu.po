@@ -22,17 +22,18 @@
 #   Andras TIMAR <timar@gnome.hu>, 2000-2001.
 # SZERVÁC Attila <sas@321.hu>, 2012.
 # Dr. Nagy Elemér Károly <eknagy@omikk.bme.hu>, 2012.
+# Judit Gyimesi <judit.gyimesi.x@gmail.com>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2012-11-29 19:23+0100\n"
-"Last-Translator: Dr. Nagy Elemér Károly <eknagy@omikk.bme.hu>\n"
+"PO-Revision-Date: 2013-11-18 21:15+0100\n"
+"Last-Translator: Judit Gyimesi <judit.gyimesi.x@gmail.com>\n"
 "Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
 "org>\n"
-"Language: \n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -89,7 +90,6 @@ msgstr "A \"kiadások\" (release) csomagtár áttekintése..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 #, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
 msgstr "A \"kiadások\" (release) csomagtár áttekintése..."
 
@@ -138,8 +138,8 @@ msgid ""
 "continue without all the packages from this repository."
 msgstr ""
 "Ez lehet akár a hálózat vagy a kulcsot tároló kiszolgáló hibája is. "
-"Újrapróbálhatod vagy figyelmen kívül hagyhatod e problémát és folytathatod e "
-"tároló csomagjai nélkül."
+"Újrapróbálhatja, vagy figyelmen kívül hagyhatja e problémát és folytathatja "
+"e tároló csomagjai nélkül."
 
 #. Type: error
 #. Description
@@ -197,8 +197,6 @@ msgstr "kiadás frissítések"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
 msgstr "Backportolt szoftverek használata"
 
@@ -241,7 +239,7 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"A iadás frissítések az olyan sűrűn változó szoftverek frissítéseit adják, "
+"A kiadás frissítések az olyan sűrűn változó szoftverek frissítéseit adják, "
 "melyeknél az elavulás csökkenti a használhatóságot. A javítás közben "
 "bekerült hibák javítását is tartalmazza. E szolgáltatás csak a \"stable\" és "
 "\"oldstable\" kiadásokhoz érhető el."
@@ -250,12 +248,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -265,7 +257,7 @@ msgid ""
 "manually select backports to use."
 msgstr ""
 "Néhány szoftver backportra került a fejlesztői ágból, hogy együttműködjön e "
-"kiadással. Bár e szoftverek nem olyan teszteltek mint amelyek e kiadásban "
+"kiadással. Bár e szoftverek nem olyan teszteltek, mint amelyek e kiadásban "
 "vannak, egyes alkalmazások újabb változatait tartalmazzák, melyek fontos, új "
 "képességekkel bírhatnak."
 
@@ -338,7 +330,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr "Ha átnézzünk még egy CD/DVD-t, tedd be most."
+msgstr "Ha további CD/DVD-t szeretne átnézni, helyezze be most."
 
 #. Type: boolean
 #. Description
@@ -352,14 +344,14 @@ msgstr "Az alábbi CD vagy DVD került áttekintésre:"
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "Az alábbi CD vagy DVD lemezt már átnéztük:"
+msgstr "Az alábbi CD vagy DVD lemezt már át lett nézve:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr "Cseréld, ha szeretnéd, hogy átnézzünk más CD/DVD-t is."
+msgstr "Cserélje most, ha szeretne további CD/DVD-t is átnézni."
 
 #. Type: boolean
 #. Description
@@ -377,7 +369,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr "Ellenőrizd, hogy a CD/DVD helyesen lett betéve."
+msgstr "Ellenőrizze, hogy a CD/DVD helyesen lett betéve."
 
 #. Type: text
 #. Description
@@ -386,7 +378,7 @@ msgstr "Ellenőrizd, hogy a CD/DVD helyesen lett betéve."
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "Média csere"
+msgstr "Adathordozó csere"
 
 #. Type: text
 #. Description
@@ -398,8 +390,8 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:Tedd be ezt a lemezt: '${LABEL}' a '/cdrom/' meghajtóba és üss enter-"
-"t."
+"/cdrom/:Tegye be ezt a lemezt: '${LABEL}' a '/cdrom/' meghajtóba és üssön "
+"enter-t."
 
 #. Type: text
 #. Description
@@ -407,7 +399,8 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "A hálózati CD kikapcsolása a sources.list fájlban..."
+msgstr ""
+"A hálózati telepítő (netinst) CD kikapcsolása a sources.list fájlban..."
 
 #. Type: text
 #. Description
@@ -420,8 +413,8 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"Ha hálózati telepítő - netinst - CD-ről telepítesz és nem használsz tükröt, "
-"csak egy minimális alaprendszert kapsz majd."
+"Ha hálózati telepítő (netinst) CD-ről telepít, és nem használ tükröt, csak "
+"egy minimális alaprendszert kap majd."
 
 #. Type: text
 #. Description
@@ -432,8 +425,9 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"Egy hálózati telepítő CD lemezről telepítesz, mely önmaga csak egy minimum "
-"alaprendszert telepít. Használj tükröt egy teljesebb rendszer telepítéséhez."
+"Hálózati telepítő (netinst) CD lemezről telepít, mely önmaga csak egy "
+"minimális alaprendszert telepít. Használjon tükröt egy teljesebb rendszer "
+"telepítéséhez."
 
 #. Type: text
 #. Description
@@ -442,7 +436,8 @@ msgstr ""
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
 msgstr ""
-"Egy CD-lemezről telepítesz, mely csak egy kis csomag-készletet tartalmaz."
+"Olyan CD-lemezről telepít, mely a csomagkészletnek csak egy részét "
+"tartalmazza."
 
 #. Type: text
 #. Description
@@ -455,8 +450,8 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"%i CD-t átnéztünk. Bár ezek sok csomagot tartalmaznak, pár hiányozhat (főleg "
-"egyes nyelvek teljes támogatásához szükség pár csomag)."
+"%i CD-t átnéztünk. Bár ezek sok csomagot tartalmaznak, néhány hiányozhat "
+"(főleg egyes nyelvek teljes támogatásához szükséges csomagok)."
 
 #. Type: text
 #. Description
@@ -468,7 +463,8 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"%i CD-t átnéztünk. Bár ezek sok csomagot tartalmaznak, egyesek hiányozhatnak."
+"%i CD át lett nézve. Bár ezek sok csomagot tartalmaznak, egyesek "
+"hiányozhatnak."
 
 #. Type: text
 #. Description
@@ -478,7 +474,7 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"Jó tudni, hogy egy tükör használata sok adat letöltését eredményezheti a "
+"Hasznos tudni, hogy tükör használata sok adat letöltését eredményezheti a "
 "telepítés következő lépésekor."
 
 #. Type: text
@@ -489,7 +485,7 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Egy DVD lemezről telepítesz. Bár ez rengeteg csomagot tartalmaz, egyesek "
+"Ön DVD lemezről telepít. Bár ez sok csomagot tartalmaz, egyesek "
 "hiányozhatnak."
 
 #. Type: text
@@ -501,8 +497,8 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"Ha van tűrhető Internet kapcsolatod, használj egy tükröt, ha egy grafikus "
-"asztali környezet telepítését tervezed."
+"Ha van tűrhető Internet kapcsolata, használjon tükröt, főleg, ha grafikus "
+"asztali környezet telepítését tervezi."
 
 #. Type: text
 #. Description
@@ -512,8 +508,8 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
-"Ha van tűrhető Internet kapcsolatod, használj egy tükröt, ha egy grafikus "
-"asztali környezet telepítését tervezed."
+"Ha van tűrhető Internet kapcsolata, tükör használata javasolt, ha grafikus "
+"asztali környezet telepítését tervezi."
 
 #. Type: text
 #. Description
@@ -527,7 +523,7 @@ msgstr "Tükör átnézése..."
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "Felhasználhatsz nem-szabad szoftvereket?"
+msgstr "Használ nem-szabad szoftvereket?"
 
 #. Type: boolean
 #. Description
@@ -539,13 +535,13 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Pár nem-szabad szoftvert egyesek becsomagoltak, hogy a Debian rendszer-"
-"eszközeivel is felrakható legyenek. ISMÉTLEM: Ez a pár szoftver EGYÁLTALÁN "
-"NEM RÉSZE a Debian rendszernek, csupán egyes feltételekkel feltelepíthető. E "
-"szoftverek eltérő felhasználói licenc-szerződéssel rendelkeznek, melyek "
-"megakadályozzák a szoftver szabad felhasználását, tanulmányozását és "
-"ellenőrzését, módosítását vagy terjesztését, ezért csak bizonyos hasonló "
-"feltételek esetén használhatod fel őket."
+"Pár nem-szabad szoftver be lett csomagolva, hogy a Debian rendszer-"
+"eszközeivel is felrakható legyenek. FIGYELEM: Ezek a szoftverek NEM RÉSZEI a "
+"Debian rendszernek, csupán egyes feltételekkel feltelepíthető. E szoftverek "
+"eltérő felhasználói licenc-szerződéssel rendelkeznek, melyek megakadályozzák "
+"a szoftver szabad felhasználását, tanulmányozását és ellenőrzését, "
+"módosítását vagy terjesztését, ezért csak bizonyos hasonló feltételek esetén "
+"használhatók fel.."
 
 #. Type: boolean
 #. Description
@@ -557,14 +553,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr "Kívánod, hogy ezek egyáltalán elérhetőek legyenek?"
+msgstr "Kívánja, hogy ezek elérhetőek legyenek?"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "Felhasználhatsz 'contrib' szoftvereket?"
+msgstr "Felhasznál 'contrib' szoftvereket?"
 
 #. Type: boolean
 #. Description
@@ -576,11 +572,10 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"Néhány, ún. járulékos szoftver is elérhető a Debianhoz. Ezek a szoftverek "
-"olyasmik, melyek önmagukban szabadok, de működésük nem-szabad szoftverektől "
-"függ. FIGYELEM: Ezek a szoftverek SEM RÉSZEI EGYÁLTALÁN a Debian "
-"rendszernek, csak megfelelő feltételek esetén a Debian eszközökkel "
-"telepíthetők."
+"Néhány járulékos szoftver is elérhető a Debianhoz. Ezek a szoftverek "
+"önmagukban szabadok, de működésük nem-szabad szoftverektől függ. FIGYELEM: "
+"Ezek a szoftverek SEM RÉSZEI a Debian rendszernek, de megfelelő feltételek "
+"esetén a Debian eszközökkel telepíthetők."
 
 #. Type: boolean
 #. Description
@@ -608,7 +603,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "Kívánod, hogy ezek egyáltalán elérhetőek legyenek?"
+msgstr "Kívánja, hogy ezek elérhetőek legyenek az Ön számára?"
 
 #. Type: select
 #. Choices
@@ -643,7 +638,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr "Hálózati tükröt használsz?"
+msgstr "Használ hálózati tükröt?"
 
 #. Type: boolean
 #. Description
@@ -654,7 +649,7 @@ msgid ""
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
 "A hálózati tükör remekül használható a CD-n lévő szoftverek kiegészítésére. "
-"Az elérhető szoftverek újabb változatait is adja."
+"Az elérhető szoftverek újabb változatait is adhatja."
 
 #. Type: boolean
 #. Description
