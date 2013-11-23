@@ -1,6 +1,29 @@
 #! /bin/sh
 set -e
 
+. /usr/share/debconf/confmodule
+
+# See whether /cdrom is a loopmounted ISO
+db_get cdrom-detect/cdrom_loopdev || true
+loopdev="$RET"
+
+if [ "$loopdev" ]; then
+	# Remove additional CD-Set mount points
+	j=1
+	while [ -d /target/media/cdrom/$j ]; do
+		logger -t finish-install "unmount /target/media/cdrom/$j"
+		umount /target/media/cdrom/$j 2>/dev/null || true
+		rmdir /target/media/cdrom/$j
+		j=$(($j + 1))
+	done
+
+	if grep -q "^deb[^:]* file:" /target/etc/apt/sources.list; then
+		logger -t finish-install "Removing additional ISOs from sources.list"
+		sed -i "/^deb[^:]* file:/d" /target/etc/apt/sources.list
+	fi
+	log-output -t finish-install chroot /target apt-get update
+fi
+
 # Disable netinst CD image in sources.list if any other sources are present
 if [ -e /cdrom/.disk/base_installable ] && \
    [ -e /cdrom/.disk/cd_type ] && \
