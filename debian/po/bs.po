@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_bs\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2013-11-27 21:12+0100\n"
+"PO-Revision-Date: 2013-11-29 19:21+0100\n"
 "Last-Translator: Amila Valjevčić <valjevcic.amila@gmail.com>\n"
 "Language-Team: Bosnian <lokal@linux.org.ba>\n"
 "Language: bs\n"
@@ -72,23 +72,21 @@ msgstr "Pretražujem lokalne repozitorije..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "Pretražujem repozitorij sa sigurnosnim zakrpama..."
+msgstr "Pretražujem repozitorij sa sigurnosnim ažuriranjima..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Pretražujem repozitorij sa sigurnosnim zakrpama..."
+msgstr "Pretražujem raspoloživa ažuriranja na repozitoriju..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
 msgid "Scanning the backports repository..."
-msgstr "Pretražujem repozitorij sa sigurnosnim zakrpama..."
+msgstr "Pretražujem backporte na repozitoriju..."
 
 #. Type: select
 #. Choices
@@ -143,7 +141,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "Ne mogu pristupiti repozitoriju"
+msgstr "Nemoguće pristupanje repozitoriju"
 
 #. Type: error
 #. Description
@@ -153,8 +151,8 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"Repozitoriju na ${HOST} se ne može pristupiti, tako da te zakrpe Vam sada "
-"neće biti dostupne. Trebate ovo istražiti poslije."
+"Repozitoriju na ${HOST} se ne može pristupiti, tako da Vam ta ažuriranja "
+"sada neće biti dostupna. Trebate ovo istražiti poslije."
 
 #. Type: error
 #. Description
@@ -269,7 +267,7 @@ msgstr "Pretraživanje CD-ROM-a..."
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "apt konfiguracioni problem"
+msgstr "apt konfiguracijski problem"
 
 #. Type: error
 #. Description
@@ -279,7 +277,7 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
-"Pokušaj podešavanja apt-a kako bi instalirao dodatne pakete s CD-ROMa nije "
+"Pokušaj podešavanja apt kako bi instalirao dodatne pakete s CD-ROM-a nije "
 "uspio."
 
 #. Type: boolean
@@ -664,7 +662,7 @@ msgstr "Nije odabran nijedan mrežni mirror."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "Koristiti softver sa restrikcijama?"
+msgstr "Koristiti softver sa ograničenjima?"
 
 #. Type: boolean
 #. Description
@@ -677,7 +675,7 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"Neki non-free softver je dostupan u upakovanom obliku. Iako ovaj softvare "
+"Neki non-free softver je dostupan u upakovanom obliku. Iako ovaj softver "
 "nije dio glavne distribucije, standardni alati za upravljanje paketima se "
 "mogu koristiti za njegovu instalaciju. Ovaj softver dolazi sa različitim "
 "licencama koje Vas mogu sprječavati da ga koristite, modifikujete ili "
@@ -750,7 +748,7 @@ msgid ""
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
 "Dodatni softver je dostupan iz Canonicalovog \"partner\" repozitorija. Ovaj "
-"softver nije dio Ubuntuua ali se nudi od strane Canonicala i cijenjenih "
+"softver nije dio Ubuntu-a ali se nudi od strane Canonicala i cijenjenih "
 "prodavača kao servis Ubuntu korisnicima."
 
 #. Type: boolean
@@ -773,6 +771,6 @@ msgid ""
 "applications which may provide useful features."
 msgstr ""
 "Neki softver je dodan iz razvojnog stabla za korištenje sa ovim izdanjem. "
-"Iako ovaj software nije prošao kroz kompletno testiranje kao onaj koji je "
+"Iako ovaj softver nije prošao kroz kompletno testiranje kao onaj koji je "
 "sadržan u izdanju, on uključuje novije verzije nekih aplikacija koje mogu "
 "pružati korisne mogućnosti."
