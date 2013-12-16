@@ -32,7 +32,7 @@ msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2013-09-23 00:55+0200\n"
+"PO-Revision-Date: 2013-12-16 10:44+0100\n"
 "Last-Translator: Hans Fredrik Nordhaug <hans@nordhaug.priv.no>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: nb\n"
@@ -91,9 +91,8 @@ msgstr "Søker gjennom arkivet over utgivelsesoppdateringer ..."
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
 msgid "Scanning the backports repository..."
-msgstr "Søker gjennom arkivet over utgivelsesoppdateringer ..."
+msgstr "Søker gjennom arkivet over «backports» ..."
 
 #. Type: select
 #. Choices
