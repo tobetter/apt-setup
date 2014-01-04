@@ -16,13 +16,14 @@
 # Alastair McKinstry <mckinstry@debian.org>, 2004.
 # Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2009.
 # Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2007, 2010.
+# Viktar Siarheichyk <viсs@eq.by>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2012-06-20 01:58+0300\n"
-"Last-Translator: Viktar Siarheichyk <vics@eq.by>\n"
+"PO-Revision-Date: 2014-01-04 14:31+0300\n"
+"Last-Translator: Viktar Siarheichyk <viсs@eq.by>\n"
 "Language-Team: Belarusian (Official spelling) <debian-l10n-belarusian@lists."
 "debian.org>\n"
 "Language: be\n"
@@ -82,10 +83,8 @@ msgstr "Прагляд сховішча з абнаўленнямі выданн
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
-msgstr "Прагляд сховішча з абнаўленнямі выдання..."
+msgstr "Прагляд сховішча з адаптаванымі праграмамі..."
 
 #. Type: select
 #. Choices
@@ -109,7 +108,7 @@ msgstr "Ігнараваць"
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr "Не атрымалася загрузіць ключ лакальнага рэпазиторыя:"
+msgstr "Не атрымалася загрузіць ключ лакальнага рэпазіторыя:"
 
 #. Type: select
 #. Description
@@ -190,10 +189,8 @@ msgstr "абнаўленні выдання"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "Ужываць адаптаваныя праграмы?"
+msgstr "адаптаваныя праграмы"
 
 #. Type: multiselect
 #. Description
@@ -244,12 +241,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -259,10 +250,11 @@ msgid ""
 "manually select backports to use."
 msgstr ""
 "Некаторыя пакеты, што знаходзяцца ў распрацоўцы, адмыслова адаптаваныя дзеля "
-"працы з гэтым рэлізам. З аднаго боку, яны не паспелі прайсці такой "
-"дасканалай праверкі, як пакеты рэлізу. З іншага боку, яны ўключаюць больш "
-"новыя версіі некаторых праграмаў і могуць прадстаўляць новыя карысныя "
-"магчымасці."
+"працы з гэтым рэлізам. Хоць яны не прайшлі такой поўнай праверкі, як пакеты "
+"рэлізу, яны ўтрымліваюць больш новыя версіі некаторых праграмаў, якія могуць "
+"даваць карысныя магчымасці. Уключэнне рэпазіторыя такіх пакетаў не значыць, "
+"што яны будуць ставіцца заўсёды; гэта толькі дазваляе ўручную абраць такі "
+"пакет для ўсталявання."
 
 #. Type: text
 #. Description
