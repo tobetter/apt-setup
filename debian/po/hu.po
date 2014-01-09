@@ -64,6 +64,9 @@ msgstr "Az APT beállítása"
 msgid "Running ${SCRIPT}..."
 msgstr "${SCRIPT} futtatása..."
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
@@ -71,6 +74,9 @@ msgstr "${SCRIPT} futtatása..."
 msgid "Scanning local repositories..."
 msgstr "Helyi tárak átnézése..."
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
@@ -78,6 +84,9 @@ msgstr "Helyi tárak átnézése..."
 msgid "Scanning the security updates repository..."
 msgstr "A biztonsági frissítőtár áttekintése..."
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
@@ -85,14 +94,28 @@ msgstr "A biztonsági frissítőtár áttekintése..."
 msgid "Scanning the release updates repository..."
 msgstr "A \"kiadások\" (release) csomagtár áttekintése..."
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
 msgid "Scanning the backports repository..."
-msgstr "A \"kiadások\" (release) csomagtár áttekintése..."
+msgstr "Backport tárolók átnézése..."
 
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: select
+# Choices
+# These are choices of actions so this is, at least in English,
+# an infinitive form
+# :sl2:
+# #-#-#-#-#  templates.pot (apt-setup)  #-#-#-#-#
+# Type: select
+# Choices
+# :sl2:
+# These are choices of actions so this is, at least in English,
+# an infinitive form
 #. Type: select
 #. Choices
 #. :sl2:
@@ -102,6 +125,11 @@ msgstr "A \"kiadások\" (release) csomagtár áttekintése..."
 msgid "Retry"
 msgstr "Ismét"
 
+# Type: select
+# Choices
+# :sl2:
+# These are choices of actions so this is, at least in English,
+# an infinitive form
 #. Type: select
 #. Choices
 #. :sl2:
@@ -141,6 +169,9 @@ msgstr ""
 "Újrapróbálhatja, vagy figyelmen kívül hagyhatja e problémát és folytathatja "
 "e tároló csomagjai nélkül."
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -148,6 +179,9 @@ msgstr ""
 msgid "Cannot access repository"
 msgstr "A tároló nem érhető el"
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -159,6 +193,9 @@ msgstr ""
 "A ${HOST} kiszolgálón lévő tárolót nem értem el, így e frissítések most nem "
 "történnek meg. Ez később megoldható."
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -268,6 +305,9 @@ msgstr ""
 msgid "Scanning the CD-ROM..."
 msgstr "CD-ROM átnézése..."
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -275,6 +315,9 @@ msgstr "CD-ROM átnézése..."
 msgid "apt configuration problem"
 msgstr "apt beállítási gond"
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -605,6 +648,18 @@ msgid ""
 "Please choose whether you want this software to be made available to you."
 msgstr "Kívánja, hogy ezek elérhetőek legyenek az Ön számára?"
 
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: select
+# Choices
+# These are choices of actions so this is, at least in English,
+# an infinitive form
+# :sl2:
+# #-#-#-#-#  templates.pot (apt-setup)  #-#-#-#-#
+# Type: select
+# Choices
+# :sl2:
+# These are choices of actions so this is, at least in English,
+# an infinitive form
 #. Type: select
 #. Choices
 #. :sl2:
@@ -614,6 +669,13 @@ msgstr "Kívánja, hogy ezek elérhetőek legyenek az Ön számára?"
 msgid "Change mirror"
 msgstr "Tükör cseréje"
 
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: select
+# Description
+# :sl2:
+# #-#-#-#-#  templates.pot (apt-setup)  #-#-#-#-#
+# Type: select
+# Description
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
@@ -651,28 +713,42 @@ msgstr ""
 "A hálózati tükör remekül használható a CD-n lévő szoftverek kiegészítésére. "
 "Az elérhető szoftverek újabb változatait is adhatja."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr "Hálózati tükör nélkül folytatod?"
+msgstr "Hálózati tükör nélkül folytatja?"
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr "Nem választottál hálózati tükröt."
+msgstr "Nincs kiválasztva hálózati tükröt."
 
+# Type: boolean
+# Description
+# This template is used by the Ubuntu version of d-i.
+# :sl2:
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "Használhatsz korlátozó szoftvert?"
+msgstr "Használ korlátozott szoftvert?"
 
+# Type: boolean
+# Description
+# This template is used by the Ubuntu version of d-i.
+# :sl2:
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
@@ -690,14 +766,22 @@ msgstr ""
 "melyek megtiltják a felhasználás egyes módjait, és a módosítást vagy a "
 "megosztást."
 
+# Type: boolean
+# Description
+# This template is used by the Ubuntu version of d-i.
+# :sl2:
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "Használsz szoftvert a \"universe\" komponensből?"
+msgstr "Használ szoftvert a \"universe\" komponensből?"
 
+# Type: boolean
+# Description
+# This template is used by the Ubuntu version of d-i.
+# :sl2:
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
@@ -712,14 +796,22 @@ msgstr ""
 "szoftverek, s bár nem részei a fő terjesztésnek, a szabványos csomagkezelő "
 "eszközökkel telepíthetők."
 
+# Type: boolean
+# Description
+# This template is used by the Ubuntu version of d-i.
+# :sl2:
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "Használsz szoftvert a \"multiverse\" komponensből?"
+msgstr "Használ szoftvert a \"multiverse\" komponensből?"
 
+# Type: boolean
+# Description
+# This template is used by the Ubuntu version of d-i.
+# :sl2:
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
@@ -738,14 +830,22 @@ msgstr ""
 "(tilalmi) korlátokat tartalmaznak, melyek megtiltják a felhasználás egyes "
 "módjait, és a módosítást vagy a megosztást."
 
+# Type: boolean
+# Description
+# This template is used by the Ubuntu version of d-i.
+# :sl2:
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "Használsz szoftvert a \"partner\" tárolóból?"
+msgstr "Használ szoftvert a \"partner\" tárolóból?"
 
+# Type: boolean
+# Description
+# This template is used by the Ubuntu version of d-i.
+# :sl2:
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
@@ -760,14 +860,22 @@ msgstr ""
 "Ubuntu részei, a Canonical és más gyártók az Ubuntu felhasználók számára "
 "nyújtják, mint szolgáltatás."
 
+# Type: boolean
+# Description
+# This template is used by the Ubuntu version of d-i.
+# :sl2:
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "Backportolt szoftverek használata"
+msgstr "Használ backport-olt szoftvereket?"
 
+# Type: boolean
+# Description
+# This template is used by the Ubuntu version of d-i.
+# :sl2:
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
@@ -779,7 +887,7 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"Néhány szoftver backportra került a fejlesztői ágból, hogy együttműködjön e "
+"Néhány szoftver backport-ra került a fejlesztői ágból, hogy együttműködjön e "
 "kiadással. Bár e szoftverek nem olyan teszteltek mint amelyek e kiadásban "
 "vannak, egyes alkalmazások újabb változatait tartalmazzák, melyek fontos, új "
 "képességekkel bírhatnak."
