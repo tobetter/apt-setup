@@ -1,7 +1,7 @@
 apt-setup (1:0.86) UNRELEASED; urgency=low
 
   * Add ISO loopback support. Thanks to Andreas Cadhalpun.
-    Closes #724931
+    Closes: #724931
 
  -- Christian Perrier <bubulle@debian.org>  Sat, 23 Nov 2013 22:28:01 +0100
 
