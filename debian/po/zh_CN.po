@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2013-10-31 23:00+0800\n"
+"PO-Revision-Date: 2014-03-05 14:59+0800\n"
 "Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -292,7 +292,7 @@ msgstr "尝试配置 apt 从光盘安装额外的软件包失败。"
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr "要扫描其它 CD 或 DVD 吗？"
+msgstr "要扫描其他 CD 或 DVD 吗？"
 
 #. Type: boolean
 #. Description
@@ -311,8 +311,8 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"现在您可以选择扫描其它 CD 或 DVD 以供软件包管理器 (apt) 使用。一般来说，这些 "
-"CD/DVD 是和安装 CD/DVD 在同一套里面的。如果您没有任何其它的 CD 或 DVD，可以直"
+"现在您可以选择扫描其他 CD 或 DVD 以供软件包管理器 (apt) 使用。一般来说，这些 "
+"CD/DVD 是和安装 CD/DVD 在同一套里面的。如果您没有任何其他的 CD 或 DVD，可以直"
 "接跳过这一步。"
 
 #. Type: boolean
@@ -323,7 +323,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr "如果您想要扫描其它 CD 或 DVD，现在请将其插入。"
+msgstr "如果您想要扫描其他 CD 或 DVD，现在请将其插入。"
 
 #. Type: boolean
 #. Description
@@ -344,7 +344,7 @@ msgstr "下列标记的 CD 或 DVD 之前已经扫描过了："
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr "如果您想要扫描其它的 CD 或 DVD，现在请将其替换。"
+msgstr "如果您想要扫描其他的 CD 或 DVD，现在请将其替换。"
 
 #. Type: boolean
 #. Description
