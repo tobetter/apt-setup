@@ -4,6 +4,13 @@ apt-setup (1:0.86) UNRELEASED; urgency=low
   * Handle proxy and timeout configuration appropriately when installing
     over HTTPS (LP: #1135163).
 
+  [ Updated translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk
+  * Bosnian (bs.po) by Amila Valjevčić
+  * Hungarian (hu.po) by Judit Gyimesi
+  * Bokmål, Norwegian (nb.po) by Hans Fredrik Nordhaug
+  * Simplified Chinese (zh_CN.po) by YunQiang Su
+
  -- Christian Perrier <bubulle@debian.org>  Sat, 23 Nov 2013 22:28:01 +0100
 
 apt-setup (1:0.85) unstable; urgency=low
