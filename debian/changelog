@@ -4,6 +4,12 @@ apt-setup (1:0.86) UNRELEASED; urgency=low
   * Handle proxy and timeout configuration appropriately when installing
     over HTTPS (LP: #1135163).
 
+  [ Cyril Brulebois ]
+  * Make sure to disable interactivity in “apt-cdrom ident” calls, by adding
+    “< /dev/null” as done in some “apt-cdrom add” calls. This command became
+    interactive in some apt versions (See: #740673), so be explicit about
+    what we want, which should avoid hanging.
+
   [ Updated translations ]
   * Belarusian (be.po) by Viktar Siarheichyk
   * Bosnian (bs.po) by Amila Valjevčić
