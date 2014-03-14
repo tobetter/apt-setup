@@ -10,13 +10,6 @@ ROOT="$1"
 
 logoutput="log-output -t load-install-cd"
 
-# Why isn't this function, or something like it,
-# in /usr/share/debconf/confmodule ?
-db_getval()
-{
-	db_get "$1" && echo "$RET" || true
-}
-
 check_id() {
 	cd_ids=$(LC_ALL=C $logoutput --pass-stdout chroot $ROOT \
 		 apt-cdrom ident | grep "^Identifying" | cut -d" " -f2)
@@ -36,9 +29,18 @@ while ! check_id; do
 	db_go || exit 10
 done
 
-fs=$(db_getval cdrom-detect/cdrom_fs)
-[ "$fs" ] || fs=iso9660
-OPTIONS=$(db_getval cdrom-detect/cdrom_options)
-[ "$OPTIONS" ] || OPTIONS=ro,exec
+fs=iso9660
+if db_get cdrom-detect/cdrom_fs && [ "$RET" ]; then
+	fs="$RET"
+fi
+OS=$(udpkg --print-os)
+case "$OS" in
+	hurd)
+		OPTIONS=ro
+		;;
+	*)
+		OPTIONS=ro,exec
+		;;
+esac
 db_get cdrom-detect/cdrom_device
 $logoutput mount -t "$fs" -o $OPTIONS $RET /cdrom
