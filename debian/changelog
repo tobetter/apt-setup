@@ -1,4 +1,4 @@
-apt-setup (1:0.86) UNRELEASED; urgency=low
+apt-setup (1:0.86) unstable; urgency=high
 
   [ Colin Watson ]
   * Handle proxy and timeout configuration appropriately when installing
@@ -17,7 +17,7 @@ apt-setup (1:0.86) UNRELEASED; urgency=low
   * Bokmål, Norwegian (nb.po) by Hans Fredrik Nordhaug
   * Simplified Chinese (zh_CN.po) by YunQiang Su
 
- -- Christian Perrier <bubulle@debian.org>  Sat, 23 Nov 2013 22:28:01 +0100
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 14 Mar 2014 20:41:00 +0100
 
 apt-setup (1:0.85) unstable; urgency=low
 
