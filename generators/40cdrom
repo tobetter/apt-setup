@@ -50,14 +50,11 @@ db_getval()
 }
 
 # See whether the device is mountable
-if db_get cdrom-detect/cdrom_mountable; then
-	cd_mountable="$RET"
-else
-	cd_mountable=true
-fi
+cd_mountable=true
+cd_mountable=$(db_getval cdrom-detect/cdrom_mountable)
 
 remount_cd() {
-	if [ "$ROOT" ] && [ "$cd_mountable" = true ]; then
+	if [ "$ROOT" ] && [ $cd_mountable = true ]; then
 		fs=$(db_getval cdrom-detect/cdrom_fs)
 		[ "$fs" ] || fs=iso9660
 		OPTIONS=$(db_getval cdrom-detect/cdrom_options)
@@ -102,7 +99,7 @@ if [ "$ROOT" ]; then
 	chroot=chroot
 
 	# Allow apt-cdrom to manage mounting/unmounting CDs in /target
-	if [ "$cd_mountable" = true ]; then
+	if [ $cd_mountable = true ]; then
 		rm -f $ROOT/etc/apt/apt.conf.d/00NoMountCDROM
 
 		$logoutput umount /target/media/cdrom* || true
@@ -127,7 +124,7 @@ if $logoutput $chroot $ROOT apt-cdrom add \
 	cat $ROOT$tmp >> $file
 
 	# Save the name of the CD to let the CD-set detection (among others) know, what the original CD was.
-	if [ "$ROOT" ] && ([ "$cd_mountable" = true ] || [ "$loopdev" ]); then
+	if [ "$ROOT" ] && ([ $cd_mountable = true ] || [ "$loopdev" ]); then
 		save_label
 	fi
 else
