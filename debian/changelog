@@ -2,7 +2,7 @@ apt-setup (1:0.86) UNRELEASED; urgency=low
 
   [ Christian Perrier ]
   * Add ISO loopback support. Thanks to Andreas Cadhalpun.
-    Closes: #724931
+    Closes #724931
 
   [ Colin Watson ]
   * Handle proxy and timeout configuration appropriately when installing
