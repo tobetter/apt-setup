@@ -1,3 +1,10 @@
+apt-setup (1:0.87) unstable; urgency=low
+
+  [ Updated translations ]
+  * Korean (ko.po) by Changwoo Ryu
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 19 Mar 2014 07:02:55 +0100
+
 apt-setup (1:0.86) unstable; urgency=high
 
   [ Colin Watson ]
