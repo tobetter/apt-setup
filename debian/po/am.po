@@ -18,14 +18,14 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2013-03-24 06:47+0100\n"
-"Last-Translator: Tegegne Tefera <tefera.tegegne@gmail.com>\n"
+"PO-Revision-Date: 2014-04-04 22:07+0100\n"
+"Last-Translator: Tegegne Tefera <tefera@mekuria.com>\n"
 "Language-Team: Amharic <linux-ethiopia@googlegroups.com>\n"
-"Language: \n"
+"Language: am\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: n>1\n"
+"Plural-Forms: n>1;\n"
 
 #. Type: text
 #. Description
@@ -78,7 +78,6 @@ msgstr "የዝርያ ማሻሻያ ማኅደሮችን በመፈተሽ ላይ..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 #, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
 msgstr "የዝርያ ማሻሻያ ማኅደሮችን በመፈተሽ ላይ..."
 
@@ -181,10 +180,8 @@ msgstr "የተለቀቀውን እዳሴ፦"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "backported ስሳካል ልጠቀም?"
+msgstr "ከተሻሻለው የተቀዳ ስስ ነገር"
 
 #. Type: multiselect
 #. Description
@@ -228,12 +225,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -242,8 +233,9 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"አንዳንድ ስልቶች ገና ከድፍድፍ ላይ ካለ ዝርያ ተወስደው ከዚህ ስርዓት ጋር እንዲሰሩ ትደርገዋል። ምንም እንኳን እነዚህ "
-"ስልቶች እንደለሎቹ ስልቶች ሙሉ በሙሉ ሙከራ ባይደረግባቸውም ጠቃሚ የሆኑ አዳዲስ ባህሪዎችን ይዘዋል።"
+"ከተሻሻለው የተቀዳ ስልቶች ገና ድፍድፍ ላይ ካለ ዝርያ ተወስደው ከዚህ ስርዓት ጋር እንዲሰሩ ተደርገዋል። ምንም እንኳን "
+"እነዚህ ስልቶች እንደለሎቹ ስልቶች ሙሉ በሙሉ ሙከራ ባይደረግባቸውም ጠቃሚ የሆኑ አዳዲስ ባህሪዎችን ይዘዋል። ከተሻሻለው "
+"የተቀዳን ማስቻል በቀጥታ እንዲተከሉ አያደርግም፤ በእጅ እንዲመርጡ ያስችልዎታል እንጂ።"
 
 #. Type: text
 #. Description
