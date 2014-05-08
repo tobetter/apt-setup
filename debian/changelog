@@ -1,3 +1,10 @@
+apt-setup (1:0.89) unstable; urgency=low
+
+  [ Updated translations ]
+  * Portuguese (pt.po) by Miguel Figueiredo
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 08 May 2014 08:52:08 +0200
+
 apt-setup (1:0.88) unstable; urgency=low
 
   [ Updated translations ]
