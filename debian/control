@@ -9,7 +9,7 @@ Vcs-Git: git://anonscm.debian.org/d-i/apt-setup.git
 
 Package: apt-setup-udeb
 Package-Type: udeb
-Architecture: all
+Architecture: any
 Priority: standard
 XB-Installer-Menu-Item: 7000
 Depends: apt-mirror-setup, installed-base, di-utils (>= 1.70), ${misc:Depends}
