@@ -1,9 +1,15 @@
-apt-setup (1:0.90) UNRELEASED; urgency=medium
+apt-setup (1:0.90) unstable; urgency=medium
 
+  [ Colin Watson ]
   * Enable amd64 as a foreign architecture by default for x32 installations.
     This can be controlled by preseeding apt-setup/multiarch.
 
- -- Colin Watson <cjwatson@debian.org>  Sat, 06 Sep 2014 15:55:54 +0100
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+  * Estonian (et.po) by Mattias Põldaru
+  * Panjabi (pa.po) by A S Alam
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 07 Sep 2014 08:33:47 +0200
 
 apt-setup (1:0.89) unstable; urgency=low
 
