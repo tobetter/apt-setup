@@ -1,3 +1,10 @@
+apt-setup (1:0.91) unstable; urgency=low
+
+  [ Updated translations ]
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 20 Sep 2014 09:25:02 +0200
+
 apt-setup (1:0.90) unstable; urgency=medium
 
   [ Colin Watson ]
