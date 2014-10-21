@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: sl\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2012-06-21 08:32+0100\n"
+"PO-Revision-Date: 2014-10-21 14:42+0100\n"
 "Last-Translator: Vanja Cvelbar <cvelbar@gmail.com>\n"
 "Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
 "Language: sl\n"
@@ -94,10 +94,8 @@ msgstr "Pregled skladišča z posodobitvami izdaje ..."
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
-msgstr "Pregled skladišča z posodobitvami izdaje ..."
+msgstr "Pregled skladišča z navzdol prikrojeno programsko opremo ..."
 
 #. Type: select
 #. Choices
@@ -203,10 +201,8 @@ msgstr "posodobitve izdaje"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "Želite uporabljati prirejeno (\"backported\") programsko opremo?"
+msgstr "navzdol prikrojena programska oprema"
 
 #. Type: multiselect
 #. Description
@@ -257,12 +253,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -271,11 +261,12 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Nekatera programska oprema iz razvojne veje je bila prirejena (\"backported"
-"\") za delovanje s to različico. Čeprav ta programska oprema ni šla skozi "
-"tako popolno preizkušanje kot tista, ki je vsebovana v tej izdaji, vseeno "
-"vsebuje novejše različice nekaterih programov, ki lahko nudijo uporabne "
-"zmožnosti."
+"Nekatera programska oprema iz razvojne veje je bila prikrojena navzdol za "
+"delovanje s to različico. Čeprav ta programska oprema ni šla skozi tako "
+"popolno preizkušanje kot tista, ki je vsebovana v tej izdaji, vseeno vsebuje "
+"novejše različice nekaterih programov, ki lahko nudijo uporabne zmožnosti. "
+"Omogočanje navzdol prikrojene programske opreme je še ne namesti; omogoči "
+"vam samo kasnejšo ročno namestitev te programske opreme."
 
 #. Type: text
 #. Description
