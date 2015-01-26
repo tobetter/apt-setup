@@ -1,3 +1,10 @@
+apt-setup (1:0.93) unstable; urgency=low
+
+  [ Updated translations ]
+  * German (de.po) by Holger Wansing
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 26 Jan 2015 08:18:28 +0100
+
 apt-setup (1:0.92) unstable; urgency=low
 
   [ Updated translations ]
