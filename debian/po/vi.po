@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: debian-installer Level 1\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2012-06-18 03:18+0900\n"
-"Last-Translator: Nguyen Vu Hung <vuhung16plus@gmail.com>\n"
+"PO-Revision-Date: 2015-03-05 11:15+0100\n"
+"Last-Translator: Hai-Nam Nguyen <hainam@jcisio.com>\n"
 "Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,6 @@ msgstr "Quét kho cập nhật..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 #, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
 msgstr "Quét kho cập nhật..."
 
@@ -191,10 +190,8 @@ msgstr "cập nhật"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "Dùng phần mềm đã nối cầu lùi không?"
+msgstr "phần mềm được nối cầu lùi"
 
 #. Type: multiselect
 #. Description
@@ -242,12 +239,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -259,7 +250,9 @@ msgstr ""
 "Một số gói phần mềm đã được nối cầu lùi (backport) từ cây phát triển, để "
 "hoạt động với bản phát hành này. Mặc dù phần mềm này chưa được thử ra hoàn "
 "thành như điều trong bản phát hành này, nó bao gồm phiên bản mới hơn của một "
-"số ứng dụng có thể cung cấp các tính năng hữu ích."
+"số ứng dụng có thể cung cấp các tính năng hữu ích. Bật nối cầu lùi ở đây "
+"không cài đặt chúng, nó chỉ cho phép bạn chọn phủ công từng bản nối cầu lùi "
+"để sử dụng."
 
 #. Type: text
 #. Description
