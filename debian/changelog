@@ -1,3 +1,11 @@
+apt-setup (1:0.94) unstable; urgency=low
+
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+  * Vietnamese (vi.po) by Hai-Nam Nguyen
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 07 Mar 2015 18:48:23 +0100
+
 apt-setup (1:0.93) unstable; urgency=low
 
   [ Updated translations ]
