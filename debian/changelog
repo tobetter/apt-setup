@@ -1,3 +1,10 @@
+apt-setup (1:0.95) unstable; urgency=low
+
+  [ Updated translations ]
+  * Romanian (ro.po) by Bradut Boghita
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 23 Mar 2015 06:54:17 +0100
+
 apt-setup (1:0.94) unstable; urgency=low
 
   [ Updated translations ]
