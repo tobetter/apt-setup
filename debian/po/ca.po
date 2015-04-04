@@ -4,9 +4,9 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # Catalan messages for debian-installer.
-# Copyright 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2010, 2012 Software in the Public Interest, Inc.
+# Copyright 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2010, 2012, 2015 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
-# Jordi Mallach <jordi@debian.org>, 2002, 2003, 2004, 2006, 2007, 2008, 2010, 2012.
+# Jordi Mallach <jordi@debian.org>, 2002, 2003, 2004, 2006, 2007, 2008, 2010, 2012, 2015.
 # Guillem Jover <guillem@debian.org>, 2005, 2007.
 #
 # Translations from iso-codes:
@@ -18,10 +18,10 @@
 # Traductor: Jordi Ferré <jordiferre@catalonia.altranet.fr>
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer wheezy\n"
+"Project-Id-Version: debian-installer jessie\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2012-10-18 18:34+0200\n"
+"PO-Revision-Date: 2015-04-04 01:39+0200\n"
 "Last-Translator: Jordi Mallach <jordi@debian.org>\n"
 "Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
 "Language: ca\n"
@@ -79,10 +79,8 @@ msgstr "S'està analitzant el dipòsit d'actualitzacions del llançament..."
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
-msgstr "S'està analitzant el dipòsit d'actualitzacions del llançament..."
+msgstr "S'està analitzant el dipòsit de retroversions..."
 
 #. Type: select
 #. Choices
@@ -190,10 +188,8 @@ msgstr "actualitzacions del llançament"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "Voleu utilitzar programari amb retroversions?"
+msgstr "programari amb retroversions?"
 
 #. Type: multiselect
 #. Description
@@ -244,12 +240,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -258,11 +248,13 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Hi ha programari que s'ha retroversionat des de l'arbre de desenvolupament "
-"per a que funcione amb aquest llançament. Tot i que aquest programari no ha "
-"passat per un procés de prova tan complet com el que conté el llançament, "
-"inclou noves versions d'algunes aplicacions que poden proveir funcionalitat "
-"útil."
+"El programari retroversionat està adaptat des de la versió de "
+"desenvolupament per a que funcione amb aquest llançament. Tot i que aquest "
+"programari no ha passat per un procés de prova tan complet com el que conté "
+"el llançament, inclou noves versions d'algunes aplicacions que poden proveir "
+"funcionalitat útil. Habilitar el programari retroversionat ací no causa que "
+"cap d'ells s'instal·len per defecte; només us permet seleccionar manualment "
+"les retroversions que vulgueu emprar."
 
 #. Type: text
 #. Description
