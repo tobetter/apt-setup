@@ -1,3 +1,10 @@
+apt-setup (1:0.96) unstable; urgency=low
+
+  [ Updated translations ]
+  * Catalan (ca.po) by Jordi Mallach
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 05 Apr 2015 08:49:52 +0200
+
 apt-setup (1:0.95) unstable; urgency=low
 
   [ Updated translations ]
