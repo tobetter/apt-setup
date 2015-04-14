@@ -84,7 +84,7 @@ Choices-C: security, updates, backports
 # including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 # :sl1:
 __Choices: security updates (from ${SEC_HOST}), release updates, backported software
-Default: security, updates, backports
+Default: security, updates
 # :sl1:
 _Description: Services to use:
  Debian has two services that provide updates to releases: security and
