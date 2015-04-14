@@ -1,4 +1,4 @@
-apt-setup (1:0.97) UNRELEASED; urgency=medium
+apt-setup (1:0.97) unstable; urgency=medium
 
   * Stop enabling backports by default (Closes: #764982). Rationale:
      - Packages in the base suite are preferred to the ones in the
@@ -10,7 +10,7 @@ apt-setup (1:0.97) UNRELEASED; urgency=medium
     noticing they're not fetched from the base suite; and that seems
     a dangerous default.
 
- -- Cyril Brulebois <kibi@debian.org>  Tue, 14 Apr 2015 02:48:53 +0200
+ -- Cyril Brulebois <kibi@debian.org>  Tue, 14 Apr 2015 02:58:09 +0200
 
 apt-setup (1:0.96) unstable; urgency=low
 
