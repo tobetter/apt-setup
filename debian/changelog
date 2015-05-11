@@ -1,3 +1,10 @@
+apt-setup (1:0.98) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Tamil (ta.po) by Dr.T.Vasudevan
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 11 May 2015 08:38:36 +0200
+
 apt-setup (1:0.97) unstable; urgency=medium
 
   * Stop enabling backports by default (Closes: #764982). Rationale:
