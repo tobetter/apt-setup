@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2013-08-13 22:03+0000\n"
-"PO-Revision-Date: 2015-06-09 16:17+0200\n"
+"PO-Revision-Date: 2015-06-30 01:49+0200\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
@@ -67,33 +67,29 @@ msgstr "${SCRIPT} çalıştırılıyor..."
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
-#, fuzzy
 msgid "Scanning local repositories..."
-msgstr "Yerel depo anahtarı indirilemedi:"
+msgstr "Yerel depolar taranıyor..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
-#, fuzzy
 msgid "Scanning the security updates repository..."
-msgstr "Yansı taranıyor..."
+msgstr "Güvenlik güncellemeleri arşivi taranıyor..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Yansı taranıyor..."
+msgstr "Sürüm güncellemeleri arşivi taranıyor..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
 msgid "Scanning the backports repository..."
-msgstr "Yansı taranıyor..."
+msgstr "backports arşivi taranıyor..."
 
 #. Type: select
 #. Choices
@@ -102,7 +98,7 @@ msgstr "Yansı taranıyor..."
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr ""
+msgstr "Tekrar dene"
 
 #. Type: select
 #. Choices
@@ -111,7 +107,7 @@ msgstr ""
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr ""
+msgstr "Gözardı et"
 
 #. Type: select
 #. Description
@@ -148,7 +144,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr ""
+msgstr "Arşive ulaşılamıyor"
 
 #. Type: error
 #. Description
@@ -158,6 +154,8 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
+"${HOST} üzerindeki arşive erişilemediğinden bu güncellemeleri şimdilik "
+"alamayacaksınız. Bu soruna daha sonra bir göz atmalısınız."
 
 #. Type: error
 #. Description
@@ -167,6 +165,8 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
+"${HOST} adresine ilişkin satırlar, etkisiz açıklama satırları halinde, /etc/"
+"apt/sources.list dosyasına eklendi."
 
 #. Type: multiselect
 #. Choices
@@ -273,20 +273,18 @@ msgstr "CD-ROM taranıyor..."
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
-#, fuzzy
 msgid "apt configuration problem"
-msgstr "Otomatik ağ yapılandırması başarısızlıkla sonuçlandı"
+msgstr "Apt yapılandırma sorunu"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
-#, fuzzy
 msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
-"CD/DVD'den ek paketlerin kurulumuna yönelik olarak apt'ın yapılandırılması "
+"CD'den ek paketlerin kurulumuna yönelik olarak apt'ın yapılandırılması "
 "girişimi başarısız oldu."
 
 #. Type: boolean
@@ -616,16 +614,14 @@ msgstr ""
 #. These are choices of actions so this is, at least in English,
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
-#, fuzzy
 msgid "Change mirror"
-msgstr "Yansı taranıyor..."
+msgstr "Yansıyı değiştir"
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
-#, fuzzy
 msgid "Downloading a file failed:"
-msgstr "Yerel depo anahtarı indirilemedi:"
+msgstr "Bir dosya indirilemedi:"
 
 #. Type: select
 #. Description
@@ -663,42 +659,39 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
-#, fuzzy
 msgid "Continue without a network mirror?"
-msgstr "Bir ağ yansısı kullanılsın mı?"
+msgstr "Bir ağ yansısı kullanılmadan devam edilsin mi?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr ""
+msgstr "Herhangi bir ağ yansısı seçilmedi."
 
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
-#, fuzzy
 msgid "Use restricted software?"
-msgstr "Katkı yazılımlar kullanılsın mı?"
+msgstr "Kısıtlara sahip yazılımlar kullanılsın mı?"
 
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
-#, fuzzy
 msgid ""
 "Some non-free software is available in packaged form. Though this software "
 "is not a part of the main distribution, standard package management tools "
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"Bazı özgür olmayan yazılımlar Debian ile kullanılacak hale getirilmiştir. Bu "
-"yazılımlar Debian'ın bir parçası olmamakla birlikte standart Debian araçları "
-"ile kurulabilirler. Bu yazılımların; onları kullanmanızı, değiştirmenizi ya "
-"da paylaşmanızı kısıtlayan değişik lisansları vardır."
+"Bazı özgür olmayan yazılımlar paketlenmiş halde mevcut durumda. Ana "
+"dağıtımın bir parçası olmamakla beraber, bunları kurmak için standart paket "
+"yönetimi araçlarını kullanabilirsiniz. Bu yazılımlar; kullanmayı, "
+"değiştirmeyi veya paylaşmayı engelleyen değişik lisans şartlarına sahiptir."
 
 #. Type: boolean
 #. Description
@@ -706,23 +699,21 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr ""
+msgstr "\"universe\" arşivindeki yazılımlar kullanılsın mı?"
 
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
-#, fuzzy
 msgid ""
 "Some additional software is available in packaged form. This software is "
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"Bazı ilâve yazılımlar Debian ile çalışabilir hale getirilmiştir. Bu "
-"yazılımlar özgür olmakla birlikte çalışmak için özgür olmayan yazılımlara "
-"bağımlıdırlar. Bu yazılımlar Debian'ın bir parçası değildirler, fakat "
-"standart Debian araçları kullanılarak kurulumları yapılabilir."
+"Bazı ek yazılımlar paketlenmiş halde mevcut durumda. Bu yazılımlar, ana "
+"dağıtımın bir parçası olmamakla beraber, özgür yazılımlardır. Bunları kurmak "
+"için standart paket yönetimi araçlarını kullanabilirsiniz."
 
 #. Type: boolean
 #. Description
@@ -730,14 +721,13 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr ""
+msgstr "\"multiverse\" arşivindeki yazılımlar kullanılsın mı?"
 
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
-#, fuzzy
 msgid ""
 "Some non-free software is available in packaged form. Though this software "
 "is not a part of the main distribution, standard package management tools "
@@ -745,10 +735,11 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"Bazı özgür olmayan yazılımlar Debian ile kullanılacak hale getirilmiştir. Bu "
-"yazılımlar Debian'ın bir parçası olmamakla birlikte standart Debian araçları "
-"ile kurulabilirler. Bu yazılımların; onları kullanmanızı, değiştirmenizi ya "
-"da paylaşmanızı kısıtlayan değişik lisansları vardır."
+"Bazı özgür olmayan yazılımlar paketlenmiş halde mevcut durumda. Ana "
+"dağıtımın bir parçası olmamakla beraber bunları kurmak için standart paket "
+"yönetimi araçlarını kullanabilirsiniz. Bu yazılımlar; kullanmayı, "
+"değiştirmeyi veya paylaşmayı engelleyen çeşitli lisans şartlarına ve (bazı "
+"hâllerde) patent kısıtlamalarına sahiptir."
 
 #. Type: boolean
 #. Description
@@ -756,7 +747,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr ""
+msgstr "\"partner\" arşivindeki yazılımlar kullanılsın mı?"
 
 #. Type: boolean
 #. Description
@@ -768,32 +759,30 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
+"Canonical'ın \"partner\" arşivinde bazı ek yazılımlar vardır. Bu yazılımlar "
+"Ubuntu'nun bir parçası olmamakla birlikte Ubuntu kullanıcılarına bir hizmet "
+"olarak  Canonical ve ilgili sağlayıcılar tarafından sunulurlar."
 
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
-#, fuzzy
 msgid "Use backported software?"
-msgstr "uyarlanmış yazılım"
+msgstr "Geri taşınmış yazılımlar kullanılsın mı?"
 
 #. Type: boolean
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
-#, fuzzy
 msgid ""
 "Some software has been backported from the development tree to work with "
 "this release. Although this software has not gone through such complete "
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"Uyarlanmış yazılımlar (backports), bu dağıtım sürümüyle çalışabilmesi için "
-"geliştirme sürümünden uyarlanarak hazırlanmıştır. Uyarlanmış yazılımlar, "
-"mevcut sürümde bulunanlar kadar kapsamlı bir testten geçmemiş olmakla "
-"beraber, yararlı olabilecek özelliklere sahip bazı yeni sürüm programlar "
-"içermektedir. Bu yazılımları etkinleştirmek onların hemen kurulmasına neden "
-"olmaz, yalnızca sizin kullanmak istediğiniz uyarlanmış yazılımları seçmenizi "
-"sağlar."
+"Bazı yazılımlar, bu dağıtım sürümüyle çalışabilmesi için son geliştirme "
+"sürümlerinden geri taşınarak hazırlanmıştır. Böyle bir yazılım, mevcut "
+"sürümde bulunan kadar ayrıntılı bir testten geçmemiş olmakla beraber, "
+"yararlı olabilecek özelliklere sahip bazı yeni sürüm programlar içermektedir."
