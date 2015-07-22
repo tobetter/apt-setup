@@ -1,3 +1,11 @@
+apt-setup (1:0.101) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Portuguese (Brazil) (pt_BR.po) by Adriano Rafael Gomes
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 22 Jul 2015 10:23:51 +0200
+
 apt-setup (1:0.100) unstable; urgency=medium
 
   [ Updated translations ]
