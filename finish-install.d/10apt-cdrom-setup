@@ -7,10 +7,12 @@ set -e
 db_get apt-setup/disable-cdrom-entries
 disable_cdrom_entries="$RET"
 
-# Always disable netinst CD image in sources.list if any other sources are present
+# Always disable netinst&live CD image in sources.list if any other sources are present
 if [ -e /cdrom/.disk/base_installable ] && \
    [ -e /cdrom/.disk/cd_type ] && \
-   [ "$(cat /cdrom/.disk/cd_type)" = not_complete ] && \
+   ( [ "$(cat /cdrom/.disk/cd_type)" = not_complete ] || \
+     [ "$(cat /cdrom/.disk/cd_type)" = live ]
+   ) && \
    grep -q "^deb \(ht\|f\)tp" /target/etc/apt/sources.list; then
 	disable_cdrom_entries="true"
 fi
