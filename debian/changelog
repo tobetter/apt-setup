@@ -1,12 +1,13 @@
-apt-setup (1:0.102) UNRELEASED; urgency=medium
+apt-setup (1:0.102) unstable; urgency=medium
 
+  [ Raphaël Hertzog ]
   * Add a new apt-setup/disable-cdrom-entries to be used in preseeding
     that will drop the "cdrom" entries in the target /etc/apt/sources.list.
     Closes: #702257
   * Also disable "cdrom" entries when the detected cd_type is live.
     Closes: #652987
 
- -- Raphaël Hertzog <hertzog@debian.org>  Thu, 10 Sep 2015 14:37:42 +0200
+ -- Christian Perrier <bubulle@debian.org>  Fri, 11 Sep 2015 07:01:54 +0200
 
 apt-setup (1:0.101) unstable; urgency=medium
 
