@@ -105,6 +105,16 @@ _Description: Services to use:
  here does not cause any of them to be installed by default; it only
  allows you to manually select backports to use.
 
+Template: apt-setup/enable-source-repositories
+Type: boolean
+Default: true
+# :sl3:
+_Description: Enable source repositories in APT?
+ By default source repositories are listed in /etc/apt/sources.list (with
+ appropriate "deb-src" lines) so that "apt-get source" works. However, if
+ you don't need this feature, you can disable those entries and save some
+ bandwidth during "apt-get update" operations.
+
 Template: apt-setup/multiarch
 Type: string
 Default: @MULTIARCH@

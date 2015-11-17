@@ -46,6 +46,12 @@ else
 	fi
 fi
 
-echo "deb-src http://$host/ $codename/updates $dists" >> $file
+deb_src="deb-src"
+db_get apt-setup/enable-source-repositories
+if [ "$RET" = false ]; then
+	deb_src="# deb-src"
+fi
+
+echo "$deb_src http://$host/ $codename/updates $dists" >> $file
 
 exit $CODE

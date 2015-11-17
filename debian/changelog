@@ -1,3 +1,11 @@
+apt-setup (1:0.103) UNRELEASED; urgency=medium
+
+  * Add a new apt-setup/enable-source-repositories question to let the
+    user disable "deb-src" entries for network repositories that
+    are listed in /etc/apt/sources.list. Closes: #647405
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 17 Nov 2015 17:36:33 +0100
+
 apt-setup (1:0.102) unstable; urgency=medium
 
   [ Raphaël Hertzog ]
