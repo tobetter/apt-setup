@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lo\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-08-13 22:03+0000\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
 "PO-Revision-Date: 2012-04-25 09:05+0700\n"
 "Last-Translator: Anousak Souphavanh <anousak@gmail.com>\n"
 "Language-Team: Lao <lo@li.org>\n"
@@ -243,6 +243,24 @@ msgstr ""
 "ຖ້າຊອບແວ້ເຫຼົ່ານີ້ຈະບໍ່ໄດ້ຜ່ານຂະບວນການທົດສອບຢ່າງສົມບູນຄືທີ່ໃນລຸ່ນກະແຈກກະຈາຍ ແຕ່ກໍມີໂປແກຣັມລຸ້ນໃໝ່ໆ "
 "ທີ່ອາດຈະມີຄວາມສາມາດທີ່ເປັນປະໂຫຍດ "
 
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid "Enable source repositories in APT?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid ""
+"By default source repositories are listed in /etc/apt/sources.list (with "
+"appropriate \"deb-src\" lines) so that \"apt-get source\" works. However, if "
+"you don't need this feature, you can disable those entries and save some "
+"bandwidth during \"apt-get update\" operations."
+msgstr ""
+
 #. Type: text
 #. Description
 #. :sl1:
@@ -424,8 +442,8 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"ທ່ານໄດ້ສຳຫລວດຂໍ້ມູນຊີດີ%i ແຜ່ນ ເຊີ່ງເຖີງແມ່ນຈະມີແພກເກັດເປັນຈຳນວນຫລາຍ ແຕ່ບາງແພກເກັດກໍ່ອາດຂາດໄປ"
-"(ໂດຍສະເພາະແພກເກັດທີ່ຈຳເປັນສຳຫລັບການຮອງຮັບພາສາທີ່ບໍ່ໃຊ້ພາສາອັງກິດ) "
+"ທ່ານໄດ້ສຳຫລວດຂໍ້ມູນຊີດີ%i ແຜ່ນ ເຊີ່ງເຖີງແມ່ນຈະມີແພກເກັດເປັນຈຳນວນຫລາຍ "
+"ແຕ່ບາງແພກເກັດກໍ່ອາດຂາດໄປ(ໂດຍສະເພາະແພກເກັດທີ່ຈຳເປັນສຳຫລັບການຮອງຮັບພາສາທີ່ບໍ່ໃຊ້ພາສາອັງກິດ) "
 
 #. Type: text
 #. Description

@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: te\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-08-13 22:03+0000\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
 "PO-Revision-Date: 2012-06-21 11:54+0530\n"
 "Last-Translator: Arjuna Rao Chavala <arjunaraoc@gmail.com>\n"
 "Language-Team: d-i <kde-i18n-doc@kde.org>\n"
@@ -250,6 +250,24 @@ msgstr ""
 "కొన్ని  సాఫ్ట్వేర్ అభివృద్ది వృక్షం నుండి ఈ విడుదలతో పనిచేయటానికి వీలుగా బాక్ పోర్టెడ్   చేశారు. విడుదలలో "
 "సాఫ్ట్వేర్ లాగా పూర్తి పరీక్ష జరగలేదు కాని, దీనిలో కొన్ని అనువర్తనాల తాజారూపాలు, ఉపయోగకరమైన  లక్షణాలు కలిగి "
 "వుండవచ్చు."
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid "Enable source repositories in APT?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid ""
+"By default source repositories are listed in /etc/apt/sources.list (with "
+"appropriate \"deb-src\" lines) so that \"apt-get source\" works. However, if "
+"you don't need this feature, you can disable those entries and save some "
+"bandwidth during \"apt-get update\" operations."
+msgstr ""
 
 #. Type: text
 #. Description

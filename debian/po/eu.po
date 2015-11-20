@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-08-13 22:03+0000\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
 "PO-Revision-Date: 2012-05-06 15:56+0200\n"
 "Last-Translator: Piarres Beobide <pi@beobide.net>\n"
 "Language-Team: debian-l10n-eu@lists.debian.org\n"
@@ -265,6 +265,24 @@ msgstr ""
 "Zenbait software garapen adarretik bertsio honekin lan egin ahal izateko "
 "migratu izan da. Nahiz eta software hauei proba guztiak ez aplikatu, "
 "ezaugarri erabilgarriak dituzten aplikazio batzuen bertsio berrienak ditu."
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid "Enable source repositories in APT?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid ""
+"By default source repositories are listed in /etc/apt/sources.list (with "
+"appropriate \"deb-src\" lines) so that \"apt-get source\" works. However, if "
+"you don't need this feature, you can disable those entries and save some "
+"bandwidth during \"apt-get update\" operations."
+msgstr ""
 
 #. Type: text
 #. Description

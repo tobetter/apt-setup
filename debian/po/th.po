@@ -23,7 +23,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-08-13 22:03+0000\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
 "PO-Revision-Date: 2013-08-14 13:26+0700\n"
 "Last-Translator: Kiatkachorn Ratanatharathorn <kratanat@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -251,6 +251,24 @@ msgstr ""
 "แต่ก็มีโปรแกรมรุ่นใหม่ๆ ที่อาจมีความสามารถที่เป็นประโยชน์ การเปิดใช้ซอฟต์แวร์ย้ายกลับตรงนี้ "
 "ไม่ได้ทำให้ซอฟต์แวร์เหล่านั้นถูกติดตั้งโดยปริยาย "
 "แต่จะเพียงแค่ช่วยให้คุณสามารถเลือกติดตั้งซอฟต์แวร์ย้ายกลับตามที่ต้องการได้"
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid "Enable source repositories in APT?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid ""
+"By default source repositories are listed in /etc/apt/sources.list (with "
+"appropriate \"deb-src\" lines) so that \"apt-get source\" works. However, if "
+"you don't need this feature, you can disable those entries and save some "
+"bandwidth during \"apt-get update\" operations."
+msgstr ""
 
 #. Type: text
 #. Description

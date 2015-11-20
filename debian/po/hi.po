@@ -30,7 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_hi\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-08-13 22:03+0000\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
 "PO-Revision-Date: 2012-10-02 08:22-0500\n"
 "Last-Translator: Kumar Appaiah\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -269,6 +269,24 @@ msgstr ""
 "कुछ सॉफ्टवेयर विकास वृक्ष से इस रिलीज़ के साथ कार्य करने के लिए बैकपोर्ट िकए गये हैं. हालाँकि "
 "इन सॉफ्टवेयर का उतना पूर्ण परीक्षण नहीं हुआ है जितना कि इस रिलीज़ के सॉफ्टवेयर का हुआ है, "
 "फिर भी इसमें कुछ अनुप्रयोगों के नये वर्ज़न शामिल हैं जो कुछ उपयोगी विशेषताएँ प्रदान कर सकते हैं."
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid "Enable source repositories in APT?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid ""
+"By default source repositories are listed in /etc/apt/sources.list (with "
+"appropriate \"deb-src\" lines) so that \"apt-get source\" works. However, if "
+"you don't need this feature, you can disable those entries and save some "
+"bandwidth during \"apt-get update\" operations."
+msgstr ""
 
 #. Type: text
 #. Description

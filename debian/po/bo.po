@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-08-13 22:03+0000\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
 "PO-Revision-Date: 2012-04-14 22:12+0600\n"
 "Last-Translator: Tennom <tankola@ymail.com, tennomyathog@gmail.com>\n"
 "Language-Team: bo <translation-team-bo@lists.sourceforge.net>\n"
@@ -240,6 +240,24 @@ msgstr ""
 "མཉེན་ཆས་འགའ་ཞིག་དར་སྤེལ་ཁུལ་ནས་ཐད་ཀར་བླངས་བ་ཡིན་པས་དེ་དག་ལ་ཚོད་ལྟ་ཆ་ཚང་མ་བྱས་པར་འགྲེམ་སྤེལ་"
 "འདིའི་ནང་དུ་སྤྱོད་ཡོད མཉེན་ཆས་འདིའི་རིགས་ཀྱི་ནང་དུ་པར་གཞི་གསར་བའི་བྱ་རིམ་འདུས་ཡོད་པས་བྱེད་ནུས་གསར་པ་"
 "མཁོ་སྤྲོད་བྱེད་ཐུབ"
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid "Enable source repositories in APT?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid ""
+"By default source repositories are listed in /etc/apt/sources.list (with "
+"appropriate \"deb-src\" lines) so that \"apt-get source\" works. However, if "
+"you don't need this feature, you can disable those entries and save some "
+"bandwidth during \"apt-get update\" operations."
+msgstr ""
 
 #. Type: text
 #. Description

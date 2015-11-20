@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-08-13 22:03+0000\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
 "PO-Revision-Date: 2013-09-30 16:17+0530\n"
 "Last-Translator: Prabodh C P (FSMK Localisation Team) <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
@@ -249,6 +249,24 @@ msgstr ""
 "ಅವುಗಳು ಪ್ರಯೋಜನಕಾರಿ ಅಂಶಗಳನ್ನು ನೀಡಬಹುದು. ಹಿಂಬಡ್ತಿ ಮಾಡಲಾದ ತಂತ್ರಾಂಶವನ್ನು "
 "ಸಕ್ರಿಯಗೊಳಿಸುವುರಿಂದ ಅವುಗಳು ತನಾಗಿಯೆ ಅನುಸ್ಥಾಪಿತಗೊಳ್ಳುವುದಿಲ್ಲ; ಅದು ಕೇವಲ ಹಿಂಬಡ್ತಿ "
 "ಮಾಡಲಾದ ತಂತ್ರಾಂಶವನ್ನು ನೀವಾಗಿಯೇ ಆಯ್ಕೆ ಮಾಡಲು ಅವಕಾಶ ಮಾಡಿ ಕೊಡುತ್ತದೆ"
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid "Enable source repositories in APT?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid ""
+"By default source repositories are listed in /etc/apt/sources.list (with "
+"appropriate \"deb-src\" lines) so that \"apt-get source\" works. However, if "
+"you don't need this feature, you can disable those entries and save some "
+"bandwidth during \"apt-get update\" operations."
+msgstr ""
 
 #. Type: text
 #. Description

@@ -23,7 +23,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Debian Installer Level 1\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-08-13 22:03+0000\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
 "PO-Revision-Date: 2013-09-30 12:04+0530\n"
 "Last-Translator: Anish Sheela <aneesh.nl@gmail.com>\n"
 "Language-Team: Swatantra Malayalam Computing <discuss@lists.smc.org.in>\n"
@@ -254,6 +254,24 @@ msgstr ""
 "പോയിട്ടില്ലെങ്കിലും ചില പ്രയോഗങ്ങളുടെ പുതിയ ലക്കങ്ങള്‍ ഇതു് ഉള്‍​ക്കൊള്ളുന്നു അവ ഉപയോഗപ്രദമായ "
 "കഴിവുകള്‍ നല്കിയേക്കാം. ബാക്ക്പോര്‍ട്ട് ഇവിടെ സജ്ജമാക്കിയത് കൊണ്ട് അവ ഇന്‍സ്റ്റാള്‍ ചെയ്യണമെന്നില്ല; "
 "താങ്കള്‍ക്ക് അത് പിന്നിട് തെരഞ്ഞെടുക്കാം."
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid "Enable source repositories in APT?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid ""
+"By default source repositories are listed in /etc/apt/sources.list (with "
+"appropriate \"deb-src\" lines) so that \"apt-get source\" works. However, if "
+"you don't need this feature, you can disable those entries and save some "
+"bandwidth during \"apt-get update\" operations."
+msgstr ""
 
 #. Type: text
 #. Description

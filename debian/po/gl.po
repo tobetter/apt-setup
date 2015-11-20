@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-08-13 22:03+0000\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
 "PO-Revision-Date: 2013-10-14 19:48+0200\n"
 "Last-Translator: Jorge Barreiro <yortx.barry@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
@@ -254,6 +254,24 @@ msgstr ""
 "dalgúns aplicativos que poden fornecer características útiles. Habilitar o "
 "software retrotraído aquí non fará que se instale por defecto. Tan só lle "
 "permitirá escoller usar estas versións manualmente."
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid "Enable source repositories in APT?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid ""
+"By default source repositories are listed in /etc/apt/sources.list (with "
+"appropriate \"deb-src\" lines) so that \"apt-get source\" works. However, if "
+"you don't need this feature, you can disable those entries and save some "
+"bandwidth during \"apt-get update\" operations."
+msgstr ""
 
 #. Type: text
 #. Description

@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-08-13 22:03+0000\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
 "PO-Revision-Date: 2014-01-04 14:31+0300\n"
 "Last-Translator: Viktar Siarheichyk <vics@eq.by>\n"
 "Language-Team: Belarusian <i18n@mova.org>\n"
@@ -255,6 +255,24 @@ msgstr ""
 "даваць карысныя магчымасці. Уключэнне рэпазіторыя такіх пакетаў не значыць, "
 "што яны будуць ставіцца заўсёды; гэта толькі дазваляе ўручную абраць такі "
 "пакет для ўсталявання."
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid "Enable source repositories in APT?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid ""
+"By default source repositories are listed in /etc/apt/sources.list (with "
+"appropriate \"deb-src\" lines) so that \"apt-get source\" works. However, if "
+"you don't need this feature, you can disable those entries and save some "
+"bandwidth during \"apt-get update\" operations."
+msgstr ""
 
 #. Type: text
 #. Description

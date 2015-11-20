@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: d-i\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2013-08-13 22:03+0000\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
 "PO-Revision-Date: 2008-08-07 11:42+0530\n"
 "Last-Translator: Kartik Mistry <kartik.mistry@gmail.com>\n"
 "Language-Team: Gujarati <team@utkarsh.org>\n"
@@ -251,6 +251,24 @@ msgstr ""
 "આવૃતિઓ ધરાવે છે, જે તમને મહત્વની લાક્ષણિકતાઓ આપી શકે છે. બેકપોર્ટને અહીં સક્રિય કરવા છતાં તે "
 "તમને મૂળભૂત રીતે સ્થાપન કરવા દેશે નહી; તે માત્ર તમને બેકપોર્ટને પસંદ કરીને કાર્યક્રમો સ્થાપન "
 "કરવા દેશે."
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid "Enable source repositories in APT?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl3:
+#: ../apt-setup-udeb.templates:12001
+msgid ""
+"By default source repositories are listed in /etc/apt/sources.list (with "
+"appropriate \"deb-src\" lines) so that \"apt-get source\" works. However, if "
+"you don't need this feature, you can disable those entries and save some "
+"bandwidth during \"apt-get update\" operations."
+msgstr ""
 
 #. Type: text
 #. Description
