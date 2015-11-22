@@ -14,17 +14,17 @@
 # Translations from iso-codes:
 #   Tobias Quathamer <toddy@debian.org>, 2007.
 #     Translations taken from ICU SVN on 2007-09-09
-#   Miguel Figueiredo <elmig@debianpt.org>, 2005, 2006, 2008, 2009, 2010
 #   Free Software Foundation, Inc., 2001,2004
 #   Filipe Maia <fmaia@gmx.net>, 2001.
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
+#   Miguel Figueiredo <elmig@debianpt.org>, 2005-2015
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2014-05-06 20:25+0100\n"
+"PO-Revision-Date: 2015-11-21 19:22+0000\n"
 "Last-Translator:  Miguel Figueiredo <elmig@debianpt.org>\n"
 "Language-Team:  Portuguese <traduz@debianpt.org>\n"
 "Language: pt\n"
@@ -261,7 +261,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "Activar repositórios de código-fonte no APT?"
 
 #. Type: boolean
 #. Description
@@ -273,6 +273,11 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"Por omissão, os repositórios de código-fonte são listados em /etc/apt/"
+"sources.list (com as linhas \"deb-src\" apropriadas) de modo a que \"apt-get "
+"source\" funcione. No entanto, se não necessitar desta funcionalidade, pode "
+"desabilitar essas entradas e poupar alguma largura de banda durante as "
+"operações de \"apt-get update\"."
 
 #. Type: text
 #. Description

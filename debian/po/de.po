@@ -5,7 +5,7 @@
 #
 # German messages for debian-installer (sublevel1).
 # Copyright (C) 2003 Software in the Public Interest, Inc.
-#
+# #
 # This file is distributed under the same license as debian-installer.
 # Holger Wansing <linux@wansing-online.de>, 2008 - 2015.
 # Jens Seidel <jensseidel@users.sf.net>, 2005, 2006, 2007, 2008.
@@ -14,14 +14,14 @@
 # Bastian Blank <waldi@debian.org>, 2003.
 # Jan Luebbe <jluebbe@lasnet.de>, 2003.
 # Thorsten Sauter <tsauter@gmx.net>, 2003.
-#
+# #
 # Console-setup strings translations:
 # (identified by "./console-setup.templates")
 # Copyright (C) 2006, the console-setup package'c copyright holder
 # Copyright (C) 2006, Matthias Julius
 # Copyright (C) 2007-2009 Helge Kreutzmann
 # Copyright (C) 2008-2011 Holger Wansing
-#
+# #
 # Translations from iso-codes:
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
 # Björn Ganslandt <bganslan@gmx.net>, 2000, 2001.
@@ -39,7 +39,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2015-01-24 21:01+0100\n"
+"PO-Revision-Date: 2015-11-21 15:11+0100\n"
 "Last-Translator: Holger Wansing <linux@wansing-online.de>\n"
 "Language-Team: Debian German <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
@@ -281,7 +281,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "Paketdepots für Quellpakete in APT aktivieren?"
 
 #. Type: boolean
 #. Description
@@ -293,6 +293,11 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"Standardmäßig werden Paketdepots für Quellpakete in /etc/apt/sources.list "
+"als »deb-src«-Zeile eingefügt, so dass Befehle wie »apt-get source« korrekt "
+"funktionieren. Wenn Sie diese Funktionalität jedoch nicht benötigen, können "
+"Sie sie deaktivieren und so bei »apt-get update«-Operationen ein bisschen "
+"Bandbreite sparen."
 
 #. Type: text
 #. Description
