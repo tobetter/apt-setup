@@ -10,7 +10,7 @@ else
 MULTIARCH :=
 endif
 
-override_dh_installdebconf:
+override_dh_installdebconf-arch:
 	dh_installdebconf
 	sed -i 's/@MULTIARCH@/$(MULTIARCH)/' \
 		debian/apt-setup-udeb/DEBIAN/templates
