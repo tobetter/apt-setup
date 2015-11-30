@@ -1,3 +1,10 @@
+apt-setup (1:0.104) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Thai (th.po) by Theppitak Karoonboonyanan
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 30 Nov 2015 07:04:21 +0100
+
 apt-setup (1:0.103) unstable; urgency=medium
 
   [ Raphaël Hertzog ]
