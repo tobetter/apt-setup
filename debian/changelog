@@ -1,3 +1,10 @@
+apt-setup (1:0.105) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Croatian (hr.po) by Tomislav Krznar
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 13 Dec 2015 08:46:02 +0100
+
 apt-setup (1:0.104) unstable; urgency=medium
 
   [ Updated translations ]
