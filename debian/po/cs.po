@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2013-08-23 16:44+0200\n"
+"PO-Revision-Date: 2015-12-19 17:25+0100\n"
 "Last-Translator:  Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team:  Czech <provoz@debian.cz>\n"
 "Language: cs\n"
@@ -57,28 +57,28 @@ msgstr "Spouští se ${SCRIPT}..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "Prohledávají se lokální archivy..."
+msgstr "Prohledávají se lokální repositáře..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "Prohledává se archiv s bezpečnostními aktualizacemi..."
+msgstr "Prohledává se repositář s bezpečnostními aktualizacemi..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "Prohledává se archiv s aktualizacemi vydání..."
+msgstr "Prohledává se repositář s aktualizacemi vydání..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr "Prohledává se archiv se zpětně přeneseným softwarem..."
+msgstr "Prohledává se repositář se zpětně přeneseným softwarem..."
 
 #. Type: select
 #. Choices
@@ -102,7 +102,7 @@ msgstr "Ignorovat"
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr "Stažení klíče lokálního archivu selhalo:"
+msgstr "Stažení klíče lokálního repositáře selhalo:"
 
 #. Type: select
 #. Description
@@ -114,7 +114,7 @@ msgid ""
 "repository at ${MIRROR}:"
 msgstr ""
 "Instalačnímu programu se nepodařilo stáhnout veřejnou část klíče použitého "
-"pro podepsání lokálního archivu ${MIRROR}:"
+"pro podepsání lokálního repositáře ${MIRROR}:"
 
 #. Type: select
 #. Description
@@ -126,14 +126,14 @@ msgid ""
 msgstr ""
 "Chyba může být v připojení k síti, nebo na straně serveru s klíčem. Můžete "
 "zkusit stažení opakovat, nebo problém ignorovat a pokračovat bez balíků z "
-"tohoto archivu."
+"tohoto repositáře."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "Nelze se připojit k archivu"
+msgstr "Nelze se připojit k repositáři"
 
 #. Type: error
 #. Description
@@ -143,8 +143,8 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"Nelze se připojit k archivu na ${HOST}, což znamená, že aktualizace balíků "
-"nyní nebudou dostupné. Situaci byste měli později prověřit."
+"Nelze se připojit k repositáři na ${HOST}, což znamená, že aktualizace "
+"balíků nyní nebudou dostupné. Situaci byste měli později prověřit."
 
 #. Type: error
 #. Description
@@ -256,7 +256,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "Povolit v APT repositáře se zdroji?"
 
 #. Type: boolean
 #. Description
@@ -268,6 +268,10 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"Ve výchozím nastavení jsou v /etc/apt/sources.list uvedeny repositáře se "
+"zdroji (řádky začínající „deb-src“), aby fungoval „apt-get source“. Pokud "
+"tuto možnost nepotřebujete, můžete tyto repositáře zakázat a ušetřit tak čas "
+"a kapacitu linky při „apt-get update“."
 
 #. Type: text
 #. Description
@@ -746,7 +750,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "Používat software z archivu „partner“?"
+msgstr "Používat software z repositáře „partner“?"
 
 #. Type: boolean
 #. Description
@@ -758,9 +762,9 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"Některý software je dostupný z partnerského archivu firmy Canonical. Tento "
-"software není součástí Ubuntu, ale je poskytován Canonicalem a příslušnými "
-"partnery jako služba uživatelům Ubuntu."
+"Některý software je dostupný z partnerského repositáře firmy Canonical. "
+"Tento software není součástí Ubuntu, ale je poskytován Canonicalem a "
+"příslušnými partnery jako služba uživatelům Ubuntu."
 
 #. Type: boolean
 #. Description
