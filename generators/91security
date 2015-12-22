@@ -29,7 +29,7 @@ for dist in contrib non-free; do
 done
 
 # Don't test mirror if no network selected in netcfg
-echo "deb http://$host/ $codename/updates $dists" >> $file
+echo "deb http://$host/debian-security $codename/updates $dists" >> $file
 if db_get netcfg/dhcp_options && \
    [ "$RET" = "Do not configure the network at this time" ]; then
 	CODE=9
@@ -52,6 +52,6 @@ if [ "$RET" = false ]; then
 	deb_src="# deb-src"
 fi
 
-echo "$deb_src http://$host/ $codename/updates $dists" >> $file
+echo "$deb_src http://$host/debian-security $codename/updates $dists" >> $file
 
 exit $CODE

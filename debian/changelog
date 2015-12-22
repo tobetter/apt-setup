@@ -1,3 +1,9 @@
+apt-setup (1:0.106) UNRELEASED; urgency=medium
+
+  * Use /debian-security path on security.debian.org.
+
+ -- Julien Cristau <jcristau@debian.org>  Tue, 22 Dec 2015 14:34:24 +0100
+
 apt-setup (1:0.105) unstable; urgency=medium
 
   [ Updated translations ]
