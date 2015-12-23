@@ -1,8 +1,14 @@
-apt-setup (1:0.106) UNRELEASED; urgency=medium
+apt-setup (1:0.107) unstable; urgency=medium
 
+  [ Julien Cristau ]
   * Use /debian-security path on security.debian.org.
 
- -- Julien Cristau <jcristau@debian.org>  Tue, 22 Dec 2015 14:34:24 +0100
+  [ Updated translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk
+  * Czech (cs.po) by Miroslav Kure
+  * Portuguese (Brazil) (pt_BR.po) by Adriano Rafael Gomes
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 23 Dec 2015 07:49:10 +0100
 
 apt-setup (1:0.105) unstable; urgency=medium
 
