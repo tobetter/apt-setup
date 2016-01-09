@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2013-08-14 15:48+0900\n"
+"PO-Revision-Date: 2016-01-09 18:53+0900\n"
 "Last-Translator:  Kenshi Muto <kmuto@debian.org>\n"
 "Language-Team: Debian L10n Japanese <debian-japanese@lists.debian.org>\n"
 "Language: ja\n"
@@ -263,7 +263,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "APT のソースリポジトリを有効にしますか?"
 
 #. Type: boolean
 #. Description
@@ -275,6 +275,10 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"ソースリポジトリは (適切な \"deb-src\" 行として) /etc/apt/sources.list にデ"
+"フォルトで登録され、\"apt-get source\" は機能します。もしこの機能が不要であれ"
+"ば、それらのエントリを無効にして、\"apt-get update\" の操作中の帯域をいくらか"
+"節約できます。"
 
 #. Type: text
 #. Description
