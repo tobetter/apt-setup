@@ -1,3 +1,10 @@
+apt-setup (1:0.108) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Japanese (ja.po) by Kenshi Muto
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 11 Jan 2016 19:09:35 +0100
+
 apt-setup (1:0.107) unstable; urgency=medium
 
   [ Julien Cristau ]
