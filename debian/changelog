@@ -1,3 +1,10 @@
+apt-setup (1:0.109) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Dutch (nl.po) by Frans Spiesschaert
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 23 Jan 2016 08:39:43 +0100
+
 apt-setup (1:0.108) unstable; urgency=medium
 
   [ Updated translations ]
