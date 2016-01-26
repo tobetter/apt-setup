@@ -19,14 +19,14 @@
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
 # Christian Rose <menthos@menthos.com>, 2004.
 # Daniel Nylander <po@danielnylander.se>, 2007.
-# Martin Bagge <martin.bagge@bthstudent.se>, 2008.
+# Martin Bagge <martin.bagge@bthstudent.se>, 2008, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2012-06-16 11:15+0100\n"
+"PO-Revision-Date: 2016-01-26 22:19+0100\n"
 "Last-Translator: Martin Bagge / brother <brother@bsnet.se>\n"
 "Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
 "Language: sv\n"
@@ -84,10 +84,8 @@ msgstr "Söker igenom det förrådet för utgåveuppdateringar..."
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
-msgstr "Söker igenom det förrådet för utgåveuppdateringar..."
+msgstr "Söker igenom förrådet för bakåtporteringar..."
 
 #. Type: select
 #. Choices
@@ -194,10 +192,8 @@ msgstr "utgåveuppdateringar"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "Använd bakåtporterad programvara?"
+msgstr "Bakåtporterad programvara"
 
 #. Type: multiselect
 #. Description
@@ -248,12 +244,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -262,10 +252,13 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Vissa programvaror har blivit bakåtporterade från utvecklingsträdet för att "
-"fungera med den här utgåvan. Även om den här programvaran inte har genomgått "
-"en kompletta tester såsom de andra paketen i utgåvan inkluderar den nyare "
-"versioner av vissa program som kan tillhandahålla användbara funktioner."
+"Bakåtporterad programvara har tagits från utvecklingsträdet och anpassats "
+"för att fungera med den här utgåvan. Även om den här programvaran inte har "
+"genomgått lika kompletta tester som de andra paketen i utgåvan inkluderar "
+"den nyare versioner av vissa program som kan tillhandahålla användbara "
+"funktioner. Aktivering av bakåtporteringar innebär inte att dessa "
+"installeras som standard, det innebär bara att du kan välja att installera "
+"de bakåtporteringar som önskas."
 
 #. Type: boolean
 #. Description
