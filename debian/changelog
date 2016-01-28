@@ -1,3 +1,10 @@
+apt-setup (1:0.110) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Swedish (sv.po) by Martin Bagge / brother
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 28 Jan 2016 09:50:57 +0100
+
 apt-setup (1:0.109) unstable; urgency=medium
 
   [ Updated translations ]
