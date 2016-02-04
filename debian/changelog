@@ -1,8 +1,9 @@
-apt-setup (1:0.111) UNRELEASED; urgency=medium
+apt-setup (1:0.111) unstable; urgency=medium
 
+  [ Colin Watson ]
   * Use HTTPS for Vcs-* URLs, and link to cgit rather than gitweb.
 
- -- Colin Watson <cjwatson@debian.org>  Fri, 29 Jan 2016 13:35:14 +0000
+ -- Christian Perrier <bubulle@debian.org>  Thu, 04 Feb 2016 07:13:47 +0100
 
 apt-setup (1:0.110) unstable; urgency=medium
 
