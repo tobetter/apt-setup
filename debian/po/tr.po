@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2015-06-30 01:49+0200\n"
+"PO-Revision-Date: 2016-02-12 14:46+0200\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
@@ -267,7 +267,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "APT kaynak paket depoları etkinleştirilsin mi?"
 
 #. Type: boolean
 #. Description
@@ -279,6 +279,12 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"Kaynak paket depolarına ait girdiler öntanımlı olarak /etc/apt/sources.list "
+"dosyasında (uygun \"deb-src\" satırları olarak) bulunmaktadır. Bu sayede "
+"\"apt-get source\" komutu beklendiği şekilde çalışmaktadır. Bu özelliğe "
+"ihtiyaç duymadığınız takdirde bu girdileri devre dışı bırakabilir ve \"apt-"
+"get update\" işlemleri esnasında bir miktar bant genişliğinden tasarruf "
+"edebilirsiniz."
 
 #. Type: text
 #. Description
