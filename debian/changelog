@@ -1,3 +1,10 @@
+apt-setup (1:0.112) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 15 Feb 2016 06:57:06 +0100
+
 apt-setup (1:0.111) unstable; urgency=medium
 
   [ Colin Watson ]
