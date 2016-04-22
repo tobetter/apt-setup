@@ -1,3 +1,10 @@
+apt-setup (1:0.113) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Serbian (sr.po) by Dragan Filipović
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 22 Apr 2016 06:44:32 +0200
+
 apt-setup (1:0.112) unstable; urgency=medium
 
   [ Updated translations ]
