@@ -3,39 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Korean messages for debian-installer.
-# Copyright (C) 2003,2004,2005,2008 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Changwoo Ryu <cwryu@debian.org>, 2010, 2011, 2012, 2014.
-#
-# Translations from iso-codes:
-# Copyright (C)
-#   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   Changwoo Ryu <cwryu@debian.org>, 2004, 2008, 2009, 2010, 2011.
-#   Copyright (C) 2000 Free Software Foundation, Inc.
-#   Eungkyu Song <eungkyu@sparcs.org>, 2001.
-#   Free Software Foundation, Inc., 2001,2003
-#   Jaegeum Choe <baedaron@hananet.net>, 2001.
-#   (translations from drakfw)
-#   Kang, JeongHee <Keizi@mail.co.kr>, 2000.
-#   Sunjae Park <darehanl@gmail.com>, 2006-2007.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#     Translations taken from ICU SVN on 2007-09-09
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2014-03-16 15:04+0900\n"
-"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
-"Language-Team:  Korean <debian-l10n-korean@lists.debian.org>\n"
-"Language: ko\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. Main menu item
@@ -43,7 +10,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr "패키지 관리자 설정"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -52,42 +19,42 @@ msgstr "패키지 관리자 설정"
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "APT를 설정하는 중입니다..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr "${SCRIPT} 스크립트를 실행하는 중입니다..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "가까이 있는 저장소를 검사하는 중입니다..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "보안 업데이트 저장소를 검사하는 중입니다..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "릴리스 업데이트 저장소를 읽는 중입니다..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr "백포팅 저장소를 읽는 중입니다..."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -96,7 +63,7 @@ msgstr "백포팅 저장소를 읽는 중입니다..."
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr "다시 시도"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -105,13 +72,13 @@ msgstr "다시 시도"
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr "무시"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr "로컬 저장소 키 다운로드가 실패했습니다:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -122,8 +89,6 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"설치 프로그램에서 ${MIRROR} 위치의 로컬 저장소에서 디지털 서명하는데 사용하"
-"는 공개 키를 다운로드하는데 실패했습니다:"
 
 #. Type: select
 #. Description
@@ -133,16 +98,13 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"네트워크에 문제가 있거나, 이 키가 들어 있는 서버에 문제가 있을 것입니다. 다"
-"시 다운로드를 시도하거나, 아니면 그냥 무시하고 이 저장소에서 패키지를 다 다운"
-"로드하지 못하더라도 계속 진행할 수 있습니다."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "저장소에 접근할 수 없습니다"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -152,8 +114,6 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"${HOST}에 있는 저장소에 접근할 수 없기 때문에 해당 업데이트를 적용할 수 없습"
-"니다. 나중에 이 문제를 검토하시기 바랍니다."
 
 #. Type: error
 #. Description
@@ -163,7 +123,6 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
-"주석 처리했던 ${HOST} 항목을 /etc/apt/sources.list 파일에 추가했습니다."
 
 #. Type: multiselect
 #. Choices
@@ -173,7 +132,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "보안 업데이트(${SEC_HOST} 호스트에서)"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -183,7 +142,7 @@ msgstr "보안 업데이트(${SEC_HOST} 호스트에서)"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr "릴리스 업데이트"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -193,14 +152,14 @@ msgstr "릴리스 업데이트"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr "백포팅 소프트웨어"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr "사용할 서비스:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -210,8 +169,6 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"데비안은 릴리스에 대한 두 가지 업데이트 서비스가 있습니다. 하나는 보안 업데이"
-"트이고 또 하나는 릴리스 업데이트입니다."
 
 #. Type: multiselect
 #. Description
@@ -221,10 +178,7 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"보안 업데이트는 공격에서 시스템을 보호하는데 도움이 됩니다. 사용하시기를 강력"
-"히 권장합니다."
 
-# 주의: regression을 풀어서 썼다
 #. Type: multiselect
 #. Description
 #. :sl1:
@@ -235,10 +189,6 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"릴리스 업데이트는 더 최신 버전의 소프트웨어가 들어 있습니다. 이 소프트웨어는 "
-"비교적 자주 바뀌는 소프트웨어이면서, 최신 버전이 아닌 소프트웨어는 사용성이 "
-"떨어질 수 있는 소프트웨어입니다. 또 기존 기능을 망가뜨리는 문제점들을 수정한 "
-"버전도 들어있습니다. 이 서비스는 stable과 oldstable 릴리스에서만 제공합니다."
 
 #. Type: multiselect
 #. Description
@@ -252,11 +202,6 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"이 릴리스에서 동작하도록 개발버전에서 백포팅한 소프트웨어가 있습니다. 릴리스"
-"한 배포판에 들어 있는 소프트웨어만큼 철저한 테스트 과정을 거치지는 않았지만 "
-"몇 가지 기능이 추가되는 등 더 최신 버전의 소프트웨어입니다. 여기서 백포팅을 "
-"사용하더라도 기본으로 설치하지는 않습니다. 수동으로 백포팅을 선택할 수 있게"
-"만 합니다."
 
 #. Type: boolean
 #. Description
@@ -281,14 +226,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr "CD-ROM을 읽는 중입니다..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "APT 설정 문제"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -297,7 +242,7 @@ msgstr "APT 설정 문제"
 msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
-msgstr "APT를 설정해 CD에서 패키지를 설치하려고 했지만 실패했습니다."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -314,14 +259,14 @@ msgstr "APT를 설정해 CD에서 패키지를 설치하려고 했지만 실패�
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr "다른 CD나 DVD를 검사하시겠습니까?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "설치 CD나 DVD를 검사했습니다. 이름은 다음과 같습니다:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -333,9 +278,6 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"이제 패키지 관리자(APT)에서 사용할 추가 CD나 DVD를 검사할 수 있습니다. 보통 "
-"이 CD나 DVD는 설치 CD/DVD와 같은 모음에 들어 있는 CD나 DVD를 말합니다. 추가 "
-"CD나 DVD가 없으면 이 단계를 건너 뛸 수 있습니다."
 
 #. Type: boolean
 #. Description
@@ -345,28 +287,28 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr "CD나 DVD를 또 검사하려면 지금 CD나 DVD를 넣으십시오."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "다음 이름의 CD나 DVD를 검사했습니다:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "다음 이름의 CD나 DVD는 이미 검사했습니다:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr "CD나 DVD를 또 검사하려면 지금 CD나 DVD를 바꿔 넣으십시오."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -376,14 +318,13 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
 msgstr ""
-"CD/DVD에서 추가 패키지를 설치하도록 APT를 설정하려 했지만 실패했습니다."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr "CD/DVD를 올바르게 넣었는 지 확인하십시오."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -392,7 +333,7 @@ msgstr "CD/DVD를 올바르게 넣었는 지 확인하십시오."
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "미디어 바꾸기"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -404,8 +345,6 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:이름이 '${LABEL}'인 디스크를 '/cdrom/' 드라이브에 넣고 <Enter>를 누르"
-"십시오."
 
 #. Type: text
 #. Description
@@ -413,7 +352,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "sources.list에서 netinst CD에서 지우는 중입니다..."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -426,8 +365,6 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"netinst CD로 설치하면서 미러를 선택하지 않으면, 아주 최소한의 베이스 시스템"
-"만 설치하게 됩니다."
 
 #. Type: text
 #. Description
@@ -438,9 +375,6 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"netinst CD로 설치하는 중입니다. netinst CD만 가지고 설치하면 아주 최소한의 베"
-"이스 시스템만 설치할 수 있습니다. 더 완전한 시스템을 설치하려면 미러 사이트"
-"를 사용하십시오."
 
 #. Type: text
 #. Description
@@ -448,7 +382,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:11001
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
-msgstr "CD에서 설치하는 중입니다. CD에는 패키지의 작은 일부분만 들어 있습니다."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -461,9 +395,6 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"CD를 %i개 검사했습니다. 이 CD에는 상당한 패키지가 들어 있지만 일부 빠진 패키"
-"지가 있을 수 있습니다. (특히 영어가 아닌 언어에 대한 지원 기능이 빠졌을 수 있"
-"습니다.)"
 
 #. Type: text
 #. Description
@@ -475,8 +406,6 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"CD를 %i개 검사했습니다. 이 CD에는 많은 패키지가 들어 있지만 일부 빠진 패키지"
-"가 있을 수 있습니다."
 
 #. Type: text
 #. Description
@@ -486,8 +415,6 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"미러 사이트를 사용하면 설치 과정 중 다음 단계에서 아주 많은 양의 데이터를 다"
-"운로드할 수 있습니다."
 
 #. Type: text
 #. Description
@@ -497,8 +424,6 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"DVD에서 설치하는 중입니다. DVD에는 많은 패키지가 들어 있지만 일부 빠진 패키지"
-"가 있을 수 있습니다."
 
 #. Type: text
 #. Description
@@ -509,8 +434,6 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"인터넷 연결이 안 좋은 경우가 아니라면 미러 사이트 사용을 권장합니다. 특히 그"
-"래픽 데스크톱 환경을 설치하려는 경우 미러 사이트 사용을 권장합니다."
 
 #. Type: text
 #. Description
@@ -520,22 +443,20 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
-"인터넷 연결이 괜찮다면, 그래픽 데스크톱을 사용하는 경우 미러 사이트를 사용하"
-"면 좋습니다."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "미러 사이트를 검사하는 중입니다..."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "독점 소프트웨어를 사용하시겠습니까?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -547,10 +468,6 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"독점 소프트웨어중에 데비안에서 사용할 수 있게 만들어진 소프트웨어가 있습니"
-"다. 이 소프트웨어는 데비안의 일부분이 아니지만, 표준 데비안 도구를 이용해 이 "
-"소프트웨어를 설치할 수 있습니다. 이 소프트웨어의 라이선스는 사용, 수정 및 공"
-"유를 금지하고 있습니다."
 
 #. Type: boolean
 #. Description
@@ -562,14 +479,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr "그래도 이 소프트웨어를 사용할 수 있도록 만들지 여부를 선택하십시오."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "독점 소프트웨어에 의존하는 소프트웨어를 사용하시겠습니까?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -581,10 +498,6 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"일부 추가 소프트웨어를 데비안에서 사용할 수 있습니다. 이 소프트웨어의 라이센"
-"스는 자유롭지만, 동작하려면 독점 소프트웨어에 의존합니다. 이 소프트웨어는 데"
-"비안의 일부분이 아니지만, 표준 데비안 도구를 사용해 이 소프트웨어를 설치할 "
-"수 있습니다."
 
 #. Type: boolean
 #. Description
@@ -612,7 +525,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "이 소프트웨어를 사용할 수 있도록 만들지 여부를 선택하십시오."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -621,13 +534,13 @@ msgstr "이 소프트웨어를 사용할 수 있도록 만들지 여부를 선�
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr "미러 사이트 바꾸기"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr "파일 다운로드가 실패했습니다:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -638,17 +551,13 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"설치 프로그램이 미러 사이트에서 파일을 다운로드하는데 실패했습니다. 네트워크"
-"에 문제가 있거나, 미러 사이트에 문제가 있을 것입니다. 다시 다운로드를 시도하"
-"거나, 다른 미러 사이트를 선택하거나, 그냥 무시하고 패키지를 다 다운로드하지 "
-"못하더라도 계속 진행할 수 있습니다."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr "네트워크 미러 사이트를 사용하시겠습니까?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -658,23 +567,20 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
-"네트워크 미러사이트를 이용하면 CD-ROM에 들어 있는 소프트웨어 외에 추가 소프트"
-"웨어를 사용할 수 있습니다. 미러 사이트를 사용하면 CD-ROM에 들어 있는 소프트웨"
-"어보다 최신 버전의 소프트웨어도 사용할 수 있습니다."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr "네트워크 미러 사이트 없이 계속 하시겠습니까?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr "선택한 네트워크 미러 사이트가 없습니다."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -682,7 +588,7 @@ msgstr "선택한 네트워크 미러 사이트가 없습니다."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "제한된 소프트웨어를 사용하시겠습니까?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -695,10 +601,6 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"독점 소프트웨어를 설치할 수 있습니다. 이 소프트웨어는 메인 배포판에 속해있지"
-"않지만 패키지 관리 도구를 사용해 설치할 수 있습니다. 비자유소프트웨어는 라이"
-"선스가 소프트웨어마다 다르며 소프트웨어를 사용하거나 수정, 공유할 수 없는경우"
-"도 있습니다."
 
 #. Type: boolean
 #. Description
@@ -706,7 +608,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "\"유니버스\" 소프트웨어를 사용하시겠습니까?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -718,8 +620,6 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"추가로 설치할 수 있는 소프트웨어가 있습니다. 메인 배포판에 속하지는 않지만자"
-"유 소프트웨어에 해당하며, 패키지 관리 도구를 사용해 설치할 수 있습니다."
 
 #. Type: boolean
 #. Description
@@ -727,7 +627,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "\"멀티버스\" 소프트웨어를 사용하시겠습니까?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -741,10 +641,6 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"독점 소프트웨어 중에 패키지로 사용할 수 있는 소프트웨어가 있습니다. 이 소프트"
-"웨어는 메인 배포판에 포함된 소프트웨어가 아니지만 패키지 관리 도구를 이용해 "
-"설치할 수 있습니다. 독점 소프트웨어는 라이선스가 여러가지이고, (경우에 따라) "
-"특허 문제때문에 소프트웨어 사용, 수정, 공유를 못 할 수도 있습니다."
 
 #. Type: boolean
 #. Description
@@ -752,7 +648,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "\"파트너\" 저장소에 있는 소프트웨어를 사용하시겠습니까?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -764,9 +660,6 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"캐노니컬의 \"파트너\" 저장고에 추가 소프트웨어가 일부 들어 있습니다. 이 소프"
-"트웨어는 우분투의 일부가 아니지만 캐노니컬 및 여러 회사들이 우분투 사용자에 "
-"대한 서비스로 제공합니다."
 
 #. Type: boolean
 #. Description
@@ -774,7 +667,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "백포팅한 소프트웨어를 사용합니까?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -787,6 +680,3 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"이 배포판에 적합하도록 백포팅한 소프트웨어가 있습니다. 릴리스한 배포판에 들"
-"어 있는 소프트웨어만큼 철저한 테스트 과정을 거치지는 않았지만 몇 가지 기능이 "
-"추가되는 등 더 최신 버전의 소프트웨어입니다."

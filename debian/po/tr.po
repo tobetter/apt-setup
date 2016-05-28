@@ -3,41 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Turkish messages for debian-installer.
-# Copyright (C) 2003, 2004 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-# Recai Oktaş <roktas@omu.edu.tr>, 2004, 2005, 2008.
-# Osman Yüksel <yuxel@sonsuzdongu.com>, 2004.
-# Özgür Murat Homurlu <ozgurmurat@gmx.net>, 2004.
-# Halil Demirezen <halild@bilmuh.ege.edu.tr>, 2004.
-# Murat Demirten <murat@debian.org>, 2004.
-# Mert Dirik <mertdirik@gmail.com>, 2008-2012, 2014.
-# Translations from iso-codes:
-# Alastair McKinstry <mckinstry@computer.org>, 2001.
-# (translations from drakfw)
-# Fatih Demir <kabalak@gmx.net>, 2000.
-# Free Software Foundation, Inc., 2000,2004
-# Kemal Yilmaz <kyilmaz@uekae.tubitak.gov.tr>, 2001.
-# Mert Dirik <mertdirik@gmail.com>, 2008, 2014.
-# Nilgün Belma Bugüner <nilgun@fide.org>, 2001.
-# Recai Oktaş <roktas@omu.edu.tr>, 2004.
-# Tobias Quathamer <toddy@debian.org>, 2007.
-# Translations taken from ICU SVN on 2007-09-09
-# Ömer Fadıl USTA <omer_fad@hotmail.com>, 1999.
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2016-02-12 14:46+0200\n"
-"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
-"Language-Team: Debian L10N Turkish\n"
-"Language: tr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
 #. Type: text
 #. Description
 #. Main menu item
@@ -45,7 +10,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr "Paket yöneticisini yapılandır"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -54,42 +19,42 @@ msgstr "Paket yöneticisini yapılandır"
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "Apt yapılandırılıyor"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr "${SCRIPT} çalıştırılıyor..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "Yerel depolar taranıyor..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "Güvenlik güncellemeleri arşivi taranıyor..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "Sürüm güncellemeleri arşivi taranıyor..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr "backports arşivi taranıyor..."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -98,7 +63,7 @@ msgstr "backports arşivi taranıyor..."
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr "Tekrar dene"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -107,13 +72,13 @@ msgstr "Tekrar dene"
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr "Gözardı et"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr "Yerel depo anahtarı indirilemedi:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -124,8 +89,6 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"Kurulum programı ${MIRROR} adresindeki yerel depoyu imzalamakta kullanılan "
-"genel anahtarı indirmekte başarısız oldu:"
 
 #. Type: select
 #. Description
@@ -135,16 +98,13 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Bu sorun ağınızdan veya kullandığınız yansıdan kaynaklanıyor olabilir. Dosya "
-"indirme işlemini tekrar edebilir veya bu sorunu gözardı ederek bu yansıdaki "
-"tüm paketler olmadan kuruluma devam edebilirsiniz."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "Arşive ulaşılamıyor"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -154,8 +114,6 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"${HOST} üzerindeki arşive erişilemediğinden bu güncellemeleri şimdilik "
-"alamayacaksınız. Bu soruna daha sonra bir göz atmalısınız."
 
 #. Type: error
 #. Description
@@ -165,8 +123,6 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
-"${HOST} adresine ilişkin satırlar, etkisiz açıklama satırları halinde, /etc/"
-"apt/sources.list dosyasına eklendi."
 
 #. Type: multiselect
 #. Choices
@@ -176,7 +132,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "güvenlik güncellemeleri (${SEC_HOST} adresinden)"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -186,7 +142,7 @@ msgstr "güvenlik güncellemeleri (${SEC_HOST} adresinden)"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr "sürüm güncellemeleri"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -196,14 +152,14 @@ msgstr "sürüm güncellemeleri"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr "uyarlanmış yazılım"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr "Kullanılacak hizmetler:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -213,8 +169,6 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Debian, sürüm güncellemeleri için iki farklı hizmete sunar: güvenlik "
-"güncellemeleri ve sürüm güncellemeleri."
 
 #. Type: multiselect
 #. Description
@@ -224,8 +178,6 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"Güvenlik güncellemeleri sisteminizin saldırılar karşısında güvenli durumda "
-"kalmasına yardımcı olur. Bu hizmeti etkinleştirmeniz şiddetle tavsiye edilir."
 
 #. Type: multiselect
 #. Description
@@ -237,10 +189,6 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Sürüm güncellemeleri, görece sık değişen ve en son sürümünün kullanılmaması "
-"halinde yararı azalan yazılımların daha güncel sürümlerini sağlamaktadır. "
-"Sürüm güncellemeleri aynı zamanda gerileme hatalarının düzeltmelerini de "
-"sağlar.  Bu hizmet yalnızca kararlı ve eskikararlı sürümler için mevcuttur."
 
 #. Type: multiselect
 #. Description
@@ -254,20 +202,13 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Uyarlanmış yazılımlar (backports), bu dağıtım sürümüyle çalışabilmesi için "
-"geliştirme sürümünden uyarlanarak hazırlanmıştır. Uyarlanmış yazılımlar, "
-"mevcut sürümde bulunanlar kadar kapsamlı bir testten geçmemiş olmakla "
-"beraber, yararlı olabilecek özelliklere sahip bazı yeni sürüm programlar "
-"içermektedir. Bu yazılımları etkinleştirmek onların hemen kurulmasına neden "
-"olmaz, yalnızca sizin kullanmak istediğiniz uyarlanmış yazılımları seçmenizi "
-"sağlar."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr "APT kaynak paket depoları etkinleştirilsin mi?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -279,26 +220,20 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
-"Kaynak paket depolarına ait girdiler öntanımlı olarak /etc/apt/sources.list "
-"dosyasında (uygun \"deb-src\" satırları olarak) bulunmaktadır. Bu sayede "
-"\"apt-get source\" komutu beklendiği şekilde çalışmaktadır. Bu özelliğe "
-"ihtiyaç duymadığınız takdirde bu girdileri devre dışı bırakabilir ve \"apt-"
-"get update\" işlemleri esnasında bir miktar bant genişliğinden tasarruf "
-"edebilirsiniz."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr "CD-ROM taranıyor..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "Apt yapılandırma sorunu"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -308,8 +243,6 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
-"CD'den ek paketlerin kurulumuna yönelik olarak apt'ın yapılandırılması "
-"girişimi başarısız oldu."
 
 #. Type: boolean
 #. Description
@@ -326,14 +259,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr "Başka bir CD veya DVD taransın mı?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "Kurulum CD veya DVD'niz tarandı; etiketi:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -345,9 +278,6 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"Paket yöneticisi (apt) tarafından kullanılmak üzere ilave CD veya DVD'leri "
-"şimdi taratmanız mümkündür. Normalde bu diskler kurulum CD/DVD'leriyle aynı "
-"grupta olmalıdır. İlave CD veya DVD'niz yoksa bu adımı atlayabilirsiniz."
 
 #. Type: boolean
 #. Description
@@ -357,28 +287,28 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr "Taratmak istediğiniz CD veya DVD varsa lütfen şimdi yerleştirin."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "Aşağıdaki etikete sahip CD veya DVD tarandı:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "Aşağıdaki etikete sahip CD veya DVD daha önceden taranmış:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr "Başka bir CD veya DVD taratmak istiyorsanız lütfen şimdi değiştirin."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -388,15 +318,13 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
 msgstr ""
-"CD/DVD'den ek paketlerin kurulumuna yönelik olarak apt'ın yapılandırılması "
-"girişimi başarısız oldu."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr "Lütfen CD/DVD'nin doğru yerleştirildiğine emin olun."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -405,7 +333,7 @@ msgstr "Lütfen CD/DVD'nin doğru yerleştirildiğine emin olun."
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "Ortam değişti"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -417,8 +345,6 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/: Lütfen '${LABEL}' etiketli diski '/cdrom/' sürücüsüne yerleştirip "
-"enter tuşuna basın."
 
 #. Type: text
 #. Description
@@ -426,7 +352,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "'sources.list' dosyasındaki netinst CD kaydı etkisizleştiriliyor..."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -439,9 +365,6 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"Bir 'netinst' CD'sinden kurulum yapıyorsanız ve herhangi bir yansı "
-"kullanmamayı seçtiyseniz sadece asgarî özelliklerde bir temel sistem "
-"kurulumu gerçekleşecektir."
 
 #. Type: text
 #. Description
@@ -452,9 +375,6 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"Bir netinst CD'sinden kurulum yapıyorsunuz, ki bu CD sadece asgari bir "
-"sistem kurulumuna izin verir. Eksiksiz bir sistem kurulumu için bir yansı "
-"kullanın."
 
 #. Type: text
 #. Description
@@ -462,7 +382,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:11001
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
-msgstr "Sınırlı sayıda pakete sahip bir CD'den kurulum yapıyorsunuz."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -475,9 +395,6 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"%i adet CD tarattınız. Her ne kadar bu CD'ler azımsanmayacak sayıda paket "
-"içeriyor olsa bile (özellikle İngilizce dışındaki dilleri desteklemek için "
-"gerekli) bazı paketler eksik olabilir."
 
 #. Type: text
 #. Description
@@ -489,8 +406,6 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"%i adet CD tarattınız. Her ne kadar bu CD'ler çok sayıda paket içeriyor olsa "
-"bile bazı paketler eksik olabilir."
 
 #. Type: text
 #. Description
@@ -500,8 +415,6 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"Bir yansı kullanmanız halinde bir sonraki kurulum adımında ağ üzerinden "
-"büyük miktarda veri aktarılacağını lütfen unutmayın."
 
 #. Type: text
 #. Description
@@ -511,8 +424,6 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Bir DVD'den kurulum yapıyorsunuz. Her ne kadar DVD çok sayıda paket içeriyor "
-"olsa bile bazı paketler eksik olabilir."
 
 #. Type: text
 #. Description
@@ -523,8 +434,6 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"İyi bir İnternet bağlantısına sahip olmadığınız sürece bir yansı kullanmanız "
-"tavsiye edilir; özellikle bir grafik masaüstü ortamı kurma niyetindeyseniz."
 
 #. Type: text
 #. Description
@@ -534,22 +443,20 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
-"İyi bir İnternet bağlantısına sahipseniz bir yansı kullanmanız tavsiye "
-"edilir; özellikle bir grafik masaüstü ortamı kurma niyetindeyseniz."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "Yansı taranıyor..."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "Özgür olmayan yazılım kullanacak mısınız?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -561,10 +468,6 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Bazı özgür olmayan yazılımlar Debian ile kullanılacak hale getirilmiştir. Bu "
-"yazılımlar Debian'ın bir parçası olmamakla birlikte standart Debian araçları "
-"ile kurulabilirler. Bu yazılımların; onları kullanmanızı, değiştirmenizi ya "
-"da paylaşmanızı kısıtlayan değişik lisansları vardır."
 
 #. Type: boolean
 #. Description
@@ -577,15 +480,13 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
 msgstr ""
-"Lütfen kullanılabilir olmasını isteyip istemediğiniz konusunda seçiminizi "
-"yapın."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "Katkı yazılımlar kullanılsın mı?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -597,10 +498,6 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"Bazı ilâve yazılımlar Debian ile çalışabilir hale getirilmiştir. Bu "
-"yazılımlar özgür olmakla birlikte çalışmak için özgür olmayan yazılımlara "
-"bağımlıdırlar. Bu yazılımlar Debian'ın bir parçası değildirler, fakat "
-"standart Debian araçları kullanılarak kurulumları yapılabilir."
 
 #. Type: boolean
 #. Description
@@ -629,8 +526,6 @@ msgstr ""
 msgid ""
 "Please choose whether you want this software to be made available to you."
 msgstr ""
-"Lütfen bu çeşit yazılımların kullanılabilir olması konusunda seçiminizi "
-"yapın."
 
 #. Type: select
 #. Choices
@@ -639,13 +534,13 @@ msgstr ""
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr "Yansıyı değiştir"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr "Bir dosya indirilemedi:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -656,17 +551,13 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"Kurulum programı yansıya erişemedi. Bu sorun ağınızdan veya kullandığınız "
-"yansıdan kaynaklanıyor olabilir. Dosya indirme işlemini tekrar edebilir, "
-"farklı bir yansı deneyebilir veya bu sorunu gözardı ederek bu yansıdaki "
-"paketler olmadan kuruluma devam edebilirsiniz."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr "Bir ağ yansısı kullanılsın mı?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -676,22 +567,20 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
-"Ağ yansısı CD-ROM'dakilere ilâve yazılımlar kurmak için kullanılabilir. "
-"Ayrıca mevcut yazılımların yeni sürümlerine de erişmeniz mümkün olacaktır."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr "Bir ağ yansısı kullanılmadan devam edilsin mi?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr "Herhangi bir ağ yansısı seçilmedi."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -699,7 +588,7 @@ msgstr "Herhangi bir ağ yansısı seçilmedi."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "Kısıtlara sahip yazılımlar kullanılsın mı?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -712,10 +601,6 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"Bazı özgür olmayan yazılımlar paketlenmiş halde mevcut durumda. Ana "
-"dağıtımın bir parçası olmamakla beraber, bunları kurmak için standart paket "
-"yönetimi araçlarını kullanabilirsiniz. Bu yazılımlar; kullanmayı, "
-"değiştirmeyi veya paylaşmayı engelleyen değişik lisans şartlarına sahiptir."
 
 #. Type: boolean
 #. Description
@@ -723,7 +608,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "\"universe\" arşivindeki yazılımlar kullanılsın mı?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -735,9 +620,6 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"Bazı ek yazılımlar paketlenmiş halde mevcut durumda. Bu yazılımlar, ana "
-"dağıtımın bir parçası olmamakla beraber, özgür yazılımlardır. Bunları kurmak "
-"için standart paket yönetimi araçlarını kullanabilirsiniz."
 
 #. Type: boolean
 #. Description
@@ -745,7 +627,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "\"multiverse\" arşivindeki yazılımlar kullanılsın mı?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -759,11 +641,6 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"Bazı özgür olmayan yazılımlar paketlenmiş halde mevcut durumda. Ana "
-"dağıtımın bir parçası olmamakla beraber bunları kurmak için standart paket "
-"yönetimi araçlarını kullanabilirsiniz. Bu yazılımlar; kullanmayı, "
-"değiştirmeyi veya paylaşmayı engelleyen çeşitli lisans şartlarına ve (bazı "
-"hâllerde) patent kısıtlamalarına sahiptir."
 
 #. Type: boolean
 #. Description
@@ -771,7 +648,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "\"partner\" arşivindeki yazılımlar kullanılsın mı?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -783,9 +660,6 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"Canonical'ın \"partner\" arşivinde bazı ek yazılımlar vardır. Bu yazılımlar "
-"Ubuntu'nun bir parçası olmamakla birlikte Ubuntu kullanıcılarına bir hizmet "
-"olarak  Canonical ve ilgili sağlayıcılar tarafından sunulurlar."
 
 #. Type: boolean
 #. Description
@@ -793,7 +667,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "Geri taşınmış yazılımlar kullanılsın mı?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -806,7 +680,3 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"Bazı yazılımlar, bu dağıtım sürümüyle çalışabilmesi için son geliştirme "
-"sürümlerinden geri taşınarak hazırlanmıştır. Böyle bir yazılım, mevcut "
-"sürümde bulunan kadar ayrıntılı bir testten geçmemiş olmakla beraber, "
-"yararlı olabilecek özelliklere sahip bazı yeni sürüm programlar içermektedir."

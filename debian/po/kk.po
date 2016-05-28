@@ -3,34 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Kazakh messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Talgat Daniyarov
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008-2011
-# Dauren Sarsenov <daur88@inbox.ru>, 2008, 2009
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Sairan Kikkarin <sairan@sci.kz>, 2006
-#   KDE Kazakh l10n team, 2006
-#   Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008, 2009, 2010
-#   Dauren Sarsenov <daur88@inbox.ru>, 2009
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2013-10-04 12:19+0600\n"
-"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
-"Language-Team: Kazakh\n"
-"Language: kk\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. Main menu item
@@ -38,7 +10,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr "Дестелер менеджерін баптау"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -47,42 +19,42 @@ msgstr "Дестелер менеджерін баптау"
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "Apt баптау"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr "${SCRIPT} іске қосу"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "Жергілікті репозитарийді қарау..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "Қауіпсіздік жаңартулар репозиторийі қаралуда..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "Шығарылым жаңартулар репозиторийі қаралуда..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr "Бэкпорттар репозиторийі қаралуда..."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -91,7 +63,7 @@ msgstr "Бэкпорттар репозиторийі қаралуда..."
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr "Қайталау"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -100,13 +72,13 @@ msgstr "Қайталау"
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr "Елемеу"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr "Жергілікті репозиторий кілтін жүктеу сәтсіз:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -117,8 +89,6 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"Орнатқыш жергілікті репозиторийге (${MIRROR}) қолтаңба қою үшін қолданылған "
-"ортақ кілтті жүктей алмады:"
 
 #. Type: select
 #. Description
@@ -128,16 +98,13 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Мәселе желіде, немесе кілт орналасқан серверде болуы мүмкін. Жүктеуді "
-"қайталап көре аласыз, немесе мәселені елемей, бұл айнадан барлық дестелерсіз-"
-"ақ, орнатуды жалғастыра беріңіз."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "Репозиторийге қатынау мүмкін емес"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -147,8 +114,6 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"${HOST} орналасуындағы репозиторийге қатынау мүмкін емес, сондықтан қазір "
-"ешнәрсе жаңартылмайды. Мұның себебін кейінірек анықтау керек."
 
 #. Type: error
 #. Description
@@ -158,8 +123,6 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
-"${HOST} үшін /etc/apt/sources.list файлына комментарий ретінде жазбалар "
-"қосылды."
 
 #. Type: multiselect
 #. Choices
@@ -169,7 +132,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "қауіпсіздік жаңартулар (${SEC_HOST})"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -179,7 +142,7 @@ msgstr "қауіпсіздік жаңартулар (${SEC_HOST})"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr "шығарылым жаңартулары"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -189,14 +152,14 @@ msgstr "шығарылым жаңартулары"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr "бэкпортталған БҚ"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr "Қолданылатын сервистер:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -206,8 +169,6 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Шығарылымдарды жаңарту үшін Debian екі сервисті ұсынады: қауіпсіздік және "
-"шығарылым жаңартулары."
 
 #. Type: multiselect
 #. Description
@@ -217,8 +178,6 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"Қауіпсіздік жаңартулары жүйеңіздің тұрақтылығын сақтауға көмектеседі. Осы "
-"сервисті қосу қатаң түрде ұсынылады."
 
 #. Type: multiselect
 #. Description
@@ -230,10 +189,6 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Шығарылым жаңартулары жиі жаңартылатын және соңғы емес нұсқасын қолдану "
-"нәтижесінде бағдарламаны қолдану ыңғайлығын төмендете алатынына әкеп соға "
-"алатын бағдарламалық қамтаманы қамтиды. Ол тағы да регрессияларға "
-"түзетулерді әкеледі. Бұл сервис тек тұрақты және ескі шығарылымдар үшін бар."
 
 #. Type: multiselect
 #. Description
@@ -247,12 +202,6 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Бэкпортталған БҚ өндірілетін нұсқасынан осы шығарылымға ауыстырылды. Бұл БҚ "
-"осы шығарылымның басқа БҚ-ы сияқты толық сынаудан өтпесе де, оның ішінде "
-"керек қасиеттері бар болуы мүмкін кейбір бағдарламалардың жаңа нұсқалары "
-"бар. Бэкпорттарды осында іске қосу олардың үнсіз келісім бойынша орнатылуына "
-"әкеп соқпайды, ол тек сізге қолдану үшін бэкпорттарды қолмен таңдауға "
-"мүмкіндік береді."
 
 #. Type: boolean
 #. Description
@@ -277,14 +226,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr "CD-ROM қарау..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "apt баптауында қиындықтар бар"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -294,8 +243,6 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
-"Apt бағдарламасын компакт-дискіден қосымша дестелерді орнату үшін баптау "
-"сәтсіз аяқталды."
 
 #. Type: boolean
 #. Description
@@ -312,14 +259,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr "Басқа CD немесе DVD дискіні қарап шығу керек пе?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "Сіздің орнатылатын CD немесе DVD дискіңіз қаралды; оның белгісі:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -331,9 +278,6 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"Қазір қосымша CD/DVD дисктерді дестелер менеджері (apt) арқылы қарап "
-"шығуыңызға болады. Әдетте бұл орнату CD/DVD дисктердің жинағы болады. Егер "
-"сізде қосымша CD не DVD дисктері болмаса, осы қадамды өткізсеңіз де болады."
 
 #. Type: boolean
 #. Description
@@ -343,21 +287,21 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr "Басқа CD немесе DVD дискіні қарап шығу керек болса, оны қазір салыңыз."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "CD немесе DVD дискі қаралды, оның белгісі:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "CD немесе DVD дискі бұрын қаралған, оның белгісі:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -365,7 +309,6 @@ msgstr "CD немесе DVD дискі бұрын қаралған, оның б�
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
 msgstr ""
-"Басқа CD немесе DVD дискіні қарап шығу керек болса, оны қазір ауыстырыңыз."
 
 #. Type: boolean
 #. Description
@@ -375,15 +318,13 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
 msgstr ""
-"CD/DVD дискінен қосымша дестелерді орнатуға apt бағдарламасын баптау сәтсіз "
-"аяқталды."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr "CD/DVD дискі дұрыс салынғанына көз жеткізіңіз."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -392,7 +333,7 @@ msgstr "CD/DVD дискі дұрыс салынғанына көз жеткіз�
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "Дискіні ауыстыру"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -404,8 +345,6 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:'${LABEL}' деп белгіленген дискіні '/cdrom/' диск оқу құрылғысына "
-"салып, enter басыңыз."
 
 #. Type: text
 #. Description
@@ -413,7 +352,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "Netinst CD sources.list файлынан өшіру..."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -426,9 +365,6 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"Егер орнату netinst CD дискінен жүргізілсе, және сіз желідегі серверді "
-"(айна) қолдануды таңдамасаңыз, орнату нәтижесінде минималды мүмкіндігі бар "
-"базалық жүйені аласыз."
 
 #. Type: text
 #. Description
@@ -439,9 +375,6 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"Сіз орнатуды CD дискінен жүргізіп тұрсыз, нәтижесінде минималды мүмкіндігі "
-"бар базалық жүйені аласыз. Жүйені толығырақ орнату үшін желідегі сервер "
-"(айна) қолдануыңыз керек."
 
 #. Type: text
 #. Description
@@ -450,8 +383,6 @@ msgstr ""
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
 msgstr ""
-"Сіз орнатуды CD дискіден жүргізіп отырсыз, ол дискіде дестелер жиыны "
-"шектелген."
 
 #. Type: text
 #. Description
@@ -464,9 +395,6 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"Сіз %i CD дискіні қарап шықтыңыз. Олардығы дестелер жиыны үлкен болса да, "
-"кейбір дестелер жоқ болуы мүмкін (әсіресе, ағылшыннан басқа тіл қолдауын "
-"ұсынатын дестелер)."
 
 #. Type: text
 #. Description
@@ -478,8 +406,6 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"Сіз %i CD дискіні қарап шықтыңыз. Олардағы дестелер жиыны үлкен болғанымен, "
-"кейбір дестелер жоқ болуы мүмкін."
 
 #. Type: text
 #. Description
@@ -489,8 +415,6 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"Желідегі серверді (айна) қолдануды таңдасаңыз, орнатудың келесі қадамында "
-"Интернеттен үлкен көлемді ақпарат жүктелетінін ескертеміз."
 
 #. Type: text
 #. Description
@@ -500,8 +424,6 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Сіз DVD дискіден орнатуды таңдадыңыз. DVD құрамында дестелер жиыны үлкен "
-"болғанымен, сонда да кейбір дестелер жоқ болуы мүмкін."
 
 #. Type: text
 #. Description
@@ -512,8 +434,6 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"Интернетке қосылудың сапасы жоғары болып әрі графикалық жұмыс ортасын "
-"орнатуды қаласаңыз, айна пайдалану ұсынылады."
 
 #. Type: text
 #. Description
@@ -523,22 +443,20 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
-"Интернетке қосылудың сапасы біршама жақсы болып әрі графикалық жұмыс ортасын "
-"орнатуды қаласаңыз, айна пайдалану мүмкіндігін қарастырыңыз."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "Айнаны қарау..."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "Еркін емес (non-free) бағдарламаларды пайдалауды қалайсыз ба?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -550,10 +468,6 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Debian үшін біраз еркін емес (non-free) бағдарламалық қамтама жасалған. Олар "
-"Debian бөлігі болмағанымен, орнатуға болады. Бағдарламалық қамтаманың  "
-"лицензиясы да әр түрлі болуы мүмкін, сонымен қатар сізді пайдалануға, "
-"өзгертуге, таратуға шектеуі мүмкін."
 
 #. Type: boolean
 #. Description
@@ -565,14 +479,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr "Осы БҚ сізге қолжетерлік бола ма, соны таңдаңыз."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "Contrib бөлімінен бағдарламалық қамтамасын қолдану керек пе?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -584,9 +498,6 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"Debian үшін біраз еркін емес бағдарламалық қамтама жасалған. Олар еркін "
-"болғанымен, еркін емес бағдарламаға тәуелді. Бағдарламалық қамтама Debian "
-"бөлігі болмағанымен, орнатуға болады."
 
 #. Type: boolean
 #. Description
@@ -614,7 +525,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "Осы БҚ сізге қолжетерлік бола ма, соны таңдаңыз."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -623,13 +534,13 @@ msgstr "Осы БҚ сізге қолжетерлік бола ма, соны т
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr "Айна ауыстыру"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr "Файлды жүктеу мүмкін болмады:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -640,16 +551,13 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"Орнату бағдарламасы желідегі айнаға қол жеткізе алмады. Мәселе желіде немесе "
-"айнада болуы мүмкін. Жүктеуді қайталап көріңіз, басқа айнаны таңдаңыз не бұл "
-"айнадан барлық дестелерсіз-ақ, орнатуды жалғастыра беріңіз."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr "Желідегі дестелер көзін қолданамыз ба?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -659,22 +567,20 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
-"Желідегі БҚ көзі CD-ROM дискідегі БҚ-ға қосымша ретінде қолданыла алады. "
-"Сонымен қатар онда БҚ жаңа нұсқалары болуы мүмкін.."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr "Желідегі дестелер айнасысыз жалғастырамыз ба?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr "Желідегі дестелер айнасы таңдалмаған."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -682,7 +588,7 @@ msgstr "Желідегі дестелер айнасы таңдалмаған."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "Шектеулері бар Бағдарламалық Қамтаманы қолдану керек пе?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -695,10 +601,6 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"Дестелер түрінде бос емес Бағдарламалық Қамтама бар. Негізгі дистрибутивтің "
-"бөлігі болмаса да, оны орнату үшін стандартты утилиттерді қолдануға болады. "
-"Бұл БҚ әртүрлі лицензиялар аясында шығарылады, оларға сәйкес кейбір кездерде "
-"Сізге осы БҚ-ны қолдануға, өзгертуге немесе таратуға болмайды."
 
 #. Type: boolean
 #. Description
@@ -706,7 +608,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "\"universe\" бөлімінен Бағдарламалық Қамтамасын қолдану керек пе?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -718,9 +620,6 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"Дестелер түрінде қосымша БҚ бар. Ол БҚ бос болғанымен, бос емес БҚ-ға "
-"байланысты болып келеді. Негізгі дистрибутивтің бөлігі болмаса да, оны "
-"орнату үшін стандартты утилиттерді қолдануға болады."
 
 #. Type: boolean
 #. Description
@@ -728,7 +627,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "\"multiverse\" бөлімінен Бағдарламалық Қамтамасын қолдану керек пе?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -742,10 +641,6 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"Дестелер түрінде бос емес Бағдарламалық Қамтама бар. Негізгі дистрибутивтің "
-"бөлігі болмаса да, оны орнату үшін стандартты утилиттерді қолдануға болады. "
-"Бұл БҚ әртүрлі лицензиялар аясында шығарылады, оларға сәйкес кейбір кездерде "
-"Сізге осы БҚ-ны қолдануға, өзгертуге немесе таратуға болмайды."
 
 #. Type: boolean
 #. Description
@@ -753,7 +648,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "\"partner\" бөлімінен Бағдарламалық Қамтамасын қолдану керек пе?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -765,9 +660,6 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"Кейбір қосымша БҚ Canonical ұсынатын \"partner\" репозиторийде бар. Бұл "
-"бағдарламалық қамтама Ubuntu-дың бөлігі емес,бірақ, оны Canonical мен "
-"сенімді өндірушілер Ubuntu пайдаланушыларына қолжетерлік қылған."
 
 #. Type: boolean
 #. Description
@@ -775,7 +667,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "Алдын-ала сақталынған БҚ қолдану керек пе?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -788,6 +680,3 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"Кейбір БҚ өндірілетін нұсқасынан осы шығарылымға ауыстырылды. Бұл БҚ толық "
-"сынаудан өтпесе де, осы шығарылымның басқа БҚ-ы сияқты, оның ішінде керек "
-"қасиеттері бар болуы мүмкін кейбір бағдарламалардың жаңа нұсқалары бар."

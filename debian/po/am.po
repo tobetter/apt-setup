@@ -3,30 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Amharic translation for debian-installer
-# This file is distributed under the same license as the debian-installer package.
-# tegegne tefera <tefera@mekuria.com>, 2006.
-#
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Data taken from ICU-2.8; contributed by:
-#   - Daniel Yacob <yacob@geez.org>, Ge'ez Frontier Foundation
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2014-04-04 22:07+0100\n"
-"Last-Translator: Tegegne Tefera <tefera@mekuria.com>\n"
-"Language-Team: Amharic <linux-ethiopia@googlegroups.com>\n"
-"Language: am\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: n>1;\n"
-
 #. Type: text
 #. Description
 #. Main menu item
@@ -34,7 +10,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr "የጥቅል አስተዳዳሪውን አዘጋጅ"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -43,43 +19,42 @@ msgstr "የጥቅል አስተዳዳሪውን አዘጋጅ"
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "apt በማስተካከል ላይ"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr "${SCRIPT} በማስክከድ ላይ..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "የከባቢ ማኅደሮችን በማሰስ ላይ..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "የደህንነት ማሻሻያ ማኅደሮችን በመፈተሽ ላይ..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "የዝርያ ማሻሻያ ማኅደሮችን በመፈተሽ ላይ..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
 msgid "Scanning the backports repository..."
-msgstr "የዝርያ ማሻሻያ ማኅደሮችን በመፈተሽ ላይ..."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -88,7 +63,7 @@ msgstr "የዝርያ ማሻሻያ ማኅደሮችን በመፈተሽ ላይ..."
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr "እንደገና ሞክር"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -97,13 +72,13 @@ msgstr "እንደገና ሞክር"
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr "ተዉት"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr "የቅርብ አስቀማጭ ቁልፍ ማምጣት አልተሳካም"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -113,7 +88,7 @@ msgstr "የቅርብ አስቀማጭ ቁልፍ ማምጣት አልተሳካም"
 msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
-msgstr "ተካዩ የቅርብ ማስቀመጪያ  ${MIRROR} ቁልፍን ማምጣት አልቻለም:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -123,15 +98,13 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"ይህ ችግር የአውታርዎ ወይም ይህንን ቁልፍ የያዘ ተጠሪ ሊሆን ይችላል፡፡ ማምጣቱን እንደገና መሞከር ወይም ችግሩ እንዳለ "
-"ሆኖ የቀሩትን ጥቅሎች በመተው መትከሉን ሊቀጥሉበት ይችላሉ፡፡"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "ካዝናው ጋ መድረስ አልተቻለም"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -141,8 +114,6 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"በ${HOST} ላይ ያለው ማኅደርን መጠቀም አልተቻለም። ስለዚህ በዚያ ላይ ያሉት ማሻሻያዎችን መጠቀም አልተቻለም። ይህንን "
-"ጉዳይ በኋላ ይመርምሩት።"
 
 #. Type: error
 #. Description
@@ -151,7 +122,7 @@ msgstr ""
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
-msgstr "የተደበቁ የ${HOST} ገቢዎች /etc/apt/sources.list ፋይል ውስጥ ተጨምረዋል።"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -161,7 +132,7 @@ msgstr "የተደበቁ የ${HOST} ገቢዎች /etc/apt/sources.list ፋይል 
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "የደህንነት እዳሴ (ከ ${SEC_HOST})"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -171,7 +142,7 @@ msgstr "የደህንነት እዳሴ (ከ ${SEC_HOST})"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr "የተለቀቀውን እዳሴ፦"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -181,14 +152,14 @@ msgstr "የተለቀቀውን እዳሴ፦"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr "ከተሻሻለው የተቀዳ ስስ ነገር"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr "የሚጠቀሙበት አገልጋይ፦"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -197,7 +168,7 @@ msgstr "የሚጠቀሙበት አገልጋይ፦"
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
-msgstr "ደብያን ሁለት ማሻሻያዎችን የማቅረብ ኣገልግሎሮች አሉት፤ የደህንነትና የዝርያ ማሻሻያ።"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -206,7 +177,7 @@ msgstr "ደብያን ሁለት ማሻሻያዎችን የማቅረብ ኣገል�
 msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
-msgstr "የደህንነት ማሻሻያዎች ስርዓተ አስሊውን ከጥቃት ለመከላከል ስለሚረዱ ይህንን ማስቻል በጥብቅ ይመከራል።"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -218,8 +189,6 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"የዝርያ ማሻሻያዎች በኣንጻሩ በየጊዜው የሚቀያየሩና አዳዲስ ስስአስሊን አለማግኘት ጠቀሜታ የሚቀንስ ሲሆን ይቀርባል። "
-"በተጨማሪም የኋልዮሽ መጠገኛዎችን ያቀርባል። ይህ አገልግሎት ለበሳልና ለአሮጌ-በሳል ዝርያዎች ብቻ ይቀርባል። "
 
 #. Type: multiselect
 #. Description
@@ -233,9 +202,6 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"ከተሻሻለው የተቀዳ ስልቶች ገና ድፍድፍ ላይ ካለ ዝርያ ተወስደው ከዚህ ስርዓት ጋር እንዲሰሩ ተደርገዋል። ምንም እንኳን "
-"እነዚህ ስልቶች እንደለሎቹ ስልቶች ሙሉ በሙሉ ሙከራ ባይደረግባቸውም ጠቃሚ የሆኑ አዳዲስ ባህሪዎችን ይዘዋል። ከተሻሻለው "
-"የተቀዳን ማስቻል በቀጥታ እንዲተከሉ አያደርግም፤ በእጅ እንዲመርጡ ያስችልዎታል እንጂ።"
 
 #. Type: boolean
 #. Description
@@ -260,14 +226,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr "ሲዲ በማሰስ ላይ..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "aptን  የማስተካከል ስህተት"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -276,7 +242,7 @@ msgstr "aptን  የማስተካከል ስህተት"
 msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
-msgstr "አፕትን ከሲዲ ላይ ተጨማሪ ጥቅሎችን እንዲተክል የተደረገው ሙከራ አልተሳካም።"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -293,14 +259,14 @@ msgstr "አፕትን ከሲዲ ላይ ተጨማሪ ጥቅሎችን እንዲተ�
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr "ሌላ ሲዲ/ዲቪዲ ይፈተሽ?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "የተከላ ሲዲ ወይም ዲቪዲ ተፈትሿል፣ ስሙ፦"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -312,8 +278,6 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"ተጫማሪ ሲዲዎች ተፈትሸው በጥቅል አስተዳዳሪው (apt) በጥቅም ላይ እንዲውሉ ለማድረግ ምርጫ አለዎት። እነዚህ ሲዲዎች/"
-"ዲቪዲዎች ከአንድ ዝርያ መሆን አለባቸው። ተጫማሪ ሲዲ/ዲቪዲ ከሌሎት ይህን ደረጃ ሊዘሉት ይችላሉ።"
 
 #. Type: boolean
 #. Description
@@ -323,28 +287,28 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr "ሌላ ሲዲ ወይም ዲቪዲ መፈተሽ ከፈለጉ እባክዎን አሁን ያስገቡ።"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "የሚቀጥለውን ስም የያዘ ሲዲ ወይም ዲቪዲ ተፈትሿል፦"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "የሚቀጥለውን ስም የያዘ ሲዲ ወይም ዲቪዲ ቀድሞ ተፈትሿል፦"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr "ለላ ሲዲ/ዲቪዲ ለመፈተሽ ከፈለጉ እባክዎን አሁን ያስገቡ።"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -353,14 +317,14 @@ msgstr "ለላ ሲዲ/ዲቪዲ ለመፈተሽ ከፈለጉ እባክዎን አ
 msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
-msgstr "አፕትን ከሲዲ/ዲቪዲ ላይ ተጨማሪ ጥቅሎችን እንዲተክል የተደረገው ሙከራ አልተሳካም።"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr "እባክዎ ሲዲ/ዲቪዲ በትክክል መከተቱን ያረጋግጡ፡፡"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -369,7 +333,7 @@ msgstr "እባክዎ ሲዲ/ዲቪዲ በትክክል መከተቱን ያረጋ�
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "ማኅደር ቀይር"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -381,7 +345,6 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:እባክዎ  '${LABEL}' ምልክት ያለበትን ሲዲ በመንጃው '/cdrom/' ውስጥ ይጨምሩና enterን ይጫኑ."
 
 #. Type: text
 #. Description
@@ -389,7 +352,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "የnetinst CD አኮላሽ in sources.list..."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -402,8 +365,6 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"ከnetinst CD የሚተክሉና የማኅደር መስተዋትን ላለመጠቀም ከመረጥ የሚተክሉት በጣም አነስተኛ የሆነ መሰረታዊ ስርዓት "
-"ብቻ ነው።"
 
 #. Type: text
 #. Description
@@ -414,8 +375,6 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"የሚተክሉት በጣም አነስተኛ የሆነ መሰረታዊ ስርዓት ብቻ ነው ከሚተክለው ከnetinst CD ነው። የተሟላ ተከላ ለማካሄድ "
-"የማኅደር መስተዋትን ይምረጡ ።"
 
 #. Type: text
 #. Description
@@ -423,7 +382,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:11001
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
-msgstr "የተወሰነ ጥቅል ብቻ ከያዘ ሲዲ ላይ በመትከል ላይ ይገኛሉ"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -436,8 +395,6 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"%i ሲዲዎች ተፈትሿል። ምንም እንኳን ዲቪዲ ብዙ ጥቅሎችን ቢይዝም አንዳንድ (በተለይ ከእንግሊዘኛ ውጭ ያሉ ቋንቋዎችን "
-"የሚደግፉ) ላይኖሩበት ይችላሉ።"
 
 #. Type: text
 #. Description
@@ -448,7 +405,7 @@ msgstr ""
 msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
-msgstr "%i ሲዲዎች ተፈትሸዋል። ምንም እንኳን ዲቪዲ ብዙ የጥቅሎች ምርጫ ቢኖረውም አንዳንድ የለሉበት ሊኖሩ ይችላሉ።"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -457,7 +414,7 @@ msgstr "%i ሲዲዎች ተፈትሸዋል። ምንም እንኳን ዲቪዲ �
 msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
-msgstr "የማኅደር መስተዋትን መምረጥ በሚቀጥለው የተከላ ደረጃ እጅግ ብዙ ዴታ የሚያመጣ መሆኑን ያስተውሉ።"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -467,7 +424,6 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"ከዲቪዲ በመትከል ላይ ይገኛሉ። ምንም እንኳን ዲቪዲ ብዙ የጥቅሎች ምርጫ ቢኖረውም አንዳንድ የለሉበት ሊኖሩ ይችላሉ።"
 
 #. Type: text
 #. Description
@@ -478,7 +434,6 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"ጥሩ የኢንተርኔት ግንኙነት ከሌሎት በስተቀር የማኅደር መስተዋትን ይጠቀሙ፤ በተለይ ንድፋዊ ገበታን ለመጠቀም ካሰቡ።"
 
 #. Type: text
 #. Description
@@ -487,21 +442,21 @@ msgstr ""
 msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
-msgstr "ጥሩ የኢንተርኔት ግንኙነት ካለዎት የማኅደር መስተዋትን ይጠቀሙ፤ በተለይ ንድፋዊ ገበታን ለመጠቀም ካሰቡ።"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "የማኅደር-መስተዋትን በማሰስ ላይ"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "ነጻ ያልሆነ ስስ-አካል ልጠቀም?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -513,9 +468,6 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"አንዳንድ ነጻ ያልሆኑ ስልቶች ከደቢያን አቅርቦት ጋር እንዲሰሩ ተደርገዋል። ምንም እንኳን እነዚህ ስልቶች የዋናው "
-"አቅርቦት አካል ባይሆኑም የተከላ አስተዳዳሪውን በመጠቀም እንዚህን ስልቶች መትከል ይቻላል። እንዚህ ስልቶች ከመጠቀም፣ "
-"ከማጋራት ወይም ከማሻሻል ሊገደብ የሚችሉ የተለያዩ ፈቃዶች ሊኖራቸው ይችላል።"
 
 #. Type: boolean
 #. Description
@@ -527,14 +479,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr "እባክዎ ብሆንም እንኳን እንዲኖርዎት ይፈልጉ እንደሆን ይምረጡ፡፡"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "contrib ስሳክልን ልጠቀም?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -546,9 +498,6 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"ኣንዳንድ ተጨማሪ ስስአካሎች ከደቢያን ጋር እንዲሰሩ ተደርገዋል፡፡ ምንም እንኳን እነዚህ ስስአካሎች ነጻ ቢሆኑም ለስራቸው "
-"ነጻ ባልሆኑ ስስአካሎች ይደገፋሉ፡፡ እንዚህ ስስአካሎች የደቢያን አካል አይደሉም ነገርግን የደቢያን ቀዳሚ የመትከያ "
-"መሳሪያዎችን በመጠቀም መትከል ይቻላል፡፡"
 
 #. Type: boolean
 #. Description
@@ -576,7 +525,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "ይህን ፕሮግራም ይፈልጉት እንደሆን ይምረጡ፡፡"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -585,13 +534,13 @@ msgstr "ይህን ፕሮግራም ይፈልጉት እንደሆን ይምረጡ�
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr "ማኅደር-መስተዋት ቀይር"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr "ፋይል ማምጣት አልተሳካም"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -602,15 +551,13 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"ተካዩ መስተዋቱ ውስጥ መግባት አልቻለም፡፡ ይህ ችግር የአውታርዎ ወም የመስተዋቱ ሊሆን ይችላል፡፡ ማምጣቱን መሞከር፣ ሌላ "
-"መስተዋት መምረጥ ወይም ችግሩ እንዳለ ሆኖ የተቀሩትን ጥቅሎች ከዚሁ መስተዋት መትከሉን ሊቀጥሉበት ይችላሉ፡፡"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr "የአውታር ማኅደር-መስተዋት ልጠቀም?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -620,22 +567,20 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
-"በሲዲው ላይ ካለው በተጨማሪ የአውታር ማኅደር መስትዋትን መጠቀም ይቻላል። ይህ የስልቶቹን አዲስ ዝርያ እንዲጠቀሙ "
-"ይረዳዎታል።"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr "ያለአውታር መስተዋት ይቀጥል?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr "የአውታር መስተዋት አልተመረጠም"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -643,7 +588,7 @@ msgstr "የአውታር መስተዋት አልተመረጠም"
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "ባለገደብ ፕሮግራም ልጠቀም?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -656,9 +601,6 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"አንዳንድ ነጻ ያልሆኑ ስልቶች በጥቅል መልክ ቀርበዋል። ምንም እንኳን እነዚህ ጥቅሎች የዋናው አቅርቦት አካል ባይሆኑም "
-"የተከላ አስተዳዳሪውን በመጠቀም እንዚህን ስልቶች መትከል ይቻላል። እንዚህ ስልቶች ከመጠቀም፣ ከማጋራት ወይም ከማሻሻል "
-"ሊገደብ የሚችሉ የተለያዩ ፈቃዶች ሊኖራቸው ይችላል።"
 
 #. Type: boolean
 #. Description
@@ -666,7 +608,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "\"universe\" ላይ ያሉ ስልቶችን ልጠቀም?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -678,8 +620,6 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"አንዳንድ ተጨማሪ ስልቶች በጥቅል መልክ አሉ። ምንም እንኳን እንዚህ ስልቶች የዋናው ስርዓት አካል ባይሆኑም ነጻና የዚህን "
-"ስርዓት ተከላ አስተዳዳሪ በመጠቀም ሊተከሉ ይችላሉ።"
 
 #. Type: boolean
 #. Description
@@ -687,7 +627,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "\"multiverse\"  ላይ ያሉ ስልቶችን ልጠቀም?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -701,9 +641,6 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"አንዳንድ ነጻ ያልሆኑ ስልቶች በጥቅል መልክ ቀርበዋል። ምንም እንኳን እነዚህ ጥቅሎች የዋናው አቅርቦት አካል ባይሆኑም "
-"የተከላ አስተዳዳሪውን በመጠቀም እንዚህን ስልቶች መትከል ይቻላል። እንዚህ ስልቶች ከመጠቀም፣ ከማጋራት ወይም ከማሻሻል "
-"(አንዳንዴ የፓተንት ገደብ ሊኖር ይችላል) ሊገደብ የሚችሉ የተለያዩ ፈቃዶች ሊኖራቸው ይችላል።"
 
 #. Type: boolean
 #. Description
@@ -711,7 +648,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "\"partner\" ቤተስልት  ላይ ያሉ ስልቶችን ልጠቀም?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -723,8 +660,6 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"ተጨማሪ ስልቶች ከ ካኖኒካል \"partner\" ቤተስልት ይገኛሉ። ስልቶቹ የዑቡንቱ ክፍል አይደሉም ነገር ግን "
-"በካኖኒካልና በስልት ባለቤቶቹ ለተጠቃሚው እንደአገልግሎት የሚቀርቡ ናቸው"
 
 #. Type: boolean
 #. Description
@@ -732,7 +667,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "backported ስሳካል ልጠቀም?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -745,5 +680,3 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"አንዳንድ ስልቶች ገና ከድፍድፍ ላይ ካለ ዝርያ ተወስደው ከዚህ ስርዓት ጋር እንዲሰሩ ትደርገዋል። ምንም እንኳን እነዚህ "
-"ስልቶች እንደለሎቹ ስልቶች ሙሉ በሙሉ ሙከራ ባይደረግባቸውም ጠቃሚ የሆኑ አዳዲስ ባህሪዎችን ይዘዋል።"

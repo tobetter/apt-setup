@@ -3,34 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Vietnamese translation for Debian Installer Level 1.
-# Copyright © 2010 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-# Jean Christophe André <progfou@gmail.com>
-# Vũ Quang Trung <vu.quang.trung@auf.org>
-# Trịnh Minh Thành <tmthanh@yahoo.com>
-# Clytie Siddall <clytie@riverland.net.au>, 2005-2010
-# Hai-Nam Nguyen <hainam@jcisio.com>, 2012
-#
-# Translations from iso-codes:
-# Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
-# Copyright © 2009 Free Software Foundation, Inc.
-# Nguyễn Hùng Vũ <vuhung16@bigfoot.com>, 2001.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer Level 1\n"
-"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2015-03-05 11:15+0100\n"
-"Last-Translator: Hai-Nam Nguyen <hainam@jcisio.com>\n"
-"Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
-"Language: vi\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-
 #. Type: text
 #. Description
 #. Main menu item
@@ -38,7 +10,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr "Cấu hình bộ quản lý gói"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -47,43 +19,42 @@ msgstr "Cấu hình bộ quản lý gói"
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "Đang cấu hình trình apt"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr "Đang chạy ${SCRIPT}..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "Đang quét các kho cục bộ..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "Đang quét kho cập nhật bảo mật..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "Quét kho cập nhật..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
 msgid "Scanning the backports repository..."
-msgstr "Quét kho cập nhật..."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -92,7 +63,7 @@ msgstr "Quét kho cập nhật..."
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr "Thử lại"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -101,13 +72,13 @@ msgstr "Thử lại"
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr "Bỏ qua"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr "Tải khóa cho kho địa phương thất bại:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -118,8 +89,6 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"Bộ cài đặt không tải được khóa công khai dùng để kí kho địa phương tại "
-"${MIRROR}:"
 
 #. Type: select
 #. Description
@@ -129,17 +98,13 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Bộ cài đặt đã không truy cập được máy nhân bản. Có lẽ nó gặp khó khăn sử "
-"dụng mạng của bạn hoặc máy nhân bản. Bạn có khả năng thử lại việc tải xuống, "
-"chọn máy nhân bản khác, hoặc bỏ qua vấn đề này và tiếp tục lại không có các "
-"gói từ máy nhân bản này."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "Không thể truy cập kho"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -149,8 +114,6 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"Không thể truy cập kho trên máy ${HOST} nên bản cập nhật trên nó sẽ không "
-"còn sẵn sàng lại cho bạn vào lúc này. Bạn nên kiểm tra sau."
 
 #. Type: error
 #. Description
@@ -160,8 +123,6 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
-"Một số mục nhập bị tắt bằng ghi chú cho máy ${HOST} đã được thêm vào tập tin "
-"danh sách các nguồn « /etc/apt/sources.list »."
 
 #. Type: multiselect
 #. Choices
@@ -171,7 +132,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "cập nhật bảo mật (từ ${SEC_HOST})"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -181,7 +142,7 @@ msgstr "cập nhật bảo mật (từ ${SEC_HOST})"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr "cập nhật"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -191,14 +152,14 @@ msgstr "cập nhật"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr "phần mềm được nối cầu lùi"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr "Dịch vụ sẽ dùng:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -207,7 +168,7 @@ msgstr "Dịch vụ sẽ dùng:"
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
-msgstr "Debian cung cấp hai dịch vụ cập nhật phát hành: bảo mật và phát hành"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -217,8 +178,6 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"Cập nhật bảo mật thì giúp bạn bảo vệ hệ thống bởi tấn công. Khuyến nghị sử "
-"dụng."
 
 #. Type: multiselect
 #. Description
@@ -230,10 +189,6 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Bản cập nhật phát hành cung cấp bản cập nhật cho phần mềm thay đổi tương đối "
-"nhiều và nếu không có bản mới nhất sẽ ảnh hưởng tới chức năng của phần mềm. "
-"Bản này cũng cung cấp bản vá lỗi lũy tích. Dịch vụ này chỉ có với phiên bản "
-"ổn định và ổn định cũ (oldstable)."
 
 #. Type: multiselect
 #. Description
@@ -247,12 +202,6 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Một số gói phần mềm đã được nối cầu lùi (backport) từ cây phát triển, để "
-"hoạt động với bản phát hành này. Mặc dù phần mềm này chưa được thử ra hoàn "
-"thành như điều trong bản phát hành này, nó bao gồm phiên bản mới hơn của một "
-"số ứng dụng có thể cung cấp các tính năng hữu ích. Bật nối cầu lùi ở đây "
-"không cài đặt chúng, nó chỉ cho phép bạn chọn phủ công từng bản nối cầu lùi "
-"để sử dụng."
 
 #. Type: boolean
 #. Description
@@ -277,14 +226,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr "Đang quét đĩa CD-ROM..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "lỗi cấu hình trình apt"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -294,7 +243,6 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
-"Việc thử cấu hình trình apt để cài đặt các gói thêm từ đĩa CD đã bị lỗi."
 
 #. Type: boolean
 #. Description
@@ -311,14 +259,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr "Quét đĩa CD/DVD khác không?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "Đĩa CD/DVD cài đặt của bạn đã được quét: nó có nhãn:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -330,9 +278,6 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"Lúc này bạn có tùy chọn quét các đĩa CD/DVD thêm cho trình quản lý gói (APT) "
-"sử dụng. Bình thường, các đĩa này nên thuộc về cùng một tập hợp với đĩa CD/"
-"DVD cài đặt. Không có đĩa thêm thì bỏ qua bước này."
 
 #. Type: boolean
 #. Description
@@ -342,28 +287,28 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr "Muốn quét đĩa CD/DVD khác thì nạp vào ngay."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "Mới quét đĩa CD/DVD có nhãn này:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "Đã quét đĩa CD/DVD có nhãn này:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr "Muốn quét đĩa CD/DVD khác thì thay thế nó ngay."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -373,14 +318,13 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
 msgstr ""
-"Việc thử cấu hình trình apt để cài đặt các gói thêm từ đĩa CD đã bị lỗi."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr "Hãy kiểm tra xem bạn đã nạp đúng đĩa CD/DVD."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -389,7 +333,7 @@ msgstr "Hãy kiểm tra xem bạn đã nạp đúng đĩa CD/DVD."
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "Chuyển đổi đĩa"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -401,8 +345,6 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:Hãy nạp đĩa có nhãn « ${LABEL} » vào ổ đĩa « /cdrom/ » rồi bấm phím "
-"Enter."
 
 #. Type: text
 #. Description
@@ -411,7 +353,6 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
 msgstr ""
-"Đang tắt đĩa CD cài đặt qua mạng trong danh sách nguồn (sources.list)..."
 
 #. Type: text
 #. Description
@@ -424,8 +365,6 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"Nếu bạn đang cài đặt từ đĩa CD kiểu cài đặt qua mạng (netinst) và chọn không "
-"dùng máy nhân bản, kết quả là hệ thống cơ bản rất tối thiểu."
 
 #. Type: text
 #. Description
@@ -436,9 +375,6 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"Bạn đang cài đặt từ một đĩa CD cài đặt qua mạng, mà tự nó chỉ cho phép cài "
-"đặt một hệ thống cơ bản rất nhỏ. Hãy dùng máy nhân bản để cài đặt hệ thống "
-"hoàn tất hơn."
 
 #. Type: text
 #. Description
@@ -447,7 +383,6 @@ msgstr ""
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
 msgstr ""
-"Bạn đang cài đặt từ một đĩa CD không có đủ sức chứa cho mọi gói phần mềm."
 
 #. Type: text
 #. Description
@@ -460,9 +395,6 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"Bạn đã quét %i đĩa CD. Mặc dù chúng chứa rất nhiều gói phần mềm khác nhau, "
-"một số gói vẫn còn có thể bị thiếu (đặc biệt các gói cần thiết để hỗ trợ "
-"ngôn ngữ khác)."
 
 #. Type: text
 #. Description
@@ -474,8 +406,6 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"Bạn đã quét %i đĩa CD. Mặc dù chúng chứa rất nhiều gói phần mềm khác nhau, "
-"một số gói vẫn còn có thể bị thiếu."
 
 #. Type: text
 #. Description
@@ -485,8 +415,6 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"Ghi chú rằng nếu bạn chọn sử dụng máy nhân bản, rất nhiều dữ liệu có thể "
-"được tải xuống trong bước kế tiếp của tiến trình cài đặt."
 
 #. Type: text
 #. Description
@@ -496,8 +424,6 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Bạn đã quét %i đĩa DVD. Mặc dù chúng chứa rất nhiều gói phần mềm khác nhau, "
-"một số gói vẫn còn có thể bị thiếu."
 
 #. Type: text
 #. Description
@@ -508,8 +434,6 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"Nếu bạn không có sự kết nối chậm đến Mạng, khuyên bạn dùng máy nhân bản, đặc "
-"biệt nếu bạn định cài đặt môi trường đồ họa (v.d. GNOME, KDE, Xfce)."
 
 #. Type: text
 #. Description
@@ -519,22 +443,20 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
-"Nếu bạn không có sự kết nối chậm đến Mạng, khuyên bạn dùng máy nhân bản, đặc "
-"biệt nếu bạn định cài đặt môi trường đồ họa (v.d. GNOME, KDE, Xfce)."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "Đang quét nhân bản..."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "Dùng phần mềm khác tự do không?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -546,10 +468,6 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Một số gói phần mềm khác tự do đã được sửa đổi để hoặt động được với Debian. "
-"Mặc dù phần mềm này không phải là phần Debian bằng cách nào cả, công cụ "
-"Debian chuẩn có thể được dùng để cài đặt nó. Ghi chú : phần mềm kiểu này có "
-"giấy phép thay đổi có thể ngăn chận bạn sử dụng, sửa đổi hoặc chia sẻ nó."
 
 #. Type: boolean
 #. Description
@@ -561,14 +479,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr "Hãy chọn nếu bạn vẫn có muốn nó sẵn sàng hay không."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "Dùng phần mềm đã đóng góp không?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -580,10 +498,6 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"Một số gói phần mềm thêm đã được sửa đổi để hoặt động được với Debian. Mặc "
-"dù phần mềm này là tự do, nó phụ thuộc vào phần mềm khác tự do để hoạt động "
-"được. Phần mềm này không phải là phần của Debian, nhưng mà công cụ Debian "
-"chuẩn có thể được dùng để cài đặt nó."
 
 #. Type: boolean
 #. Description
@@ -611,7 +525,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "Hãy chọn nếu bạn có muốn phần mềm này sẵn sàng hay không."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -620,13 +534,13 @@ msgstr "Hãy chọn nếu bạn có muốn phần mềm này sẵn sàng hay kh�
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr "Đổi nhân bản"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr "Việc tải về tập tin bị lỗi:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -637,15 +551,13 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"Có lẽ có vấn đề mạng, hoặc với máy chủ chứa khóa này. Bạn có thể chọn tải "
-"lại, hoặc làm ngơ sự cố và tiếp tục, bỏ qua vài gói trong kho này."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr "Dùng máy nhân bản mạng không?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -655,22 +567,20 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
-"Một máy nhân bản mạng có thể được dùng để lấy phần mềm thêm vào nội dung của "
-"đĩa CD-ROM. Cũng có thể chứa phiên bản mới hơn của phần mềm đã có."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr "Tiếp tục lại mà không có máy nhân bản trên mạng không?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr "Chưa chọn máy nhân bản trên mạng."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -678,7 +588,7 @@ msgstr "Chưa chọn máy nhân bản trên mạng."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "Dùng phần mềm bị hạn chế không?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -691,10 +601,6 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"Một số phần mềm khác tự do có sẵn dạng gói. Mặc dù phần mềm này không phải "
-"thuộc về bản phát hành chính, công cụ quản lý gói chuẩn có thể được dùng để "
-"cài đặt nó. Phần mềm kiểu này có giấy phép thay đổi có thể ngăn chận bạn sử "
-"dụng, sửa đổi hoặc chia sẻ nó."
 
 #. Type: boolean
 #. Description
@@ -702,7 +608,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "Dùng phần mềm từ thành phần « universe » (vũ trụ) không?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -714,9 +620,6 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"Một số phần mềm thêm có sẵn dạng gói. Phần mềm này là tự do, và dù nó không "
-"phải thuộc về bản phát hành chính, công cụ quản lý gói chuẩn có thể được "
-"dùng để cài đặt nó."
 
 #. Type: boolean
 #. Description
@@ -724,7 +627,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "Dùng phần mềm từ thành phần « multiverse » (đa vũ trụ) không?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -738,10 +641,6 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"Một số phần mềm khác tự do có sẵn dạng gói. Mặc dù phần mềm này không phải "
-"thuộc về bản phát hành chính, công cụ quản lý gói chuẩn có thể được dùng để "
-"cài đặt nó. Phần mềm kiểu này có giấy phép thay đổi có lẽ ngăn chận bạn sử "
-"dụng, sửa đổi hoặc chia sẻ nó."
 
 #. Type: boolean
 #. Description
@@ -749,7 +648,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "Dùng phần mềm từ thành phần « partner » (đối tác) không?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -761,9 +660,6 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"Một số phần mềm bổ sung sẵn sàng từ kho gói « partner » của Canonical. Phần "
-"mềm này không phải thuộc về Ubuntu, nhưng mà nó được cung cấp bởi Canonical "
-"và các nhà bán tương ứng để giúp các người dùng Ubuntu."
 
 #. Type: boolean
 #. Description
@@ -771,7 +667,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "Dùng phần mềm đã nối cầu lùi không?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -784,7 +680,3 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"Một số gói phần mềm đã được nối cầu lùi (backport) từ cây phát triển, để "
-"hoạt động với bản phát hành này. Mặc dù phần mềm này chưa được thử ra hoàn "
-"thành như điều trong bản phát hành này, nó bao gồm phiên bản mới hơn của một "
-"số ứng dụng có thể cung cấp các tính năng hữu ích."

@@ -3,38 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Slovak messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-# Peter Mann <peter.mann@tuke.sk>
-# Ivan Masár <helix84@centrum.sk>, 2007, 2008, 2009, 2010, 2011, 2013, 2014, 2015.
-# Translations from iso-codes:
-# (translations from drakfw)
-# Alastair McKinstry <mckinstry@computer.org>, 2001, 2002.
-# Copyright (C) 2002 Free Software Foundation, Inc.
-# Free Software Foundation, Inc., 2004
-# Ivan Masár <helix84@centrum.sk>, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015.
-# Translations taken from sk.wikipedia.org on 2008-06-17
-# Pavol Cvengros <orpheus@hq.alert.sk>, 2001.
-# Peter Mann <Peter.Mann@tuke.sk>, 2004, 2006.
-# bronto, 2007.
-# source:
-# http://www.geodesy.gov.sk
-# http://www.fao.org/ (historic names)
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2015-11-22 12:51+0200\n"
-"Last-Translator: Ivan Masár <helix84@centrum.sk>\n"
-"Language-Team: x\n"
-"Language: sk\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-
 #. Type: text
 #. Description
 #. Main menu item
@@ -42,7 +10,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr "Nastavenie správcu balíkov"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -51,42 +19,42 @@ msgstr "Nastavenie správcu balíkov"
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "Nastavenie apt"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr "Spúšťa sa ${SCRIPT}..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "Prehľadávajú sa lokálne archívy balíkov..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "Prehľadáva sa archív bezpečnostných aktualizácií..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "Prehľadáva sa archív s aktualizáciami vydania..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr "Prehľadáva sa archív spätne prenesených programov..."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -95,7 +63,7 @@ msgstr "Prehľadáva sa archív spätne prenesených programov..."
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr "Zopakovať"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -104,13 +72,13 @@ msgstr "Zopakovať"
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr "Ignorovať"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr "Stiahnutie kľúča lokálneho zdroja softvéru zlyhalo:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -121,8 +89,6 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"Inštalátoru sa nepodarilo stiahnuť verejný kľúč, ktorý sa používa na "
-"podpisovanie lokálneho zdroja softvéru na ${MIRROR}:"
 
 #. Type: select
 #. Description
@@ -132,17 +98,13 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Možno je to zapríčinené chybou vo vašej sieti alebo chybou servera "
-"ponúkajúceho tento kľúč. Môžete sa pokúsiť o zopakovanie stiahnutia alebo "
-"ignorovať tento problém a pokračovať bez všetkých balíkov z tohto zdroja "
-"softvéru."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "Chyba prístupu k archívu"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -152,8 +114,6 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"Archív na ${HOST} je nedostupný, takže momentálne budú nedostupné jeho "
-"aktualizácie. Mali by ste tento problém neskôr odstrániť."
 
 #. Type: error
 #. Description
@@ -163,8 +123,6 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
-"Do súboru /etc/apt/sources.list boli pridané zakomentované záznamy pre "
-"${HOST}."
 
 #. Type: multiselect
 #. Choices
@@ -174,7 +132,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "bezpečnostné aktualizácie (z ${SEC_HOST})"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -184,7 +142,7 @@ msgstr "bezpečnostné aktualizácie (z ${SEC_HOST})"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr "Aktualizácie vydania"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -194,14 +152,14 @@ msgstr "Aktualizácie vydania"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr "spätne prenesený softvér"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr "Používať služby:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -211,8 +169,6 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Debian má dve služby poskytujúce aktualizácia vydaných verzií: bezpečnostné "
-"aktualizácie a aktualizácie vydania."
 
 #. Type: multiselect
 #. Description
@@ -222,8 +178,6 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"Bezpečnostné aktualizácie pomôžu udržať odolnosť vášho systému proti útokom "
-"a chybám. Používanie tejto služby sa veľmi odporúča."
 
 #. Type: multiselect
 #. Description
@@ -235,10 +189,6 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Aktualizácie vydania poskytujú novšie verzie programov, ktoré sa často menia "
-"a ak použitie ich staršej verzie znižuje použiteľnosť daného programu. Tiež "
-"poskytujú opravy regresií. Táto služba je dostupná len pre stabilné a "
-"predchádzajúce stabilné vydanie."
 
 #. Type: multiselect
 #. Description
@@ -252,19 +202,13 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Niektoré programy boli prenesené z vývojovej verzie a upravené tak, aby "
-"fungovali v tomto vydaní. Hoci tieto programy neprešli takým dôkladným "
-"testovaním ako programy obsiahnuté vo vydaní, často obsahujú novšie verzie "
-"niektorých aplikácií s užitočnými vlastnosťami. Zapnutie spätne prenesených "
-"aplikácií (backports) nespôsobí ich automatické nainštalovanie, iba vám "
-"umožní manuálne vybrať, ktoré z nich si chcete nainštalovať."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr "Povoliť zdrojové repozitáre v APT?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -276,24 +220,20 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
-"Štandardne sa v /etc/apt/sources.list uvádzajú zdrojové repozitáre (s "
-"príslušnými riadkami „deb-src“), vďaka čomu príkaz „apt-get source“ funguje. "
-"Ak však túto funkciu nepotrebujete, môžete tieto riadky odstrániť a počas "
-"operácie „apt-get update“ ušetriť trochu času a prenesených dát."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr "Prehľadáva sa CD-ROM..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "Chyba pri nastavení apt"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -302,7 +242,7 @@ msgstr "Chyba pri nastavení apt"
 msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
-msgstr "Zlyhal pokus o nastavenie apt pre inštaláciu ďalších balíkov z CD."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -319,14 +259,14 @@ msgstr "Zlyhal pokus o nastavenie apt pre inštaláciu ďalších balíkov z CD.
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr "Prehľadať ďalšie CD či DVD?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "Vaše inštalačné CD alebo DVD bolo prehľadané; jeho označenie je:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -338,9 +278,6 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"Teraz máte možnosť nechať prehľadať ďalšie CD alebo DVD, ktoré správca "
-"balíčkov (apt) použije. Bežne sa nachádzajú v rovnakej sade ako inštalačné "
-"CD/DVD. Ak nemáte ďalšie CD alebo DVD, tento krok môžete preskočiť."
 
 #. Type: boolean
 #. Description
@@ -351,28 +288,27 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
 msgstr ""
-"Ak chcete nechať prehľadať ďalšie CD alebo DVD, teraz ho prosím vložte."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "CD alebo DVD s týmto označením bolo prehľadané:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "CD alebo DVD s týmto označením už bolo prehľadané:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr "Ak si želáte prehľadať ďalšie CD alebo DVD, teraz ho prosím vymeňte."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -381,14 +317,14 @@ msgstr "Ak si želáte prehľadať ďalšie CD alebo DVD, teraz ho prosím vyme�
 msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
-msgstr "Zlyhal pokus nastaviť apt pre inštaláciu ďalších balíkov z CD/DVD."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr "Prosím, uistite sa, že CD/DVD bolo vložené správne."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -397,7 +333,7 @@ msgstr "Prosím, uistite sa, že CD/DVD bolo vložené správne."
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "Výmena nosiča"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -409,8 +345,6 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:Prosím, vložte disk s označením: '${LABEL}' do jednotky '/cdrom/' a "
-"stlačte Enter."
 
 #. Type: text
 #. Description
@@ -418,7 +352,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "Odstraňuje sa použitie netinst CD v sources.list..."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -431,8 +365,6 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"Ak si pri inštalácii z „netinst“ CD nezvolíte použitie sieťového zrkadla, "
-"skončíte s veľmi obmedzeným základným systémom."
 
 #. Type: text
 #. Description
@@ -443,9 +375,6 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"Inštalujete z tzv. „netinst“ CD, ktoré umožňuje iba inštaláciu veľmi "
-"obmedzeného základného systému. Ak chcete mať úplnejší systém, musíte použiť "
-"sieťový archív."
 
 #. Type: text
 #. Description
@@ -453,7 +382,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:11001
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
-msgstr "Inštalujete z CD, ktoré obsahuje obmedzený výber balíkov."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -466,9 +395,6 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"Nechali ste prehľadať %i CD nosičov. Hoci tieto obsahujú veľký výber "
-"balíkov, niektoré môžu chýbať (najmä niektoré balíky na podporu iných "
-"jazykov ako angličtiny)."
 
 #. Type: text
 #. Description
@@ -480,8 +406,6 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"Nechali ste prehľadať %i CD nosičov. Hoci tieto obsahujú veľký výber "
-"balíkov, niektoré môžu chýbať."
 
 #. Type: text
 #. Description
@@ -491,8 +415,6 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"Uvedomte si, že pri použití sieťového archívu dôjde v ďalšom kroku k "
-"sťahovaniu veľkého množstva údajov z internetu."
 
 #. Type: text
 #. Description
@@ -502,8 +424,6 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Inštalujete z DVD. Hoci DVD obsahujú veľký výber balíkov, niektoré môžu "
-"chýbať."
 
 #. Type: text
 #. Description
@@ -514,8 +434,6 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"Ak nemáte dobré internetové pripojenie, odporúča sa použitie sieťového "
-"archívu, hlavne ak chcete inštalovať grafické pracovné prostredie."
 
 #. Type: text
 #. Description
@@ -525,22 +443,20 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
-"Ak máte dobré internetové pripojenie, navrhuje sa použitie sieťového archívu "
-"ak chcete inštalovať grafické pracovné prostredie."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "Prehľadáva sa archív..."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "Používať neslobodný (non-free) softvér?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -552,10 +468,6 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Niektoré neslobodné (non-free) programy boli upravené na prácu s Debianom. "
-"Hoci nie sú tieto programy súčasťou Debianu, môžete ich nainštalovať "
-"štandardnými príkazmi Debianu. Tieto programy majú rôzne licencie, ktoré "
-"obmedzujú ich používanie, úpravu alebo ich ďalšie šírenie."
 
 #. Type: boolean
 #. Description
@@ -567,14 +479,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr "Rozhodnite sa, či chcete používať tento softvér."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "Používať programy závislé na neslobodnom softvéri (zdroj contrib)?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -586,10 +498,6 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"Na prácu s Debianom boli vytvorené aj niektoré ďalšie programy, ktorých "
-"funkčnosť napriek tomu, že sú voľne šíriteľné, závisí na niektorom "
-"neslobodnom (non-free) programe. Tieto programy nie sú súčasťou Debianu, ale "
-"na ich inštaláciu môžete použiť štandardné nástroje Debianu."
 
 #. Type: boolean
 #. Description
@@ -617,7 +525,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "Rozhodnite sa, či chcete používať tento softvér."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -626,13 +534,13 @@ msgstr "Rozhodnite sa, či chcete používať tento softvér."
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr "Zmeniť zrkadlo archívu"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr "Stiahnutie súboru zlyhalo:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -643,18 +551,13 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"Inštalačnému programu sa nepodarilo pristúpiť na archív s Debianom. Možno je "
-"to zapríčinené chybou vo vašej sieti alebo chybou archívu Debianu. Môžete sa "
-"pokúsiť o zopakovanie stiahnutia, môžete si zvoliť iný archív s Debianom, "
-"prípadne ignorovať tento problém a pokračovať bez všetkých balíkov z tohto "
-"archívu Debianu."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr "Použiť sieťové zrkadlo archívu?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -664,22 +567,20 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
-"Sieťové zrkadlo sa môže použiť na rozšírenie programov dostupných na CD o "
-"ďalšie programy. Takisto sa sprístupnia novšie verzie dostupných programov."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr "Pokračovať bez sieťového zrkadla?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr "Neboli rozpoznané žiadne sieťové zrkadlá."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -687,7 +588,7 @@ msgstr "Neboli rozpoznané žiadne sieťové zrkadlá."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "Používať programy s obmedzujúcou licenciou (zdroj restricted)?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -700,10 +601,6 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"Niektoré neslobodné programy sú dostupné vo forme balíkov. Hoci nie sú "
-"takéto programy súčasťou hlavnej distribúcie, na ich inštaláciu sa dajú "
-"použiť bežné nástroje na správu balíkov. Tieto programy majú rôzne licencie, "
-"ktoré vám môžu obmedziť rozsah používania, zmien alebo ďalšieho šírenia."
 
 #. Type: boolean
 #. Description
@@ -711,7 +608,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "Používať programy spravované komunitou (zdroj universe)?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -723,9 +620,6 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"Niektoré ďalšie programy sú dostupné vo forme balíkov. Tieto programy sú "
-"voľne dostupné (free) a hoci nie sú súčasťou hlavnej distribúcie, na ich "
-"inštaláciu sa dajú použiť bežné nástroje na správu balíkov."
 
 #. Type: boolean
 #. Description
@@ -733,7 +627,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "Používať programy s obmedzujúcou licenciou (zdroj multiverse)?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -747,10 +641,6 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"Niektoré neslobodné programy sú dostupné vo forme balíkov. Hoci nie sú "
-"takéto programy súčasťou hlavnej distribúcie, na ich inštaláciu sa dajú "
-"použiť bežné nástroje na správu balíkov. Tieto programy majú rôzne licencie, "
-"ktoré vám môžu obmedziť rozsah používania, zmien alebo ďalšieho šírenia."
 
 #. Type: boolean
 #. Description
@@ -758,7 +648,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "Používať programy zo zdroja „partner“?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -770,9 +660,6 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"Ďalší softvér je dostupný zo zdroja „partner“ spoločnosti Canonical. Tento "
-"softvér nie je súčasťou Ubuntu, ale Canonical a príslušní poskytovatelia ho "
-"ponúkajú ako službu používateľom Ubuntu."
 
 #. Type: boolean
 #. Description
@@ -780,7 +667,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "Používať spätne prenesený softvér (zdroj backported)?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -793,7 +680,3 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"Niektoré programy boli prenesené z vývojovej vetvy a upravili sa tak, aby "
-"fungovali v tejto verzii distribúcie. Hoci tieto programy neprešli takým "
-"dôkladným testovaním ako programy obsiahnuté v distribúcii, často obsahujú "
-"novšie verzie s užitočnými vlastnosťami."

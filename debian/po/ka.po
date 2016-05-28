@@ -3,37 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Georgian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Aiet Kolkhi <aietkolkhi@gmail.com>, 2005, 2006, 2007, 2008.
-#
-# This file is maintained by Aiet Kolkhi <aietkolkhi@gmail.com>
-#
-# Includes contributions by Malkhaz Barkalaza <malxaz@gmail.com>,
-# Alexander Didebulidze <didebuli@in.tum.de>, Vladimer Sichinava <vlsichinava@gmail.com>
-# Taya Kharitonashvili <taya13@gmail.com>, Gia Shervashidze - www.gia.ge
-#
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Aiet Kolkhi <aietkolkhi@gmail.com>, 2008.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer.2006071\n"
-"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2011-03-01 12:49+0400\n"
-"Last-Translator: Aiet Kolkhi <aietkolkhi@gmail.com>\n"
-"Language-Team: Georgian\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-
 #. Type: text
 #. Description
 #. Main menu item
@@ -41,7 +10,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr "პაკეტების მენეჯერის კონფიგურაცია"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -50,44 +19,42 @@ msgstr "პაკეტების მენეჯერის კონფი�
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "apt-ის კონფიგურაცია"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr "${SCRIPT}-ის გაშვება..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "ლოკალური საცავების სკანირება..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "დაცვის განახლებების საცავის სკანირება..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "დაცვის განახლებების საცავის სკანირება..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
 msgid "Scanning the backports repository..."
-msgstr "დაცვის განახლებების საცავის სკანირება..."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -96,7 +63,7 @@ msgstr "დაცვის განახლებების საცავ�
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr "თავიდან ცდა"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -105,14 +72,13 @@ msgstr "თავიდან ცდა"
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr "იგნორირება"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
-#, fuzzy
 msgid "Downloading local repository key failed:"
-msgstr "ფაილი ვერ ჩამოიტვირთა:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -127,22 +93,18 @@ msgstr ""
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
-#, fuzzy
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"ინსტალერი ვერ დაუკავშირდა მირორს. ეს შეიძლება იყოს როგორც ქსელის, ასევე "
-"სარკის პრობლემა. თქვენ შეგიძლიათ გაიმეოროთ მცდელობა, შეცვალოთ მირორი, ან "
-"გამოტოვოთ ეს პაკეტი და გააგრძელოთ."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "საცავთან დაკავშირება ვერ ხერხდება"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -152,8 +114,6 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"საცავი ${HOST} მისამართზე მიუწვდომელია, ან მისი განახლებებლი ამჟამად "
-"თქვენთვის არ არის მისაწვდომი. გთხოვთ ამ საკითხს  მოგვიანებით დაუბრუნდეთ."
 
 #. Type: error
 #. Description
@@ -162,7 +122,7 @@ msgstr ""
 msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
-msgstr "/etc/apt/sources.list ფაილში დაემატა ${HOST}-ის გაუქმებული შენატანები."
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -181,9 +141,8 @@ msgstr ""
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
 msgid "release updates"
-msgstr "მონაცემთა წაშლა:"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -192,18 +151,15 @@ msgstr "მონაცემთა წაშლა:"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "გამოვიყენოთ გადმოტანილი პროგრამები?"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
 msgid "Services to use:"
-msgstr "სასურველი NTP სერვერი:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -238,12 +194,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -252,10 +202,6 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"ამ გამოშვებაში ზოგიერთი პროგრამა გადმოტანილია დამუშავების პროცესში მყოფი "
-"ვერსიიდან. მათ არ გაუვლიათ ისეთი სრული ტესტირება, როგორც სხვებს, მაგრამ ზოგი "
-"პროდუქტის ახალ ვერსიას შეიძლება საჭირო თვისებები ჰქონდეს და ამდენად, "
-"საინტერესო იყოს."
 
 #. Type: boolean
 #. Description
@@ -280,14 +226,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr "მიმდინარეობს CD-ROM-ის სკანირება..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "apt-ს კონფიგურაციის პრობლემა"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -297,7 +243,6 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
-"ვერ მოხერხდა apt-ს კონფიგურაცია CD-დან დამატებითი პაკეტების დასაყენებლად."
 
 #. Type: boolean
 #. Description
@@ -314,14 +259,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr "გსურთ სხვა CD ან DVD დისკის გადასინჯვა?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "თქვენ საინსტალაციო CD ან DVD დისკი გადაისინჯა. მისი სათაურია:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -333,10 +278,6 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"თქვენ საშუალება გაქვთ გადასინჯოთ დამატებითი CD ან DVD დისკები, რომელთა "
-"გამოყენებასაც პაკეტთა მენეჯერში (apt) შეძლებთ. წესით, დისკები საინსტალაციო "
-"CD/DVD დისკების ნაკრებს უნდა ეკუთვნოდეს. თუ თქვენ არ გაგაჩნიათ დამატებითი CD "
-"ან DVD დისკები, შეგიძლიათ გამოტოვოთ ეს ნაბიჯი."
 
 #. Type: boolean
 #. Description
@@ -347,29 +288,27 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
 msgstr ""
-"თუ გსურთ სხვა CD ან DVD დისკის გადასინჯვა, გთხოვთ მოათავსოთ იგი "
-"დისკწამყვანში."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "გადაისინჯა CD ან DVD დისკი შემდეგი სათაურით:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "CD ან DVD შემდეგი წარწერით უკვე გადასინჯულია:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr "გთხოვთ შეცვალოთ იგი ახლა, თუ გსურთ სხვა CD ან DVD დისკის გადასინჯვა."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -379,15 +318,13 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
 msgstr ""
-"ვერ მოხერხდა apt-ის კონფიგურაცია CD/DVD დისკიდან დამატებითი პაკეტების "
-"დასაყენებლად."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr "დარწმუნდით, რომ CD/DVD დისკი სწორად არის მოთავსებული."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -396,7 +333,7 @@ msgstr "დარწმუნდით, რომ CD/DVD დისკი სწ�
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "მედიის შეცვლა"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -408,8 +345,6 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:გთხოვთ მოათავსოთ დისკი წარწერით: '${LABEL}' დისკწამყვანში '/cdrom/' "
-"და დააჭიროთ enter ღილაკს."
 
 #. Type: text
 #. Description
@@ -417,7 +352,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "sources.list ფაილში netinst CD-ს გაუქმება..."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -430,8 +365,6 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"თუ თქვენ ინსტალაციას netinst CD-დან ახორციელებთ და უარი თქვით ქსელური "
-"მირორის გამოყენებაზე, მიიღებთ ძალიან შეზღუდულ საბაზო სისტემას."
 
 #. Type: text
 #. Description
@@ -442,9 +375,6 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"თქვენ ინსტალაციას netinst CD დისკიდამ ახორციელებთ, რომელიც თავისთავად მხოლოდ "
-"მინიმალური ბაზისური სისტემას დააყენებს. სისტემის გასაფართოებლად გამოიყენეთ "
-"ქსელური მირორი."
 
 #. Type: text
 #. Description
@@ -453,8 +383,6 @@ msgstr ""
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
 msgstr ""
-"თქვენ ინსტალაციას ისეთი CD დისკიდან ახორციელებთ, რომელიც პაკეტების "
-"შემცირებულ რაოდენობას შეიცავს."
 
 #. Type: text
 #. Description
@@ -467,10 +395,6 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"თქვენ გადასინჯეთ %i CD დისკი. მიუხედავად იმისა, რომ მათზე მრავალი პაკეტია "
-"მოთავსებული, შესაძლოა რამდენიმე მათგანი მაინც აკლდეს (განსაკუთრებით "
-"პაკეტები, რომლებიც ინგლისურის გარდა სხვა ენების მხარდაჭერისთვის არის "
-"განკუთვნილი)."
 
 #. Type: text
 #. Description
@@ -482,8 +406,6 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"თქვენ გადასინჯეთ %i CD დისკი. მიუხედავად იმისა, რომ მათზე მრავალი პაკეტია "
-"მოთავსებული, შესაძლოა ზოგიერთი მათგანი მაინც აკლდეს."
 
 #. Type: text
 #. Description
@@ -493,8 +415,6 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"გაითვალისწინეთ, რომ ქსელური მირორის ამორჩევამ შესაძლოა ინსტალაციის შემდეგ "
-"საფეხურზე მონაცემთა დიდი ნაწილის ჩამოტვირთვა გამოიწვიოს."
 
 #. Type: text
 #. Description
@@ -504,8 +424,6 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"თქვენ ინსტალაციას DVD დისკის ახორციელებთ. მიუხედავად იმისა, რომ DVD დისკზე "
-"პაკეტთა დიდი რაოდენობაა მოთავსებული, შესაძლოა ზოგიერთი მათგანი მაინც აკლდეს."
 
 #. Type: text
 #. Description
@@ -516,9 +434,6 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"თუ თქვენ ინტერნეტის კარგი კავშირი არ გაგაჩნიათ, მირორის გამოყენება არ არის "
-"რეკომენდირებული. განსაკუთრებით მაშინ, თუ თქვენ გრაფიკული გარემოს ინსტალაციას "
-"აპირებთ."
 
 #. Type: text
 #. Description
@@ -528,22 +443,20 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
-"თუ თქვენ საკმაოდ კარგი ინტერნეტ კავშირი გაგაჩნიათ, შეგიძლიათ ამოირჩიოთ "
-"ქსელური მირორი, თუ თქვენ გრაფიკული გარემოს ინსტალაციას აპირებთ."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "სარკის სკანირება..."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "გამოვიყენოთ არათავისუფალი პროგრამები?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -555,10 +468,6 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Debian-სათვის არის არათავისუფალი პროგრამებიც. ისინი არ შედიან დისტრიბუტივში, "
-"მაგრამ შესაძლებელია მათი დაყენება Debian-ის სტანდარტული საშუალებებით. ამ "
-"პროგრამებს გააჩნიათ ლიცენზიები, რომლებიც შეიძლება კრძალავდნენ მათ "
-"გამოყენებას, შეცვლას ან გავრცელებას."
 
 #. Type: boolean
 #. Description
@@ -570,14 +479,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr "თქვენ მაინც გინდათ ეს პროგრამები ხელმისაწვდომი იყოს?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "გამოვიყენო contrib პროგრამები?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -589,10 +498,6 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"Debian-სათვის არის დამატებითი პროგრამებიც. ისინი თუმცა თავისუფალნი არიან, "
-"იმაგრამ დამოკიდებულნი არიან არათავისუფალ პროგრამებზე. ისინი არ შედიან "
-"დისტრიბუტივში, მაგრამ შესაძლებელია მათი დაყენება Debian-ის სტანდარტული "
-"საშუალებებით."
 
 #. Type: boolean
 #. Description
@@ -620,10 +525,8 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "გინდათ ეს პროგრამები ხელმისაწვდომი იყოს?"
+msgstr ""
 
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
 #. Type: select
 #. Choices
 #. :sl2:
@@ -631,13 +534,13 @@ msgstr "გინდათ ეს პროგრამები ხელმი
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr "სარკის შეცვლა"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr "ფაილი ვერ ჩამოიტვირთა:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -648,16 +551,13 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"ინსტალერი ვერ დაუკავშირდა მირორს. ეს შეიძლება იყოს როგორც ქსელის, ასევე "
-"სარკის პრობლემა. თქვენ შეგიძლიათ გაიმეოროთ მცდელობა, შეცვალოთ მირორი, ან "
-"გამოტოვოთ ეს პაკეტი და გააგრძელოთ."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr "გამოვიყენოთ ქსელური მირორი?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -667,22 +567,20 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
-"ქსელური სარკის გამოყენება შესაძლებელია კომპაქტ-დისკზე არსებული პროგრამების "
-"შესავსებად. გარდა ამისა, შესაძლებელი იქნება პროგრამების განახლებების მიღებაც."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr "გსურთ ქსელის მირორის გარეშე გაგრძელება?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr "ქსელური მირორი არ ამოგირჩევიათ."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -690,7 +588,7 @@ msgstr "ქსელური მირორი არ ამოგირჩე
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "გამოვიყენოთ შეზღუდული (restricted) პროგრამები?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -703,10 +601,6 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"სტანდარტული საშუალებებით შეიძლება დამატებით დაყენდეს არათავისუფალი "
-"პროგრამებიც, თუმცა ისინი არ შედიან ძირითად დისტრიბუტივში. ამ პროგრამების "
-"ლიცენზირების პირობები შეიძლება კრძალავდეს მათ გამოყენებას, შეცვლას ან "
-"გავრცელებას."
 
 #. Type: boolean
 #. Description
@@ -714,7 +608,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "გამოვიყენოთ პროგრამები \"universe\" დანაყოფიდან?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -726,8 +620,6 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"სტანდარტული საშუალებებით შეიძლება დამატებით დაყენდეს სხვა თავისუფალი "
-"პროგრამებიც, თუმცა ისინი არ შედიან ძირითად დისტრიბუტივში."
 
 #. Type: boolean
 #. Description
@@ -735,7 +627,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "გამოვიყენოთ \"multiverse\" კომპონენტის პროგრამები?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -749,10 +641,6 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"პაკეტი შეიცავს კომერციულ პროდუქტებსაც. ეს პროგრამები არ შედის მთავარ "
-"დისტრიბუტივში, მაგრამ შეიძლება დაყენდეს სტანდარტული საშუალებებით. ამ "
-"პროგრამებს შეიძლება ჰქონდეთ ლიცენზიები, რომლებიც კრძალავენ მათს გამოყენებას, "
-"გადაკეთებასა და გავრცელებას."
 
 #. Type: boolean
 #. Description
@@ -760,7 +648,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "გამოვიყენოთ პროგრამები „partner“ საცავიდან?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -772,10 +660,6 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"ზოგიერთი დამატებითი პროგრამა ხელმისაწვდომია კომპანია Canonical-ის „partner“ "
-"საცავში. ეს პროგრამა არ არის Ubuntu-ს ნაწილი, მაგრამ Canonical-ის და "
-"შესაბამისი მწარმოებლების მიერ არის შემოთავაზებული სერვისის სახით, Ubuntu-ს "
-"მომხმარებელთათვის."
 
 #. Type: boolean
 #. Description
@@ -783,7 +667,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "გამოვიყენოთ გადმოტანილი პროგრამები?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -796,7 +680,3 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"ამ გამოშვებაში ზოგიერთი პროგრამა გადმოტანილია დამუშავების პროცესში მყოფი "
-"ვერსიიდან. მათ არ გაუვლიათ ისეთი სრული ტესტირება, როგორც სხვებს, მაგრამ ზოგი "
-"პროდუქტის ახალ ვერსიას შეიძლება საჭირო თვისებები ჰქონდეს და ამდენად, "
-"საინტერესო იყოს."
