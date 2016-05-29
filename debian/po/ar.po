@@ -3,6 +3,36 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# translation of ar.po to Arabic
+# Arabic messages for debian-installer. Copyright (C) 2003 Software in the Public Interest, Inc. This file is distributed under the same license as debian-installer. Ossama M. Khayat <okhayat@yahoo.com>, 2005.
+#
+# Translations from iso-codes:
+#     Translations taken from ICU SVN on 2007-09-09
+#   Translations from kde-i18n/desktop.po:
+#
+# Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2007, 2008, 2009, 2010.
+#   Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
+#   Alastair McKinstry <mckinstry@computer.org>, 2002.
+#   Free Software Foundation, Inc., 2002, 2004.
+#   Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2008, 2010.
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#   Mohammad Gamal <f2c2001@yahoo.com>, 2001.
+# Ossama Khayat <okhayat@yahoo.com>, 2011, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: ar\n"
+"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: American English <okhayat@gmail.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n>=3 && n⇐10 ? "
+"3 : n>=11 && n⇐99 ? 4 : 5\n"
+
 #. Type: text
 #. Description
 #. Main menu item
@@ -10,7 +40,7 @@
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr ""
+msgstr "تهيئة مدير الحزم"
 
 #. Type: text
 #. Description
@@ -19,42 +49,42 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr ""
+msgstr "تهيئة apt"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr ""
+msgstr "تشغيل ${SCRIPT}..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr ""
+msgstr "كشف المخازن المحلّيّة..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr ""
+msgstr "كشف مخزن التحديثات الأمنية..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr ""
+msgstr "فحص مستودع تحديثات الإصدار..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr ""
+msgstr "فحص مستودع backports..."
 
 #. Type: select
 #. Choices
@@ -63,7 +93,7 @@ msgstr ""
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr ""
+msgstr "إعادة المحاولة"
 
 #. Type: select
 #. Choices
@@ -72,13 +102,13 @@ msgstr ""
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr ""
+msgstr "تجاهل"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr ""
+msgstr "فشل تنزيل مفتاح المستودع المحلي:"
 
 #. Type: select
 #. Description
@@ -89,6 +119,8 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
+"فشل برنامج التثبيت في تنزيل المفتاح العام لتوقيع المستودع المحلي على المرآة "
+"${MIRROR}:"
 
 #. Type: select
 #. Description
@@ -98,13 +130,16 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
+"قد تكون هذه مشكلة في شبكتك، أو مضيف هذا المفتاح. يمكنك اختيار إعادة محاولة "
+"التنزيل، أو تجاهل المشكلة والاستمرار دون الحصول على جميع الحزم من هذا "
+"المستودع."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr ""
+msgstr "تعذر الوصول إلى المستودع"
 
 #. Type: error
 #. Description
@@ -114,6 +149,8 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
+"تعذر الوصول إلى المستودع على المضيف ${HOST}، لذا لن يمكن توفير تحديثاته "
+"حالياً. عليك التحقق من هذا لاحقاً."
 
 #. Type: error
 #. Description
@@ -123,6 +160,8 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
+"المُدخلات المحددة كملاحظات للمضيف ${HOST} تمت إضافتها إلى الملف /etc/apt/"
+"sources."
 
 #. Type: multiselect
 #. Choices
@@ -132,7 +171,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr ""
+msgstr "تحديثات الأمن (من ${SEC_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -142,7 +181,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr ""
+msgstr "تحديثات الإصدار"
 
 #. Type: multiselect
 #. Choices
@@ -152,14 +191,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr ""
+msgstr "برامج backport"
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr ""
+msgstr "الخدمات المطلوب استعمالها:"
 
 #. Type: multiselect
 #. Description
@@ -168,7 +207,7 @@ msgstr ""
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
-msgstr ""
+msgstr "يحتوي دبيان خدمتين توفران التحديثات للإصدارات: خدمة الأمن وvolatile."
 
 #. Type: multiselect
 #. Description
@@ -178,6 +217,8 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
+"تعينك التحديثات الأمنية على إبقاء نظامك أمناً ضد الهجمات. يستحسن تمكين هذه "
+"الخدمة."
 
 #. Type: multiselect
 #. Description
@@ -189,6 +230,9 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
+"تحديثات الإصدار توفر نسخ البرامج الأكثر حداثة للبرامج التي تتغير بشكل كبير "
+"نسبياً والتي إن لم تتوفر لها آخر التحديثات فقد تفقد فائدتها. كما أنها توفر "
+"إصلاحات هامّة.تتوفر هذه الخدمة لإصدارات stable وoldstable فقط."
 
 #. Type: multiselect
 #. Description
@@ -202,6 +246,10 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
+"تم عمل backport لبعض البرامج من النسخة التطويرية كي تعمل مع هذه الإصدارة. مع "
+"أن هذه البرامج لم يتم فحصها بالكامل كالتي هي موجودة في الإصدارة التجريبية، "
+"إلا أنها تحتوي نسخاً أحدث من بعض التطبيقات التي قد توفر مزايا مفيدة. تمكين "
+"backports لا يجعل أيا منها يُثبّت تلقائياً؛ بل يمكنك فقط من اختيارها يدوياً."
 
 #. Type: boolean
 #. Description
@@ -226,14 +274,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr ""
+msgstr "كشف القرص المدمج..."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr ""
+msgstr "مشكلة في تهيئة apt"
 
 #. Type: error
 #. Description
@@ -242,7 +290,7 @@ msgstr ""
 msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
-msgstr ""
+msgstr "فشلت محاولة تهيئة apt لتثبيت حزم إضافية من القرص المدمج."
 
 #. Type: boolean
 #. Description
@@ -259,14 +307,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr ""
+msgstr "تريد كشف قرص CD أو DVD آخر؟"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr ""
+msgstr "تم كشف قرص التثبيت؛ عنوانه هو:"
 
 #. Type: boolean
 #. Description
@@ -278,6 +326,9 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
+"لديك خيار كشف أقراص إضافية لاستخدامها من قبل مدير الحزم (apt). عادة تكون هذه "
+"الأقراص من المجموعة نفسها. إن لم تكن لديك أية أقراص إضافية متوفرة، يمكن "
+"ببساطة تخطي هذه الخطوة."
 
 #. Type: boolean
 #. Description
@@ -287,28 +338,28 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr ""
+msgstr "إن كنت تريد كشف قرص CD أو DVD آخر، رجاءً أدخله الآن."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr ""
+msgstr "تم كشف قرص CD أو DVD المسمى:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr ""
+msgstr "القرص المسمى كما يلي تم كشفه:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr ""
+msgstr "رجاء غيّره الآن إن كنت تريد كشف قرص آخر."
 
 #. Type: boolean
 #. Description
@@ -317,14 +368,14 @@ msgstr ""
 msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
-msgstr ""
+msgstr "فشلت محاولة تهيئة apt لتثبيت حزم إضافية من القرص المدمج."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr ""
+msgstr "رجاء تأكد من أن القرص أُدخل بشكل صحيح."
 
 #. Type: text
 #. Description
@@ -333,7 +384,7 @@ msgstr ""
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr ""
+msgstr "تغيير القرص"
 
 #. Type: text
 #. Description
@@ -345,6 +396,8 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
+"/cdrom/:رجاءً أدخل القرص السمى: '${LABEL}' في السواقة '/cdrom/' واضغط زر "
+"الإدخال."
 
 #. Type: text
 #. Description
@@ -352,7 +405,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr ""
+msgstr "تعطيل قرص التثبيت الشبكي netinst CD في ملف sources.list..."
 
 #. Type: text
 #. Description
@@ -365,6 +418,8 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
+"إن كنت تقوم بالتثبيت من قرص مدمج خاص للتثبيت الشبكي netinst واخترت عدم "
+"استخدام مرآة، فسوف ينتهي بك الأمر بنظام بسيط جداً."
 
 #. Type: text
 #. Description
@@ -375,6 +430,8 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
+"تقوم بالتثبيت من قرص netinst مدمج، والذي يمكنك من تثبيت نظام أساسي صغير جداً. "
+"استخدم مرآة شبكية لتثبيت نظام أكثر كمالاً."
 
 #. Type: text
 #. Description
@@ -382,7 +439,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:11001
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
-msgstr ""
+msgstr "تقوم بالتثبيت الآن من قرص CD، والذي يحتوي مجموعة محدودة من الحزم."
 
 #. Type: text
 #. Description
@@ -395,6 +452,9 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
+"لقد كشفت %i أقراص مدمجة. مع أن هذه الأقراص تحتوي مجموعة وافرة من الحزم، إلا "
+"أن بعضها الآخر قد يكون مفقوداً (أهمها بعض الحزم المطلوبة لدعم اللغات الأخرى "
+"غير الانجليزية)."
 
 #. Type: text
 #. Description
@@ -406,6 +466,8 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
+"لقد كشفت %i أقراص مدمجة. مع أن هذه الأقراص تحتوي مجموعة كبيرة من الحزم، إلا "
+"أن بعضها الآخر غير موجود. "
 
 #. Type: text
 #. Description
@@ -415,6 +477,8 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
+"انتبه إلى أن استخدام مرآة شبكية قد ينتج عنه تنزيل حجم كبير من البيانات خلال "
+"الخطوة التالية من التثبيت."
 
 #. Type: text
 #. Description
@@ -424,6 +488,8 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
+"تقوم بالتثبيت الآن من قرص DVD. مع أن هذا القرص يحتوي مجموعة كبيرة من الحزم، "
+"إلا أن بعضها الآخر قد يكون مفقوداً."
 
 #. Type: text
 #. Description
@@ -434,6 +500,8 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
+"ما لم يكن لديك اتصال إنترنت جيد، فيستحسن استخدام مرآة شبكية، خصوصاً إن كنت "
+"تنوي تثبيت بيئة سطح مكتب رسومية."
 
 #. Type: text
 #. Description
@@ -443,20 +511,22 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
+"إن كان لديك اتصال إنترنت جيد نسبياً، فينصح استخدام مرآة شبكية إن كنت تنوي "
+"تثبيت بيئة سطح مكتب رسومية."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr ""
+msgstr "تفحّص المرآة..."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr ""
+msgstr "تريد استخدام البرامج الغير حرّة؟"
 
 #. Type: boolean
 #. Description
@@ -468,6 +538,9 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
+"بعض البرامج الغير حرّة صنعت لتعمل مع دبيان. مع أن هذه البرامج ليست إطلاقاً جزء "
+"من دبيان، فيمكن استخدام أدوات دبيان الاعتيادية لتثبيتها. هذه البرامج لها رخص "
+"مختلفة قد تمنعك من استخدامها، أو تعديلها، أو التشارك بها."
 
 #. Type: boolean
 #. Description
@@ -479,14 +552,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr ""
+msgstr "رجاء اختر ما إذا كنت تريد توفيرها على أي حال."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr ""
+msgstr "هل أستخدم البرامج المتطوعة؟"
 
 #. Type: boolean
 #. Description
@@ -498,6 +571,9 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
+"بعض البرامج الإضافية صنعت لتعمل مع دبيان. مع أن هذه البرامج حرّة، فهي تعتمد "
+"على برامج غير حرّة لعملها. هذه البرامج ليست جزء من دبيان، إلا أنه يمكن "
+"استخدام أدوات دبيان الاعتيادية لتثبيتها."
 
 #. Type: boolean
 #. Description
@@ -525,7 +601,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr ""
+msgstr "رجاء اختر ما إذا كنت تريد توفير هذه البرامج لك."
 
 #. Type: select
 #. Choices
@@ -534,13 +610,13 @@ msgstr ""
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr ""
+msgstr "تغيير المرآة"
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr ""
+msgstr "فشل تحميل ملف:"
 
 #. Type: select
 #. Description
@@ -551,13 +627,16 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
+"فشل المُثبّت في تحميل ملفّ من المرآة. قد تكون هذه مشكلة في شبكتك، أو المرآة. "
+"يمكن اختيار إعادة محاولة التنزيل، أو اختيار مرآة أخرى، أو تجاهل المشكلة "
+"والاستمرار دون الحصول على جميع الحزم من هذه المرآة."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr ""
+msgstr "تريد استخدام مرآة شبكية؟"
 
 #. Type: boolean
 #. Description
@@ -567,20 +646,22 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
+"يمكن للمرآة الشبكية الإضافة إلى البرامج الموجودة على القرص المدمج. وقد يوفر "
+"ذلك أيضاً النسخ الأحدث من هذه البرامج."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr ""
+msgstr "الاستمرار دون مسلكٍ افتراضي؟"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr ""
+msgstr "لم يتم اختيار مرآة شبكية."
 
 #. Type: boolean
 #. Description
@@ -588,7 +669,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr ""
+msgstr "استخدام البرامج المُقيّدة؟"
 
 #. Type: boolean
 #. Description
@@ -601,6 +682,10 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
+"بعض البرامج الغير حرّة (مجانية) متوفّرة بنسق محزّم. مع أن هذه البرامج ليست جزءً "
+"من التوزيعة الأساسية، يمكن استخدام أدوات إدارة الحزم الاعتيادية لتثبيتها. "
+"لهذه البرامج رخص متنوعة والتي قد تمنعك من استخدمها، أو تعديلها، أو المشاركة "
+"بها."
 
 #. Type: boolean
 #. Description
@@ -608,7 +693,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr ""
+msgstr "استخدام البرامج من المكوّن \"universe\"؟"
 
 #. Type: boolean
 #. Description
@@ -620,6 +705,9 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
+"بعد البرامج الإضافية متوفرة بنسق محزّم. هذه البرامج حرّة (مجانية)، وعلى الرغم "
+"من أنها ليست جزءً من التوزيعة الأساسية، يمكن استخدام أدوات إدارة الحزم "
+"الاعتيادية لتثبيتها."
 
 #. Type: boolean
 #. Description
@@ -627,7 +715,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr ""
+msgstr "استخدام البرامج من المكوّن \"multiverse\"؟"
 
 #. Type: boolean
 #. Description
@@ -641,6 +729,10 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
+"بعض البرامج الغير حرّة (مجانية) متوفّرة بنسق حزم. مع أن هذه البرامج ليست جزءً "
+"من التوزيعة الأساسية، يمكن استخدام أدوات إدارة الحزم الاعتيادية لتثبيتها. "
+"لهذه البرامج رخص متنوعة والتي قد تمنعك في بعض الأوقات من استخدمها، أو "
+"تعديلها، أو المشاركة بها."
 
 #. Type: boolean
 #. Description
@@ -648,7 +740,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr ""
+msgstr "استخدام البرامج من مخزن \"partner\"؟"
 
 #. Type: boolean
 #. Description
@@ -660,6 +752,9 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
+"تتوفر بعض البرامج الإضافية في مستودع \"partner\" لشركة Canonical. هذه "
+"البرامج ليست جزءً من أبونتو، لكن توفرها شركة Canonical ومصنّعوها كخدمة "
+"لمستخدمي أبونتو."
 
 #. Type: boolean
 #. Description
@@ -667,7 +762,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr ""
+msgstr "استخدام برامج backport؟"
 
 #. Type: boolean
 #. Description
@@ -680,3 +775,6 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
+"تم عمل backport لبعض البرامج من شجرة الترقية كي تعمل مع هذه الإصدارة. مع أن "
+"هذه البرامج لم يتم فحصها بالكامل كالتي هي موجودة في الإصدارة، إلا أنها تحتوي "
+"بعض النسخ الأجدد من بعض التطبيقات والذي قد يوفر مزايا مفيدة."

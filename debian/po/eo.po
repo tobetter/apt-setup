@@ -3,6 +3,33 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# translation of Debian Installer templates to Esperanto.
+# Copyright (C) 2005-2013 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+#
+# Samuel Gimeno <sgimeno@gmail.com>, 2005.
+# Serge Leblanc <serge.leblanc@wanadoo.fr>, 2005, 2006, 2007.
+# Felipe Castro <fefcas@gmail.com>, 2008, 2009, 2010, 2011, 2012, 2013, 2014.
+#
+# Translations from iso-codes:
+# Alastair McKInstry <mckinstry@computer.org>, 2001,2002.
+# Copyright (C) 2001,2002,2003,2004 Free Software Foundation, Inc.
+# D. Dale Gulledge <dsplat@rochester.rr.com> (translations from drakfw), 2001.
+# Edmund GRIMLEY EVANS <edmundo@rano.org>, 2004-2011
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Esperanto <debian-l10n-esperanto@lists.debian.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 #. Type: text
 #. Description
 #. Main menu item
@@ -10,7 +37,7 @@
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr ""
+msgstr "Akomodi la pak-administrilon"
 
 #. Type: text
 #. Description
@@ -19,42 +46,42 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr ""
+msgstr "Akomodado de 'apt'"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr ""
+msgstr "Interpretado de '${SCRIPT}'..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr ""
+msgstr "Skanado de lokaj deponejoj..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr ""
+msgstr "Skanado de la deponejo de sekurecaj ĝisdatigoj..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr ""
+msgstr "Skanado de la deponejo de eldonaj ĝisdatigoj..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr ""
+msgstr "Skanado de la deponejo de retroportaĵoj..."
 
 #. Type: select
 #. Choices
@@ -63,7 +90,7 @@ msgstr ""
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr ""
+msgstr "Reprovi"
 
 #. Type: select
 #. Choices
@@ -72,13 +99,13 @@ msgstr ""
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr ""
+msgstr "Ignori"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr ""
+msgstr "Elŝuto de loka deponej-ŝlosilo malsukcesis:"
 
 #. Type: select
 #. Description
@@ -89,6 +116,8 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
+"La instalilo malsukcesis elŝuti la publikan ŝlosilon uzatan por atesti la "
+"lokan deponejon ĉe ${MIRROR}:"
 
 #. Type: select
 #. Description
@@ -98,13 +127,16 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
+"Tio ĉi povas esti problemo ĉe via reto, aŭ ĉe la servilo tenanta tiun ĉi "
+"ŝlosilon. Vi povas reprovi la elŝutadon, aŭ preterpasi la problemon kaj "
+"daŭrigi sen ĉiuj pakoj el tiu ĉi deponejo."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr ""
+msgstr "Ne eblas atingi la pak-deponejon"
 
 #. Type: error
 #. Description
@@ -114,6 +146,8 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
+"La deponejo ĉe '${HOST}' ne estis atingebla, tiel la ĝisdatigoj ne estos "
+"disponeblaj al vi ĉi foje. Vi devos esplori tion poste."
 
 #. Type: error
 #. Description
@@ -123,6 +157,8 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
+"Malaktivaj rikordoj por ${HOST} estis aldonitaj al la list-dosiero '/etc/apt/"
+"sources'."
 
 #. Type: multiselect
 #. Choices
@@ -132,7 +168,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr ""
+msgstr "sekurigaj ĝisdatigoj (el ${SEC_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -142,7 +178,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr ""
+msgstr "eldonaj ĝisdatigoj"
 
 #. Type: multiselect
 #. Choices
@@ -152,14 +188,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr ""
+msgstr "retroportita programaro"
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr ""
+msgstr "Uzotaj servoj:"
 
 #. Type: multiselect
 #. Description
@@ -169,6 +205,8 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
+"Debiano posedas du servojn, kiuj provizas ĝisdatigojn por eldonoj: sekuriga "
+"kaj eldona mem."
 
 #. Type: multiselect
 #. Description
@@ -178,6 +216,8 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
+"Sekurigaj ĝisdatigoj permesas teni vian sistemon sekura kontraŭ atakoj. Oni "
+"forte rekomendas aktivigi ĉi tiun servon."
 
 #. Type: multiselect
 #. Description
@@ -189,6 +229,11 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
+"Eldonaj ĝisdatigoj provizas pli freŝdatajn versiojn por ofte ŝanĝataj "
+"programoj, kaj por situacioj kie malhavo de aktuala versio povus malpliigi "
+"la utilecon de la programaro. Ĝi ankaŭ provizas retropaŝajn riparojn. Tiu ĉi "
+"servo nur estas disponebla por la eldonoj 'stable' (stabila) kaj "
+"'oldstable' (malnova stabila)."
 
 #. Type: multiselect
 #. Description
@@ -202,6 +247,11 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
+"Retroportitaj programaroj estas adaptitaj el la disvolviga arbo por funkcii "
+"kun tiu ĉi eldono. Kvankam tiu ĉi programaro ne estis testita samzorge kiel "
+"tiu de la eldono, ĝi povas enteni novajn versiojn de kelkaj aplikaĵoj kiuj "
+"povas provizi utilajn apartaĵojn; ĝi nur ebligas al vi mem elekti uzotajn "
+"retroportaĵojn."
 
 #. Type: boolean
 #. Description
@@ -226,14 +276,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr ""
+msgstr "Skanado de la lumdisko..."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr ""
+msgstr "'apt'-akomodada problemo"
 
 #. Type: error
 #. Description
@@ -243,6 +293,8 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
+"Malsukcesis la provo agordi 'apt' por ke ĝi instalu aldonajn pakojn el la "
+"lumdisko."
 
 #. Type: boolean
 #. Description
@@ -259,14 +311,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr ""
+msgstr "Ĉu oni skanu alian lumdiskon?"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr ""
+msgstr "Via instalada lumdisko estis skanita; ĝia etikedo estas:"
 
 #. Type: boolean
 #. Description
@@ -278,6 +330,10 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
+"Nun, vi povas skani aldonajn lumdiskojn aŭ lumdiskegojn uzotajn de la pak-"
+"administrilo (apt). Ordinare ili devas aparteni al la sama aro de la "
+"instalada lumdisko. Se vi ne posedas aliajn disponeblajn lumdiskojn, vi "
+"povas preterpasi ĉi tiun etapon."
 
 #. Type: boolean
 #. Description
@@ -287,28 +343,28 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr ""
+msgstr "Se vi deziras skani alian lumdiskon, bonvolu enmeti ĝin nun."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr ""
+msgstr "La lumdisko kun la jena etikedo estis skanita:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr ""
+msgstr "La lumdisko kun la jena etikedo jam estis skanita:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr ""
+msgstr "Bonvolu nun anstataŭigi ĝin, se vi deziras skani alian lumdisk(eg)on."
 
 #. Type: boolean
 #. Description
@@ -318,13 +374,14 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
 msgstr ""
+"Provo agordi 'APT' por instali aldonajn pakojn el lumdisko malsukcesis."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr ""
+msgstr "Bonvolu kontroli ĉu la lumdisko estis enmetita ĝuste."
 
 #. Type: text
 #. Description
@@ -333,7 +390,7 @@ msgstr ""
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr ""
+msgstr "Ŝanĝo de datumarujo"
 
 #. Type: text
 #. Description
@@ -345,6 +402,8 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
+"/cdrom/:Bonvolu enmeti la diskon etikeditan: '${LABEL}' en la diskturnilo '/"
+"cdrom/' kaj premu la klavon 'Enter'."
 
 #. Type: text
 #. Description
@@ -352,7 +411,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr ""
+msgstr "Malaktivado de la lumdisko 'netinst' en la dosiero 'sources.list'..."
 
 #. Type: text
 #. Description
@@ -365,6 +424,8 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
+"Se vi instalas la sistemon per lumdisko 'netinst' kaj vi ne uzas la retan "
+"spegularkivon, tiam la instalota sistemo estos nur baza kaj mininuma."
 
 #. Type: text
 #. Description
@@ -375,6 +436,8 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
+"Vi plenumas instaladon per lumdisko 'netinst' permesanta nur instaladon de "
+"mininuma baza sistemo. Uzu spegularkivon por instali pli kompletan sistemon."
 
 #. Type: text
 #. Description
@@ -383,6 +446,7 @@ msgstr ""
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
 msgstr ""
+"Vi plenumas instaladon per lumdisko enhavanta malampleksan kolekton de pakoj."
 
 #. Type: text
 #. Description
@@ -395,6 +459,8 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
+"Vi skanis %i lumdiskojn. Kvankam multaj pakoj ĉeestas, kelkaj povas manki "
+"(ĉefe, pakoj ebligantaj uzadon de diversaj lingvoj)."
 
 #. Type: text
 #. Description
@@ -406,6 +472,7 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
+"Vi skanis %i lumdiskojn. Kvankam multaj pakoj ĉeestas, kelkaj povas manki."
 
 #. Type: text
 #. Description
@@ -415,6 +482,8 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
+"Rimarku ke uzado de spegularkivo povas kaŭzi elŝutadon de granda kvanto da "
+"datumoj dum la sekvonta instaletapo."
 
 #. Type: text
 #. Description
@@ -424,6 +493,8 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
+"Vi plenumas instaladon per lumdiskego. Eĉ se ĝi enhavas ampleksan kolekton "
+"de pakoj, kelkaj povas manki."
 
 #. Type: text
 #. Description
@@ -434,6 +505,8 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
+"Krom se vi ne havas bonan interretan konekton, oni rekomendas uzon de "
+"spegularkivo, precipe se vi intencas instali grafikan labortablon."
 
 #. Type: text
 #. Description
@@ -443,20 +516,22 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
+"Se vi havas rapidan kaj altkvalitan interretan konekton, vi devus uzi "
+"spegularkivon. Precipe se vi intencas instali grafikan labortablon."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr ""
+msgstr "Skanado de la spegularkivo..."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr ""
+msgstr "Ĉu uzi neliberan programaron?"
 
 #. Type: boolean
 #. Description
@@ -468,6 +543,10 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
+"Kelkaj neliberaj programaroj funkcias kun Debiano. Kvankam tiu programaro "
+"tute ne apartenas al Debiano, ordinaran Debianan ilaron eblas uzi por "
+"instali ĝin. Tiu programaro trudas diversajn uzrajtojn kiuj povas malebligi "
+"ke vi uzu, modifu, aŭ distribuu ĝin."
 
 #. Type: boolean
 #. Description
@@ -479,14 +558,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr ""
+msgstr "Bonvolu elekti ĉu vi deziras disponi ĝin ĉiel ajn."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr ""
+msgstr "Ĉu uzi kontribuan programaron?"
 
 #. Type: boolean
 #. Description
@@ -498,6 +577,10 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
+"Kelkaj kromaj programoj funkcias kun Debiano. Kvankam tiu programaro estas "
+"libera, ĝi dependas de malliberaj programaroj por funkcii. Tiu programaro ne "
+"apartenas al Debiano, sed ordinaran Debianan ilaron povas esti uzata por "
+"instali ĝin."
 
 #. Type: boolean
 #. Description
@@ -525,7 +608,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr ""
+msgstr "Bonvolu informi tamen ĉu vi intencas disponi tiun ĉi programaron."
 
 #. Type: select
 #. Choices
@@ -534,13 +617,13 @@ msgstr ""
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr ""
+msgstr "Ŝanĝi spegularkivon"
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr ""
+msgstr "Elŝutado de dosiero malsukcesis:"
 
 #. Type: select
 #. Description
@@ -551,13 +634,16 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
+"La instalado ne sukcesis aliri la spegularkivon. Eble estas reta problemo, "
+"aŭ ĉe la spegularkivo. Vi reprovu elŝuton, elektu alian spegularkivon, aŭ "
+"preterpasu la problemon elektante daŭrigi sen ĉiuj pakoj el tiu spegularkivo."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr ""
+msgstr "Ĉu uzi retan spegularkivon?"
 
 #. Type: boolean
 #. Description
@@ -567,20 +653,23 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
+"Reta spegularkivo povas suplementi la programaron, kiu estas inkluzivitan "
+"en  la lumdisko. Tio povas ankaŭ disponigi pli novajn versiojn de "
+"programaroj."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr ""
+msgstr "Ĉu daŭrigi sen retan spegularkivon?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr ""
+msgstr "Neniu reta spegularkivo estis elektita."
 
 #. Type: boolean
 #. Description
@@ -588,7 +677,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr ""
+msgstr "Ĉu uzi limigitan programaron?"
 
 #. Type: boolean
 #. Description
@@ -601,6 +690,10 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
+"Kelkaj malliberaj programaroj disponeblas laŭ pakformo. Kvankam tiu ĉi "
+"programaro ne apartenas al la ĉefa eldono, ordinaraj pak-administriloj povas "
+"esti uzataj por instali ĝin. Tiu ĉi programaro prezentas diversajn uzrajtojn "
+"kiuj povas malebligi ke vi uzu, modifu, aŭ disdonu ĝin."
 
 #. Type: boolean
 #. Description
@@ -608,7 +701,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr ""
+msgstr "Ĉu uzi programaron el la pakaro 'universe'?"
 
 #. Type: boolean
 #. Description
@@ -620,6 +713,9 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
+"Kelkaj aldonaj programoj disponeblas laŭ pakformo. Kvankam tiu ĉi programaro "
+"estas libera kaj, kvankam ĝi ne apartenas al la ĉefa eldono, ordinaraj pak-"
+"administriloj povas esti uzataj por instali ĝin."
 
 #. Type: boolean
 #. Description
@@ -627,7 +723,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr ""
+msgstr "Ĉu uzi programaro el la pakaro 'multiverse'?"
 
 #. Type: boolean
 #. Description
@@ -641,6 +737,10 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
+"Kelkaj malliberaj programoj disponeblas laŭ pakformoj. Kvankam tiu ĉi "
+"programaro ne apartenas al la ĉefa eldono, ordinaraj pak-administriloj povas "
+"esti uzataj por instali ĝin. Tiu ĉi programaro prezentas diversajn uzrajtojn "
+"kiuj povas malebligi ke vi uzu, modifu, aŭ disdonu ĝin."
 
 #. Type: boolean
 #. Description
@@ -648,7 +748,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr ""
+msgstr "Ĉu uzi programaron el la deponejo \"partner\"?"
 
 #. Type: boolean
 #. Description
@@ -660,6 +760,9 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
+"Kelkaj aldonaj programaroj disponeblas el la deponejo \"partner\" de "
+"Canonical. Tiu ĉi programaro ne apartenas al Ubuntu, sed estas disponigata "
+"de Canonical kaj koncernaj vendantoj kiel servon al Ubunt-uzantoj."
 
 #. Type: boolean
 #. Description
@@ -667,7 +770,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr ""
+msgstr "Ĉu uzi retroportitan programaron?"
 
 #. Type: boolean
 #. Description
@@ -680,3 +783,7 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
+"Kelkaj programoj estas retroportitaj el la disvolviga arbo por funkcii kun "
+"tiu ĉi eldono. Kvankam tiu ĉi programaro ne estis testita samzorge kiel tiu "
+"de la eldono, ĝi povas enteni novajn versiojn de kelkaj aplikaĵoj kiuj povas "
+"provizi utilajn apartaĵojn."

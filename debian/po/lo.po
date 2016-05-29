@@ -3,6 +3,25 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# translation of lo.po to Lao
+# Lao translation of debian-installer.
+# Copyright (C) 2006-2010 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+#
+# Anousak Souphavanh <anousak@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: lo\n"
+"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
+"PO-Revision-Date: 2012-04-25 09:05+0700\n"
+"Last-Translator: Anousak Souphavanh <anousak@gmail.com>\n"
+"Language-Team: Lao <lo@li.org>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 #. Type: text
 #. Description
 #. Main menu item
@@ -10,7 +29,7 @@
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr ""
+msgstr "ຕັ້ງຄ່າໂປຣແກມຈັດການແພກເກັດ"
 
 #. Type: text
 #. Description
@@ -19,42 +38,44 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr ""
+msgstr "ກຳລັງຕັ້ງຄ່າ apt"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr ""
+msgstr "ກຳລັງດຳເນີນການ ${SCRIPT}..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr ""
+msgstr "ກຳລັງສຳຫລວດຄັງແພກເກັດທ້ອງຖີ່ນ..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr ""
+msgstr "ກຳລັງສຳຫລວດຄັງແພກເກັດໃໝ່ສຳຫລັບແກ້ປັນຫາລະບົບຄວາມປອດໄພ..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
+#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr ""
+msgstr "ກຳລັງສຳຫລວດຄັງແພກເກັດໃໝ່ສຳຫລັບແກ້ປັນຫາລະບົບຄວາມປອດໄພ..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
+#, fuzzy
 msgid "Scanning the backports repository..."
-msgstr ""
+msgstr "ກຳລັງສຳຫລວດຄັງແພກເກັດໃໝ່ສຳຫລັບແກ້ປັນຫາລະບົບຄວາມປອດໄພ..."
 
 #. Type: select
 #. Choices
@@ -63,7 +84,7 @@ msgstr ""
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr ""
+msgstr "ລອງໄໝ່"
 
 #. Type: select
 #. Choices
@@ -72,13 +93,13 @@ msgstr ""
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr ""
+msgstr "ປ່ອຍປະ"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr ""
+msgstr "ດາວໂຫຼດກະເເຈຫ້ອງເກັບບໍ່ສຳເລັດ:"
 
 #. Type: select
 #. Description
@@ -88,7 +109,7 @@ msgstr ""
 msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
-msgstr ""
+msgstr "ໂປຣແກມຕິດຕັ້ງບໍ່ສາມາດດາວໂລດກະເເຈທົ່ວໄປເພື່ອໃຊ້ເຊັນທີ່ເກັບຂໍ້ມູນ ທີ່ ${MIRROR}:"
 
 #. Type: select
 #. Description
@@ -98,13 +119,16 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
+"ໂປຣແກມຕິດຕັ້ງບໍ່ສາມາດເຂົ້າຮອກແຫລ່ງສຳເນົາໄດ້ ອາດເກີດຈາກປັນຫາໃນເຄືອຂ່າຍຂອງທ່ານ. "
+"ຫລືເປັນປັນຫາໃນໂຕແຫລ່ງຂໍ້ມູນເອງ ທ່ານສາມາດເລືອກທີ່ຈະລອງດາວໂຫລດໃໝ່ ຫລືເລືອກແຫລ່ງຂໍ້ມູນອື່ນ "
+"ຫລືຜ່ານປັນຫານີ້ແລ້ວຕິດຕັ້ງຕໍ່ໄປໂດຍບໍ່ໃຊ້ແພກເກັດຈາກແຫລ່ງຂໍ້ມູນນີ້."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr ""
+msgstr "ບໍ່ສາມາດເຂົ້າເຖີງຄັງແພັກເກັດສຳລັບແກ້ປັນຫາລະບົບຄວາມປອດໄພ"
 
 #. Type: error
 #. Description
@@ -114,6 +138,8 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
+"ບໍ່ສາມາດເຂົ້າເຖີງຄັງແພັກເກັດທີ່ ${HOST}ໄດ້ "
+"ເຈົ້າຈຶ່ງບໍ່ສາມາດໃຊ້ແພັກເກັດປັບລຸ້ນຈານບອ່ນນັ້ນໄດ້ໃນຕອນນີ້ເຈົ້າຄວນກັບມາກວດເບິ່ງເລື່ອງນີ້ໃໝ່ໃນພາຍຫຼັງ"
 
 #. Type: error
 #. Description
@@ -123,6 +149,7 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
+"ໂປແກຣັມໄດ້ເພີ້ມເສັ້ນສຳລັບ ${HOST}ໃນແຟັມ/etc/apt/sources.list ໄວ້ໃຫ້ແລ້ວໂດຍໃສ່ ຄໍາເຫັນໄວ້."
 
 #. Type: multiselect
 #. Choices
@@ -141,8 +168,9 @@ msgstr ""
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
+#, fuzzy
 msgid "release updates"
-msgstr ""
+msgstr "ລົບຂໍ້ມູນ:"
 
 #. Type: multiselect
 #. Choices
@@ -151,15 +179,17 @@ msgstr ""
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
+#, fuzzy
 msgid "backported software"
-msgstr ""
+msgstr "ຈະໃຊ້ຊອບແວ້ຍ້າຍກັບຫຼືບໍ່?"
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
+#, fuzzy
 msgid "Services to use:"
-msgstr ""
+msgstr "ເຊີບເວີ NTP ທີ່ຈະໃຊ້"
 
 #. Type: multiselect
 #. Description
@@ -194,6 +224,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
+#, fuzzy
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -202,6 +233,9 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
+"ຊອບແວ້ບາງໂຕຖືກຍ້າຍກັບມາຈາກສາຍງານພັດທະນາ ເພື່ອໃຫ້ເຮັດງານກັບລຸ້ນນີ້ໄດ້ "
+"ຖ້າຊອບແວ້ເຫຼົ່ານີ້ຈະບໍ່ໄດ້ຜ່ານຂະບວນການທົດສອບຢ່າງສົມບູນຄືທີ່ໃນລຸ່ນກະແຈກກະຈາຍ ແຕ່ກໍມີໂປແກຣັມລຸ້ນໃໝ່ໆ "
+"ທີ່ອາດຈະມີຄວາມສາມາດທີ່ເປັນປະໂຫຍດ "
 
 #. Type: boolean
 #. Description
@@ -226,14 +260,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr ""
+msgstr "ກຳລັງສຳຫລວດຂໍ້ມູນໃນຊີດີຣອມ..."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr ""
+msgstr "ເກີດປັນຫາລະຫວ່າງຕັ້ງຄ່າ apt"
 
 #. Type: error
 #. Description
@@ -242,7 +276,7 @@ msgstr ""
 msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
-msgstr ""
+msgstr "ຕັ້ງຄ່າ apt ເພື່ອການຕິດຕັ້ງແພັກເກັດເພີ້ມເຕີມຈາກຊີດີລອ້ມບໍ່ສຳເລັດ "
 
 #. Type: boolean
 #. Description
@@ -259,14 +293,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr ""
+msgstr "ຈະສຳຫລວດຂໍ້ມູນຊີດີ ຫລື ດີວີດີແຜ່ນອື່ນອີກຫລືບໍ່?"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr ""
+msgstr "ແຜ່ນຊີດີ ຫລື ດີວີດີຕິດຕັ້ງຂອງທ່ານຜ່ານການສຳຫລວດຂໍ້ມູນຮຽບຮ້ອຍ ປ້າຍຊື່ແຜ່ນຄື:"
 
 #. Type: boolean
 #. Description
@@ -278,6 +312,9 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
+"ທ່ານສາມາດເລືອກສຳຫລວດຂໍ້ມູນແຜ່ນຊີດີຕື່ມ ເພື່ອໃຊ້ກັບໂປຣແກມຈັການແພກເກັດ (apt) ໄດ້ໂດຍປົກກະຕິແລ້ວ "
+"ແຜ່ນເຫລົ່ານີ້ຈະຢູ່ໃນຊຸດດຽວກັບແຜ່ນຊີດີ/ດີວີດີຕິດຕັ້ງ ຖ້າທ່ານບໍ່ມີຊີດີ ຫລື ດີວີດີແຜ່ນອື່ນອີກແລ້ວ "
+"ກໍ່ສາມາດຂ້າມຂັ້ນຕອນນີ້ໄປໄດ້ "
 
 #. Type: boolean
 #. Description
@@ -287,28 +324,28 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr ""
+msgstr "ຖ້າທ່ານຕ້ອງການສຳຫລວດຂໍ້ມູນຊີດີ ຫລື ດີວີດີແຜ່ນອື່ນຕື່ມ ກໍ່ກະລຸນາໃສ່ແຜ່ນໄດ້"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr ""
+msgstr "ສຳຫລວດຂໍ້ມູນແຜ່ນຊີດີ ຫລື ດີວີດີຕໍ່ໄປນີ້ຮຽບຮ້ອຍແລ້ວ:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr ""
+msgstr "ໄດ້ສຳຫລວດຂໍ້ມູນແຜ່ນຊີດີ ຫລື ດີວີດີຊື່ຕໍ່ໄປນີ້ໄປແລ້ວ:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr ""
+msgstr "ກະລຸນາໃສ່ແຜ່ນອື່ນແທນຖ້າທ່ານຕ້ອງການສຳຫລວດຂໍ້ມູນຊີດີ ຫລື ດີວີດີແຜ່ນອື່ນຕື່ມ"
 
 #. Type: boolean
 #. Description
@@ -317,14 +354,14 @@ msgstr ""
 msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
-msgstr ""
+msgstr "ຕັ້ງຄ່າ apt ເພື່ອການຕິດຕັ້ງແພກເກັດຕື່ມຈາກຊີດີ/ດີວີດີບໍ່ສຳເລັດ"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr ""
+msgstr "ກະລຸນາກວດສອບໃຫ້ມັ່ນໃຈວ່າທ່ານໄດ້ໃສ່ແຜ່ນຊີດີ/ດີວີດີຢ່າງຖືກຕ້ອງ"
 
 #. Type: text
 #. Description
@@ -333,7 +370,7 @@ msgstr ""
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr ""
+msgstr "ປ່ຽນແຜ່ນ"
 
 #. Type: text
 #. Description
@@ -344,7 +381,7 @@ msgstr ""
 msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
-msgstr ""
+msgstr "/cdrom/:ກະລຸນາໃສ່ແຜ່ນຊື່: '${LABEL}' ລົງໃນໄດຣ '/cdrom/' ແລ້ວກົດ enter"
 
 #. Type: text
 #. Description
@@ -352,7 +389,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr ""
+msgstr "ກຳລັງປິດການໃຊ້ງານຊີດີ netinst ใน sources.list..."
 
 #. Type: text
 #. Description
@@ -365,6 +402,8 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
+"ຖ້າທ່ານກຳລັງຕິດຕັ້ງຈາກແຜ່ນຊີດີ netinst ແຕ່ເລືອກທີ່ຈະບໍ່ໃຊ້ແຫລ່ງສຳເນົາໃນເຄືອຂ່າຍ "
+"ທ່ານຈະໄດ້ແຕ່ລະບົບພື້ນຖານທີ່ຈຳກັດຫລາຍໆ."
 
 #. Type: text
 #. Description
@@ -375,6 +414,8 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
+"ທ່ານກຳລັງຕິດຕັ້ງຈາກແຜ່ນຊີດີ netinst ເຊີ່ງໂດຍໂຕຂອງມັນເອງສາມາດຕິດຕັ້ງໄດ້ແຕ່ລະບົບພື້ນຖານທີ່ຈຳກັດຫລາຍໆ "
+"ທ່ານຄວນຕິດຕັ້ງແພກເກັດຕື່ມຈາກແຫລ່ງສຳເນົາແພກເກັດ ເພື່ອໃຫ້ໄດ້ລະບົບທີ່ສົມບູນຍິ່ງຂື້ນ."
 
 #. Type: text
 #. Description
@@ -382,7 +423,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:11001
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
-msgstr ""
+msgstr "ທ່ານກຳລັງຕິດຕັ້ງຈາກຊີດີ ເຊີ່ງມີແພກເກັດຈຳນວນຈຳກັດ."
 
 #. Type: text
 #. Description
@@ -395,6 +436,8 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
+"ທ່ານໄດ້ສຳຫລວດຂໍ້ມູນຊີດີ%i ແຜ່ນ ເຊີ່ງເຖີງແມ່ນຈະມີແພກເກັດເປັນຈຳນວນຫລາຍ "
+"ແຕ່ບາງແພກເກັດກໍ່ອາດຂາດໄປ(ໂດຍສະເພາະແພກເກັດທີ່ຈຳເປັນສຳຫລັບການຮອງຮັບພາສາທີ່ບໍ່ໃຊ້ພາສາອັງກິດ) "
 
 #. Type: text
 #. Description
@@ -406,6 +449,7 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
+"ທ່ານໄດ້ສຳຫລວດຂໍ້ມູນຊີດີ %i ແຜ່ນ ເຊີ່ງເຖີງແມ່ນຈະມີແພກເກັດເປັນຈຳນວນຫລາຍ ແຕ່ບາງແພກເກັດກໍ່ອາດຂາດໄປ."
 
 #. Type: text
 #. Description
@@ -415,6 +459,7 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
+"ຢ່າລືມວ່າ ການໃຊ້ແຫລາງສຳເນົາແພກເກັດອາດເຮັດໃຫ້ມີການດາວໂຫລດຂໍ້ມູນຈຳນວນຫລາຍໃນຂັ້ນຕອນຕໍ່ໆໄປ."
 
 #. Type: text
 #. Description
@@ -424,6 +469,7 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
+"ທ່ານກຳລັງຕິດຕັ້ງຈາກດີວີດີ ເຖີງແມ່ນແຜ່ນຊີດີຈະມີແພກເກັດເປັນຈຳນວນຫລາຍ ແຕ່ບາງແພກເກັດກໍ່ອາດຂາດໄປ."
 
 #. Type: text
 #. Description
@@ -434,6 +480,8 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
+"ຫາກທ່ານບໍ່ຕິດຂໍ້ຈຳກັດເລື່ອງການຕໍ່ອິນເທີເນັດແລ້ວ ເຮົາຂໍແນະນຳຢ່າງຍິ່ງໃຫ້ທ່ານໃຊ້ແຫລ່ງສຳເນົາແພກເກັດຮ່ວມນຳ "
+"ໂດຍສະເພາະທ່ານຈະຕິດຕັ້ງສະພາບແວດລ້ອມເດສທ໋ອບແບບກາບຟິກ."
 
 #. Type: text
 #. Description
@@ -443,20 +491,22 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
+"ຫາກທ່ານບໍ່ຕິດຂໍ້ຈຳກັດເລື່ອງການຕໍ່ອິນເທີເນັດແລ້ວ ເຮົາຂໍແນະນຳຢ່າງຍິ່ງໃຫ້ທ່ານໃຊ້ແຫລ່ງສຳເນົາແພກເກັດຮ່ວມນຳ "
+"ໂດຍສະເພາະທ່ານຈະຕິດຕັ້ງສະພາບແວດລ້ອມເດສທ໋ອບແບບກາບຟິກ."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr ""
+msgstr "ກຳລັງສຳຫລວດແຫລ່ງສຳເນົາ..."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr ""
+msgstr "ຈະໃຊ້ຊອບແວຣ໌ໍ່ເສຣີຫລືອບໍ່?"
 
 #. Type: boolean
 #. Description
@@ -468,6 +518,10 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
+"ຊອບແວຣບໍ່ເສຣີບາງໂຕ ໄດ້ຖືກເຮັດໃຫ້ໃຊ້ງານກັບເດບຽນໄດ້ "
+"ຫາກແມ່ນວ່າຊອບແວຣເຫລົ່ານີ້ຈະບໍ່ແມ່ນສ່ວນໜຶ່ງຂອງເດບຽນແຕ່ຢ່າງໃດ "
+"ແຕ່ກໍ່ສາມາດໃຊ້ເຄື່ອງມືມາດຕະຖານຂອງເດບຽນໃນການຕິດຕັ້ງໄດ້ ເດບຽນເຫລົ່ານີ້ໃຊ້ສັນຍາອະນຸຍາດຕ່າງໆກັນໄປ "
+"ເຊີ່ງອາດຫ້າມທ່ານບໍ່ໃຫ້ໃຊ້ແກ້ໄຂຫລືແບ່ງປັນກໍ່ໄດ້."
 
 #. Type: boolean
 #. Description
@@ -479,14 +533,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr ""
+msgstr "ກະລຸນາເລືອກວ່າທ່ານຕ້ອງການຈະໃຫ້ມີຊອບແວຣເຫລົ່ານີ້ໄວ້ຕິດຕັ້ງຫລືບໍ່."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr ""
+msgstr "ຈະໃຊ້ຊອບແວຣສົມທົບຫລືບໍ່?"
 
 #. Type: boolean
 #. Description
@@ -498,6 +552,9 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
+"ຊອບແວຣສົມທົບບາງໂຕ ໄດ້ຖືກເຮັດໃຫ້ໃຊ້ງານກັບເດບຽນໄດ້ ຫາກແມ່ນວ່າຊອບແວຣເຫລົ່ານີ້ຈະເສຣີ "
+"ແຕ່ກໍ່ຕ້ອງອາໃສຊອບແວຣບໍ່ເສຣີປະກອບການເຮັດວຽກ ຊອບແວຣເຫລົ່ານີ້ບໍ່ແມ່ນສ່ວນໜຶ່ງຂອງເດບຽນ "
+"ແຕ່ກໍ່ສາມາດໃຊ້ເຄື່ອງມືມາດຕະຖານຂອງເດບຽນໃນການຕິດຕັ້ງໄດ້."
 
 #. Type: boolean
 #. Description
@@ -525,7 +582,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr ""
+msgstr "ກະລຸນາວ່າທ່ານຕ້ອງການຈະໃຫ້ມີຊອບແວຣເຫລົ່ານີ້ໄວ້ຕິດຕັ້ງຫລືບໍ່."
 
 #. Type: select
 #. Choices
@@ -534,13 +591,13 @@ msgstr ""
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr ""
+msgstr "ປຽນແຫ່ງສຳເນົາ"
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr ""
+msgstr "ດາວໂຫຼດແຟ້ມບໍ່ສຳເລັດ:"
 
 #. Type: select
 #. Description
@@ -551,13 +608,16 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
+"ໂປຣແກມຕິດຕັ້ງບໍ່ສາມາດເຂົ້າຮອກແຫລ່ງສຳເນົາໄດ້ ອາດເກີດຈາກປັນຫາໃນເຄືອຂ່າຍຂອງທ່ານ "
+"ຫລືເປັນປັນຫາໃນໂຕແຫລ່ງຂໍ້ມູນເອງ ທ່ານສາມາດເລືອກທີ່ຈະລອງດາວໂຫລດໃໝ່ ຫລືເລືອກແຫລ່ງຂໍ້ມູນອື່ນ "
+"ຫລືຜ່ານປັນຫານີ້ແລ້ວຕິດຕັ້ງຕໍ່ໄປໂດຍບໍ່ໃຊ້ແພກເກັດຈາກແຫລ່ງຂໍ້ມູນນີ້."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr ""
+msgstr "ຈະໃຊ້ແຫລ່ງສຳເນົາໃນເຄືອຂ່າຍຫລືບໍ່?"
 
 #. Type: boolean
 #. Description
@@ -567,20 +627,22 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
+"ແຫລ່ງສຳເນົາໃນເຄືອຂ່າຍ ສາມາດໃຊ້ເປັນແຫລ່ງເສີມສຳຫລັບຊອບແວຣທີ່ໄດ້ຮ່ວມມາໃນຊີດີຣອມ "
+"ລວມທັ້ງສາມາດໃຊ້ຮັບລຸ້ນຊອບແວຣເປັນລຸ້ນໃໝ່ໆ ໄດ້ນຳ."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr ""
+msgstr "ຈະເຮັດວຽກຕໍ່ໂດຍບໍ່ມີແຫຼ່ງສຳເນົາໃນເຄືອຂ່າຍຫຼືບໍ່?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr ""
+msgstr "ຍັງບໍ່ໄດ້ເລືອກແຫຼ່ງສຳເນົາໃນເຄືອຂ່າຍ"
 
 #. Type: boolean
 #. Description
@@ -588,7 +650,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr ""
+msgstr "ຈະໃຊ້ຊອບແວ້ກຳຈັດສິດທິຫຼືບໍ່?"
 
 #. Type: boolean
 #. Description
@@ -601,6 +663,9 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
+"ຊອບແວ້ບໍ່ອິດສະຫຼະບາງໂຕ ມີໃຫ້ຕິດຕັ້ງໃນຮູບແບບແພັກເກັດ "
+"ແຕ່ຊອບແວ້ເຫຼົ່ານີ້ຈະບໍ່ໃຊ້ສວ່ນໜື່ງຂອງຊຸດກະແຈກກະຈາຍຫຼັກແຕ່ກາສາມາດໃຊ້ເຄື່ອງມືຈັດການແພັກເກັດມາດຕະຖານໃນການຕິດຕັ້ງໄດ້ "
+"ຊອບແວ້ເຫຼົ່ານີ້ໃຊ້ສັນຍາອະນຸຍາດຕ່າງໆ ກັນໄປເຊິ່ງອາດຈະຫ້າມເຈົ້າບໍ່ໃຫ້ໃຊ້ ແກ້ໄຂຫຼືແບ່ງປັນກະໄດ້ "
 
 #. Type: boolean
 #. Description
@@ -608,7 +673,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr ""
+msgstr "ຈະໃຊ້ຊອບແວ້ຈາກອົງປະກອບ \"universe\"ຫຼືບໍ່?"
 
 #. Type: boolean
 #. Description
@@ -620,6 +685,9 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
+"ຊອບແວ້ເພີ້ມເຕີມບາງໂຕມີໃຫ້ຕິດຕັ້ງໃນຮູບແບບແພັກເກັດ ຊອບແວ້ເຫຼົ່ານີ້ເປັນຊອບແວ້ເສລີ "
+"ແລະຖ້າຈະບໍ່ໃຊ້ສວ່ນໜື່ງຂອງຊຸດກະແຈກກະຈາຍຫຼັກ "
+"ແຕ່ກາສາມາດໃຊ້ເຄື່ອງມືຈັດການແພັກເກັດມາດຕະຖານໃນການຕິດຕັ້ງໄດ້ "
 
 #. Type: boolean
 #. Description
@@ -627,7 +695,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr ""
+msgstr "ຈະໃຊ້ຊອບແວ້ຈາກອັງປະກອບ \"multiverse\" ຫຼືບໍ່?"
 
 #. Type: boolean
 #. Description
@@ -641,6 +709,10 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
+"ຊອບແວ້ອິດສະຫຼະບາງໂຕມີໃຫ້ຕິດຕັ້ງໃນຮູບແບບແພັກເກັດ "
+"ຖ້າຊອບແວ້ເຫຼົ່ານີ້ຈະບໍ່ໃຊ້ສ່ວນໜື່ງກະແຈກກະຈາຍຫຼັກແຕ່ກາສາມາດໃຊ້ເຄື່ອງມືຈັດການແພັກເກັດມາດຕະຖານໃນການຕິດຕັ້ງໄດ້ "
+"ຊອບແວ້ເຫຼົ່ານີ້ໃຊ້ສັນຍາອະນຸຍາດຕ່າງກັນໄປ ແລະໃມບາງກໍລະນີອາດມີສິດທິບັດຄຸ້ມຄອງ "
+"ຊື່ງອາດຈະຫ້າມເຈົ້າບໍ່ໃຫ້ໃຊ້ແກ້ໄຂແບ່ງປັນກໍໄດ້ "
 
 #. Type: boolean
 #. Description
@@ -648,7 +720,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr ""
+msgstr "ຈະໃຊ້ຊອບແວ້ຈາກອົງປະກອບ \"partner\"ຫຼືບໍ່?"
 
 #. Type: boolean
 #. Description
@@ -660,6 +732,8 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
+"ຊອບແວ້ເພີ້ມເຕີມບາງໂຕມີໃຫ້ຕິດຕັ້ງຈາກຄັງ \"partner\" ຂອງ Canonical ຊອບແວລ໌ເຫຼົ່ານີ້ບໍ່ໃຊ້ສວ່ນໜື່ງຂອງ "
+"Ubuntu ແຕ່ຈັດຕຽມໃຫ້ໂດຍ Canonical ແລະຜູ້ຈັດຈຳໜ່າຍອື່ນໆເພື່ອເປັນບໍລິການສຳລັບຜູ້ໃຊ້ Ubuntu"
 
 #. Type: boolean
 #. Description
@@ -667,7 +741,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr ""
+msgstr "ຈະໃຊ້ຊອບແວ້ຍ້າຍກັບຫຼືບໍ່?"
 
 #. Type: boolean
 #. Description
@@ -680,3 +754,6 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
+"ຊອບແວ້ບາງໂຕຖືກຍ້າຍກັບມາຈາກສາຍງານພັດທະນາ ເພື່ອໃຫ້ເຮັດງານກັບລຸ້ນນີ້ໄດ້ "
+"ຖ້າຊອບແວ້ເຫຼົ່ານີ້ຈະບໍ່ໄດ້ຜ່ານຂະບວນການທົດສອບຢ່າງສົມບູນຄືທີ່ໃນລຸ່ນກະແຈກກະຈາຍ ແຕ່ກໍມີໂປແກຣັມລຸ້ນໃໝ່ໆ "
+"ທີ່ອາດຈະມີຄວາມສາມາດທີ່ເປັນປະໂຫຍດ "

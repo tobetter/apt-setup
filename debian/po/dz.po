@@ -3,6 +3,31 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# translation of dz.po to Dzongkha
+# Translation of debian-installer level 1 Dzongkha
+# Debian Installer master translation file template
+# Copyright @ 2006 Free Software Foundation, Inc.
+# Sonam Rinchen <somchen@druknet.bt>, 2006.
+#
+#
+# Translations from iso-codes:
+#   Free Software Foundation, Inc., 2006
+#   Kinley Tshering <gaseokuenden2k3@hotmail.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dDz.po\n"
+"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"Language: dz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #. Type: text
 #. Description
 #. Main menu item
@@ -10,7 +35,7 @@
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr ""
+msgstr "ཐུམ་སྒྲིལ་འཛུན་སྐྱོང་པ་འདི་རིམ་སྒྲིག་འབད།"
 
 #. Type: text
 #. Description
@@ -19,42 +44,43 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr ""
+msgstr "apt རིམ་སྒྲིག་འབད་དོ།"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr ""
+msgstr "${SCRIPT}...འདི་གཡོག་བཀོལ་དོ།"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr ""
+msgstr "ཉེ་གནས་མཛོད་གནས་ཚུ་ཞིབ་ལྟ་འབད་དོ..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr ""
+msgstr "མཛོད་གནས་སྲུང་སྐྱོབ་དུས་མཐུན་བཟོ་ནི་ཚུ་ཞིབ་ལྟ་འབད་དོ..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr ""
+msgstr "ཞིབ་ལྟ་དང་ གསར་སྟོན་དུས་མཐུན་མཛོད་གནས..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
+#, fuzzy
 msgid "Scanning the backports repository..."
-msgstr ""
+msgstr "ཞིབ་ལྟ་དང་ གསར་སྟོན་དུས་མཐུན་མཛོད་གནས..."
 
 #. Type: select
 #. Choices
@@ -63,7 +89,7 @@ msgstr ""
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr ""
+msgstr "སླར་འབད་རྩོལ་"
 
 #. Type: select
 #. Choices
@@ -72,13 +98,14 @@ msgstr ""
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr ""
+msgstr "སྣང་མེད་བཞག་"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
+#, fuzzy
 msgid "Downloading local repository key failed:"
-msgstr ""
+msgstr "ཕབ་ལེན་འབད་དོ་ ཡིག་སྣོད་འཐུས་ཤོར་བྱུང་ཡོད:"
 
 #. Type: select
 #. Description
@@ -93,18 +120,23 @@ msgstr ""
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
+#, fuzzy
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
+"ངོ་འཆར་འཛུལ་སྤྱོད་འབད་ནི་ལུ་གཞི་བཙུགས་པ་འཐུས་ཤོར་བྱུང་ཡོདཔ། འ་ནི་འདི་ངོ་འཆར་མཉམ་དང་ ཡང་ན་ ཁྱོད་"
+"ཀྱི་ཡོངས་འབྲེལ་དང་མཉམ་དཀའ་ངལ་ཨིནམ་འོང་། ཁྱོད་ཀྱིས་ཕབ་ལེན་སླར་ལོག་འབད་རྩོལ་བསྐྱེད་ནི་ལུ་གདམ་ཁ་རྐྱབ་"
+"ཚུགས་ ངོ་འཆར་སོ་སོ་སེལ་འཐུ་འབད་ ཡང་ན་ དཀའ་ངལ་འདི་སྣང་མེད་བཞག་ནི་དང་ངོ་འཆར་འདི་ལས་ཐུམ་སྒྲིལ་ཚུ་"
+"ཆ་མཉམ་མེད་པར་འཔྲོ་མཐུད་འབད།"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr ""
+msgstr "མཛོད་གནས་འཛུལ་སྤྱོད་འབད་མི་བཏུབ་"
 
 #. Type: error
 #. Description
@@ -114,6 +146,8 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
+"${HOST} གུ་ཡོད་པའི་མཛོད་གནས་འདི་ དུས་མཐུན་བཟོ་མ་ཚུགསཔ་ལས་ དེ་གི་དུས་མཐུན་བཟོ་ཡོད་མི་ཚུ་ སྐབས་"
+"ཅིག་འཐོབ་མི་ཚུགས། འདི་ཤུལ་ལས་ཞིབ་དཔྱད་འབད་དགོ།"
 
 #. Type: error
 #. Description
@@ -123,6 +157,8 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
+"བསམ་བཀོད་ཅན་གྱི་ཐོ་བཀོད་ཚུ་ ${HOST} གི་དོན་ལུ་  /etc/apt/sources.list file ལུ་ཁ་སྐོང་འབད་"
+"ཡོདཔ་ཨིན།"
 
 #. Type: multiselect
 #. Choices
@@ -132,7 +168,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr ""
+msgstr "(${SEC_HOST}ནང་ལས་) སྲུང་སྐྱོབ་དུས་མཐུན་"
 
 #. Type: multiselect
 #. Choices
@@ -142,7 +178,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr ""
+msgstr "གསར་སྟོན་དུས་མཐུན།"
 
 #. Type: multiselect
 #. Choices
@@ -151,15 +187,16 @@ msgstr ""
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
+#, fuzzy
 msgid "backported software"
-msgstr ""
+msgstr "ལོག་འདྲེན་ལམ་འབད་ཡོད་མི་མཉེན་ཆས་ལག་ལུན་འཐབ?"
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr ""
+msgstr "ལག་ལེན་འཐབ་ནིའི་ཞབས་ཏོག་ཚུ་:"
 
 #. Type: multiselect
 #. Description
@@ -169,6 +206,8 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
+"ཌི་བི་ཡཱན་ལུ་ དུས་མཐུན་་ཚུ་གསར་སྟོན་འབད་ནའི་ཞབས་ཏོག་གཉིས་ཡོདཔ་ཨིན : སྲུང་སྐྱོབ་དང་ གསར་སྟོན་དུས་"
+"མཐུན་ཚུ།"
 
 #. Type: multiselect
 #. Description
@@ -178,6 +217,8 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
+"སྲུང་སྐྱོབ་ཀྱིས་ ཁྱོད་རའི་རིམ་ལུགས་འདི་ གཞན་གྱིས་མ་གནོད་པར་བཞག་ནི་གི་གྲོགས་རམ་འདི་ དུས་མཐུན་བཟོཝ་ཨིན། "
+"ཞབས་ཏོག་འདི་ལྕོགས་ཅན་བཟོ་ནི་ལུ་ འོས་སྦྱོར་སྦོམ་སྦེ་འབད་དེ་ཡོདཔ་ཨིན།"
 
 #. Type: multiselect
 #. Description
@@ -189,11 +230,16 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
+"གསར་སྟོན་དུས་མཐུན་ཚུ་གིས་ ཧ་ཅང་གིས་འཕྲལ་འཕྲལ་རང་བསྒྱུར་བཅོས་འགྱོ་མི་ཉེན་ཆས་ཚུ་ལུ་ ཐོན་རིམ་གསརཔ་ཚུ་"
+"བྱིནམ་ཨིནམ་དང་ ཐོན་རིམ་གསར་ཤོས་མེད་མི་འདི་གིས་ མཉེན་ཆས་འདི་གི་ཕན་ཐོགས་མར་ཕབ་འབདཝ་ཨིན། དེ་མ་"
+"ཚད་ རི་གེ་རེ་ཤཱན་ ཡང་ བྱིནམ་ཨིན། ཞབས་ཏོག་འདི་ གསར་སྟོན་ རྩ་བརྟན་ དང་ རྩ་བརྟན་རྙིངམ་ཚུ་གི་དོན་ལུ་"
+"རྐྱངམ་ཅིག་འཐོབ་ཚུགསཔ་ཨིན།"
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
+#, fuzzy
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -202,6 +248,10 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
+"གསར་བཏོན་འ་ནི་དང་མཉམ་ལཱ་འབད་ནི་ལུ་རྩ་འབྲེལ་གོང་འཕེལ་འདི་ལས་མཉེན་ཆས་ལ་ལོ་ཅིག་ལོག་འདྲེན་ལམ་འབད་"
+"འདི་ཡོད། འ་ནི་མཉེན་ཆས་ཚུ་གསར་བཏོན་ནང་ལུ་ཡོད་པའི་མཇུག་བསྡུ་བརྟག་ཞིབ་འབད་ནི་བཟུམ་མའི་ཐོག་ཁ་ལས་མ་"
+"འགྱོ་རུང་ འདི་གློག་རིམ་ལ་ལུ་ཚུ་གྱི་ཐོན་རིམ་གསརཔ་ཚུ་གྲངས་སུ་བཙུགསཔ་ཨིནམ་ལས་ཕན་ཐོག་ཅན་གྱི་ཁྱད་རྣམ་ཚུ་"
+"བྱིན་ནི་འོང་།"
 
 #. Type: boolean
 #. Description
@@ -226,14 +276,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr ""
+msgstr "སི་ཌི་-རོམ་ ཞིབ་ལྟ་འབད་དོ..."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr ""
+msgstr "apt རིམ་སྒྲིག་འབད་ནི་ལུ་དཀའ་ངལ།"
 
 #. Type: error
 #. Description
@@ -243,6 +293,8 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
+"སི་ཌི་ལས་ཐུམ་སྒྲིལ་ཚུ་ཁ་སྐོང་གཞི་བཙུགས་འབད་ནི་ལུ་apt རིམ་སྒྲིག་འབད་ནི་ལུ་དཔའ་བཅམ་མི་འདི་འཐུས་ཤོར་བྱུང་"
+"ཡོདཔ།"
 
 #. Type: boolean
 #. Description
@@ -259,14 +311,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr ""
+msgstr "དོ་རུང་ སི་ཌི་ ཡང་ན་ ཌི་བི་ཌི་ ཞིབ་ལྟ་འབད་ནི་ཨིན་ན་?"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr ""
+msgstr "ཁྱོད་ཀྱི་གཞི་བཙུགས་ སི་ཌི་ ཡང་ན་ ཌི་བི་ཌི་འདི་ ཞིབ་ལྟ་འབད་ནུག དེའི་ཁ་ཡིག་ཡང་:"
 
 #. Type: boolean
 #. Description
@@ -278,6 +330,10 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
+"ད་འབདན་ཁྱོད་ལུ་ ཐུམ་སྒྲིལ་འཛིན་སྐྱོང་པ་(apt) གིས་ ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ ཁ་སྐོང་ཅན་གྱི་སི་ཌི་ ཡང་"
+"ན་ ཌི་བི་ཌི་སོར་སོ་སྦེ་ ཞིབ་ལྟ་འབད་ནིའི་གདམ་ཁ་ཡོད། སྤྱིར་བཏང་ལུ་ གཞི་བཙུགས་ སི་ཌི་/ཌི་བི་ཌི་བཟུམ་སྦེ་ "
+"གཅིག་སྦེ་འོང་དགོཔ་ཨིན། ཁྱོད་ལུ་ ཁ་སྐོང་ཅན་གྱི་གཞི་བཙུགས་སི་ཌི་ ཡང་ན་ ཌི་བི་ཌི་ཚུ་ ལངམ་སྦེ་མེད་པ་ཅིན་ "
+"བགོམ་འགྱོ། "
 
 #. Type: boolean
 #. Description
@@ -287,28 +343,28 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr ""
+msgstr "དོ་རུང་ སི་ཌི་/ཌི་བི་ཌི་གཞན་མི་ཅིག་ ཞིབ་ལྟ་འབད་ནི་ཨིན་པ་ཅིན་ ད་ལྟོ་བཙུགས།"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr ""
+msgstr "སི་ཌི་/ཌི་བི་ཌི་འདི་ འོག་གི་ཁ་ཡིག་དང་བཅས་ ཞིབ་ལྟ་འབད་ཡོདཔ་:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr ""
+msgstr "སི་ཌི་/ཌི་བི་ཌི་འདི་ འོག་གི་ཁ་ཡིག་དང་བཅས་ ཧེ་མ་ལས་ཞིབ་ལྟ་འབད་ཡོདཔ་:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr ""
+msgstr "ཁྱོད་ཀྱིས་ སི་ཌི་/ཌི་བི་ཌི་སོར་སོ་ ཞིབ་ལྟ་འབད་ནི་ཨིན་པ་ཅིན་ ད་ལྟོ་ར་ཚབ་མ་བཙུགས།"
 
 #. Type: boolean
 #. Description
@@ -318,13 +374,15 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
 msgstr ""
+"སི་ཌི་/ཌི་བི་ཌི་ནང་ལས་ ཐུམ་སྒྲིལ་ཁ་སྐོང་ གཞི་བཙུགས་འབད་ནི་ལུ་apt རིམ་སྒྲིག་འབད་ནིའི་དཔའ་བཅམ་མི་འདི་ "
+"འཐུས་ཤོར་བྱུང་ཡོདཔ།"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr ""
+msgstr "ཁྱོད་ཀྱིས་ སི་ཌི་/ཌི་བི་ཌི་འདི་ ཡོངས་རྫོགས་སྦེ་གཞི་སྒྲིག་འབད་ཡི་ག་ངེས་ཏིག་བཟོ་གནང་།"
 
 #. Type: text
 #. Description
@@ -333,7 +391,7 @@ msgstr ""
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr ""
+msgstr "བརྡ་ལམ་གྱི་འགྱུར་བ་"
 
 #. Type: text
 #. Description
@@ -345,6 +403,8 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
+"/cdrom/:ཁ་ཡིག་ཅན་གྱི་ཌིསཀི་བཙུགས་གནང་: '${LABEL}' འདི་འདྲེན་འཕྲུལ་ '/cdrom/' ནང་བཙུགས་ཏེ་ "
+"བཙུགས་ལུ་ཨེབས།"
 
 #. Type: text
 #. Description
@@ -352,7 +412,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr ""
+msgstr "sources.list ནང་ལུ་ ནེཊི་ཊིངསཊི་ སི་ཌི་ ལྕོགས་མིན་བཟོ་བ་"
 
 #. Type: text
 #. Description
@@ -365,6 +425,8 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
+"ཁྱོད་ཀྱིས་ netinst ནང་ལས་ གཞི་བཙུགས་འབདཝ་ཨིན་པ་ཅིན་ ངོ་འཆར་ལག་ལེན་མ་འཐབ་ དེ་ལག་ལེན་འཐབ་པ་"
+"ཅིན་ གཞི་རྟེན་རིམ་ལུགས་ཨ་ཙི་ཅིག་ལས་འགལ་གཞི་བཙུགས་འབད་མ་ཚུགས་པར་ མཇུག་བསྡུ་འོང་།"
 
 #. Type: text
 #. Description
@@ -375,6 +437,9 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
+"ཁྱོད་ཀྱིས་ ནེཊིནསཊི་ སི་ཌི་ཅིག་ནང་ལས་ གཞི་བཙུགས་འབདཝ་ཨིནམ་དང་ དེ་གིས་ གཞི་རྟེན་རིམ་ལུགས་ཉུང་ཤོས་ཅིག་"
+"རྐྱངམ་ཅིག་ གཞི་བཙུགས་འབད་བཅུགཔ་ཨིན། རིམ་ལུགས་ཡོངས་རྫོགས་གཞི་བཙུགས་འབད་ནི་གི་དོན་ལས་ མེ་རོར་ཅིག་"
+"ལག་ལེན་འཐབ། "
 
 #. Type: text
 #. Description
@@ -382,7 +447,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:11001
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
-msgstr ""
+msgstr "ཁྱོད་ཀྱིས་ ཐུམ་སྒྲིལ་ཚད་ཅིག་ལས་བརྒལ་མེད་པའི་སི་ཌི་ཅིག་ནང་ལས་ གཞི་བཙུགས་འབདཝ་ཨིན་པས།"
 
 #. Type: text
 #. Description
@@ -395,6 +460,9 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
+"ཁྱོད་ཀྱིས་ %i སི་ཌི་ཚུ་ ཞིབ་ལྟ་འབད་ནུག། དེ་ནང་ལུ་ ཐུམ་སྒྲིལ་སེལ་འཐུ་ལེགས་ཤོམ་ཡོད་དེ་འབད་རུང་ ལ་ལོ་ཅིག་"
+"(ཨིན་སྐད་ཀྱིས་མ་ཚད་པར་ གཞན་སྐད་ཡིག་རྒྱབ་སྐྱོར་འབད་ནི་ལུ་ ཐུམ་སྒྲིལ་ལ་ལོ་ཅིག་དགོཔ་ཡོད་)མ་ཚང་པར་ཡོདཔ་"
+"ཨིན་པས།"
 
 #. Type: text
 #. Description
@@ -406,6 +474,8 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
+"ཁྱོད་ཀྱིས་ %i སི་ཌི་འདི་ཞིབ་ལྟ་འབད་ནུག། དེ་ནང་ཐུམ་སྒྲིལ་ལེ་ཤ་ཡོད་དེ་འབད་རུང་ ལ་ལོ་ཅིག་མ་ཚང་པར་ཡོདཔ་"
+"ཨིན།"
 
 #. Type: text
 #. Description
@@ -415,6 +485,8 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
+"མེ་རོར་ལག་ལེན་འཐབ་མི་འདི་གིས་ གཞི་བཙུགས་གོ་རིམ་ཤུལ་མའི་ནང་ལུ་ གནད་སྡུད་ལེ་ཤ་ཅིག་ཕབ་ལེན་འབད་ནི་"
+"ཨིནམ་ཤེས་དགོ། "
 
 #. Type: text
 #. Description
@@ -424,6 +496,8 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
+"ཁྱོད་ཀྱིས་ ཌི་བི་ཌི་ཅིག་ནང་ལས་ གཞི་བཙུགས་འབདཝ་ཨིན་པས། ཌི་བི་ཌི་དེ་ནང་ཐུམ་སྒྲིལ་ལེ་ཤ་ཡོད་དེ་འབད་རུང་ "
+"ལ་ལོ་ཅིག་མ་ཚང་པར་ཡོདཔ་ཨིན།"
 
 #. Type: text
 #. Description
@@ -434,6 +508,8 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
+"ཁྱོད་ལུ་ ཚད་རིས་ཌེཀསི་ཊོཔ་མཐའ་འཁོར་ གཞི་བཙུགས་འབད་ནིའི་འཆར་གཞི་ཡོདཔ་ཅིན་ ཨིན་ཊར་ནེཊི་མཐུད་ལམ་མེད་"
+"པའི་སྐབས་ལུ་ མེ་རོར་ལག་ལེན་འཐབ་པ་ཅིན་ བཏུབ་ཨིན། "
 
 #. Type: text
 #. Description
@@ -443,20 +519,22 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
+"ཁྱོད་ཀྱིས་ ཚད་རིས་ཌེཀསི་ཊོཔ་མཐའ་འཁོར་ཅིག་ གཞི་བཙུགས་འབད་ནི་ཨིན་པ་ཅིན་ ཨིན་ཊར་ནེཊི་མཐུད་ལམ་ལེགས་"
+"ཤོམ་ཡོདཔ་དང་འབྲེལ་ མེ་རོར་ལག་ལེན་འཐབ་རུང་བཏུབ་ཨིན། "
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr ""
+msgstr "ངོ་འཆར་འདི་ཞིབ་ལྟ་འབད་དོ..."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr ""
+msgstr "དལཝ་མེད་པའི་མཉེན་ཆས་ལག་ལེན་འཐབ?"
 
 #. Type: boolean
 #. Description
@@ -468,6 +546,10 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
+"དལཝ་མེད་པའི་མཉེན་ཆས་ལ་ལུ་ཅིག་ཌི་བི་ཡཱན་མཉམ་ལཱ་འབད་ནི་ལུ་བཟོ་འདི་ཡོད། མ་གཞི་འ་ནི་མཉེན་ཆས་འདི་ཌི་"
+"བི་ཡཱན་གྱི་ཆ་ཤས་ཅིག་མེན་རུང་ འདི་གཞི་བཙུགས་འབད་ནི་ལུ་ཚད་ལྡན་ཌི་བི་ཡཱན་ལག་ཆས་ཚུ་ལག་ལེན་འཐབ་ཚུགས། "
+"འ་ནི་མཉེན་ཆས་ལུ་འགྱུར་ནིའི་ཆོག་ཐམ་ཚུ་ཡོདཔ་ལས་ལག་ལེན་འཐབ་ནི་ ལེགས་བཅོས་བཟོ་ནི་ ཡང་ན་ འདི་རུབ་སྤྱོད་"
+"འབད་ནི་ལས་ཁྱོད་སྔོན་བཀག་འབད་ནི་འོང་།"
 
 #. Type: boolean
 #. Description
@@ -479,14 +561,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr ""
+msgstr "ཁྱོད་ཀྱིས་གང་རུང་སྦེ་ཐོབ་ཚུགས་བཟོ་ནི་ཨིན་ན་མེན་ན་གདམ་ཁ་རྐྱབ་གནང་།"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr ""
+msgstr "ཀཱོན་ཊིརིབི་མཉེན་ཆས་ལག་ལེན་འཐབ?"
 
 #. Type: boolean
 #. Description
@@ -498,6 +580,9 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
+"ཁ་སྐོང་མཉེན་ཆས་ལ་ལུ་ཅིག་ཌི་བི་ཡཱན་མཉམ་ལཱ་འབད་ནི་ལུ་བཟོ་འདི་ཡོད། མ་གཞི་འ་ནི་མཉེན་ཆས་འདི་དལཝ་ཨིན་"
+"རུང་ འདི་གི་བཀལ་སྤྱོད་དོན་ལུ་འདི་དལཝ་མེད་པའི་མཉེན་ཆས་ལུ་བརྟེནམ་ཨིན། འ་ནི་མཉེན་ཆས་འདི་ཌི་བི་ཡཱན་གྱི་"
+"ཡན་ལག་ཅིག་མེན་ དེ་འབདཝ་ད་གཞི་བཙུགས་འབད་ནི་ལུ་ཚད་ལྡན་ཌི་བི་ཡཱན་ལག་ཆས་ཚུ་ལག་ལེན་འཐབ་ཚུགས།"
 
 #. Type: boolean
 #. Description
@@ -525,7 +610,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr ""
+msgstr "འ་ནི་མཉེན་ཆས་ཚུ་ཁྱོད་ལུ་ཐོབ་ཚུགསཔ་བཟོ་ནི་ཨིན་ན་མེན་ན་གདམ་ཁ་རྐྱབ་གནང་།"
 
 #. Type: select
 #. Choices
@@ -534,13 +619,13 @@ msgstr ""
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr ""
+msgstr "ངོ་འཆར་བསྒྱུར་བཅོས་འབད།"
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr ""
+msgstr "ཕབ་ལེན་འབད་དོ་ ཡིག་སྣོད་འཐུས་ཤོར་བྱུང་ཡོད:"
 
 #. Type: select
 #. Description
@@ -551,13 +636,17 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
+"ངོ་འཆར་འཛུལ་སྤྱོད་འབད་ནི་ལུ་གཞི་བཙུགས་པ་འཐུས་ཤོར་བྱུང་ཡོདཔ། འ་ནི་འདི་ངོ་འཆར་མཉམ་དང་ ཡང་ན་ ཁྱོད་"
+"ཀྱི་ཡོངས་འབྲེལ་དང་མཉམ་དཀའ་ངལ་ཨིནམ་འོང་། ཁྱོད་ཀྱིས་ཕབ་ལེན་སླར་ལོག་འབད་རྩོལ་བསྐྱེད་ནི་ལུ་གདམ་ཁ་རྐྱབ་"
+"ཚུགས་ ངོ་འཆར་སོ་སོ་སེལ་འཐུ་འབད་ ཡང་ན་ དཀའ་ངལ་འདི་སྣང་མེད་བཞག་ནི་དང་ངོ་འཆར་འདི་ལས་ཐུམ་སྒྲིལ་ཚུ་"
+"ཆ་མཉམ་མེད་པར་འཔྲོ་མཐུད་འབད།"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr ""
+msgstr "ཡོངས་འབྲེལ་ངོ་འཆར་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་ན?"
 
 #. Type: boolean
 #. Description
@@ -567,20 +656,22 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
+"ཡོངས་འབྲེལ་ངོ་འཆར་འདི་ སི་ཌི་-རཱོམ་ གུའི་གྲངས་སུ་ཚུད་དེ་ཡོད་པའི་ མཉེན་ཆས་ལྷན་ཐབས་ཀྱི་དོན་ལས་ ལག་ལེན་"
+"འཐབ་བཏུབ་ཨིན། དེ་གིས་ མཉེན་ཆས་ཀྱི་ཐོན་རིམ་གསར་ཤོས་ཚུ་འཐོབ་ཚུགསཔ་བཟོ་འོང་།"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr ""
+msgstr "ཡོངས་འབྲེལ་ངོ་འཆར་ཅིག་མེད་པར་ འཕྲོ་མཐུད་ནི་ཨིན་ན།"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr ""
+msgstr "ཡོངས་འབྲེལ་ངོ་འཆར་སེལ་འཐུ་མ་འབད་བས།"
 
 #. Type: boolean
 #. Description
@@ -588,7 +679,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr ""
+msgstr "བཀག་དམ་ཅན་གྱི་མཉེན་ཆས་ལག་ལེན་འཐབ?"
 
 #. Type: boolean
 #. Description
@@ -601,6 +692,10 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
+"མཉེན་ཆས་དལཝ་མེད་མི་ལ་ལོ་ཅིག་ཐུམ་སྒྲིལ་འབད་ཡོད་པའི་རྣམ་པ་ནང་ལས་ཐོབ་ཚུགས། མ་གཞི་འ་ནི་མཉེན་ཆས་འདི་"
+"བགོ་བཀྲམ་འབད་ནིའི་གཙོ་བོའི་ཡན་ལག་ཅིག་མེན་རུང་ འདི་གཞི་བཙུགས་འབད་ནི་ལུ་ཚད་ལྡན་ཐུམ་སྒྲིལ་འཛིན་སྐྱོང་ལག་"
+"ཆས་ཚུ་ལག་ལེན་འཐབ་ཚུགས། འ་ནི་མཉེན་ཆས་ལུ་འགྱུར་ནིའི་ཆོག་ཐམ་ཚུ་ཡོདཔ་ལས་ལག་ལེན་འཐབ་ནི་ ལེགས་བཅོས་"
+"བཟོ་ནི་ ཡང་ན་ འདི་རུབ་སྤྱོད་འབད་ནི་ལས་ཁྱོད་སྔོན་བཀག་འབད་ནི་འོང་།"
 
 #. Type: boolean
 #. Description
@@ -608,7 +703,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr ""
+msgstr "\"universe\" ཆ་ཤས་ནང་ལས་མཉེན་ཆས་ལག་ལེན་འཐབ?"
 
 #. Type: boolean
 #. Description
@@ -620,6 +715,9 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
+"མཉེན་ཆས་ཁ་སྐོང་ལ་ལོ་ཅིག་ཐུམ་སྒྲིལ་འབད་ཡོད་པའི་རྣམ་པ་ནང་ལས་ཐོབ་ཚུགས། མཉེན་ཆས་འདི་དལཝ་ཨིནམ་དང་ "
+"མ་གཞི་འ་ནི་འདི་བགོ་བཀྲམ་འབད་ནིའི་གཙོ་བོའི་ཡན་ལག་ཅིག་མེན་རུང་ འདི་གཞི་བཙུགས་འབད་ནི་ལུ་ཚད་ལྡན་ཐུམ་"
+"སྒྲིལ་འཛིན་སྐྱོང་ལག་ཆས་ཚུ་ལག་ལེན་འཐབ་ཚུགས།"
 
 #. Type: boolean
 #. Description
@@ -627,7 +725,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr ""
+msgstr "\"multiverse\" ཆ་ཤས་ནང་ལས་མཉེན་ཆས་ལག་ལེན་འཐབ?"
 
 #. Type: boolean
 #. Description
@@ -641,6 +739,11 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
+"མཉེན་ཆས་དལཝ་མེད་མི་ལ་ལོ་ཅིག་ཐུམ་སྒྲིལ་འབད་ཡོད་པའི་རྣམ་པ་ནང་ལས་ཐོབ་ཚུགས། མ་གཞི་འ་ནི་མཉེན་ཆས་འདི་"
+"བགོ་བཀྲམ་འབད་ནིའི་གཙོ་བོའི་ཡན་ལག་ཅིག་མེན་རུང་ འདི་གཞི་བཙུགས་འབད་ནི་ལུ་ཚད་ལྡན་ཐུམ་སྒྲིལ་འཛིན་སྐྱོང་ལག་"
+"ཆས་ཚུ་ལག་ལེན་འཐབ་ཚུགས། འ་ནི་མཉེན་ཆས་ལུ་འགྱུར་ནིའི་ཆོག་ཐམ་ཚུ་དང་(གནད་དོན་ལ་ལུ་གཅིག་ནང་)ཁེ་དབང་"
+"སྤྱོད་ནིའི་བཀག་དམ་ཚུ་ཡོདཔ་ལས་དེ་ཚུ་གིས་ལག་ལེན་འཐབ་ནི་ ལེགས་བཅོས་བཟོ་ནི་ ཡང་ན་ འདི་རུབ་སྤྱོད་འབད་ནི་"
+"ལས་ཁྱོད་སྔོན་བཀག་འབད་ནི་འོང་།"
 
 #. Type: boolean
 #. Description
@@ -648,7 +751,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr ""
+msgstr "\"partner\" མཛོད་གནས་ནང་ལས་མཉེན་ཆས་ལག་ལེན་འཐབ་ནི་ཨིན་ན?"
 
 #. Type: boolean
 #. Description
@@ -660,6 +763,9 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
+"མཉེན་ཆས་ཁ་སྐོང་ལ་ལོ་གཅིག་Canonical's \"partner\" མཛོད་གནས་ ལས་འཐོབ་ཚུགས། མཉེན་ཆས་འདི་ "
+"ཡུབོན་ཊུ་་ གི་ཡན་ལག་མེན་་ དེ་འབདཝ་ད་ འདི་ Canonical དང་ སྒོ་ཚོང་པ་སོ་སོ་ཚུ་གིས་ ཡུབོན་ཊུ་ལག་"
+"ལེན་པ་ཚུ་ལུ་ཞབས་ཏོག་སྦེ་བྱིནམ་ཨིན།"
 
 #. Type: boolean
 #. Description
@@ -667,7 +773,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr ""
+msgstr "ལོག་འདྲེན་ལམ་འབད་ཡོད་མི་མཉེན་ཆས་ལག་ལུན་འཐབ?"
 
 #. Type: boolean
 #. Description
@@ -680,3 +786,7 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
+"གསར་བཏོན་འ་ནི་དང་མཉམ་ལཱ་འབད་ནི་ལུ་རྩ་འབྲེལ་གོང་འཕེལ་འདི་ལས་མཉེན་ཆས་ལ་ལོ་ཅིག་ལོག་འདྲེན་ལམ་འབད་"
+"འདི་ཡོད། འ་ནི་མཉེན་ཆས་ཚུ་གསར་བཏོན་ནང་ལུ་ཡོད་པའི་མཇུག་བསྡུ་བརྟག་ཞིབ་འབད་ནི་བཟུམ་མའི་ཐོག་ཁ་ལས་མ་"
+"འགྱོ་རུང་ འདི་གློག་རིམ་ལ་ལུ་ཚུ་གྱི་ཐོན་རིམ་གསརཔ་ཚུ་གྲངས་སུ་བཙུགསཔ་ཨིནམ་ལས་ཕན་ཐོག་ཅན་གྱི་ཁྱད་རྣམ་ཚུ་"
+"བྱིན་ནི་འོང་།"
