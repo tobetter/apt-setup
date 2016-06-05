@@ -3,6 +3,43 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Estonian translation of Debian-installer
+#
+# This translation is released under the same licence as the debian-installer.
+#
+# Siim Põder <siim@p6drad-teel.net>, 2007.
+#
+# Thanks to following Ubuntu Translators for review and fixes:
+#     Laur Mõtus
+#     Heiki Nooremäe
+#     tabbernuk
+#
+#
+# Translations from iso-codes:
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#     Translations taken from ICU SVN on 2007-09-09
+#   Alastair McKinstry <mckinstry@computer.org>, 2001,2002.
+#   Free Software Foundation, Inc., 2000, 2004, 2006
+#   Hasso Tepper <hasso@estpak.ee>, 2006.
+#   Margus Väli <mvali@hot.ee>, 2000.
+#   Siim Põder <windo@p6drad-teel.net>, 2006.
+#   Tõivo Leedjärv <leedjarv@interest.ee>, 2000, 2001, 2008.
+#   Mattias Põldaru <mahfiaz@gmail.com>, 2009-2012, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
+"POT-Creation-Date: 2015-11-20 22:01+0000\n"
+"PO-Revision-Date: 2014-08-23 09:54+0300\n"
+"Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
+"Language-Team: Estonian <>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
 #. Type: text
 #. Description
 #. Main menu item
@@ -10,7 +47,7 @@
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr ""
+msgstr "Pakihalduri seadistamine"
 
 #. Type: text
 #. Description
@@ -19,42 +56,42 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr ""
+msgstr "apt'i seadistamine"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr ""
+msgstr "Jookseb ${SCRIPT}..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr ""
+msgstr "Kohalike hoidlate skannimine..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr ""
+msgstr "Turvauuenduste varamu skannimine..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr ""
+msgstr "Väljalaskeuuenduste varamu skannimine..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr ""
+msgstr "Tagasiporditud tarkvara varamu skannimine..."
 
 #. Type: select
 #. Choices
@@ -63,7 +100,7 @@ msgstr ""
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr ""
+msgstr "Korda"
 
 #. Type: select
 #. Choices
@@ -72,13 +109,13 @@ msgstr ""
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr ""
+msgstr "Ignoreeri"
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr ""
+msgstr "Kohaliku tarkvaraallika võtme allalaadimine nurjus:"
 
 #. Type: select
 #. Description
@@ -89,6 +126,8 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
+"Kohaliku tarkvaraallika  ${MIRROR} allkirjastamiseks kasutatud avaliku võtme "
+"allalaadimine nurjus:"
 
 #. Type: select
 #. Description
@@ -98,13 +137,16 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
+"See võib tähendada probleemi kas arvuti võrguühenduse või seda võtit hostiva "
+"serveriga. Võid allalaadimist uuesti proovida või eirata viga ning jätkata "
+"ilma sellest tarkvaraallikast kõiki pakke saamata."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr ""
+msgstr "Ei pääse tarkvaraallikale ligi"
 
 #. Type: error
 #. Description
@@ -114,6 +156,8 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
+"Tarkvaraallikas hostil ${HOST} pole saadaval, seega pole selle uuendusi "
+"võimalik praegu kasutusele võtta. Peaksid hiljem seda probleemi uurima."
 
 #. Type: error
 #. Description
@@ -123,6 +167,8 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
+"Välja kommenteeritud väljad hostile ${HOST} on lisatud /etc/apt/sources.list "
+"faili."
 
 #. Type: multiselect
 #. Choices
@@ -132,7 +178,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr ""
+msgstr "turvauuendused (serverist ${SEC_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -142,7 +188,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr ""
+msgstr "väljalaskeuuendused"
 
 #. Type: multiselect
 #. Choices
@@ -152,14 +198,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr ""
+msgstr "tagasiporditud tarkvara"
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr ""
+msgstr "Kasutatavad teenused:"
 
 #. Type: multiselect
 #. Description
@@ -169,6 +215,8 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
+"Debianil on kaks väljalaske uuendamise teenust: turvauuendused ja "
+"väljalaskeuuendused."
 
 #. Type: multiselect
 #. Description
@@ -178,6 +226,8 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
+"Turvauuendused tagavad turvalisuse rünnakute vastu. Selle teenuse lubamine "
+"on tungivalt soovitatav."
 
 #. Type: multiselect
 #. Description
@@ -189,6 +239,11 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
+"Väljalaskeuuendused sisaldavad uusi versioone suhteliselt tihti muutuvast "
+"tarkvarast, mille puhul vanemate versioonide kasutamine vähendaks tarkvara "
+"kasutatavust. See sisaldab parandusi ka vähenenud võimaluste vigadele. See "
+"teenus on saadaval ainult stabiilsetele ning aegunud stabiilsetele "
+"versioonidele."
 
 #. Type: multiselect
 #. Description
@@ -202,6 +257,12 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
+"Tagasiporditud tarkvara on pärit arendusversioonist ning sobitatud töötama "
+"ka selles väljalaskes. Ehkki seda tarkvara pole niivõrd põhjalikult "
+"katsetatud, et ta peajaotusesse arvata, on tegemist siiski tarkvara uuemate "
+"versioonidega, mis võivad pakkuda uusi ning kasulikke võimalusi. Siit "
+"tagasiporditud tarkvara lisamine ei põhjusta mitte ühegi paki vaikimisi "
+"paigaldamist; see võimaldab käsitsi valida, milliseid uuendusi kasutada."
 
 #. Type: boolean
 #. Description
@@ -226,14 +287,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr ""
+msgstr "Laserplaadi skannimine..."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr ""
+msgstr "Apt'i seadistamise tõrge"
 
 #. Type: error
 #. Description
@@ -243,6 +304,7 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
+"Katse seadistada apt'i laserkettalt lisapakettide paigaldamiseks nurjus."
 
 #. Type: boolean
 #. Description
@@ -259,14 +321,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr ""
+msgstr "Kas skaneerida teist laserplaati?"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr ""
+msgstr "Sinu paigaldusplaati skanniti, selle nimi on:"
 
 #. Type: boolean
 #. Description
@@ -278,6 +340,9 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
+"Nüüd võid skaneerida lisaplaate, mida paketihaldur (apt) võib kasutada. "
+"Tavaliselt on see paigaldusplaatide komplekt. Kui sul ei ole teisi plaate, "
+"võid selle sammu vahele jätta."
 
 #. Type: boolean
 #. Description
@@ -287,28 +352,28 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr ""
+msgstr "Kui tahad veel mõnda plaati skaneerida, sisesta see praegu."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr ""
+msgstr "Järgmise nimetusega plaati skanniti:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr ""
+msgstr "Järgmise nimega plaadid on juba skannitud:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr ""
+msgstr "Kui sa tahad skaneerida veel mõnd plaati, sisesta see praegu."
 
 #. Type: boolean
 #. Description
@@ -317,14 +382,14 @@ msgstr ""
 msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
-msgstr ""
+msgstr "Katse seadistada apt'i, et plaadilt lisapakke paigaldada, nurjus."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr ""
+msgstr "Palun veendu, et oled CD/DVD-plaadi korrektselt sisestanud."
 
 #. Type: text
 #. Description
@@ -333,7 +398,7 @@ msgstr ""
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr ""
+msgstr "Meediumi vahetus"
 
 #. Type: text
 #. Description
@@ -345,6 +410,8 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
+"/cdrom/: Palun sisesta plaat nimega: '${LABEL}' ajamisse '/cdrom/' ja vajuta "
+"enter klahvi."
 
 #. Type: text
 #. Description
@@ -352,7 +419,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr ""
+msgstr "Netipaigalduse plaadi keelamine failis sources.list..."
 
 #. Type: text
 #. Description
@@ -365,6 +432,8 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
+"Kui sa paigaldad netipaigalduse plaadilt ja peeglit kasutusele ei võta, jääb "
+"sinu süsteem väga minimaalse alussüsteemi tasemele."
 
 #. Type: text
 #. Description
@@ -375,6 +444,8 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
+"Sa paigaldad netipaigalduse plaadilt, mis võimaldab ainult väga minimaalse "
+"baassüsteemi paigalduse. Täielikuma süsteemi saamiseks kasuta peeglit."
 
 #. Type: text
 #. Description
@@ -382,7 +453,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:11001
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
-msgstr ""
+msgstr "Sa paigaldad CD-plaadilt, millel on väga piiratud paketivalik."
 
 #. Type: text
 #. Description
@@ -395,6 +466,8 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
+"Sa oled skanninud %i CD-plaati. Kuigi need sisaldavad üsna suurt hulka "
+"pakette, võib miski puudu olla (olulisimana mitte-ingliskeele toepaketid)."
 
 #. Type: text
 #. Description
@@ -406,6 +479,8 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
+"Sa oled skanninud %i CD-plaati. Kuigi need sisaldavad suurt hulka pakette, "
+"võib miski puudu olla."
 
 #. Type: text
 #. Description
@@ -415,6 +490,8 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
+"Pane tähele, et peegli kasutamine võib põhjustada suure allalaadimise "
+"järgmises paigalduse faasis."
 
 #. Type: text
 #. Description
@@ -424,6 +501,8 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
+"Sa paigaldad DVD-plaadilt. Kuigi DVD-l on lai paketivalik, võib midagi jääda "
+"puudu."
 
 #. Type: text
 #. Description
@@ -434,6 +513,8 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
+"Kasuta seda peeglit, kui sul ei ole hea internetiühendus. Seda eriti siis, "
+"kui sa plaanid paigaldada graafilise töökeskkonna."
 
 #. Type: text
 #. Description
@@ -443,20 +524,22 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
+"Kasuta seda peeglit, kui sul on hea internetiühendus või kui sa plaanid "
+"paigaldada graafilise töökeskkonna."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr ""
+msgstr "Peegli skannimine..."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr ""
+msgstr "Kas kasutada tarkvara, mis pole vaba?"
 
 #. Type: boolean
 #. Description
@@ -468,6 +551,10 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
+"Debianiga on kokkusobitatud ka tarkvara, mis pole vaba. Ehkki see tarkvara "
+"pole osa Debianist, on tavalised Debiani tööriistad võimelised seda "
+"paigaldama. Selle tarkvaraga seonduvad erinevad litsentsid, mis võivad "
+"mõningates olukordades keelata selle kasutamist, muutmist või jagamist."
 
 #. Type: boolean
 #. Description
@@ -479,14 +566,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr ""
+msgstr "Vali, kas soovid seda tarkvara siiski kättesaadavaks teha."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr ""
+msgstr "Kas kasutada kaastööna tehtud tarkvara?"
 
 #. Type: boolean
 #. Description
@@ -498,6 +585,10 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
+"Debianiga on kokkusobitatud ka mõningat lisa-tarkvara. Vaatamata sellele, et "
+"tegemist on vaba tarkvaraga, sõltub see oma töös mitte-vabadest "
+"tarkvarakomponentidest. Ehkki see tarkvara pole osa Debianist, on tavalised "
+"Debiani tööriistad võimelised seda paigaldama."
 
 #. Type: boolean
 #. Description
@@ -525,7 +616,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr ""
+msgstr "Palun vali, kas soovid säärast tarkvara kättesaadavaks teha."
 
 #. Type: select
 #. Choices
@@ -534,13 +625,13 @@ msgstr ""
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr ""
+msgstr "Vaheta peeglit"
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr ""
+msgstr "Faili laadimine nurjus:"
 
 #. Type: select
 #. Description
@@ -551,13 +642,17 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
+"Paigaldaja jäi peeglist faili laadimisega hätta. See võib tähendada "
+"probleemi kas arvuti võrguühenduse või siis peegliga. Võid proovida uuesti "
+"laadimist või teise peegli valimist, kuid võid ka loobuda ja jätkata ilma "
+"peeglist kõiki pakke saamata."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr ""
+msgstr "Kas kasutada võrgupeeglit?"
 
 #. Type: boolean
 #. Description
@@ -567,20 +662,23 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
+"Lisaks laserplaadil olevale tarkvarale on võimalik kasutusele võtta ka "
+"võrgupeeglis leiduv tarkvara. Võrgus võivad saadaval olla programmide uuemad "
+"versioonid."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr ""
+msgstr "Kas jätkata ilma võrgupeeglita?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr ""
+msgstr "Ühtki võrgupeeglit pole valitud."
 
 #. Type: boolean
 #. Description
@@ -588,7 +686,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr ""
+msgstr "Kas kasutada piiratud õigustega tarkvara?"
 
 #. Type: boolean
 #. Description
@@ -601,6 +699,10 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
+"Debianiga on kokkusobitatud ka tarkvara, mis pole vaba. Ehkki see tarkvara "
+"pole osa peajaotusest, on tavalised pakihaldustööriistad võimelised seda "
+"paigaldama. Selle tarkvaraga seonduvad erinevad litsentsid, mis võivad "
+"mõningates olukordades keelata selle kasutamist, muutmist või jagamist."
 
 #. Type: boolean
 #. Description
@@ -608,7 +710,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr ""
+msgstr "Kas kasutada \"universumi\" komponenti kuuluvat tarkvara?"
 
 #. Type: boolean
 #. Description
@@ -620,6 +722,9 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
+"Pakkide kujul on saadaval ka lisatarkvara. See tarkvara on vaba ja ehkki ei "
+"kuulu peajaotusesse, saab seda tavapäraste pakihaldussüsteemi tööriistade "
+"abil paigaldada."
 
 #. Type: boolean
 #. Description
@@ -627,7 +732,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr ""
+msgstr "Kas kasutada \"multiversumi\" komponenti kuuluvat tarkvara?"
 
 #. Type: boolean
 #. Description
@@ -641,6 +746,11 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
+"Mõningad tarkvarakomponendid, mis pole vabad, on siiski saadaval pakendatud "
+"kujul. Ehkki see tarkvara pole osa peajaotusest, on tavalised "
+"pakihaldustööriistad võimelised seda paigaldama. Selle tarkvaraga seonduvad "
+"erinevad litsentsid, mis võivad mõningates olukordades keelata selle "
+"kasutamist, muutmist või jagamist."
 
 #. Type: boolean
 #. Description
@@ -648,7 +758,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr ""
+msgstr "Kas kasutada \"partner\" komponenti kuuluvat tarkvara?"
 
 #. Type: boolean
 #. Description
@@ -660,6 +770,9 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
+"Osa lisatarkvara on saadaval Canonical'i \"partner\"-varamust. See tarkvara "
+"ei kuulu Ubuntusse, kuigi seda edastab Canonical ja edastajad, kes "
+"teenindavad Ubuntu kasutajaid."
 
 #. Type: boolean
 #. Description
@@ -667,7 +780,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr ""
+msgstr "Kas kasutada tarkvara mittetoetatud uuendusi?"
 
 #. Type: boolean
 #. Description
@@ -680,3 +793,7 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
+"Mõningad arendusjärgus olevad tarkvarakomponendid on sobitatud töötama "
+"käesoleva süsteemiga. Ehkki seda tarkvara pole niivõrd põhjalikult "
+"katsetatud, et ta peajaotusesse arvata, on tegemist siiski tarkvara uuemate "
+"versioonidega, mis võivad pakkuda uusi ning kasulikke võimalusi."
