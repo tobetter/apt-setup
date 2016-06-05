@@ -3,45 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of el.po to
-# Greek messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-#
-# Translations from iso-codes:
-#     Translations taken from ICU SVN on 2007-09-09
-#   Panayotis Pakos <aeikineton@yahoo.com>
-# George Papamichelakis <george@step.gr>, 2004.
-# Emmanuel Galatoulas <galas@tee.gr>, 2004.
-# Konstantinos Margaritis <markos@debian.org>, 2004, 2006.
-# Greek Translation Team <debian-l10n-greek@lists.debian.org>, 2004, 2005.
-# quad-nrg.net <galaxico@quad-nrg.net>, 2005, 2006, 2007.
-# quad-nrg.net <yodesy@quad-nrg.net>, 2006, 2008.
-# QUAD-nrg.net <yodesy@quad-nrg.net>, 2006.
-# galaxico@quad-nrg.net <galaxico@quad-nrg.net>, 2009, 2011.
-# Emmanuel Galatoulas <galaxico@quad-nrg.net>, 2009, 2010, 2013, 2014.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#   Free Software Foundation, Inc., 2004.
-#   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   QUAD-nrg.net <yodesy@quad-nrg.net>, 2006, 2010.
-#   Simos Xenitellis <simos@hellug.gr>, 2001.
-#   Konstantinos Margaritis <markos@debian.org>, 2004.
-#   Athanasios Lefteris <alefteris@gmail.com>, 2008, 2012.
-msgid ""
-msgstr ""
-"Project-Id-Version: el\n"
-"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: el <debian-l10n-greek@lists.debian.org>\n"
-"Language: el\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-
 #. Type: text
 #. Description
 #. Main menu item
@@ -49,7 +10,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr "Ρύθμιση του Διαχειριστή πακέτων"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -58,42 +19,42 @@ msgstr "Ρύθμιση του Διαχειριστή πακέτων"
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "Ρύθμιση του apt"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr "Εκτελείται το ${SCRIPT}..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "Ανίχνευση τοπικών αρχειοθηκών..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "Ανίχνευση της αρχειοθήκης των αναβαθμίσεων ασφαλείας..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "Σάρωση του αποθετηρίου των αναβαθμίσεων της έκδοσης..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr "Σάρωση του αποθετηρίου των backported πακέτων..."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -102,7 +63,7 @@ msgstr "Σάρωση του αποθετηρίου των backported πακέτ�
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr "Ξαναπροσπαθήστε"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -111,13 +72,13 @@ msgstr "Ξαναπροσπαθήστε"
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr "Αγνοήστε"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr "Η μεταφόρτωση του κλειδιού του τοπικού αποθετηρίου απέτυχε:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -128,8 +89,6 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"Ο εγκαταστάτης απέτυχε να μεταφορτώσει το δημόσιο κλειδί που χρησιμοποιήθηκε "
-"για την υπογραφή του τοπικού αποθετηρίου στο ${MIRROR}:"
 
 #. Type: select
 #. Description
@@ -139,17 +98,13 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Αυτό μπορεί να αποτελέσει πρόβλημα για το δίκτυό σας ή με τον εξυπηρετητή "
-"που φιλοξενεί αυτό το κλειδί. Μπορείτε να επιλέξετε να ξαναπροσπαθήσετε την "
-"μεταφόρτωση ή να αγνοήσετε το πρόβλημα και να συνεχίσετε χωρίς το σύνολο των "
-"πακέτων από αυτό το αποθετήριο."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "Αδυναμία πρόσβασης στο αποθετήριο"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -159,9 +114,6 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"Δεν ήταν δυνατή η πρόσβαση του αποθετηρίου στο ${HOST}, συνεπώς οι "
-"αναβαθμίσεις του δεν θα είναι διαθέσιμες σε σας αυτή τη στιγμή. Θα πρέπει να "
-"διερευνήσετε την αδυναμία αυτή αργότερα."
 
 #. Type: error
 #. Description
@@ -171,8 +123,6 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
-"Σχολιασμένα στοιχεία για το ${HOST} έχουν προστεθεί στο αρχείο /etc/apt/"
-"sources.list."
 
 #. Type: multiselect
 #. Choices
@@ -182,7 +132,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "αναβαθμίσεις ασφαλείας (από ${SEC_HOST})"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -192,7 +142,7 @@ msgstr "αναβαθμίσεις ασφαλείας (από ${SEC_HOST})"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr "αναβαθμίσεις έκδοσης"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -202,14 +152,14 @@ msgstr "αναβαθμίσεις έκδοσης"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr "Backported λογισμικό"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr "Υπηρεσίες που θα χρησιμοποιηθούν:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -219,8 +169,6 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Το Debian έχει δύο υπηρεσίες που προσφέρουν αναβαθμίσεις στις εκδόσεις του: "
-"ασφαλείας και έκδοσης."
 
 #. Type: multiselect
 #. Description
@@ -230,8 +178,6 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"Οι αναβαθμίσεις ασφαλείας σας βοηθούν να κρατάτε το σύστημά σας ασφαλές από "
-"επιθέσεις. Η ενεργοποίηση της υπηρεσίας αυτής συνίσταται έντονα."
 
 #. Type: multiselect
 #. Description
@@ -243,11 +189,6 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Οι αναβαθμίσεις έκδοσης προσφέρουν πιο ενημερωμένες εκδόσεις για λογισμικό "
-"που αλλάζει σχετικά συχνά και σε περιπτώσεις που η μη διάθεση της πιο "
-"πρόσφατης έκδοσης μειώνει την χρησιμότητα αυτού του λογισμικού. Περιλαμβάνει "
-"επίσης αναδρομικές διορθώσεις προβλημάτων. Η υπηρεσία αυτή είναι διαθέσιμη "
-"μόνο για τις εκδόσεις stable και oldstable."
 
 #. Type: multiselect
 #. Description
@@ -261,13 +202,6 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Backported λογισμικό έχει προσαρμοστεί από το δέντρο ανάπτυξης για να "
-"δουλεύει με αυτήν την έκδοση. Αν και το λογισμικό αυτό δεν έχει περάσει έναν "
-"πλήρη έλεγχο όπως αυτό της παρούσας έκδοσης, περιέχει νεώτερες εκδόσεις "
-"μερικών εφαρμογών που πιθανόν προσφέρουν μερικά χρήσιμα γνωρίσματα. Η "
-"ενεργοποίηση των backported εφαρμογών εδώ δεν συνεπάγεται την εξ ορισμού "
-"εγκατάστασή τους· απλά σας επιτρέπει να διαλέξετε με το χέρι τέτοιες "
-"εφαρμογές για πιθανή χρήση."
 
 #. Type: boolean
 #. Description
@@ -292,14 +226,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr "Ανίχνευση CD-ROM..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "Πρόβλημα ρύθμισης του apt"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -309,8 +243,6 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
-"Μια προσπάθεια ρύθμισης του apt για εγκατάσταση επιπλέον πακέτων από το CD "
-"απέτυχε."
 
 #. Type: boolean
 #. Description
@@ -327,14 +259,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr "Να γίνει σάρωση άλλου CD ή DVD;"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "Το CD ή DVD εγκατάστασης έχει σαρωθεί. Η ταμπέλα του είναι:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -346,10 +278,6 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"Τώρα έχετε την επιλογή να σαρώσετε περισσότερα CD ή DVD που θα "
-"χρησιμοποιηθούν από τον διαχειριστή πακέτων (apt). Συνήθως αυτά θα πρέπει να "
-"είναι από το ίδιο σετ όπως και το CD/DVD εγκατάστασης. Αν δεν έχετε επιπλέον "
-"CD ή DVD διαθέσιμα, μπορείτε να παραλέιψετε αυτό το βήμα."
 
 #. Type: boolean
 #. Description
@@ -360,21 +288,20 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
 msgstr ""
-"Αν θέλετε να σαρώσετε κάποιο άλλο CD ή DVD, παρακαλώ τοποθετήστε το τώρα."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "Το CD ή DVD με την ακόλουθη κεφαλίδα έχει σαρωθεί:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "Το CD ή DVD με την ακόλουθη κεφαλίδα έχει ήδη σαρωθεί:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -382,7 +309,6 @@ msgstr "Το CD ή DVD με την ακόλουθη κεφαλίδα έχει ή
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
 msgstr ""
-"Παρακαλώ αντικαταστήσετε το παρόν CD ή DVD αν θέλετε να σαρώσετε κάποιο άλλο."
 
 #. Type: boolean
 #. Description
@@ -392,15 +318,13 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
 msgstr ""
-"Μια προσπάθεια ρύθμισης του apt για εγκατάσταση επιπλέον πακέτων από το CD/"
-"DVD απέτυχε."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr "Παρακαλώ βεβαιωθείτε ότι το CD/DVD έχει τοποθετηθεί σωστά."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -409,7 +333,7 @@ msgstr "Παρακαλώ βεβαιωθείτε ότι το CD/DVD έχει το
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "Αλλαγή μέσου"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -421,8 +345,6 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:Παρακαλώ εισάγετε τον δίσκο με κεφαλίδα: '${LABEL}' στον οδηγό "
-"συσκευής '/cdrom/' και πατήστε enter."
 
 #. Type: text
 #. Description
@@ -430,7 +352,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "Απενεργοποίηση του netinst CD στο αρχείο πηγών sources.list..."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -443,9 +365,6 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"Αν κάνετε την εγκατάσταση από ένα CD netinst και επιλέξετε να μην "
-"χρησιμοποιήσετε έναν καθρέφτη, θα καταλήξετε με ένα πολύ στοιχειώδες βασικό "
-"σύστημα. "
 
 #. Type: text
 #. Description
@@ -456,10 +375,6 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"Πραγματοποιείτε την εγκατάσταση από ένα netinst CD, που από μόνο του "
-"επιτρέπει την εγκατάσταση ενός πολύ στοιχειώδους βασικού συστήματος. "
-"Χρησιμοποιήστε κάποιον δικτυακό καθρέφτη για να εγκαταστήσετε ένα πιο πλήρες "
-"σύστημα."
 
 #. Type: text
 #. Description
@@ -468,8 +383,6 @@ msgstr ""
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
 msgstr ""
-"Κάνετε την εγκατάσταση από ένα CD, που περιέχει μια περιορισμένη συλλογή από "
-"πακέτα."
 
 #. Type: text
 #. Description
@@ -482,9 +395,6 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"Έχετε σαρώσει %i CD. Αν και αυτά περιέχουν μια εκτενή συλλογή από πακέτα, "
-"μερικά μπορεί να λείπουν (ιδιαίτερα κάποια πακέτα που υποστηρίζουν γλώσσες "
-"διαφορετικές από τα Αγγλικά)."
 
 #. Type: text
 #. Description
@@ -496,8 +406,6 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"Έχετε σαρώσει %i CD. Αν και περιέχουν μια μεγάλη συλλογή από πακέτα, μερικά "
-"μπορεί να λείπουν."
 
 #. Type: text
 #. Description
@@ -507,9 +415,6 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"Σημειώστε ότι η χρήση ενός δικτυακού καθρέφτη μπορεί να έχει σαν αποτέλεσμα "
-"το κατέβασμα ενός μεγάλου όγκου δεδομένων κατά τη διάρκεια του επόμενου "
-"βήματος της εγκατάστασης."
 
 #. Type: text
 #. Description
@@ -519,8 +424,6 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Κάνετε την εγκατάσταση από ένα DVD. Αν και αυτό περιέχει μια μεγάλη συλλογή "
-"πακέτων, μερικά μπορεί να λείπουν."
 
 #. Type: text
 #. Description
@@ -531,9 +434,6 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"Εκτός και αν δεν διαθέτετε μια ικανοποιητική σύνδεση με το Διαδίκτυο, η "
-"χρήση ενός δικτυακού καθρέφτη συνίσταται, ιδιαίτερα αν σκοπεύετε να "
-"εγκαταστήσετε ένα γραφικό περιβάλλον γραφείου."
 
 #. Type: text
 #. Description
@@ -543,23 +443,20 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
-"Αν έχετε μια αρκετά ικανοποιητική σύνδεση με το Διαδίκτυο, η χρήση ενός "
-"δικτυακού καθρέφτη συνίσταται αν σκοπεύετε να εγκαταστήσετε ένα γραφικό "
-"περιβάλλον γραφείου."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "Αναζήτηση στην αρχειοθήκη..."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "Θέλετε να χρησιμοποιήσετε μη ελεύθερο λογισμικό;"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -571,11 +468,6 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Κάποιο μη ελεύθερο λογισμικό (non-free) έχει προσαρμοστεί για χρήση στο "
-"Debian. Αν και το λογισμικό αυτό δεν αποτελεί μέρος του Debian, μπορεί να "
-"εγκατασταθεί με τα τυπικά εργαλεία του Debian. Το λογισμικό αυτό καλύπτεται "
-"από άδειες χρήσης που πιθανόν να απαγορεύουν την χρήση, τροποποίηση ή "
-"αντιγραφή του."
 
 #. Type: boolean
 #. Description
@@ -588,15 +480,13 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
 msgstr ""
-"Παρακαλώ, επιλέξτε αν επιθυμείτε να είναι διαθέσιμο αυτό το λογισμικό ούτως "
-"ή άλλως."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "Θέλετε να χρησιμοποιήσετε συνεισφερόμενο λογισμικό;"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -608,11 +498,6 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"Κάποιο συνεισφερόμενο λογισμικό (contrib) έχει προσαρμοστεί για χρήση στο "
-"Debian. Αν και το λογισμικό αυτό είναι ελεύθερο, εξαρτάται από άλλο μη "
-"ελεύθερο λογισμικό για τη λειτουργία του. Αν και το λογισμικό αυτό δεν "
-"αποτελεί μέρος του Debian, μπορεί να εγκατασταθεί με τα τυπικά εργαλεία του "
-"Debian."
 
 #. Type: boolean
 #. Description
@@ -640,7 +525,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "Παρακαλώ, επιλέξτε αν επιθυμείτε να είναι διαθέσιμο αυτό το λογισμικό."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -649,13 +534,13 @@ msgstr "Παρακαλώ, επιλέξτε αν επιθυμείτε να είν
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr "Αλλαγή καθρέφτη της αρχειοθήκης"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr "Απέτυχε η μεταφόρτωση ενός αρχείου:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -666,19 +551,13 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"Το πρόγραμμα εγκατάστασης απέτυχε να μεταφορτώσει ένα αρχείο από τον "
-"καθρέφτη. Αυτό μπορεί να οφείλεται σε ένα πρόβλημα στο δίκτυό σας ή στον "
-"ίδιο τον καθρέφτη της αρχειοθήκης. Μπορείτε να ξαναπροσπαθήσετε τη "
-"μεταφόρτωση, να επιλέξετε ένα διαφορετικό καθρέφτη ή να αγνοήσετε το "
-"πρόβλημα και να συνεχίσετε χωρίς το σύνολο των πακέτων από αυτόν τον "
-"καθρέφτη."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr "Να χρησιμοποιηθεί κάποιος δικτυακός καθρέφτης;"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -688,23 +567,20 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
-"Μπορεί να χρησιμοποιηθεί ένας δικτυακός καθρέφτης συμπληρωματικά προς το "
-"λογισμικό που περιλαμβάνεται στο CD-ROM. Αυτό μπορεί επίσης να κάνει "
-"διαθέσιμες νεώτερες εκδόσεις λογισμικού."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr "Συνέχεια χωρίς κάποιον δικτυακό καθρέφτη;"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr "Δεν επιλέχθηκε κάποιος δικτυακός καθρέφτης."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -712,7 +588,7 @@ msgstr "Δεν επιλέχθηκε κάποιος δικτυακός καθρέ
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "Χρήση\"υπό περιορισμούς\" λογισιμικού;"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -725,11 +601,6 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"Μη-ελεύθερο λογισμικό είναι διαθέσιμο σε μορφή πακέτων. Αν και το λογισμικό "
-"αυτό δεν είναι μέρος της κύριας διανομής, μπορείτε να χρησιμοποιήσετε τα "
-"συνηθισμένα εργαλεία διαχείρισης πακέτων για την εγκατάστασή του. Το "
-"λογισμικό αυτό έρχεται με μια ποικιλία αδειών χρήσης που πιθανόν να σας "
-"αποτρέψουν από την χρήση, την τροποποίηση ή την κοινή του χρήση."
 
 #. Type: boolean
 #. Description
@@ -737,7 +608,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "Χρήση λογισμικού από την ενότητα \"universe\";"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -749,10 +620,6 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"Επιπρόσθετο λογισμικό είναι διαθέσιμο σε μορφή πακέτων. Αυτό το λογισμικό "
-"είναι ελεύθερο και παρόλο που δεν είναι μέρος της κύριας διανομής, μπορείτε "
-"να χρησιμοποιήσετε τα συνηθισμένα εργαλεία διαχείρισης πακέτων για την "
-"εγκατάστασή του."
 
 #. Type: boolean
 #. Description
@@ -760,7 +627,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "Χρήση λογισμικού από την ενότητα \"multiverse\";"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -774,12 +641,6 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"Μη-ελεύθερο λογισμικό είναι διαθέσιμο σε μορφή πακέτων. Αν και το λογισμικό "
-"αυτό δεν είναι μέρος της κύριας διανομής, μπορείτε να χρησιμοποιήσετε τα "
-"συνηθισμένα εργαλεία διαχείρισης πακέτων για την εγκατάστασή του. Το "
-"λογισμικό αυτό έρχεται με μια ποικιλία αδειών χρήσης και (σε κάποιες "
-"περιπτώσεις) περιορισμούς από ευρεσιτεχνίες που πιθανόν να σας εμποδίζουν "
-"από την χρήση, τροποποίηση ή το μοίρασμά του."
 
 #. Type: boolean
 #. Description
@@ -787,7 +648,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "Να γίνει χρήση λογισμικού από το αποθετήριο \"partner\";"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -799,10 +660,6 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"Επιπλέον λογισμικό είναι διαθέσιμο από το αποθετήριο \"partner\" της "
-"Canonical. Αυτό το λογισμικό δεν είναι μέρος του Ubuntu, αλλά προσφέρεται "
-"από την Canonical και τους αντίστοιχους προμηθευτές σαν μια παροχή προς τους "
-"χρήστες του Ubuntu."
 
 #. Type: boolean
 #. Description
@@ -810,7 +667,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "Χρήση backported λογισμικού;"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -823,7 +680,3 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"Κάποιο λογισμικό έχει γίνει backported από το δέντρο ανάπτυξης για να "
-"δουλεύει με αυτήν την έκδοση. Αν και το λογισμικό αυτό δεν έχει περάσει "
-"εξίσου πλήρη έλεγχο όπως αυτό της παρύσας έκδοσης, περιέχει ωστόσο νεώτερες "
-"εκδόσεις μερικών εφαρμογών που πιθανόν προσφέρουν κάποια χρήσιμα γνωρίσματα."

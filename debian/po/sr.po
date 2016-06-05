@@ -3,36 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Serbian/Cyrillic messages for debian-installer.
-# Copyright (C) 2010-2012 Software in the Public Interest, Inc.
-# Copyright (C) 2008 THE cp6Linux'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the debian-installer package.
-# Karolina Kalic <karolina@resenje.org>, 2010-2012.
-# Janos Guljas <janos@resenje.org>, 2010-2012.
-# Veselin Mijušković <veselin.mijuskovic@gmail.com>, 2008.
-# Milan Kostic <kosticmilan77@open.telekom.rs>, 2012.
-#
-# Translations from iso-codes:
-#   Aleksandar Jelenak <aleksandar.jelenak@gmail.com>, 2010.
-#   Copyright (C) 2003, 2004 Free Software Foundation, Inc.
-#   Danilo Segan <dsegan@gmx.net>, 2003, 2004, 2005.
-#   Milos Komarcevic <kmilos@gmail.com>, Caslav Ilic <caslav.ilic@gmx.net>, 2009.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#     Translations taken from ICU SVN on 2007-09-09
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Serbian <debian-l10n-serbian@lists.debian.org>\n"
-"Language: sr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. Main menu item
@@ -40,7 +10,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr "Конфигуриши управљач пакетима"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -49,42 +19,42 @@ msgstr "Конфигуриши управљач пакетима"
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "Конфигурисање apt-а"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr "Извршавање скрипте ${SCRIPT}..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "Скенирање локалних репозиторијума..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "Скенирање репозиторијума са безбедносним закрпама..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "Скенирање репозиторијума са ажурираним пакетима..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr "Скенирање ризница са ажурираним пакетима..."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -93,7 +63,7 @@ msgstr "Скенирање ризница са ажурираним пакети
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr "Поново"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -102,13 +72,13 @@ msgstr "Поново"
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr "Игнориши"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr "Преузимање кључа за локални репозиторијум није успело:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -119,8 +89,6 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"Инсталер није успео да преузме јавни кључ коришћен за потписивање локалног "
-"репозиторијума на ${MIRROR}:"
 
 #. Type: select
 #. Description
@@ -130,17 +98,13 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Програм за инсталацију није успео да приступи мирор сајту. Проблем може бити "
-"до ваше мреже или до самог мирора. Можете одабрати да поново покушате "
-"преузимање, промените мирор сајт или да игноришете овај проблем и наставите "
-"без свих пакета са овог мирора."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "Немогућ приступ репозиторијуму"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -150,8 +114,6 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"Немогућ приступ репозиторијуму на ${HOST} па ажурирани пакети са њега неће "
-"бити тренутно доступни. Треба ово испитати касније."
 
 #. Type: error
 #. Description
@@ -161,7 +123,6 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
-"Додате су закоментарисане ставке за ${HOST} у фалју /etc/apt/sources.list."
 
 #. Type: multiselect
 #. Choices
@@ -171,7 +132,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "безбедносне закрпе (са ${SEC_HOST})"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -181,7 +142,7 @@ msgstr "безбедносне закрпе (са ${SEC_HOST})"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr "ажурирани пакети"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -191,14 +152,14 @@ msgstr "ажурирани пакети"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr "Софтвер портован из развојне гране"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr "Сервиси који ће се користити:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -208,8 +169,6 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
-"Debian има два сервиса који обезбеђују ажуриране пакете: безбедносне закрпе "
-"и нове верзије пакета."
 
 #. Type: multiselect
 #. Description
@@ -219,8 +178,6 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"Безбедносне закрпе помажу да одржите систем безбедним против напада. "
-"Укључивање овог сервиса се строго препоручује."
 
 #. Type: multiselect
 #. Description
@@ -232,10 +189,6 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Ажурирани пакети су новије верзије софтвера који се релативно често мења и "
-"код којих непоседовање последње верзије може умањити употребљивост софтвера. "
-"Такође пружа поправке за раније верзије. Овај сервис је доступан само за "
-"„stable “ и „oldstable“ издања."
 
 #. Type: multiselect
 #. Description
@@ -249,18 +202,13 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Неки софтвери су портовани из развојне гране да би радили са овим издањем. "
-"Мада такав софтвер није прошао кроз комплетно тестирањекао софтвер који је "
-"укључен у ово издање, он обухвата новије верзије неких апликација које могу "
-"имати корисне карактеристике. Омогућавање ове ризнице не доводи до "
-"подразумеване инсталације софтвера, већ дозвољава да избор направите ручно."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr "Омогући софтверску ризницу у APT?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -272,24 +220,20 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
-"Подразумевано листа софтверских ризница се налази у /etc/apt/sources.list "
-"(са одговарајућим \"deb-src\" линијама) па тако \"apt-get source\" ради. "
-"Међутим , ако не желите ову функцију, можете искључити ову ставку и сачувати "
-"интернет проток током  \"apt-get update\" операција."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr "Скенирање CD-ROM..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "проблем са конфигурисањем apt-а"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -299,8 +243,6 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
-"Покушај да се исконфигурише apt да би инсталирао додатне пакетеса CD-а није "
-"успео."
 
 #. Type: boolean
 #. Description
@@ -317,14 +259,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr "Скенирати други CD или DVD?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "Ваш инсталациони CD или DVD је скениран; његова ознака је:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -336,10 +278,6 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"Сада имате могућност да скенирате додатне CD-eве или DVD-eве које користи "
-"управљач пакетима (програм „apt“). Обично су ови CD-eви и DVD-eви из истог "
-"сета као и инсталациони CD/DVD. Ако немате никаквих додатних CD-eва или DVD-"
-"eва онда можете једноставно прескочити овај корак."
 
 #. Type: boolean
 #. Description
@@ -349,28 +287,28 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
-msgstr "Ако желите да скенирате неки други CD или DVD, убаците га сада."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "Скениран је CD или DVD са следећом ознаком:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "CD или DVD са следећом ознаком је већ претходно био скениран:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr "Замените га одмах уколико желите да скенирате неки други CD или DVD."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -380,15 +318,13 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
 msgstr ""
-"Покушај да се конфигурише „apt“ да би инсталирао додатне пакете са CD/DVD-а "
-"није успео."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr "Проверите да ли је CD/DVD исправно убачен."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -397,7 +333,7 @@ msgstr "Проверите да ли је CD/DVD исправно убачен."
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "Замена медијума"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -409,8 +345,6 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:Убаците диск означен као: „${LABEL}“ у уређај „/cdrom/“ и притисните "
-"тастер ENTER."
 
 #. Type: text
 #. Description
@@ -418,7 +352,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "Искључивање „netinst“ CD у „sources.list“ фајлу..."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -431,8 +365,6 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"Ако инсталирате са „netinst“ CD-а и одаберете да не користите мирор, на "
-"крају ћете остати са веома минималним основним системом."
 
 #. Type: text
 #. Description
@@ -443,9 +375,6 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"Инсталирате са „netinst“ CD-а који обезбеђује само инсталирање врло "
-"минималног основног система. Да би сте инсталирали комплетнији систем "
-"користите мирор."
 
 #. Type: text
 #. Description
@@ -453,7 +382,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:11001
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
-msgstr "Инсталирате са CD-а који садржи ограничен избор пакета."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -466,8 +395,6 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"Скенирали сте %i CD-а. Иако они садрже добар избор пакета, неки пакети можда "
-"недостају (посебно они потребни за подршку другим језицима осим енглеског)."
 
 #. Type: text
 #. Description
@@ -479,8 +406,6 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"Скенирали сте %i CD-ова. Иако они садрже велики избор пакета, неки пакети "
-"можда недостају."
 
 #. Type: text
 #. Description
@@ -490,8 +415,6 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"Коришћење мирора може резултирати у великој количини података која ће се "
-"преузимати у следећем кораку инсталације. "
 
 #. Type: text
 #. Description
@@ -501,8 +424,6 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Инсталирате са DVD-а. Иако DVD садржи велики избор пакета, неки пакети можда "
-"недостају."
 
 #. Type: text
 #. Description
@@ -513,8 +434,6 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"Изузев ако немате добру конекцију ка Интернету, употреба мирора се "
-"препоручује, посебно ако планирате да инсталирате графичко окружење."
 
 #. Type: text
 #. Description
@@ -524,22 +443,20 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
-"Уколико имате добру конекцију ка Интернету, употреба мирора се препоручује "
-"ако планирате да инсталирате графичко окружење."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "Скенирање мирорa..."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "Користити „non-free“ софтвер?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -551,10 +468,6 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Неки „non-free“ софтверски пакети су портовани на Debian. Мада ови пакети "
-"никако нису део Debian-a, стандардни Debian алати се могу користити за "
-"инсталирање оваквог софтвера. Овај софтвер има различите лиценце које вас "
-"могу спречити да га користите, мењате и делите са другима."
 
 #. Type: boolean
 #. Description
@@ -566,14 +479,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr "Изаберите да ли желите да и даље буде доступан."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "Користити „contrib“ софтвер?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -585,9 +498,6 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"Неки додатни софтверски пакети су портовани на Debian. Мада је овај софтвер "
-"слободан (free), зависи од „non-free“ софтвера. Овај софтвер није део Debian-"
-"а, али стандардни Debian алати се могу користити за његово инсталирање."
 
 #. Type: boolean
 #. Description
@@ -615,7 +525,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "Изаберите да ли желите да вам овај софтвер и даље буде доступан."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -624,13 +534,13 @@ msgstr "Изаберите да ли желите да вам овај софт�
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr "Промени мирор"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr "Преузимање фајла није успело:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -641,17 +551,13 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"Програм за инсталацију није успео да приступи мирор сајту. Проблем може бити "
-"до ваше мреже или до самог мирора. Можете одабрати дапоново покушате "
-"преузимање, промените мирор сајт или да игноришете овај проблем и наставите "
-"без свих пакета са овог мирора."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr "Користити мрежни мирор?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -661,22 +567,20 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
-"Мрежни мирор се може употребити да замени софтвер који је укључен на CD-у. "
-"Може такође обезбедити новије верзије софтвера."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr "Наставити без мрежног мирора?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr "Ни један мрежни мирор није детектован."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -684,7 +588,7 @@ msgstr "Ни један мрежни мирор није детектован."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "Користити ограничени софтвер?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -697,10 +601,6 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"Неки non-free софтвери су доступни у облику пакета. Мада овакав софтвер није "
-"део главне дистрибуције, стандардни алати за управљање пакетима се могу "
-"користити за његову инсталацију. Овакав софтвер има различите лиценце које "
-"вас могу спречити да га користите, мењате или делите."
 
 #. Type: boolean
 #. Description
@@ -708,7 +608,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "Користите софтвер из „universe“ компоненте?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -720,9 +620,6 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"Неки додатни софтвери су доступни у облику пакета. Овакав софтвер је "
-"слободан (free) и, мада није део главне дистрибуције, стандардни алати за "
-"управљање пакетима се могу користити за његово инсталирање."
 
 #. Type: boolean
 #. Description
@@ -730,7 +627,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "Користите софтвер из „multiverse“ компоненте?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -744,11 +641,6 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"Неки non-free софтвери су доступни у облику пакета. Мада такав софтвер није "
-"део главне дистрибуције, стандардни алати за управљање пакетима се могу "
-"користити за његову инсталацију. Овакав софтвер има различите лиценце и (у "
-"неким случајевима) патентна ограничења која вас могу спречитида га "
-"користите, мењате или делите."
 
 #. Type: boolean
 #. Description
@@ -756,7 +648,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "Користити софтвер из „partner“ репозиторијума?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -768,9 +660,6 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"Додатни софтвер је доступан из Canonical-овог „partner“ репозиторијума. Тај "
-"софтвер није део Ubuntu-а, али је понуђен од стране Canonical-а и осталих "
-"као сервис за Ubuntu кориснике."
 
 #. Type: boolean
 #. Description
@@ -778,7 +667,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "Користити софтвер портован из развојне гране?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -791,7 +680,3 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"Неки софтвери су портовани из развојне гране да би радили са овим издањем. "
-"Мада такав софтвер није прошао кроз комплетно тестирањекао софтвер који је "
-"укључен у ово издање, он обухвата новије верзије неких апликација које могу "
-"имати корисне карактеристике."

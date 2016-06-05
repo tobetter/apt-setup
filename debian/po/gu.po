@@ -3,36 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of d-i.po to Gujarati
-#
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files#
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt
-# Contributor:
-# Kartik Mistry <kartik.mistry@gmail.com>, 2006-2013
-#
-#
-# Translations from iso-codes:
-#   - translations from ICU-3.0
-#
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Kartik Mistry <kartik.mistry@gmail.com>, 2006, 2007, 2008.
-#   Ankit Patel <ankit644@yahoo.com>, 2009,2010.
-#   Sweta Kothari <swkothar@redhat.com>, 2009, 2010.
-msgid ""
-msgstr ""
-"Project-Id-Version: d-i\n"
-"Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Gujarati <team@utkarsh.org>\n"
-"Language: gu\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. Main menu item
@@ -40,7 +10,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:1001
 msgid "Configure the package manager"
-msgstr "પેકેજ વ્યવસ્થાપર રૂપરેખાંકિત કરો"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -49,42 +19,42 @@ msgstr "પેકેજ વ્યવસ્થાપર રૂપરેખાં�
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "apt રૂપરેખાંકિત કરે છે..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr "${SCRIPT} ચલાવે છે..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "સ્થાનિક રેપોઝીટોરીઓ ચકાસે છે..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "સલામતી સુધારાઓની રેપોઝીટોરીઓ ચકાસે છે..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "રીલીઝ સુધારાની રેપોઝિટોરી ચકાસે છે..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr "બેકપોર્ટ રેપોઝિટોરી ચકાસે છે..."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -93,7 +63,7 @@ msgstr "બેકપોર્ટ રેપોઝિટોરી ચકાસે 
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Retry"
-msgstr "ફરી પ્રયત્ન"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -102,13 +72,13 @@ msgstr "ફરી પ્રયત્ન"
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:4001
 msgid "Ignore"
-msgstr "અવગણો"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr "સ્થાનિક રેપોઝિટોરી કળ ડાઉનલોડ કરવામાં નિષ્ફળ:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -119,8 +89,6 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"સ્થાપક આ જગ્યાએ સ્થાનિક રેપોઝિટોરીને સાઈન કરવામાં વપરાયેલ પબ્લિક કી ડાઉનલોડ કરવામાં "
-"નિષ્ફળ ગયું ${MIRROR}:"
 
 #. Type: select
 #. Description
@@ -130,16 +98,13 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"આ કદાચ તમારા નેટવર્ક અથવા આ કી મૂકેલ સર્વર સાથેની મુશ્કેલી હોઈ શકે છે. તમે ફરી ડાઉનલોડ "
-"કરવાનું પસંદ કરી શકો છો, અથવા મુશ્કેલીને અવગણી શકો છો અને આ રેપોઝિટોરીના બધા પેકેજીસ "
-"વગર આગળ વધી શકો છો."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "રેપોઝીટોરીને મેળવી શકતા નથી"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -149,8 +114,6 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"${HOST} મેળવી શકાતું નથી, એટલે તે સુધારાઓ આ સમયે તમને પ્રાપ્ત થઇ શકશે નહી.આની તમારે થોડા "
-"સમય પછી તપાસ કરવી પડશે."
 
 #. Type: error
 #. Description
@@ -160,7 +123,6 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
-"${HOST} માટે કોમેન્ટ કરેલી લીટીઓ /etc/apt/sources.list ફાઇલમાં ઉમેરવામાં આવી છે."
 
 #. Type: multiselect
 #. Choices
@@ -170,7 +132,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "સલામતી સુધારા (${SEC_HOST} માંથી)"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -180,7 +142,7 @@ msgstr "સલામતી સુધારા (${SEC_HOST} માંથી)"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr "રીલીઝ સુધારા"
+msgstr ""
 
 #. Type: multiselect
 #. Choices
@@ -190,14 +152,14 @@ msgstr "રીલીઝ સુધારા"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr "બેકપોર્ટેડ સોફ્ટવેર"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 msgid "Services to use:"
-msgstr "ઉપયોગ કરવા માટેની સેવાઓ:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -206,7 +168,7 @@ msgstr "ઉપયોગ કરવા માટેની સેવાઓ:"
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
-msgstr "ડેબિયન પાસે બે સેવાઓ છે જે રીલીઝ માટે સુધારા પુરા પાડે છે: સલામતી અને રીલીઝ સુધારા."
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -216,8 +178,6 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"સલામતી સુધારાઓ તમારી સિસ્ટમને આક્રમણો સામે સુરક્ષિત રાખવામાં મદદ કરે છે. આ સેવાને સક્રિય "
-"કરવાનું ખૂબ જ આગ્રહપૂર્વક સૂચવવામાં આવે છે."
 
 #. Type: multiselect
 #. Description
@@ -229,10 +189,6 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"રીલીઝ સુધારાઓ એવા સોફ્ટવેર માટે સુધારા પુરા પાડે છે કે જેઓ વારંવાર ફેરફારો ધરાવે છે અને તેઓ "
-"જો તેમનાં છેલ્લી આવૃતિમાં ન હોય તો તે સોફ્ટવેરની ઉપયોગિતા ઘટાડી શકે છે. દાખલા તરીકે "
-"વાયરસ શોધવા માટેનાં વાયરસ હસ્તાક્ષરો. આ સેવા માત્ર સ્ટેબલ અને ઓલ્ડ સ્ટેબલ રીલીઝ માટે જ "
-"પ્રાપ્ત છે."
 
 #. Type: multiselect
 #. Description
@@ -246,11 +202,6 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"બેકપોર્ટેડ સોફ્ટવેર ડેવલપમેન્ટ આવૃત્તિમાંથી આ રીલીઝ સાથે કામ કરવા માટે અપનાવવામાં આવ્યા છે. "
-"આ આવૃતિની જેમ આ સોફ્ટવેરની પૂર્ણ ચકાસણી થઇ ન હોવા છતાં, તે કેટલાક કાર્યક્રમોની નવી "
-"આવૃતિઓ ધરાવે છે, જે તમને મહત્વની લાક્ષણિકતાઓ આપી શકે છે. બેકપોર્ટને અહીં સક્રિય કરવા છતાં તે "
-"તમને મૂળભૂત રીતે સ્થાપન કરવા દેશે નહી; તે માત્ર તમને બેકપોર્ટને પસંદ કરીને કાર્યક્રમો સ્થાપન "
-"કરવા દેશે."
 
 #. Type: boolean
 #. Description
@@ -275,14 +226,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr "સીડી-રોમ ચકાસે છે..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "apt રૂપરેખાંકન મુશ્કેલી"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -292,7 +243,6 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD "
 "failed."
 msgstr ""
-"સીડીમાંથી વધારાનાં પેકેજો સ્થાપન કરવા માટે apt રુપરેખાંકિત કરવાનો પ્રયત્ન નિષ્ફળ ગયો."
 
 #. Type: boolean
 #. Description
@@ -309,14 +259,14 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan another CD or DVD?"
-msgstr "બીજી સીડી અથવા ડીવીડી ચકાસશો?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "તમારી સ્થાપન સીડી અથવા ડીવીડી ચકાસાઇ ગઇ છે અને તેનું લેબલ છે:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -328,9 +278,6 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"તમારી પાસે હવે પેકેજ વ્યવસ્થાપક (apt) નો ઉપયોગ કરીને વધારાની સીડીઓ અથવા ડીવીડીઓને "
-"ચકાસવાની સુવિધા છે. સામાન્ય રીતે આ સ્થાપન સીડી/ડીવીડીનાં સમૂહથી શરૂ થાય છે. જો તમારી "
-"પાસે અન્ય કોઇ વધારાની સીડીઓ અથવા ડીવીડીઓ પ્રાપ્ત હોય તો આ પગથિયું છોડી શકાય છે."
 
 #. Type: boolean
 #. Description
@@ -341,29 +288,27 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 msgid "If you wish to scan another CD or DVD, please insert it now."
 msgstr ""
-"જો તમે બીજી સીડી અથવા ડીવીડી ચકાસવા માંગતા હોવ તો, મહેરબાની કરી તેને અત્યારે દાખલ "
-"કરો."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "નીચેનાં લેબલ વાળી સીડી અથવા ડીવીડી ચકાસાઇ ગઇ છે:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "નીચેનાં લેબલ વાળી સીડી અથવા ડીવીડી પહેલેથી ચકાસાઇ ગઇ છે:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr "મહેરબાની કરી તેને અત્યારે બદલો જો તમે બીજી CD અથવા DVD ચકાસવા માંગતા હોવ."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -373,15 +318,13 @@ msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
 msgstr ""
-"સીડી/ડીવીડી માંથી વધારાનાં પેકેજો સ્થાપન કરવા માટે apt રુપરેખાંકિત કરવાનો પ્રયત્ન નિષ્ફળ "
-"ગયો."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the CD/DVD has been inserted correctly."
-msgstr "મહેરબાની કરી ખાતરી કરો કે સીડી/ડીવીડી યોગ્ય રીતે દાખલ કરેલ છે."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -390,7 +333,7 @@ msgstr "મહેરબાની કરી ખાતરી કરો કે સ�
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "મીડીઆ ફેરફાર"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -402,8 +345,6 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:મહેરબાની કરી લેબલ: '${LABEL}' ધરાવતી ડિસ્ક '/cdrom/' ડ્રાઇવમાં દાખલ કરો "
-"અને એન્ટર દબાવો."
 
 #. Type: text
 #. Description
@@ -411,7 +352,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "નેટઇન્સ્ટ સીડીને sources.list માં અસક્રિય કરે છે..."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -424,8 +365,6 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"જો તમે નેટ ઇન્સ્ટોલ સીડીમાંથી સ્થાપિત કરી રહ્યા છો અને તમે મિરર ઉપયોગ કરવાનું પસંદ કર્યુ "
-"નથી, તો તમને અંતમાં માત્ર નાની પાયાની સિસ્ટમ મળશે."
 
 #. Type: text
 #. Description
@@ -436,8 +375,6 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"તમે નેટઇન્સ્ટોલ સીડીમાંથી સ્થાપન કરી રહ્યા છો, જે તમને ફક્ત ઘણી નાની પાયાની સિસ્ટમનું "
-"સ્થાપન કરવા દેશે. સંપૂર્ણ સિસ્ટમનું સ્થાપન કરવા માટે મિરરનો ઉપયોગ કરો."
 
 #. Type: text
 #. Description
@@ -445,7 +382,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:11001
 msgid ""
 "You are installing from a CD, which contains a limited selection of packages."
-msgstr "તમે સીડીમાંથી સ્થાપન કરી રહ્યા છો, જે મર્યાદિત સંખ્યામાં પેકેજોની પસંદગી ધરાવે છે."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -458,8 +395,6 @@ msgid ""
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"તમે %i સીડીઓ ચકાસી છે. આ મોટી સંખ્યામાં પેકેજોની પસંદગી ધરાવતી હોવા છતાં, કદાચ કેટલાક "
-"મળી શકશે નહી (ખાસ કરીને અંગ્રેજી સિવાયની ભાષાઓનાં આધાર માટેનાં પેકેજો)."
 
 #. Type: text
 #. Description
@@ -471,8 +406,6 @@ msgid ""
 "You have scanned %i CDs. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"તમે %i સીડીઓ ચકાસી છે. આ મોટી સંખ્યામાં પેકેજોની પસંદગી ધરાવતી હોવા છતાં, કદાચ કેટલાક "
-"મળી શકશે નહી."
 
 #. Type: text
 #. Description
@@ -482,8 +415,6 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"ધ્યાનમાં રાખો કે મિરરનો ઉપયોગ કરવાથી મોટી માત્રામાં માહિતી ઇન્ટરનેટ પરથી સ્થાપનનાં "
-"આગળનાં પગથિયાંમાં ડાઉનલોડ થશે."
 
 #. Type: text
 #. Description
@@ -493,8 +424,6 @@ msgid ""
 "You are installing from a DVD. Even though the DVD contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"તમે ડીવીડી માંથી સ્થાપન કરી રહ્યો છો. ડીવીડી મોટી સંખ્યામાં પેકેજો ધરાવે છે તેમ છતાં, "
-"કેટલાક પેકેજ કદાચ ન મળી શકે."
 
 #. Type: text
 #. Description
@@ -505,8 +434,6 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"જ્યાં સુધી તમારી પાસે સારું ઇન્ટરનેટ જોડાણ ન હોય, ત્યાં સુધી મિરરનો ઉપયોગ સલાહભર્યું છે, "
-"ખાસ કરીને જો તમે ગ્રાફિકલ ડેસ્કટોપનું સ્થાપન કરવા માંગતા હોવ."
 
 #. Type: text
 #. Description
@@ -516,22 +443,20 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
-"જો તમારી પાસે સારું ઇન્ટરનેટ જોડાણ હોય તો, મિરરનો ઉપયોગ સલાહભર્યું છે, ખાસ કરીને જો તમે "
-"ગ્રાફિકલ ડેસ્કટોપ સ્થાપન કરવા માંગતા હોવ."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "મિરર શોધે છે..."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "અસ્વતંત્ર સોફ્ટવેર વાપરશો?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -543,10 +468,6 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"કેટલાક મુક્ત ન હોય તેવા સોફ્ટવેર ડેબિયન સાથે કામ કરવા માટે બનાવવામાં આવ્યા છે. આ સોફ્ટવેર "
-"ડેબિયનનાં ભાગરૂપ ન હોવા છતાં, ડેબિયનનાં પ્રમાણભૂત સાધનો તેને સ્થાપિત કરવા માટે વાપરી "
-"શકાય છે. આ સોફ્ટવેરને અલગ લાયસન્સ છે જે તમને તેનો ઉપયોગ કરતાં, બદલતાં, અથવા વહેંચતા રોકી "
-"શકે છે."
 
 #. Type: boolean
 #. Description
@@ -558,14 +479,14 @@ msgstr ""
 #: ../apt-mirror-setup.templates:2001
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr "મહેરબાની કરી પસંદ કરો કે તમારે આ પ્રાપ્ત કરવાં છે."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use contrib software?"
-msgstr "ફાળો આપેલ સોફ્ટવેર વાપરશો?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -577,9 +498,6 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"કેટલાક વધારાનાં સોફ્ટવેર ડેબિયન સાથે કામ કરવા માટે બનાવવામાં આવ્યા છે. આ સોફ્ટવેર મુક્ત "
-"હોવા છતાં, તે બીજાં મુક્ત ન હોય તેવાં સોફ્ટવેર પર આધાર રાખે છે. આ સોફ્ટવેર ડેબિયનનો ભાગ "
-"નથી, પણ ડેબિયનનાં પ્રમાણભૂત સાધનો તેને સ્થાપિત કરવા માટે વાપરી શકાય છે."
 
 #. Type: boolean
 #. Description
@@ -607,7 +525,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "મહેરબાની કરી પસંદ કરો કે આ સોફ્ટવેર તમને પ્રાપ્ત થાય તેમ તમે ઇચ્છો છો."
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -616,13 +534,13 @@ msgstr "મહેરબાની કરી પસંદ કરો કે આ સ
 #. an infinitive form
 #: ../apt-mirror-setup.templates:4001
 msgid "Change mirror"
-msgstr "મિરર બદલો"
+msgstr ""
 
 #. Type: select
 #. Description
 #: ../apt-mirror-setup.templates:4002
 msgid "Downloading a file failed:"
-msgstr "ફાઈલ ડાઉનલોડ કરવામાં નિષ્ફળ:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -633,16 +551,13 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"સ્થાપન મિરરને ઉપયોગ કરવામાં નિષ્ફળ. આ કદાચ તમારા નેટવર્ક અથવા મિરર સાથેની મુશ્કેલી હોઇ "
-"શકે છે. તમને ડાઉનલોડ સાથે ફરી પ્રયત્ન કરી શકો છો, અલગ મિરર પસંદ કરી શકો છો, અથવા "
-"મુશ્કેલીને અવગણીને આ મિરરમાંથી પેકેજો વગર આગળ વધી શકો છો."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
 msgid "Use a network mirror?"
-msgstr "નેટવર્ક મિરર વાપરશો?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -652,22 +567,20 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the CD-ROM. This may also make newer versions of software available."
 msgstr ""
-"સીડી-રોમ પર સમાવેશ કરેલ સોફ્ટવેરની અવેજીમાં નેટવર્ક મિરર ઉપયોગ થઇ શકે છે. આ તમને "
-"સોફ્ટવેરની નવી આવૃતિઓ પ્રાપ્ત કરાવી શકે છે."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "Continue without a network mirror?"
-msgstr "નેટવર્ક મિરર વગર આગળ વધશો?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:6001
 msgid "No network mirror was selected."
-msgstr "કોઇ નેટવર્ક મિરર મળ્યો નહી."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -675,7 +588,7 @@ msgstr "કોઇ નેટવર્ક મિરર મળ્યો નહી."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "મર્યાદિત સોફ્ટવેર વાપરશો?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -688,9 +601,6 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"કેટલાક મુક્ત ન હોય તેવા સોફ્ટવેર પેકેજ તરીકે પ્રાપ્ત છે. આ સોફ્ટવેર ડેબિયનનો ભાગ નથી પણ "
-"ડેબિયનનાં પ્રમાણભૂત સાધનો તેને સ્થાપિત કરવા માટે વાપરી શકાય છે. આ સોફ્ટવેરને અલગ લાયસન્સ "
-"છે જે તમને તેનો ઉપયોગ કરતાં, બદલતાં, અથવા વહેંચતા રોકી શકે છે."
 
 #. Type: boolean
 #. Description
@@ -698,7 +608,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "\"universe\" ભાગ માંથી સોફ્ટવેર વાપરશો?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -710,8 +620,6 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"કેટલાક વધારાનાં સોફ્ટવેર પેકેજ તરીકે પ્રાપ્ત છે. આ સોફ્ટવેર મુક્ત છે પરંતુ મુખ્ય વહેંચણીનો ભાગ "
-"નથી, તેમ છતાં પ્રમાણભૂત પેકેજ વ્યવસ્થાપક સાધનો તેને સ્થાપિત કરવા માટે વાપરી શકાય છે."
 
 #. Type: boolean
 #. Description
@@ -719,7 +627,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "\"multiverse\" ભાગ માંથી સોફ્ટવેર વાપરશો?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -733,10 +641,6 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"કેટલાક વધારાનાં સોફ્ટવેર પેકેજ તરીકે પ્રાપ્ત છે. આ સોફ્ટવેર મુક્ત છે પરંતુ મુખ્ય વહેંચણીનો ભાગ "
-"નથી, તેમ છતાં પ્રમાણભૂત પેકેજ વ્યવસ્થાપક સાધનો તેને સ્થાપિત કરવા માટે વાપરી શકાય છે. આ "
-"સોફ્ટવેરને અલગ લાયસન્સો અને (કેટલાક કિસ્સાઓમાં) પેટન્ટ મર્યાદાઓ છે જે તમને તેનો ઉપયોગ કરતાં, "
-"બદલતાં, અથવા વહેંચતા રોકી શકે છે."
 
 #. Type: boolean
 #. Description
@@ -744,7 +648,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "\"partner\" રેપોઝિટોરીમાંથી સોફ્ટવેર વાપરશો?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -756,9 +660,6 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"કેનોનિકલ તરફથી કેટલાક વધારાનાં સોફ્ટવેર \"partner\" રેપોઝિટોરીમાં પ્રાપ્ત છે. આ સોફ્ટવેર "
-"ઉબુન્ટુનો ભાગ નથી, પણ કેનોનિકલ અને સંબંધિત વેપારીઓ તરફથી તેમનાં વપરાશકર્તાઓને સેવા તરીકે "
-"આપવામાં આવેલ છે."
 
 #. Type: boolean
 #. Description
@@ -766,7 +667,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "બેકપોર્ટેડ સોફ્ટવેર વાપરશો?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -779,6 +680,3 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"કેટલાક સોફ્ટવેર ડેવલપમેન્ટમાંથી આ આવૃતિમાં લાવવામાં આવ્યા છે. આ સોફ્ટવેર આ આવૃતિની જેમ પૂર્ણ "
-"ચકાસણી થઇ ન હોવા છતાં, તે કેટલાક કાર્યક્રમોની નવી આવૃતિઓ ધરાવે છે જે તમને મહત્વની "
-"લાક્ષણિકતાઓ આપી શકે છે."
