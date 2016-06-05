@@ -1,3 +1,10 @@
+apt-setup (1:0.116) unstable; urgency=medium
+
+  * Rebuild with translation files that include complete information
+    about translator and last update information.
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 05 Jun 2016 15:37:23 +0200
+
 apt-setup (1:0.115) unstable; urgency=medium
 
   * Rebuild with translations back in place
