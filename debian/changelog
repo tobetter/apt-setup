@@ -1,3 +1,10 @@
+apt-setup (1:0.119) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 18 Sep 2016 08:30:35 +0200
+
 apt-setup (1:0.118) unstable; urgency=medium
 
   [ Updated translations ]
