@@ -1,3 +1,10 @@
+apt-setup (1:0.122) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Kazakh (kk.po) by Baurzhan Muftakhidinov
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 22 Nov 2016 07:40:44 +0100
+
 apt-setup (1:0.121) unstable; urgency=medium
 
   [ Updated translations ]
