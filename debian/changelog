@@ -1,3 +1,11 @@
+apt-setup (1:0.123) UNRELEASED; urgency=medium
+
+  [ Steve McIntyre ]
+  * Tweak which images will offer to scan more discs
+  * Add myself to uploaders.
+
+ -- Steve McIntyre <93sam@debian.org>  Wed, 21 Dec 2016 16:29:39 +0000
+
 apt-setup (1:0.122) unstable; urgency=medium
 
   [ Updated translations ]
