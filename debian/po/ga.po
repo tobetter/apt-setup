@@ -255,7 +255,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "An bhfuil fonn ort stórlanna foinse a chumasú in APT?"
 
 #. Type: boolean
 #. Description
@@ -267,6 +267,11 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"De réir réamhshocraithe, cuirtear stórlanna foinse in /etc/apt/sources.list "
+"(le línte \"deb-src\" mar is gá) sa chaoi go bhfeidhmíonn \"apt-get source\" "
+"mar is ceart. Ach, mura dteastaíonn an ghné seo uait, is féidir na "
+"hiontrálacha sin a dhíchumasú agus bandaleithead a spáráil nuair a úsáideann "
+"tú \"apt-get update\"."
 
 #. Type: text
 #. Description
