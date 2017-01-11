@@ -1,4 +1,4 @@
-apt-setup (1:0.123) UNRELEASED; urgency=medium
+apt-setup (1:0.123) unstable; urgency=medium
 
   [ Steve McIntyre ]
   * Tweak which images will offer to scan more discs
