@@ -1,3 +1,10 @@
+apt-setup (1:0.124) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Spanish (es.po) by Javier Fernández-Sanguino Peña
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 30 Jan 2017 19:03:46 +0100
+
 apt-setup (1:0.123) unstable; urgency=medium
 
   [ Steve McIntyre ]
