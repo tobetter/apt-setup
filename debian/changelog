@@ -1,3 +1,10 @@
+apt-setup (1:0.125) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Korean (ko.po) by Changwoo Ryu
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 13 Feb 2017 07:17:01 +0100
+
 apt-setup (1:0.124) unstable; urgency=medium
 
   [ Updated translations ]
