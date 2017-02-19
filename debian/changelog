@@ -1,3 +1,10 @@
+apt-setup (1:0.126) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Italian (it.po) by Milo Casagrande
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 19 Feb 2017 08:46:32 +0100
+
 apt-setup (1:0.125) unstable; urgency=medium
 
   [ Updated translations ]
