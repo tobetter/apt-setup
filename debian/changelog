@@ -1,9 +1,9 @@
-apt-setup (1:0.97+kbsd8u1) UNRELEASED; urgency=medium
+apt-setup (1:0.97+kbsd8u1) unstable; urgency=medium
 
   * Always use the proposed-updates suite on jessie-kfreebsd, since it
     contains major bug fixes and security updates.
 
- -- Steven Chamberlain <stevenc@debian.org>  Wed, 12 Apr 2017 21:08:33 +0000
+ -- Steven Chamberlain <stevenc@debian.org>  Thu, 13 Apr 2017 14:29:00 +0000
 
 apt-setup (1:0.97) unstable; urgency=medium
 
