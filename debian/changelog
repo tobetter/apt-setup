@@ -1,3 +1,10 @@
+apt-setup (1:0.97+kbsd8u1) UNRELEASED; urgency=medium
+
+  * Always use the proposed-updates suite on jessie-kfreebsd, since it
+    contains major bug fixes and security updates.
+
+ -- Steven Chamberlain <stevenc@debian.org>  Wed, 12 Apr 2017 21:08:33 +0000
+
 apt-setup (1:0.97) unstable; urgency=medium
 
   * Stop enabling backports by default (Closes: #764982). Rationale:

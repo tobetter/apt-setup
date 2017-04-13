@@ -234,7 +234,13 @@ while [ ! "$done" ]; do
 		;;
 	esac
 
-	echo "deb $protocol://$hostname$directory $codename $dists" > $file
+	cat > $file <<EOF
+deb $protocol://$hostname$directory $codename $dists
+deb-src $protocol://$hostname$directory $codename $dists
+
+deb $protocol://$hostname$directory $codename-proposed-updates $dists
+deb-src $protocol://$hostname$directory $codename-proposed-updates $dists
+EOF
 	
 	if apt-setup-verify --from $PROGRESS_FROM --to $PROGRESS_TO $file; then
 		done=1
@@ -251,5 +257,3 @@ while [ ! "$done" ]; do
 		fi
 	fi
 done
-
-echo "deb-src $protocol://$hostname$directory $codename $dists" >> $file
