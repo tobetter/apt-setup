@@ -1,3 +1,12 @@
+apt-setup (1:0.127) UNRELEASED; urgency=medium
+
+  * Switch default hostname from ftp.debian.org to deb.debian.org in the
+    following generators (Closes: #860472):
+     - 92updates
+     - 93backports
+
+ -- Cyril Brulebois <kibi@debian.org>  Mon, 17 Apr 2017 21:59:25 +0200
+
 apt-setup (1:0.126) unstable; urgency=medium
 
   [ Updated translations ]
