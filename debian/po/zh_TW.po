@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2013-09-30 14:59+0800\n"
+"PO-Revision-Date: 2017-06-06 20:39+0800\n"
 "Last-Translator: Yao Wei (魏銘廷) <mwei@lxde.org>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
 "debian.org>\n"
@@ -90,9 +90,8 @@ msgstr "正在掃瞄發行版更新套件庫……"
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
 msgid "Scanning the backports repository..."
-msgstr "正在掃瞄發行版更新套件庫……"
+msgstr "正在掃瞄 backports 套件庫……"
 
 #. Type: select
 #. Choices
@@ -257,7 +256,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "啟用 APT 的原始碼套件庫？"
 
 #. Type: boolean
 #. Description
@@ -269,6 +268,9 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"預設原始碼套件庫會在 /etc/apt/sources.list 中列出 (前面帶有 \"deb-src\") 才有"
+"辦法使用 \"apt-get source\"。但是如果您不需要這個功能，您可以將這些項目停用以"
+"在 \"apt-get update\" 操作中節省頻寬。"
 
 #. Type: text
 #. Description
