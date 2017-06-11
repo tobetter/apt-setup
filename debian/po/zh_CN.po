@@ -27,15 +27,16 @@
 #
 #   Mai Hao Hui <mhh@126.com>, 2001 (translations from galeon)
 # YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012, 2013.
+# Yangfl <mmyangfl@gmail.com>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2014-03-05 14:59+0800\n"
-"Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
-"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"PO-Revision-Date: 2017-06-11 18:20+0800\n"
+"Last-Translator: Yangfl <mmyangfl@gmail.com>\n"
+"Language-Team:  <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -137,8 +138,8 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"这可能是您的网络问题，也可能是保存此密钥服务器的错误。您可以选择重试下载；使"
-"用别的镜像网站；或者忽略这一问题，不使用这个镜像网站的任何软件包并继续。"
+"这可能是您的网络问题，也可能是保存此密钥的服务器发生错误。您可以选择重试下"
+"载，或者忽略这一问题，不使用该镜像站的任何软件包并继续。"
 
 #. Type: error
 #. Description
@@ -185,7 +186,7 @@ msgstr "安全更新 (来自 ${SEC_HOST})"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr "发布版本的更新(updates)："
+msgstr "发布版本更新 (updates)"
 
 #. Type: multiselect
 #. Choices
@@ -195,7 +196,7 @@ msgstr "发布版本的更新(updates)："
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr "移植回来的 (backported) 软件？"
+msgstr "向后移植 (backported) 的软件"
 
 #. Type: multiselect
 #. Description
@@ -233,8 +234,8 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"发布版本更新(updates)为那些变动相对频繁，而且使用非最新版本会降低可用性的软件"
-"提供新的版本，也提供回归修复(regression fixes)。这一服务只针对稳定版 "
+"发布版本更新 (updates) 为那些变动相对频繁，而且使用非最新版本会降低可用性的软"
+"件提供新的版本，也提供回归修复 (regression fixes)。这一服务只针对稳定版 "
 "(stable) 和旧稳定版 (oldstable)。"
 
 #. Type: multiselect
@@ -249,17 +250,17 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"移植回来(backport)的软件是从开发版中向本发布版中移植的版本。虽然此软件并没有"
-"如发布版中的软件那样进行如此完整的测试，它包含了某些应用程序的新版本，可能会"
-"提供一些有用的新功能。启用 backport 并不会自动安装这些软件：只是可以让您手动"
-"选择安装。"
+"向后移植 (backport) 的软件是从开发版中向本发布版中移植的版本。虽然此软件并没"
+"有如发布版中的软件那样进行如此完整的测试，它包含了某些应用程序的新版本，可能"
+"会提供一些有用的新功能。启用 backport 并不会自动安装这些软件：只是可以让您手"
+"动选择安装。"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "启用 APT 源代码软件源？"
 
 #. Type: boolean
 #. Description
@@ -271,6 +272,9 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"默认情况下，源代码库会在 /etc/apt/sources.list 中列出 (前面带有“deb-src”)，以"
+"使用 “apt-get source”。但是，如果您不需要此功能，则可以在“apt-get update”操作"
+"期间禁用这些条目并节省一些带宽。"
 
 #. Type: text
 #. Description
@@ -398,7 +402,8 @@ msgstr "更换介质"
 msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
-msgstr "/cdrom/:请将标记为“${LABEL}”的光盘插入 /cdrom/ 驱动器中，并按回车键。"
+msgstr ""
+"/cdrom/：请将标记为“${LABEL}”的光盘插入驱动器 /cdrom/ 中，然后按下 Enter。"
 
 #. Type: text
 #. Description
@@ -497,8 +502,8 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"只要您有良好的 Internet 连接，特别是如果您打算安装一个图形界面的桌面环境的"
-"话，那就推荐您使用镜像。"
+"除非您并没有良好的互联网连接，否则建议您使用镜像，尤其是如果您计划要安装图形"
+"界面的桌面环境的话。"
 
 #. Type: text
 #. Description
@@ -508,15 +513,15 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
-"如果您有足够好的 Internet 连接，并且打算安装一个图形界面的桌面环境，那么建议"
-"您使用镜像。"
+"如果您有足够好的互联网连接，并且打算安装一个图形界面的桌面环境的话，建议您使"
+"用镜像。"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "正在扫描镜像站点..."
+msgstr "正在扫描镜像站..."
 
 #. Type: boolean
 #. Description
@@ -536,8 +541,8 @@ msgid ""
 "using, modifying, or sharing it."
 msgstr ""
 "有些非自由软件也能在 Debian 中使用。尽管这些软件并不是 Debian 的一部分，但标"
-"准 Debian 工具还是可以安装它们。这些软件都有其不同的许可权，这可能会阻止您使"
-"用、修改或共享它们。"
+"准 Debian 工具还是可以安装它们。这些软件都有其不同的使用许可权，这可能会阻止"
+"您使用、修改或共享它们。"
 
 #. Type: boolean
 #. Description
@@ -624,9 +629,9 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"安装程序无法连接镜像网站。这可能是您的网络问题，也可能是镜像网站的错误。您可"
-"以选择重试下载；使用别的镜像网站；或者忽略这一问题，不使用这个镜像网站的任何"
-"软件包并继续。"
+"安装程序无法访问镜像站。这可能是您的网络问题，也可能是保存此密钥的服务器发生"
+"错误。您可以选择重试下载，选择另一个镜像站，或者忽略这一问题，不使用该镜像站"
+"的任何软件包并继续。"
 
 #. Type: boolean
 #. Description
@@ -753,7 +758,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "使用移植回来的 (backported) 软件吗？"
+msgstr "使用向后移植 (backported) 的软件吗？"
 
 #. Type: boolean
 #. Description
@@ -766,6 +771,6 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"某些软件已被从正在开发的代码中移植回到这一发布中使用。虽然这些软件不象正式发"
-"布中包含的软件一样经过了详尽的测试，但是它们包括一些应用程序的新版本，因而可"
-"能会提供一些有用的功能。"
+"有些软件由开发中的版本向后移植到这个发行版中。虽然这些软件不象正式发布中包含"
+"的软件一样经过了详尽的测试，但是它们包括一些应用程序的新版本，因而可能会提供"
+"一些有用的功能。"
