@@ -16,14 +16,14 @@
 # Marce Villarino <mvillarino@users.sourceforge.net>, 2009.
 # marce villarino <mvillarino@users.sourceforge.net>, 2009.
 # Marce Villarino <mvillarino@gmail.com>, 2009.
-# Jorge Barreiro <yortx.barry@gmail.com>, 2010, 2011, 2012, 2013.
+# Jorge Barreiro <xurxo@findomundo.es>, 2010, 2011, 2012, 2013, 2014, 2015, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2013-10-14 19:48+0200\n"
-"Last-Translator: Jorge Barreiro <yortx.barry@gmail.com>\n"
+"PO-Revision-Date: 2017-06-15 02:16+0200\n"
+"Last-Translator: Jorge Barreiro <xurxo@findomundo.es>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -260,7 +260,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "Quere activar os repositorios de código fonte en APT?"
 
 #. Type: boolean
 #. Description
@@ -272,6 +272,11 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"Por omisión os repositorios de código fonte lístanse no ficheiro «/etc/apt/"
+"sources.list» (coas liñas «deb-src» axeitadas) para que «apt-get source» "
+"funcione. Porén, se non precisa utilizar esta funcionalidade pode desactivar "
+"estas entradas e aforrarse ancho de banda durante as operacións de «apt-get "
+"update»."
 
 #. Type: text
 #. Description
