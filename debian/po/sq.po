@@ -12,20 +12,24 @@
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@debian.org>, 2004
 #   Elian Myftiu <elian.myftiu@gmail.com>, 2004,2006.
-#   Eva Vranici <evavranici@gmail.com>, 2017.
+#
+# Eva Vranici <evavranici@gmail.com>, 2017.
+# Silva Arapi <silva.arapi@gmail.com>, 2017.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2017-09-04 19:01+0300\n"
-"Last-Translator: Redon Skikuli <rskikuli@gmail.com>\n"
-"Language-Team: Albanian \n"
+"PO-Revision-Date: 2017-09-04 19:14+0200\n"
+"Last-Translator: Silva Arapi <silva.arapi@gmail.com>\n"
+"Language-Team: Albanian <debian-l10n-albanian@lists.debian.org>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n>1;\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;\n"
 
 #. Type: text
 #. Description
@@ -172,9 +176,8 @@ msgstr "përditësime sigurie (nga ${SEC_HOST})"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
 msgid "release updates"
-msgstr "Fshi të dhëna:"
+msgstr "lësho përditësime"
 
 #. Type: multiselect
 #. Choices
@@ -183,9 +186,8 @@ msgstr "Fshi të dhëna:"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
 msgid "backported software"
-msgstr "Të përdor software të përshtatur?"
+msgstr "software të përshtatur"
 
 #. Type: multiselect
 #. Description
@@ -198,13 +200,12 @@ msgstr "Shërbimet për përdorim:"
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
 "Debian ka dy shërbyes që i sigurojnë përditësime botimeve: sigurie dhe "
-"paqëndrueshmërie."
+"lëshimi përditësimesh."
 
 #. Type: multiselect
 #. Description
@@ -221,24 +222,21 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
 msgid ""
 "Release updates provide more current versions for software that changes "
 "relatively frequently and where not having the latest version could reduce "
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Përditësimet e paqëndrueshmërisë sigurojnë versionet më të fundit për "
-"programe që ndryshojnë relativisht shpesh dhe që kur nuk janë të versionit "
-"të fundit mund të ulin përdorueshmërinë e tyre. Një shembull janë firmat e "
-"virusëve për një kontrollues virusesh. Ky shërbim është i gatshëm për "
-"botimet \"stable\" dhe \"oldstable\"."
+"Përditësimet e lëshuara sigurojnë versionet më të fundit për programe që "
+"ndryshojnë relativisht shpesh dhe që kur nuk janë të versionit të fundit "
+"mund të ulin përdorueshmërinë e tyre. Gjithashtu ofron rregullime regresive."
+"Ky shërbim është i gatshëm për botimet \"stable\" dhe \"oldstable\"."
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -247,10 +245,12 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Disa programe janë përshtatur nga pema e zhvillimit për të punuar me këtë "
-"dalje në qarkullim. Edhe pse ky software nuk ka kaluar në testim aq të plotë "
-"sa ai që ndodhet në shpërndarjen kryesore, përmban versione të reja të disa "
-"programeve që mund të sjellin veçori të dobishme."
+"Programe backport janë përshtatur nga pema e zhvillimit për të punuar me "
+"këtë dalje në qarkullim. Edhe pse ky software nuk ka kaluar në testim aq të "
+"plotë sa ai që ndodhet në shpërndarjen kryesore, përmban versione të reja të "
+"disa programeve që mund të sjellin veçori të dobishme. Aktivizimi i backport-"
+"eve këtu nuk do te bejë që asnjëra prej tyre të instalohet me paracaktim; "
+"ajo vetëm të lejon ty të zgjedhësh manualisht backport-et për tu përdorur."
 
 #. Type: boolean
 #. Description
@@ -468,8 +468,8 @@ msgid ""
 "languages other than English)."
 msgstr ""
 "Kontrollove %i CD. Edhe pse këto përmbajnë një zgjedhje të gjërë paketash, "
-"disa mund të mungojnë (p.sh., disa paketa të nevojshme për suportn e gjuhëve "
-"të tjera veç Anglishtes)."
+"disa mund të mungojnë (p.sh., disa paketa të nevojshme për suportin e "
+"gjuhëve të tjera veç Anglishtes)."
 
 #. Type: text
 #. Description
@@ -543,7 +543,7 @@ msgstr "Duke kontrolluar pasqyrën..."
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free software?"
-msgstr "Dëshiron të përdorësh programe non-free?"
+msgstr "Dëshiron të përdorësh programe jo-të-lira?"
 
 #. Type: boolean
 #. Description
@@ -555,7 +555,7 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Disa programe non-free janë përshtatur të punojnë me Debian. Edhe pse këto "
+"Disa programe jo-të-lira janë përshtatur të punojnë me Debian. Edhe pse këto "
 "programe nuk janë aspak pjesë e Debian, vegla standarte mund të përdoren për "
 "ti instaluar. Këto programe kanë liçenca të ndryshme që mund të të pengojnë "
 "ti përdorësh, ndryshosh apo ti ndash me të tjerët."
