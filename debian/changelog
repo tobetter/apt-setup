@@ -1,3 +1,11 @@
+apt-setup (1:0.129) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Greek (el.po) by Sotirios Vrachas
+  * Albanian (sq.po) by Silva Arapi
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 12 Sep 2017 06:40:21 +0200
+
 apt-setup (1:0.128) unstable; urgency=medium
 
   [ Updated translations ]
