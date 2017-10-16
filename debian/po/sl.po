@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: sl\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2014-10-21 14:42+0100\n"
+"PO-Revision-Date: 2017-10-13 10:42+0100\n"
 "Last-Translator: Vanja Cvelbar <cvelbar@gmail.com>\n"
 "Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
 "Language: sl\n"
@@ -273,7 +273,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "Ali naj omogočim skladišča izvorne kode v APT?"
 
 #. Type: boolean
 #. Description
@@ -285,6 +285,10 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"Skladišča izvorne kode so privzeto vpisana v spisku /etc/apt/sources.list (s "
+"primernimi vrsticami \"deb-src\"), tako, da \"apt-get source\" pravilno "
+"deluje. V primeru, da tega ne potrebujete lahko onemogočite te vnose in "
+"prihranite nekaj pasovne širine pri opravilom \"apt-get update\"."
 
 #. Type: text
 #. Description
