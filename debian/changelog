@@ -1,3 +1,10 @@
+apt-setup (1:0.130) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Slovenian (sl.po) by Vanja Cvelbar
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 17 Oct 2017 06:38:12 +0200
+
 apt-setup (1:0.129) unstable; urgency=medium
 
   [ Updated translations ]
