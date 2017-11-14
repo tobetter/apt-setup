@@ -4,9 +4,9 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # Catalan messages for debian-installer.
-# Copyright 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2010, 2012, 2015 Software in the Public Interest, Inc.
+# Copyright 2002-2008, 2010, 2012, 2015, 2017 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
-# Jordi Mallach <jordi@debian.org>, 2002, 2003, 2004, 2006, 2007, 2008, 2010, 2012, 2015.
+# Jordi Mallach <jordi@debian.org>, 2002-2008, 2010, 2012, 2015, 2017.
 # Guillem Jover <guillem@debian.org>, 2005, 2007.
 #
 # Translations from iso-codes:
@@ -18,10 +18,10 @@
 # Traductor: Jordi Ferré <jordiferre@catalonia.altranet.fr>
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer jessie\n"
+"Project-Id-Version: debian-installer buster\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2015-04-04 01:39+0200\n"
+"POT-Creation-Date: 2017-10-23 22:02+0000\n"
+"PO-Revision-Date: 2017-11-14 10:33+0100\n"
 "Last-Translator: Jordi Mallach <jordi@debian.org>\n"
 "Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
 "Language: ca\n"
@@ -261,7 +261,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "Voleu habilitar els dipòsits de codi font a l'APT?"
 
 #. Type: boolean
 #. Description
@@ -273,6 +273,11 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"Per defecte, els dipòsits de codi font estan llistats en /etc/apt/sources."
+"list (amb les línies «deb-src» apropiades) per a que «apt-get source» "
+"funcioni. Tanmateix, si no necessiteu aquesta funcionalitat, podeu "
+"inhabilitar aquestes entrades i així emprar menys ample de banda durant les "
+"operacions «apt-get update»."
 
 #. Type: text
 #. Description
@@ -563,8 +568,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:2001
-#: ../apt-mirror-setup.templates-ubuntu:1001
+#: ../apt-mirror-setup.templates:2001 ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
 msgstr "Seleccioneu si el voleu tindre disponible de tota manera."
 
@@ -610,8 +614,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:3001
-#: ../apt-mirror-setup.templates-ubuntu:2001
+#: ../apt-mirror-setup.templates:3001 ../apt-mirror-setup.templates-ubuntu:2001
 #: ../apt-mirror-setup.templates-ubuntu:3001
 #: ../apt-mirror-setup.templates-ubuntu:4001
 #: ../apt-mirror-setup.templates-ubuntu:5001
