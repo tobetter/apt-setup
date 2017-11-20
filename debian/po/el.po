@@ -32,8 +32,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2017-09-02 23:06+0300\n"
+"POT-Creation-Date: 2017-10-23 22:02+0000\n"
+"PO-Revision-Date: 2017-11-17 01:07+0200\n"
 "Last-Translator: Sotirios Vrachas <sotirios@vrachas.net>\n"
 "Language-Team: el <debian-l10n-greek@lists.debian.org>\n"
 "Language: el\n"
@@ -274,7 +274,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "Ενεργοποίηση αποθετηρίων πηγαίου κώδικα στο APT;"
 
 #. Type: boolean
 #. Description
@@ -286,6 +286,11 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"Από προεπιλογή, τα αποθετήρια πηγαίου κώδικα παρατίθενται στο /etc/apt/"
+"sources.list (με τις κατάλληλες γραμμές \"deb-src\") έτσι ώστε να λειτουργεί "
+"η \"apt-get source\". Ωστόσο, εάν δεν χρειάζεστε αυτήν τη λειτουργία, "
+"μπορείτε να απενεργοποιήσετε αυτές τις καταχωρίσεις και να μειώσετε τον όγκο "
+"δεδομένον κατά τη διάρκεια των λειτουργιών \"apt-get update\"."
 
 #. Type: text
 #. Description
@@ -299,7 +304,7 @@ msgstr "Ανίχνευση CD-ROM..."
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "Πρόβλημα ρύθμισης του apt"
+msgstr "apt πρόβλημα ρύθμισης"
 
 #. Type: error
 #. Description
@@ -584,8 +589,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:2001
-#: ../apt-mirror-setup.templates-ubuntu:1001
+#: ../apt-mirror-setup.templates:2001 ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
 msgstr ""
 "Παρακαλώ, επιλέξτε αν επιθυμείτε να είναι διαθέσιμο αυτό το λογισμικό ούτως "
@@ -633,8 +637,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:3001
-#: ../apt-mirror-setup.templates-ubuntu:2001
+#: ../apt-mirror-setup.templates:3001 ../apt-mirror-setup.templates-ubuntu:2001
 #: ../apt-mirror-setup.templates-ubuntu:3001
 #: ../apt-mirror-setup.templates-ubuntu:4001
 #: ../apt-mirror-setup.templates-ubuntu:5001
