@@ -1,3 +1,13 @@
+apt-setup (1:0.131) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Catalan (ca.po) by Jordi Mallach
+  * Greek (el.po) by Sotirios Vrachas
+  * Estonian (et.po) by Kristjan Räts
+  * Swedish (sv.po) by Anders Jonsson
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 22 Nov 2017 07:35:20 +0100
+
 apt-setup (1:0.130) unstable; urgency=medium
 
   [ Updated translations ]
