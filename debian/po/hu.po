@@ -28,16 +28,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2013-11-18 21:15+0100\n"
-"Last-Translator: Judit Gyimesi <judit.gyimesi.x@gmail.com>\n"
+"POT-Creation-Date: 2017-10-23 22:02+0000\n"
+"PO-Revision-Date: 2017-11-26 20:32+0000\n"
+"Last-Translator: Dr. Nagy Elemér Károly <eknagy@omikk.bme.hu>\n"
 "Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
 "org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n>1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: text
 #. Description
@@ -264,7 +264,7 @@ msgid ""
 "this service is strongly recommended."
 msgstr ""
 "A biztonsági frissítésekkel a rendszer biztonságosabbá tehető a támadásokkal "
-"szemben. E szolgáltatás engedélyezése ERŐSEN AJÁNLOTT!"
+"szemben. E szolgáltatás engedélyezése erősen ajánlott."
 
 #. Type: multiselect
 #. Description
@@ -303,7 +303,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "Engedélyezzem a forráskód gyűjteményeket az APT-ben?"
 
 #. Type: boolean
 #. Description
@@ -315,6 +315,10 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"Alapértelmezés szerint a forrás gyűjtemények is fel vannak sorolva az /etc/"
+"apt/sources.list fájlban (megfelelő \"deb-src\" sorokkal) és így az \"apt-"
+"get source\" működik. Azonban ha erre nincs szükséged, letilthatod ezt és "
+"sávszélességet spórolhatsz az \"apt-get update\" futtatásakor."
 
 #. Type: text
 #. Description
@@ -611,10 +615,9 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:2001
-#: ../apt-mirror-setup.templates-ubuntu:1001
+#: ../apt-mirror-setup.templates:2001 ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr "Kívánja, hogy ezek elérhetőek legyenek?"
+msgstr "Kérlek döntsd el, hogy így is szeretnéd-e."
 
 #. Type: boolean
 #. Description
@@ -657,14 +660,13 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:3001
-#: ../apt-mirror-setup.templates-ubuntu:2001
+#: ../apt-mirror-setup.templates:3001 ../apt-mirror-setup.templates-ubuntu:2001
 #: ../apt-mirror-setup.templates-ubuntu:3001
 #: ../apt-mirror-setup.templates-ubuntu:4001
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "Kívánja, hogy ezek elérhetőek legyenek az Ön számára?"
+msgstr "Kérlek döntsd el, hogy elérhetőek legyenek-e ezek a szoftverek."
 
 # #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
 # Type: select
