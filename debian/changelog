@@ -1,3 +1,11 @@
+apt-setup (1:0.132) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Lithuanian (lt.po) by Rimas Kudelis
+  * Norwegian Nynorsk (nn.po) by Allan Nordhøy
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 27 Nov 2017 07:40:54 +0100
+
 apt-setup (1:0.131) unstable; urgency=medium
 
   [ Updated translations ]
