@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2017-10-23 22:02+0000\n"
-"PO-Revision-Date: 2017-11-19 22:25+0000\n"
+"PO-Revision-Date: 2017-11-29 09:45+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
 "Language: sv\n"
@@ -76,7 +76,7 @@ msgstr "Söker igenom förrådet för säkerhetsuppdateringar..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "Söker igenom det förrådet för utgåveuppdateringar..."
+msgstr "Söker igenom förrådet för utgåveuppdateringar..."
 
 #. Type: text
 #. Description
@@ -191,7 +191,7 @@ msgstr "utgåveuppdateringar"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr "Bakåtporterad programvara"
+msgstr "bakåtporterad programvara"
 
 #. Type: multiselect
 #. Description
@@ -342,7 +342,7 @@ msgstr ""
 "Du har nu möjligheten att söka igenom ytterligare cd eller dvd-skivor för "
 "användning i pakethanteraren (apt). Oftast bör dessa vara från samma "
 "uppsättning installationsskivor. Detta steg kan hoppas över om du inte har "
-"några ytterligare cd eller dvd-skivor tillgängliga."
+"några ytterligare cd- eller dvd-skivor tillgängliga."
 
 #. Type: boolean
 #. Description
@@ -519,8 +519,8 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"Såvida du inte har en snabb internetanslutning så rekommenderas det att du "
-"använder en spegelserver, speciellt om du planerar att installera en grafisk "
+"Om inte din internetanslutning är dålig så rekommenderas det att du använder "
+"en spegelserver, speciellt om du planerar att installera en grafisk "
 "skrivbordsmiljö."
 
 #. Type: text
@@ -708,7 +708,7 @@ msgid ""
 msgstr ""
 "Vissa icke-fria programvaror finns tillgängliga i paketerad form. Även om "
 "den här programvaran inte är en del av huvudutgåvan kan "
-"standardpakethanteringsverktyg användas för att installera de. Den här "
+"standardpakethanteringsverktyg användas för att installera dem. Den här "
 "programvaran har olika licenstyper som kan hindra dig från att använda, "
 "modifiera och dela ut den."
 
@@ -803,5 +803,5 @@ msgid ""
 msgstr ""
 "Vissa programvaror har blivit bakåtporterade från utvecklingsträdet för att "
 "fungera med den här utgåvan. Även om den här programvaran inte har genomgått "
-"en kompletta tester såsom de andra paketen i utgåvan inkluderar den nyare "
+"kompletta tester såsom de andra paketen i utgåvan inkluderar den nyare "
 "versioner av vissa program som kan tillhandahålla användbara funktioner."
