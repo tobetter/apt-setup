@@ -1,3 +1,10 @@
+apt-setup (1:0.134) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Nepali (ne.po) by Jeewal Kunwar
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 27 Dec 2017 08:37:37 +0100
+
 apt-setup (1:0.133) unstable; urgency=medium
 
   [ Updated translations ]
