@@ -1,3 +1,11 @@
+apt-setup (1:0.135) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Panjabi (pa.po) by Aman ALam
+  * Serbian (sr.po) by Filipovic Dragan
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 12 Jan 2018 06:22:05 +0100
+
 apt-setup (1:0.134) unstable; urgency=medium
 
   [ Updated translations ]
