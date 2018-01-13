@@ -1,3 +1,14 @@
+apt-setup (1:0.136) UNRELEASED; urgency=medium
+
+  [ Steve McIntyre ]
+  * If installing from a single-desktop single CD image, comment it out
+    from sources.list after installation like we do with the netinst
+    images.
+  * When commenting sources like this, add a helpful comment in
+    sources.list too.
+
+ -- Steve McIntyre <93sam@debian.org>  Fri, 12 Jan 2018 17:15:44 +0000
+
 apt-setup (1:0.135) unstable; urgency=medium
 
   [ Updated translations ]
