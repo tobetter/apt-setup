@@ -1,4 +1,4 @@
-apt-setup (1:0.136) UNRELEASED; urgency=medium
+apt-setup (1:0.137) unstable; urgency=medium
 
   [ Steve McIntyre ]
   * If installing from a single-desktop single CD image, comment it out
@@ -7,7 +7,10 @@ apt-setup (1:0.136) UNRELEASED; urgency=medium
   * When commenting sources like this, add a helpful comment in
     sources.list too.
 
- -- Steve McIntyre <93sam@debian.org>  Fri, 12 Jan 2018 17:15:44 +0000
+  [ Updated translations ]
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 20 Jan 2018 07:56:21 +0100
 
 apt-setup (1:0.135) unstable; urgency=medium
 
