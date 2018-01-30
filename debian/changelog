@@ -1,3 +1,11 @@
+apt-setup (1:0.138) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Norwegian Nynorsk (nn.po) by Petter Reinholdtsen
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 29 Jan 2018 19:46:17 +0100
+
 apt-setup (1:0.137) unstable; urgency=medium
 
   [ Steve McIntyre ]
