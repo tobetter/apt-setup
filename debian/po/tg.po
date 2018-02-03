@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2017-10-23 22:02+0000\n"
-"PO-Revision-Date: 2018-01-21 20:21+0500\n"
+"PO-Revision-Date: 2018-02-03 14:48+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: tg\n"
@@ -100,7 +100,7 @@ msgstr "Рад кардан"
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr "Боргирии калиди бастаи анборҳои маҳаллӣ ба анҷом нарасид:"
+msgstr "Боргирии калиди анбори бастаҳои маҳаллӣ ба анҷом нарасид:"
 
 #. Type: select
 #. Description
@@ -111,8 +111,8 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"Насбкунанда калиди оммавиро, ки барои имзо кардани анбори бастаҳои маҳаллӣ "
-"дар ${MIRROR} истифода шуда буд, боргирӣ накард:"
+"Насбкунанда калиди оммавиро, ки барои имзогузории анбори бастаҳои маҳаллӣ "
+"дар ${MIRROR} истифода мешавад, боргирӣ накард:"
 
 #. Type: select
 #. Description
@@ -122,10 +122,9 @@ msgid ""
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"Ин метавонад мушкилӣ бо шабакаи шумо бошад, ё ки бо сервере, ки ин калид дар "
-"он ҷо ҷойгир аст. Шумо метавонед интихоб кунед, ки боргириро такрор кунед, ё "
-"ки мушкилиро нодида гирифта, бе ҳамаи бастаҳо аз ин анбори бастаҳо идома "
-"диҳед."
+"Эҳтимол аст, ки шабакаи шумо мушкилӣ дорад ё ин ки хидматгоҳе, ки ин калидро "
+"нигоҳ медорад, дастнорас аст. Шумо метавонед боргириро такрор кунед ё ин ки "
+"мушкилиро нодида гирифта, равандро бе бастаҳои ин анбор идома диҳед."
 
 #. Type: error
 #. Description
@@ -640,10 +639,10 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"Насбкунанда ба оина дастрасӣ пайдо карда натавонист. Ин метавонад аз сабаби "
-"мушкилӣ бо шабакаи шумо, ё ки бо оина ба вуҷуд омада бошад. Шумо метавонед "
-"кӯшиш кунед, ки боргириро такрор кунед, оинаи дигарро интихоб кунед, ё ки "
-"мушкилиро нодида гирифта, бе ҳамаи бастаҳои ин оина идома диҳед."
+"Насбкунанда ба оина дастрасӣ пайдо накард. Эҳтимол аст, ки шабакаи шумо "
+"мушкилӣ дорад ё ин ки оина дастнорас аст. Шумо метавонед боргириро такрор "
+"кунед ё ин ки мушкилиро нодида гирифта, равандро бе бастаҳои ин оина идома "
+"диҳед."
 
 #. Type: boolean
 #. Description
