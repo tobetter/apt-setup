@@ -1,3 +1,10 @@
+apt-setup (1:0.139) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 05 Feb 2018 06:48:13 +0100
+
 apt-setup (1:0.138) unstable; urgency=medium
 
   [ Updated translations ]
