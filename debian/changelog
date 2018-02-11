@@ -1,3 +1,12 @@
+apt-setup (1:0.140) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Indonesian (id.po) by Al Qalit
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 10 Feb 2018 16:49:19 +0100
+
 apt-setup (1:0.139) unstable; urgency=medium
 
   [ Updated translations ]
