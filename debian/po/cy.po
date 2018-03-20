@@ -20,14 +20,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2012-10-08 21:16-0000\n"
-"Last-Translator: Dafydd Tomos <l10n@da.fydd.org>\n"
+"POT-Creation-Date: 2017-10-23 22:02+0000\n"
+"PO-Revision-Date: 2018-03-19 21:51+0000\n"
+"Last-Translator: Huw Waters <huwwaters@gmail.com>\n"
 "Language-Team: Welsh <>\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : "
+"(n==3) ? 3 :(n==6) ? 4 : 5;\n"
 
 #. Type: text
 #. Description
@@ -79,10 +81,8 @@ msgstr "Yn sganio'r ystorfeydd diweddariadau ryddhau..."
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
-msgstr "Yn sganio'r ystorfeydd diweddariadau ryddhau..."
+msgstr "Yn sganio'r ystorfeydd ôl-borth..."
 
 #. Type: select
 #. Choices
@@ -189,10 +189,8 @@ msgstr "diweddariadau ryddhau"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "Defnyddiwch meddalwedd ôl-borth"
+msgstr "meddalwedd ôl-borth"
 
 #. Type: multiselect
 #. Description
@@ -242,12 +240,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -256,17 +248,19 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Mae peth meddalwedd wedi ei ôl-borthu o'r goeden ddatblygu i weithio gyda'r "
-"fersiwn hwn. Er nad yw'r meddalwedd hwn wedi mynd drwy profion llawn yr un "
-"fath a meddalwedd arall yn y fersiwn yma, mae'n cynnwys fersiwn newydd o rai "
-"becynnau a allai gynnig rhai nodweddion defnyddiol."
+"Mae meddalwedd ôl-borthu wedi ei addasu o'r o'r goeden ddatblygu i weithio "
+"gyda'r fersiwn hwn. Er nad yw'r meddalwedd hwn wedi mynd drwy profion llawn "
+"yr un fath a meddalwedd arall yn y fersiwn yma, mae'n cynnwys fersiwn newydd "
+"o rai becynnau a allai gynnig rhai nodweddion defnyddiol. Nid yw galluogi "
+"meddalwedd ôl-borth yn achosi iddynt gael eu sefydlu yn rhagosodedig; mae'n "
+"rhoi'r cyfle i chi ddewis defnyddio meddalwedd ôl-borth."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "Galluogi ystorfeydd tardd yn APT?"
 
 #. Type: boolean
 #. Description
@@ -566,8 +560,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:2001
-#: ../apt-mirror-setup.templates-ubuntu:1001
+#: ../apt-mirror-setup.templates:2001 ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
 msgstr "Os gwelwch yn dda, dewiswch a ddylai fod ar gael beth bynnag."
 
@@ -612,8 +605,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:3001
-#: ../apt-mirror-setup.templates-ubuntu:2001
+#: ../apt-mirror-setup.templates:3001 ../apt-mirror-setup.templates-ubuntu:2001
 #: ../apt-mirror-setup.templates-ubuntu:3001
 #: ../apt-mirror-setup.templates-ubuntu:4001
 #: ../apt-mirror-setup.templates-ubuntu:5001
