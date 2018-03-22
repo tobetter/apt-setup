@@ -1,3 +1,11 @@
+apt-setup (1:0.141) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Welsh (cy.po) by Huw Waters
+  * Indonesian (id.po) by Andika Triwidada
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 22 Mar 2018 12:14:40 +0100
+
 apt-setup (1:0.140) unstable; urgency=medium
 
   [ Updated translations ]
