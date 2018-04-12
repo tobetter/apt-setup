@@ -1,3 +1,9 @@
+apt-setup (1:9.0.141) artful; urgency=medium
+
+  * Add Launchpad URL for Stretch
+
+ -- Dongjin Kim <tobetter@gmail.com>  Tue, 17 Apr 2018 20:40:58 -0400
+
 apt-setup (1:0.141) unstable; urgency=medium
 
   [ Updated translations ]
