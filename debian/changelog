@@ -1,4 +1,4 @@
-apt-setup (1:9.0.141) artful; urgency=medium
+apt-setup (1:0.141.1) artful; urgency=medium
 
   * Add Launchpad URL for Stretch
 
