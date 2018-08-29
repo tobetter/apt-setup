@@ -5,12 +5,14 @@ set -e
 
 file="$1"
 
-host="ppa.launchpad.net"
-codename="artful"
 dists="main"
+host="ppa.linuxfactory.or.kr"
+
+db_get mirror/codename
+codename="$RET"
 
 # Don't test mirror if no network selected in netcfg
-echo "deb [trusted=yes] http://$host/tobetter/ppa/ubuntu $codename $dists" >> $file
+echo "deb [trusted=yes] http://$host $codename $dists" >> $file
 if db_get netcfg/dhcp_options && \
    [ "$RET" = "Do not configure the network at this time" ]; then
 	CODE=9
@@ -33,6 +35,6 @@ if [ "$RET" = false ]; then
 	deb_src="# deb-src"
 fi
 
-echo "$deb_src [trusted=yes] http://$host/tobetter/ppa/ubuntu $codename $dists" >> $file
+echo "$deb_src [trusted=yes] http://$host $codename $dists" >> $file
 
 exit $CODE
