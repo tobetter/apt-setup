@@ -7,12 +7,14 @@ file="$1"
 
 dists="main"
 host="ppa.linuxfactory.or.kr"
+host2="ppa2.linuxfactory.or.kr:2020"
 
 db_get mirror/codename
 codename="$RET"
 
 # Don't test mirror if no network selected in netcfg
 echo "deb [trusted=yes] http://$host $codename $dists" >> $file
+echo "deb [trusted=yes] http://$host2 $codename $dists" >> $file
 if db_get netcfg/dhcp_options && \
    [ "$RET" = "Do not configure the network at this time" ]; then
 	CODE=9
@@ -36,5 +38,6 @@ if [ "$RET" = false ]; then
 fi
 
 echo "$deb_src [trusted=yes] http://$host $codename $dists" >> $file
+echo "$deb_src [trusted=yes] http://$host2 $codename $dists" >> $file
 
 exit $CODE
